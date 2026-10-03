@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+__pycache__/
+.vendor/
+*.pyc
+inputs/media/*
+!inputs/media/README.md
+*.sqlite-shm
+*.sqlite-wal

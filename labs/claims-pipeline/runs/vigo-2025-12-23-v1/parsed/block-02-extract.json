@@ -1,0 +1,63 @@
+{
+  "matters": [
+    {
+      "key": "presupuesto_2026",
+      "label": "Presupuesto general del Concello de Vigo para 2026",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0026",
+        "S0027",
+        "S0028",
+        "S0029",
+        "S0030",
+        "S0031",
+        "S0032",
+        "S0033"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "statement": "O orzamento municipal de 2026 combina maior presión fiscal con baixa execución.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_2026",
+      "property": "execución",
+      "valueText": "baixa",
+      "referencePeriod": "2026",
+      "conditions": [
+        "presión fiscal maior"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social.",
+      "contextSegmentIds": [
+        "S0027",
+        "S0028",
+        "S0029",
+        "S0030",
+        "S0031",
+        "S0032",
+        "S0033"
+      ],
+      "contextStatus": "insufficient",
+      "uncertainty": "A execución 'baixa' refírese ás afirmacións posteriores sobre a execución global e de investimentos raís en 2024 e 2025."
+    }
+  ],
+  "contextRequests": [
+    {
+      "anchorSegmentId": "S0027",
+      "query": "suba lineal dun catro por cento a boa parte das taxas e impostos municipais",
+      "reason": "A suba do 4% é un dato necesario para cuantificar a 'maior presión fiscal' mencionada."
+    }
+  ],
+  "notes": [
+    "A execución 'baixa' non se cuantifica explicitamente na cita de S0026, pero se refuerza con datos de S0031 (cen millóns de euros non executados en 2024 e execución global por debaixo do corenta por cento en 2025).",
+    "A afirmación de que o orzamento 'defrauda' é unha opinión do orador e non un feito verificable."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "properties": {
+    "assessment": {
+      "type": "string",
+      "enum": [
+        "supported",
+        "contradicted",
+        "insufficient",
+        "conflicting",
+        "not_verifiable"
+      ]
+    },
+    "sourceRelations": {
+      "type": "object",
+      "properties": {
+        "D07": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D06": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D05": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        }
+      },
+      "required": [
+        "D07",
+        "D06",
+        "D05"
+      ],
+      "additionalProperties": false
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "missingEvidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidenceQuotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sourceId",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "assessment",
+    "sourceRelations",
+    "rationale",
+    "missingEvidence",
+    "evidenceQuotes"
+  ],
+  "additionalProperties": false
+}

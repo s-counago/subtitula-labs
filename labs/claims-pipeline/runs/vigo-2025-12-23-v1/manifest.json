@@ -1,0 +1,19 @@
+{
+  "startedAt": "2026-09-11T19:36:45.455641+00:00",
+  "experimentId": "vigo-2025-12-23-v1",
+  "model": "@cf/zai-org/glm-4.7-flash",
+  "referenceSha256": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+  "referenceFrozenAt": "2026-09-11T19:36:44.105589+00:00",
+  "segmentsSha256": "f9586c987436a721d0ae7de165f6a214a885925bb5ca67bea5709ddfb249dc5b",
+  "inputHashes": {
+    "config/experiment.json": "c67edf107b4523e8de3e00d99056e71dea0b1742c8a273026e0b7b84ae39d4fd",
+    "config/extraction-prompt.txt": "9f1ab7c14ec6de0df3d267cd3aceeaa1ff4003a97333f70d241f60634f88dd3d",
+    "config/resolution-prompt.txt": "733d1b65e7fb35752e21b37146eb35300ad4cfd60daa2aa4a60aac375b280bb2",
+    "scripts/pipeline.py": "bdf03b98775d41bec01603b08fa5944184e5439bf0c010bfb97d5e50a90e7174",
+    "scripts/contracts.py": "6dd408a6afcb1c8365825069ca8d67b81b88abd280457ba216a9a50bc6d22fe2",
+    "scripts/common.py": "4ed7f1f1ce30fbc49384038c0cb2ed492778b5ea5c19a7115a3327690256641a"
+  },
+  "referenceContentsProvidedToModel": false,
+  "state": "completed",
+  "finishedAt": "2026-09-11T19:41:25.457741+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "failed_or_uncertain",
+  "startedAt": "2026-09-23T12:43:00.382537+00:00",
+  "requestSha256": "f89aae22c8e3ded0cd88eb3f6efb1d70e1c09cdffeca7f0cfaee057091d5d764",
+  "modelRequested": "gpt-5.6-luna",
+  "reasoningEffort": "xhigh",
+  "billing": "chatgpt_subscription_limits",
+  "actualApiChargeUSD": null,
+  "attempted": true,
+  "errorType": "RuntimeError",
+  "finishedAt": "2026-09-23T12:43:00.437596+00:00",
+  "attemptSeconds": 0.054108
+}

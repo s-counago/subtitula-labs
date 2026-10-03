@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "mentionId": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "existing",
+              "new",
+              "pending"
+            ]
+          },
+          "canonicalId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "canonicalLabel": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "mentionId",
+          "action",
+          "canonicalId",
+          "canonicalLabel",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 15
+    }
+  },
+  "required": [
+    "decisions"
+  ],
+  "additionalProperties": false
+}

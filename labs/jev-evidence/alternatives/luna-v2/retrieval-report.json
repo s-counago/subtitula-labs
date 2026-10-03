@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "fixtureId": "R01",
+      "query": "Sogama é unha sociedade pública da Xunta de Galicia. Vigo, Galicia, Spain ",
+      "seconds": 0.1131858000298962,
+      "selected": [
+        {
+          "sourceId": "D01-p003-c001",
+          "documentId": "D01",
+          "score": 20.492461
+        },
+        {
+          "sourceId": "D01-p013-c002",
+          "documentId": "D01",
+          "score": 17.669381
+        },
+        {
+          "sourceId": "D04-p001-c002",
+          "documentId": "D04",
+          "score": 16.215517
+        },
+        {
+          "sourceId": "D05-p001-c015",
+          "documentId": "D05",
+          "score": 15.160136
+        },
+        {
+          "sourceId": "D05-p001-c006",
+          "documentId": "D05",
+          "score": 12.593896
+        },
+        {
+          "sourceId": "D04-p001-c003",
+          "documentId": "D04",
+          "score": 11.939923
+        }
+      ],
+      "referenceDocumentRecall": 1.0,
+      "referenceExcerptTokenCoverage": {
+        "D01": 1.0
+      },
+      "missingReferenceDocuments": []
+    },
+    {
+      "fixtureId": "R02",
+      "query": "A bolsa de alugueiro increméntase en setecentos mil euros. Vigo, Galicia, Spain 2026",
+      "seconds": 0.11058769997907802,
+      "selected": [
+        {
+          "sourceId": "D02-p002-c003",
+          "documentId": "D02",
+          "score": 19.023917
+        },
+        {
+          "sourceId": "D02-p002-c002",
+          "documentId": "D02",
+          "score": 10.58099
+        },
+        {
+          "sourceId": "D04-p001-c003",
+          "documentId": "D04",
+          "score": 8.384497
+        },
+        {
+          "sourceId": "D01-p013-c002",
+          "documentId": "D01",
+          "score": 7.933287
+        },
+        {
+          "sourceId": "D04-p001-c002",
+          "documentId": "D04",
+          "score": 7.729845
+        },
+        {
+          "sourceId": "D07-p001-c003",
+          "documentId": "D07",
+          "score": 7.510845
+        }
+      ],
+      "referenceDocumentRecall": 1.0,
+      "referenceExcerptTokenCoverage": {
+        "D02": 0.8571428571428571
+      },
+      "missingReferenceDocuments": []
+    },
+    {
+      "fixtureId": "R03",
+      "query": "As bolsas de inglés para estudar no estranxeiro pasan a ter tres millóns trescentos vinte e cinco mil euros. Vigo, Galicia, Spain 2026",
+      "seconds": 0.1244590999558568,
+      "selected": [
+        {
+          "sourceId": "D04-p001-c003",
+          "documentId": "D04",
+          "score": 15.410106
+        },
+        {
+          "sourceId": "D05-p001-c013",
+          "documentId": "D05",
+          "score": 14.475117
+        },
+        {
+          "sourceId": "D01-p004-c001",
+          "documentId": "D01",
+          "score": 13.803185
+        },
+        {
+          "sourceId": "D01-p013-c002",
+          "documentId": "D01",
+          "score": 13.332493
+        },
+        {
+          "sourceId": "D05-p001-c004",
+          "documentId": "D05",
+          "score": 13.126888
+        },
+        {
+          "sourceId": "D02-p026-c004",
+          "documentId": "D02",
+          "score": 10.632516
+        }
+      ],
+      "referenceDocumentRecall": 0.5,
+      "referenceExcerptTokenCoverage": {
+        "D03": 0.0,
+        "D04": 1.0
+      },
+      "missingReferenceDocuments": [
+        "D03"
+      ]
+    },
+    {
+      "fixtureId": "R04",
+      "query": "O copago a Sogama subiu de oitenta e seis euros por tonelada a cento catro con cincuenta euros por tonelada no ano 2025. Vigo, Galicia, Spain 2025",
+      "seconds": 0.12928540003485978,
+      "selected": [
+        {
+          "sourceId": "D05-p001-c015",
+          "documentId": "D05",
+          "score": 19.425786
+        },
+        {
+          "sourceId": "D05-p001-c004",
+          "documentId": "D05",
+          "score": 19.063815
+        },
+        {
+          "sourceId": "D07-p001-c002",
+          "documentId": "D07",
+          "score": 18.008858
+        },
+        {
+          "sourceId": "D07-p001-c001",
+          "documentId": "D07",
+          "score": 17.797947
+        },
+        {
+          "sourceId": "D02-p024-c002",
+          "documentId": "D02",
+          "score": 17.103749
+        },
+        {
+          "sourceId": "D01-p009-c002",
+          "documentId": "D01",
+          "score": 16.613968
+        }
+      ],
+      "referenceDocumentRecall": 0.6666666666666666,
+      "referenceExcerptTokenCoverage": {
+        "D05": 0.8108108108108109,
+        "D06": 0.0,
+        "D07": 1.0
+      },
+      "missingReferenceDocuments": [
+        "D06"
+      ]
+    }
+  ],
+  "preparationSeconds": 7.6926962999859825,
+  "referenceUsedForRanking": false,
+  "queriesContainReferenceExcerpts": false,
+  "caveat": "Document recall and token coverage are diagnostics against manually selected passages, not a comprehensive relevance gold set."
+}

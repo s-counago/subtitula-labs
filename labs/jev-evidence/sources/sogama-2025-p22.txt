@@ -1,0 +1,93 @@
+OORRZZAAMMEENNTTOOSS  XXEERRAAIISS  DDAA  XXUUNNTTAA  DDEE  GGAALLIICCIIAA  22002255
+FFoorrmmuullaarriioo  SSPPAA..0044
+SSOOCC..  GGAALLEEGGAA  DDEE  MMEEDDIIOO  AAMMBBIIEENNTTEE,,  SS..AA..
+((EEnn  mmiilleess  ddee  eeuurrooss  sseenn  ddeecciimmaaiiss))
+EESSTTAADDOO  DDEE  FFLLUUXXOOSS  DDEE  EEFFEECCTTIIVVOO RREEAALL
+22002233
+EESSTTIIMMAADDOO
+22002244
+OORRZZAAMMEENNTTOO
+22002255
+    b. Devolución e amortización de: -27.000
+          1. Obrigas e outros valores negociables (-)
+          2. Débedas con entidades de crédito (-) -27.000
+          3. Débedas con empresas do grupo e asociadas (desglosar prestamista) (-)
+          4. Outras débedas (desglosar prestamista) (-)
+11. Pagos por dividendos e remuneracións de outros instrumentos de patrimonio
+    a. Dividendos (-)
+    b. Remuneracións de outros instrumentos de patrimonio (-)
+12. Fluxos de efectivo das actividades de financiación (9+10+11) 26.696 27.974 29.120
+D) EFECTOS DAS VARIACIÓNS DOS TIPOS DE CAMBIO
+E) AUMENTO/DISMINUCIÓN NETA DO EFECTIVO OU EQUIVALENTES (5+8+12-D) -30.735 -6.398 -82
+EFECTIVO OU EQUIVALENTES A COMENZOS DE EXERCICIO 40.526 9.792 3.394
+EFECTIVO OU EQUIVALENTES A FINAIS 9.792 3.394 3.312
+OORRZZAAMMEENNTTOOSS  XXEERRAAIISS  DDAA  XXUUNNTTAA  DDEE  GGAALLIICCIIAA  22002255
+FFoorrmmuullaarriioo  SSPPAA..0044
+SSOOCC..  GGAALLEEGGAA  DDEE  MMEEDDIIOO  AAMMBBIIEENNTTEE,,  SS..AA..
+((EEnn  mmiilleess  ddee  eeuurrooss  sseenn  ddeecciimmaaiiss))
+EESSTTAADDOO  DDEE  FFLLUUXXOOSS  DDEE  EEFFEECCTTIIVVOO RREEAALL
+22002233
+EESSTTIIMMAADDOO
+22002244
+OORRZZAAMMEENNTTOO
+22002255
+A) FLUXOS DE EFECTIVO DAS ACTIVIDADES DE EXPLOTACIÓN
+1. Resultado do exercicio antes de impostos. -14.008 -10.916 -9.910
+2. Axustes no  resultado -7.169 3.100 6.522
+    a. Amortización do inmobilizado (+) 12.600 13.405 14.964
+    b. Correccións valorativas por deterioro (+/-)
+    c. Variación de provisións (+/-) 381 358 358
+    d. Imputación de subvencións (-) -2.966 -3.297 -4.052
+    e. Resultados por baixas e alleamentos de inmob (+/-)
+    f. Resultados por baixas e alleamentos de insts finacs (+/-)
+    g. Ingresos financeiros (-) -644 -415
+    h. Gastos financeiros (+) 95 1.057 1.784
+    i. Diferencias de cambio (+/-)
+    j. Variación do valor razoable en insts fins(+/-)
+    k. Outros ingresos e gastos (-/+) -16.635 -8.007 -6.531
+3. Trocos no capital corrente -9.210 -25.816 -3.189
+    a. Existencias (+/-)
+    b. Debedores e outras contas a cobrar (+/-) -7.914 -20.501 5.021
+    c. Outros activos correntes (+/-) 9 962 -1.734
+    d. Acredores e outras contas a pagar (+/-) -1.305 -6.277 -6.475
+    e. Outros pasivos correntes (+/-)
+    f. Outros activos e pasivos non correntes (+/-)
+4. Outros fluxos de efectivo das actividades de explotación. 2.081 -641 -1.784
+    a. Pagos de intereses (-) -95 -1.057 -1.784
+    b. Cobros de dividendos (+)
+    c. Cobros de intereses (+) 644 415
+    d. Cobros/pagos por imposto sobre beneficios (+/-) 1.532
+    e. Outros pagos/cobros (-/+)
+5. Fluxos de efectivo en actividades de explotación (1+2+3+4) -28.305 -34.273 -8.361
+B) FLUXOS DE EFECTIVO DAS ACTIVIDADES DE INVESTIMENTO
+6. Pagos por investimentos (-) -34.046 -10.598 -20.840
+    a. Empresas do grupo e asociadas (concretar empresa)
+    b. Inmobilizado intanxible -2
+    c. Inmobilizado material -34.043 -10.598 -20.840
+    d. Investimentos inmobiliarios
+    e. Outros activos financeiros
+    f. Activos non correntes mantidos para a venda
+    g. Outros activos
+7. Cobros por desinversións (+) 4.921 10.500
+    a. Empresas do grupo e asociadas (concretar empresa)
+    b. Inmobilizado intanxible
+    c. Inmobilizado material
+    d. Investimentos inmobiliarios
+    e. Outros activos financeiros 4.921 10.500
+    f. Activos non correntes mantidos para a venda
+    g. Outros activos
+8. Fluxos de efectivo das actividades de investimentos (7-6) -29.125 -98 -20.840
+C) FLUXOS DE EFECTIVO DAS ACTIVIDADES DE FINANCIACIÓN
+9. Cobros e pagos por instrumentos de patrimonio 26.677 974 21.120
+    a. Emisión de instrumentos de patrimonio (+) (desglosar suscritores) 10.100
+    b. Amortización de instrumentos de patrimonio (-)
+    c. Adquisición de instrumentos de patrimonio propio (-)
+    d. Alleamento de instrumentos de patrimonio propio (+)
+    e. Subvencións, doacións e legados recibidos (desglosar concedentes) (+) 26.677 974 11.020
+10. cobros y pagos por instrumentos de pasivo financeiro 19 27.000 8.000
+    a. Emisión 19 27.000 35.000
+          1. Obrigas e outros valores negociables (+)
+          2. Débedas con entidades de crédito (+) 27.000 35.000
+          3. Débedas con empresas do grupo e asociadas (desglosar prestamista) (+)
+          4. Outras débedas (desglosar prestamista) (+) 19
+102Sociedades mercantís CONSELLERÍA DE MEDIO AMBIENTE E CAMBIO CLIMÁTICO

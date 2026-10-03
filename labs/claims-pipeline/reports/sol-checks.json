@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-09-11T23:24:11.766567+00:00",
+  "result": "passed",
+  "generationMethodsInheritedUnchanged": true,
+  "allThreeInitialPayloadsEqualToGlmAndBothLunaRuns": true,
+  "baselineFilesUnchanged": 26,
+  "cachedResponsesReplayed": 7,
+  "newModelCalls": 0,
+  "databaseCountsAfterFirstImport": {
+    "matters": 32,
+    "mentions": 35,
+    "claims": 69,
+    "occurrences": 69,
+    "citations": 73
+  },
+  "databaseCountsAfterSecondImport": {
+    "matters": 32,
+    "mentions": 35,
+    "claims": 69,
+    "occurrences": 69,
+    "citations": 73
+  },
+  "receiptCountersMatchCompletionEvents": true,
+  "unexpectedToolItems": 0,
+  "evaluationCounts": {
+    "missed": 3,
+    "faithful": 16,
+    "partial": 6
+  },
+  "exactDuplicateRecords": 0
+}

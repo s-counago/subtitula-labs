@@ -1,0 +1,32 @@
+[
+  {
+    "id": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "label": "Presupuesto General del Concello de Vigo para 2026",
+    "object": "Presupuesto General del Concello de Vigo para 2026",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-8791e1e6-a6e7-58ac-bded-c6ba526f028a",
+    "label": "Reducción de impuestos",
+    "object": "Concello de Vigo",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-3b5a916d-2d9f-52e6-8ae2-4aba7bf6c71e",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-4f89e6b0-7f19-57af-aacc-f2fefbb4a1d2",
+    "label": "Mejora de la piscina y del pavillón",
+    "object": "Piscina y pavillón",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-74a0b181-16bc-52c8-915c-4a973fbda20c",
+    "reviewState": "proposed"
+  }
+]

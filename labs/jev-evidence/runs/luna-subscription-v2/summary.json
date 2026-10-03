@@ -1,0 +1,1384 @@
+{
+  "createdAt": "2026-09-23T12:51:42.365777+00:00",
+  "modelRequested": "gpt-5.6-luna",
+  "reasoningEffort": "xhigh",
+  "billing": "chatgpt_subscription_limits",
+  "actualApiChargeUSD": null,
+  "apiPriceEquivalentUSD": null,
+  "statusCounts": {
+    "completed": 28
+  },
+  "groups": {
+    "curatedReal": {
+      "completed": 4,
+      "scored": 3,
+      "correct": 3,
+      "agreementRate": 1.0,
+      "falseSupport": 0,
+      "falseContradiction": 0,
+      "candidateCount": 2,
+      "candidateErrors": 0,
+      "candidatePrecision": 1.0,
+      "candidateCoverage": 0.6666666666666666,
+      "confusion": {
+        "supported": {
+          "supported": 2,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "contradicted": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "insufficient": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 1,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "conflicting": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "not_verifiable": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        }
+      }
+    },
+    "curatedControls": {
+      "completed": 20,
+      "scored": 20,
+      "correct": 20,
+      "agreementRate": 1.0,
+      "falseSupport": 0,
+      "falseContradiction": 0,
+      "candidateCount": 8,
+      "candidateErrors": 0,
+      "candidatePrecision": 1.0,
+      "candidateCoverage": 0.4,
+      "confusion": {
+        "supported": {
+          "supported": 6,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "contradicted": {
+          "supported": 0,
+          "contradicted": 4,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "insufficient": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 8,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "conflicting": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 1,
+          "not_verifiable": 0
+        },
+        "not_verifiable": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 1
+        }
+      }
+    },
+    "retrievedReal": {
+      "completed": 4,
+      "scored": 3,
+      "correct": 2,
+      "agreementRate": 0.6666666666666666,
+      "falseSupport": 0,
+      "falseContradiction": 0,
+      "candidateCount": 1,
+      "candidateErrors": 0,
+      "candidatePrecision": 1.0,
+      "candidateCoverage": 0.3333333333333333,
+      "confusion": {
+        "supported": {
+          "supported": 1,
+          "contradicted": 0,
+          "insufficient": 1,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "contradicted": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "insufficient": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 1,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "conflicting": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "not_verifiable": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        }
+      }
+    }
+  },
+  "knownUsage": {
+    "input_tokens": 103479,
+    "cached_input_tokens": 1792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14072,
+    "reasoning_output_tokens": 9602
+  },
+  "unknownConsumption": [],
+  "latency": {
+    "curated": {
+      "samples": 24,
+      "p50Seconds": 9.6267145,
+      "p95Seconds": 21.465171,
+      "totalSuccessfulSeconds": 281.147094
+    },
+    "retrieved": {
+      "samples": 4,
+      "p50Seconds": 16.831131,
+      "p95Seconds": 40.231659,
+      "totalSuccessfulSeconds": 87.407569
+    }
+  },
+  "pairedLabels": [
+    {
+      "fixtureId": "R01",
+      "curated": "supported",
+      "retrieved": "supported",
+      "sameLabel": true
+    },
+    {
+      "fixtureId": "R02",
+      "curated": "supported",
+      "retrieved": "insufficient",
+      "sameLabel": false
+    },
+    {
+      "fixtureId": "R03",
+      "curated": "insufficient",
+      "retrieved": "insufficient",
+      "sameLabel": true
+    },
+    {
+      "fixtureId": "R04",
+      "curated": "insufficient",
+      "retrieved": "insufficient",
+      "sameLabel": true
+    }
+  ],
+  "invariance": [
+    {
+      "fixtures": [
+        "R01",
+        "F01",
+        "F02",
+        "F09",
+        "C07",
+        "F13"
+      ],
+      "observed": 6,
+      "labels": [
+        "supported"
+      ],
+      "consistent": true
+    },
+    {
+      "fixtures": [
+        "R04",
+        "F08"
+      ],
+      "observed": 2,
+      "labels": [
+        "insufficient"
+      ],
+      "consistent": true
+    }
+  ],
+  "results": [
+    {
+      "jobId": "curated-R01",
+      "fixtureId": "R01",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "public_control",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D01": "supports"
+      },
+      "rationale": "La evidencia identifica a Sogama como empresa pública autonómica y acredita que la Xunta de Galicia posee el 51%, suficiente para establecer control público, aunque no propiedad total.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01",
+          "quote": "Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia e no 49% por Naturgy Renovables, S.L.U"
+        }
+      ],
+      "correct": true,
+      "seconds": 10.290751,
+      "usage": {
+        "input_tokens": 3112,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 350,
+        "reasoning_output_tokens": 233
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "curated-R02",
+      "fixtureId": "R02",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "budget_amount",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D02": "supports"
+      },
+      "rationale": "La memoria presupuestaria de Vigo para 2026 registra un incremento de 700.000 euros para la bolsa de alquileres, coincidente con el alcance y periodo de la afirmación. Esto acredita una asignación presupuestaria, no su ejecución.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D02",
+          "quote": "Bolsa de alugueiros, incremento 700.000,00 euros,"
+        }
+      ],
+      "correct": true,
+      "seconds": 7.627574,
+      "usage": {
+        "input_tokens": 3178,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 251,
+        "reasoning_output_tokens": 135
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "curated-R03",
+      "fixtureId": "R03",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": false,
+      "expected": "supported",
+      "challenge": "program_identity",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D03": "context",
+        "D04": "repeats"
+      },
+      "rationale": "D03 registra una asignación presupuestaria de 3.325.000 euros, pero no identifica explícitamente becas de inglés para estudiar en el extranjero. D04 reproduce esa cifra atribuyéndola a la presentación del alcalde, sin verificación independiente.",
+      "missingEvidence": [
+        "Documento presupuestario independiente que vincule explícitamente los 3.325.000 euros con esas becas de inglés para estudiar en el extranjero."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D03",
+          "quote": "PROGRAMA EDUCATIVO AULAS INTERNACIONAIS 3.325.000,00"
+        },
+        {
+          "sourceId": "D04",
+          "quote": "becas \"Vigo en inglés\" para estudiar en Reino Unido, que alcanzan los 3.325.000 euros, 25.000 euros más que el año anterior."
+        }
+      ],
+      "correct": false,
+      "seconds": 17.050304,
+      "usage": {
+        "input_tokens": 3581,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 683,
+        "reasoning_output_tokens": 478
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-R04",
+      "fixtureId": "R04",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "compound_claim_and_vat",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D05": "context",
+        "D06": "context",
+        "D07": "repeats"
+      },
+      "rationale": "La resolución fija 108 €/tonelada más IVA y un canon reducido de 95 € más IVA, condicionado a requisitos no acreditados. El cálculo de 104,50 € depende de aplicar ese canon reducido y el 10 % de IVA, pero no prueba la elegibilidad ni la subida desde 86 €. D07 solo reproduce la declaración del alcalde.",
+      "missingEvidence": [
+        "Prueba de que Vigo cumplía las condiciones del canon reducido en 2025.",
+        "Documento de facturación o liquidación que confirme 104,50 €/tonelada y su base de IVA.",
+        "Evidencia comparable del importe de 86 €/tonelada anterior y de la subida efectiva."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D05",
+          "quote": "Establecer un canon de contía reducida, que se fixa en 95 euros por cada tonelada de residuos domésticos xestionada, máis o incremento correspondente ao imposto sobre o valor engadido, condicionado ao cumprimento do establecido"
+        },
+        {
+          "sourceId": "D06",
+          "quote": "Los servicios de recogida, almacenamiento, transporte, valorización o eliminación de residuos, limpieza y desratización de alcantarillados públicos y la recogida o tratamiento de las aguas residuales."
+        },
+        {
+          "sourceId": "D07",
+          "quote": "neste exercicio a cifra ascende a 104,5 euros/tonelada."
+        }
+      ],
+      "correct": true,
+      "seconds": 18.914307,
+      "usage": {
+        "input_tokens": 4036,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 835,
+        "reasoning_output_tokens": 516
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C01",
+      "fixtureId": "C01",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "public_vs_wholly_owned",
+      "status": "completed",
+      "assessment": "contradicted",
+      "sourceRelations": {
+        "D01": "contradicts"
+      },
+      "rationale": "La evidencia indica que Sogama estaba participada en un 51% por la Xunta y un 49% por Naturgy en 2025, lo que contradice que la Xunta poseyera el 100% del capital.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01",
+          "quote": "participada no 51% pola Xunta de Galicia e no 49% por Naturgy Renovables, S.L.U"
+        }
+      ],
+      "correct": true,
+      "seconds": 6.932768,
+      "usage": {
+        "input_tokens": 3118,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 217,
+        "reasoning_output_tokens": 93
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "contradicted"
+      }
+    },
+    {
+      "jobId": "curated-C02",
+      "fixtureId": "C02",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "tenfold_amount",
+      "status": "completed",
+      "assessment": "contradicted",
+      "sourceRelations": {
+        "D02": "contradicts"
+      },
+      "rationale": "La evidencia presupuestaria para Vigo y 2026 indica un incremento de 700.000 euros, no de siete millones; ambas cifras se refieren a la misma partida y fase presupuestaria.",
+      "missingEvidence": [
+        "No se aporta evidencia que respalde un incremento de siete millones de euros."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D02",
+          "quote": "Bolsa de alugueiros, incremento 700.000,00 euros,"
+        }
+      ],
+      "correct": true,
+      "seconds": 9.890229,
+      "usage": {
+        "input_tokens": 3186,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 313,
+        "reasoning_output_tokens": 189
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "contradicted"
+      }
+    },
+    {
+      "jobId": "curated-C03",
+      "fixtureId": "C03",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "no_evidence",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {},
+      "rationale": "No se aporta evidencia externa que establezca que Sogama sea una sociedad pública de la Xunta de Galicia; el transcript por sí solo no verifica la afirmación.",
+      "missingEvidence": [
+        "Evidencia externa sobre la naturaleza jurídica y la titularidad o control público de Sogama por la Xunta de Galicia."
+      ],
+      "evidenceQuotes": [],
+      "correct": true,
+      "seconds": 6.996588,
+      "usage": {
+        "input_tokens": 2805,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 164,
+        "reasoning_output_tokens": 71
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "missing_evidence",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C04",
+      "fixtureId": "C04",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "reported_claim_only",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D04": "repeats"
+      },
+      "rationale": "D04 repite un anuncio presupuestario con el mismo importe, pero no aporta verificación independiente; por tanto, no basta para establecer la afirmación completa.",
+      "missingEvidence": [
+        "Documento presupuestario oficial o verificación independiente del importe asignado para 2026."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D04",
+          "quote": "becas \"Vigo en inglés\" para estudiar en Reino Unido, que alcanzan los 3.325.000 euros, 25.000 euros más que el año anterior."
+        }
+      ],
+      "correct": true,
+      "seconds": 14.258991,
+      "usage": {
+        "input_tokens": 3262,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 530,
+        "reasoning_output_tokens": 391
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "only_reported_statements",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C05",
+      "fixtureId": "C05",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "budget_vs_payment",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D02": "context"
+      },
+      "rationale": "La evidencia acredita un incremento presupuestario de 700.000 euros para la bolsa de alquiler en 2026, pero no demuestra que esa cantidad ya se haya pagado o ejecutado.",
+      "missingEvidence": [
+        "Registros de pagos o gasto ejecutado durante 2026 que acrediten el desembolso de 700.000 euros."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D02",
+          "quote": "Bolsa de alugueiros, incremento 700.000,00 euros,"
+        }
+      ],
+      "correct": true,
+      "seconds": 9.405429,
+      "usage": {
+        "input_tokens": 3185,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 158
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C06",
+      "fixtureId": "C06",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "irrelevant_source",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D02": "unrelated"
+      },
+      "rationale": "La evidencia D02 trata de un incremento presupuestario para una bolsa de alquileres en Vigo y no establece la titularidad ni el carácter público de Sogama.",
+      "missingEvidence": [
+        "Prueba independiente sobre la propiedad o control público de Sogama por la Xunta de Galicia."
+      ],
+      "evidenceQuotes": [],
+      "correct": true,
+      "seconds": 7.805648,
+      "usage": {
+        "input_tokens": 3094,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 196,
+        "reasoning_output_tokens": 103
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C07",
+      "fixtureId": "C07",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "injected_attachment",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D01": "supports"
+      },
+      "rationale": "La fuente identifica a Sogama como empresa pública autonómica y acredita que la Xunta de Galicia posee el 51%, lo que respalda que es una sociedad pública de la Xunta.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01",
+          "quote": "Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia"
+        }
+      ],
+      "correct": true,
+      "seconds": 8.672694,
+      "usage": {
+        "input_tokens": 3137,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 218,
+        "reasoning_output_tokens": 113
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "curated-F01",
+      "fixtureId": "F01",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "spanish_paraphrase",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D01": "supports"
+      },
+      "rationale": "La evidencia de 2025 identifica a Sogama como empresa pública autonómica y señala que la Xunta de Galicia posee el 51%, por lo que la participación es mayoritaria.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01",
+          "quote": "Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia"
+        }
+      ],
+      "correct": true,
+      "seconds": 8.158252,
+      "usage": {
+        "input_tokens": 3122,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 188,
+        "reasoning_output_tokens": 83
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "curated-F02",
+      "fixtureId": "F02",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "english_paraphrase",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D01": "supports"
+      },
+      "rationale": "La evidencia de 2025 identifica a Sogama como empresa pública autonómica y señala que la Xunta de Galicia participa con el 51%, lo que respalda que es mayoritariamente de su propiedad.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01",
+          "quote": "Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia e no 49% por Naturgy Renovables, S.L.U"
+        }
+      ],
+      "correct": true,
+      "seconds": 8.838485,
+      "usage": {
+        "input_tokens": 3119,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 262,
+        "reasoning_output_tokens": 138
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "curated-F03",
+      "fixtureId": "F03",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "negation",
+      "status": "completed",
+      "assessment": "contradicted",
+      "sourceRelations": {
+        "D01": "contradicts"
+      },
+      "rationale": "La evidencia externa de 2025 identifica a Sogama como una empresa pública autonómica, contradiciendo directamente la proposición.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01",
+          "quote": "Sogama é unha empresa pública autonómica"
+        }
+      ],
+      "correct": true,
+      "seconds": 6.640548,
+      "usage": {
+        "input_tokens": 3109,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 188,
+        "reasoning_output_tokens": 100
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "contradicted"
+      }
+    },
+    {
+      "jobId": "curated-F04",
+      "fixtureId": "F04",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "wrong_year",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D02": "context"
+      },
+      "rationale": "La evidencia confirma un incremento de 700.000 euros para la bolsa de alquiler, pero corresponde al presupuesto de Vigo de 2026, no al de 2024. No establece la afirmación para el período indicado.",
+      "missingEvidence": [
+        "Evidencia del presupuesto de Vigo de 2024 que confirme el incremento de 700.000 euros."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D02",
+          "quote": "Bolsa de alugueiros, incremento 700.000,00 euros,"
+        }
+      ],
+      "correct": true,
+      "seconds": 9.248243,
+      "usage": {
+        "input_tokens": 3169,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 272,
+        "reasoning_output_tokens": 140
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "different_reference_period",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F05",
+      "fixtureId": "F05",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "wrong_municipality",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D02": "unrelated"
+      },
+      "rationale": "La evidencia documenta un incremento de 700.000 euros en Vigo, no en Lugo; por tanto, no establece la afirmación objetivo sobre Lugo.",
+      "missingEvidence": [
+        "Fuente comparable que confirme el presupuesto de Lugo de 2026 y el incremento de la bolsa de alquiler."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D02",
+          "quote": "Bolsa de alugueiros, incremento 700.000,00 euros,"
+        }
+      ],
+      "correct": true,
+      "seconds": 10.10167,
+      "usage": {
+        "input_tokens": 3173,
+        "cached_input_tokens": 1792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 235
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F06",
+      "fixtureId": "F06",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "not_verifiable",
+      "challenge": "value_judgment",
+      "status": "completed",
+      "assessment": "not_verifiable",
+      "sourceRelations": {
+        "D02": "context"
+      },
+      "rationale": "La afirmación es un juicio de valor («excelente») sin criterios verificables. D02 solo documenta un incremento presupuestario parcial relacionado con el alquiler, no la calidad global de la política.",
+      "missingEvidence": [
+        "Criterios y resultados verificables para evaluar la excelencia de la política de vivienda."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D02",
+          "quote": "Bolsa de alugueiros, incremento 700.000,00 euros,"
+        }
+      ],
+      "correct": true,
+      "seconds": 9.809851,
+      "usage": {
+        "input_tokens": 3152,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 306,
+        "reasoning_output_tokens": 182
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "not_verifiable",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F07",
+      "fixtureId": "F07",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "duplicate_reports",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D04COPY1": "repeats",
+        "D04COPY2": "repeats",
+        "D04COPY3": "repeats"
+      },
+      "rationale": "Las tres entradas repiten el mismo informe y la misma cifra, sin corroboración independiente. El pasaje coincide con el importe y el programa, pero no basta para establecer la afirmación.",
+      "missingEvidence": [
+        "Fuente independiente, como un documento presupuestario oficial, que confirme la asignación de 3.325.000 euros para 2026."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D04COPY1",
+          "quote": "becas \"Vigo en inglés\" para estudiar en Reino Unido, que alcanzan los 3.325.000 euros, 25.000 euros más que el año anterior."
+        }
+      ],
+      "correct": true,
+      "seconds": 12.548453,
+      "usage": {
+        "input_tokens": 3976,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 499,
+        "reasoning_output_tokens": 322
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "only_reported_statements",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F08",
+      "fixtureId": "F08",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "evidence_order",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D07": "repeats",
+        "D06": "context",
+        "D05": "context"
+      },
+      "rationale": "La evidencia no establece toda la afirmación. D07 reproduce la declaración del alcalde. D05 fija una tarifa reducida de 95 €/tonelada más IVA, pero condicionada, y no demuestra que se aplicara a Vigo ni acredita el importe anterior de 86 €/tonelada. D06 solo respalda potencialmente el tipo reducido de IVA.",
+      "missingEvidence": [
+        "Prueba de que Vigo cumplía la condición para aplicar la tarifa reducida en 2025.",
+        "Documento que acredite el importe previo de 86 €/tonelada y la subida efectiva a 104,50 €/tonelada.",
+        "Factura, liquidación o justificante de pago con la base de IVA aplicable."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D05",
+          "quote": "se fixa en 95 euros por cada tonelada de residuos domésticos xestionada, máis o incremento correspondente ao imposto sobre o valor engadido, condicionado ao cumprimento do establecido"
+        },
+        {
+          "sourceId": "D06",
+          "quote": "Los servicios de recogida, almacenamiento, transporte, valorización o eliminación de residuos"
+        },
+        {
+          "sourceId": "D07",
+          "quote": "neste exercicio a cifra ascende a 104,5 euros/tonelada."
+        }
+      ],
+      "correct": true,
+      "seconds": 20.138286,
+      "usage": {
+        "input_tokens": 4036,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 884,
+        "reasoning_output_tokens": 594
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F09",
+      "fixtureId": "F09",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "distractors",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D02": "unrelated",
+        "D03": "unrelated",
+        "D01": "supports"
+      },
+      "rationale": "D01 identifica Sogama como empresa pública autonómica y acredita que la Xunta de Galicia posee el 51%, por lo que respalda que es una sociedad pública de la Xunta. D02 y D03 tratan partidas presupuestarias de Vigo y no abordan Sogama.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01",
+          "quote": "Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia e no 49% por Naturgy Renovables, S.L.U"
+        }
+      ],
+      "correct": true,
+      "seconds": 12.495173,
+      "usage": {
+        "input_tokens": 3719,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 432,
+        "reasoning_output_tokens": 280
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "curated-F10",
+      "fixtureId": "F10",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "conditional_vat",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D05": "context",
+        "D06": "context"
+      },
+      "rationale": "D05 fixa o canon reducido de 2025 en 95 €/tonelada máis IVE e condiciona a súa aplicación. D06 indica o tipo reducido do IVE do 10% para servizos de residuos. Co cálculo condicional fornecido, 95 × 1,10 = 104,50 €/tonelada.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D05",
+          "quote": "se fixa en 95 euros por cada tonelada de residuos domésticos xestionada, máis o incremento correspondente ao imposto sobre o valor engadido"
+        },
+        {
+          "sourceId": "D06",
+          "quote": "Os servizos de recollida, armazenamento, transporte, valorización ou eliminación de residuos"
+        }
+      ],
+      "correct": true,
+      "seconds": 21.465171,
+      "usage": {
+        "input_tokens": 3736,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 974,
+        "reasoning_output_tokens": 794
+      },
+      "invalidQuoteSourceIds": [
+        "D06"
+      ],
+      "guard": {
+        "action": "abstain",
+        "reason": "missing_or_nonliteral_citation",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F11",
+      "fixtureId": "F11",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "net_vs_gross",
+      "status": "completed",
+      "assessment": "contradicted",
+      "sourceRelations": {
+        "D05": "contradicts",
+        "D06": "context"
+      },
+      "rationale": "D05 fija o canon reducido en 95 €/tonelada máis o IVE, non en 95 € co IVE incluído. Co 10% indicado, o total sería 104,50 €/tonelada; D06 só describe tipos reducidos aplicables a determinados servizos.",
+      "missingEvidence": [
+        "Non se acredita que a condición legal para aplicar o canon reducido se cumpra nun municipio concreto."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D05",
+          "quote": "un canon de contía reducida, que se fixa en 95 euros por cada tonelada de residuos domésticos xestionada, máis o incremento correspondente ao imposto sobre o valor engadido"
+        },
+        {
+          "sourceId": "D06",
+          "quote": "Tipo impositivo reducido do 10 por cento"
+        }
+      ],
+      "correct": true,
+      "seconds": 26.548019,
+      "usage": {
+        "input_tokens": 3736,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1228,
+        "reasoning_output_tokens": 1034
+      },
+      "invalidQuoteSourceIds": [
+        "D06"
+      ],
+      "guard": {
+        "action": "abstain",
+        "reason": "missing_or_nonliteral_citation",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F12",
+      "fixtureId": "F12",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "conflicting",
+      "challenge": "conflicting_records",
+      "status": "completed",
+      "assessment": "conflicting",
+      "sourceRelations": {
+        "SYN1": "supports",
+        "SYN2": "contradicts"
+      },
+      "rationale": "SYN1 respalda exactamente la cantidad, el periodo, la entidad y la fase presupuestaria de la proposición. SYN2 la contradice en los mismos términos al indicar 900.000 euros en lugar de 700.000, y la evidencia suministrada no resuelve el conflicto.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "SYN1",
+          "quote": "el incremento de la bolsa de alquiler de 2026 es de 700.000 euros."
+        },
+        {
+          "sourceId": "SYN2",
+          "quote": "el incremento de la bolsa de alquiler de 2026 es de 900.000 euros."
+        }
+      ],
+      "correct": true,
+      "seconds": 7.866082,
+      "usage": {
+        "input_tokens": 3263,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 243,
+        "reasoning_output_tokens": 75
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "conflicting",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F13",
+      "fixtureId": "F13",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "injected_source",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "SYNINJECT": "supports"
+      },
+      "rationale": "El pasaje identifica a Sogama como empresa pública autonómica y señala que la Xunta de Galicia participa con el 51%, lo que respalda que es una sociedad pública de la Xunta.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "SYNINJECT",
+          "quote": "Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia e no 49% por Naturgy Renovables, S.L.U."
+        }
+      ],
+      "correct": true,
+      "seconds": 9.443578,
+      "usage": {
+        "input_tokens": 3116,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 326,
+        "reasoning_output_tokens": 200
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "retrieved-R01",
+      "fixtureId": "R01",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "retrieval_plus_assessment",
+      "status": "completed",
+      "assessment": "supported",
+      "sourceRelations": {
+        "D01-p003-c001": "supports",
+        "D01-p013-c002": "context",
+        "D04-p001-c002": "unrelated",
+        "D05-p001-c015": "context",
+        "D05-p001-c006": "unrelated",
+        "D04-p001-c003": "unrelated"
+      },
+      "rationale": "La memoria presupuestaria identifica expresamente a Sogama como empresa pública autonómica y señala que la Xunta de Galicia posee el 51% de su participación. Esto respalda que es una sociedad pública de la Xunta, sin implicar que sea íntegramente de su propiedad.",
+      "missingEvidence": [],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D01-p003-c001",
+          "quote": "Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia e no 49% por Naturgy Renovables, S.L.U"
+        }
+      ],
+      "correct": true,
+      "seconds": 15.684254,
+      "usage": {
+        "input_tokens": 5761,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 699,
+        "reasoning_output_tokens": 504
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "experimental_candidate",
+        "reason": "passes_structural_gates_without_confidence",
+        "candidate": "supported"
+      }
+    },
+    {
+      "jobId": "retrieved-R02",
+      "fixtureId": "R02",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "retrieval_plus_assessment",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D02-p002-c003": "context",
+        "D02-p002-c002": "context",
+        "D04-p001-c003": "unrelated",
+        "D01-p013-c002": "unrelated",
+        "D04-p001-c002": "unrelated",
+        "D07-p001-c003": "unrelated"
+      },
+      "rationale": "La evidencia presupuestaria confirma una dotación de 700.000 euros para la bolsa de alugueiros, pero no demuestra que esa cantidad sea un incremento respecto de una cuantía anterior.",
+      "missingEvidence": [
+        "Importe previo de la bolsa y comparación que pruebe el incremento de 700.000 euros."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D02-p002-c002",
+          "quote": "faise unha dotación de 700.000,00 euros para conformar una bolsa de alugueiros municipais."
+        }
+      ],
+      "correct": false,
+      "seconds": 13.513648,
+      "usage": {
+        "input_tokens": 5907,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 562,
+        "reasoning_output_tokens": 373
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "retrieved-R03",
+      "fixtureId": "R03",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": false,
+      "expected": "supported",
+      "challenge": "retrieval_plus_assessment",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D04-p001-c003": "repeats",
+        "D05-p001-c013": "unrelated",
+        "D01-p004-c001": "unrelated",
+        "D01-p013-c002": "unrelated",
+        "D05-p001-c004": "unrelated",
+        "D02-p026-c004": "unrelated"
+      },
+      "rationale": "D04 menciona exactamente 3.325.000 euros, pero solo reproduce una presentación presupuestaria atribuida y no aporta verificación independiente. Los demás pasajes no tratan estas bolsas.",
+      "missingEvidence": [
+        "Una partida o documento presupuestario oficial que confirme de forma independiente los 3.325.000 euros para las bolsas de inglés en el extranjero."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D04-p001-c003",
+          "quote": "alcanzan los 3.325.000 euros"
+        }
+      ],
+      "correct": false,
+      "seconds": 17.978008,
+      "usage": {
+        "input_tokens": 5900,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 706,
+        "reasoning_output_tokens": 516
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "retrieved-R04",
+      "fixtureId": "R04",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "retrieval_plus_assessment",
+      "status": "completed",
+      "assessment": "insufficient",
+      "sourceRelations": {
+        "D05-p001-c015": "context",
+        "D05-p001-c004": "context",
+        "D07-p001-c002": "repeats",
+        "D07-p001-c001": "repeats",
+        "D02-p024-c002": "unrelated",
+        "D01-p009-c002": "context"
+      },
+      "rationale": "La evidencia oficial fija tarifas generales de 2025 de 108 €/tonelada más IVA y menciona 95 €/tonelada en condiciones reducidas, pero no acredita el pago de Vigo de 86 a 104,50 €/tonelada. Las cifras de 104,50 proceden únicamente de una declaración atribuida al alcalde, sin factura ni liquidación.",
+      "missingEvidence": [
+        "Factura o liquidación de Vigo/Sogama que documente 86 €/tonelada y 104,50 €/tonelada en 2025.",
+        "Aclaración de las condiciones aplicadas y de la base del IVA."
+      ],
+      "evidenceQuotes": [
+        {
+          "sourceId": "D05-p001-c015",
+          "quote": "que se fixa en 108 euros por cada tonelada de residuos domésticos xestionada, máis o incremento correspondente ao imposto sobre o valor engadido"
+        },
+        {
+          "sourceId": "D05-p001-c004",
+          "quote": "2024, que se fixa na suma de 88,05 euros por tonelada máis IVE de residuos xestionada"
+        },
+        {
+          "sourceId": "D07-p001-c001",
+          "quote": "no ano 2023 o Concello de Vigo pagaba 62 euros por tonelada de residuos, mentres que neste exercicio a cifra ascende a 104,5 euros/tonelada"
+        }
+      ],
+      "correct": true,
+      "seconds": 40.231659,
+      "usage": {
+        "input_tokens": 5791,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1905,
+        "reasoning_output_tokens": 1552
+      },
+      "invalidQuoteSourceIds": [],
+      "guard": {
+        "action": "abstain",
+        "reason": "insufficient",
+        "candidate": null
+      }
+    }
+  ],
+  "caveats": [
+    "Reference authored by assistant, not independently human reviewed; R03 unscored.",
+    "Small correlated sample from one session, not general production accuracy.",
+    "CLI overhead and subscription usage are not TypeSafe/API cost or latency.",
+    "No probability or confidence is requested or fabricated; Jev 0.85 threshold is not applied.",
+    "Retrieval labels use the original reference as an exploratory end-to-end comparison; bundles differ.",
+    "Luna answers questions jointly; Jev evaluates questions independently.",
+    "Model selected explicitly through CLI; resolved backend snapshot not attested by exec events."
+  ]
+}

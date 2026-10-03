@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-09-22T07:11:39.106629+00:00",
+  "semanticFixtures": 24,
+  "realExtractions": 4,
+  "scoredRealExtractions": 3,
+  "controlledVariants": 20,
+  "technicalScenarios": 10,
+  "frozenInputsVerified": true,
+  "localDocumentationLinksVerified": true,
+  "realProviderCallsDuringPreparation": 0,
+  "realRunResponseFiles": 0,
+  "tests": {
+    "command": "python -m unittest discover -s scripts -p 'test_*.py' -v",
+    "passed": 16,
+    "failed": 0,
+    "observedExitCode": 0,
+    "fixturesUseTemporaryMockResponses": true
+  },
+  "sourceSha256": {
+    "fixtures/v2/manifest.json": "29687e6b346f1906ec377ad18700dfc211304238031a5ede787c937e830b24ef",
+    "scripts/benchmark.py": "e96f2132e356c6b0aef54a2bb3a05c3d081bfb4c8fd2ec105ef0916a650fc279",
+    "scripts/test_benchmark.py": "aef34f692a4e8f69458a0de726f0d558eff89d7e80c8aef4760f69b683630fcd"
+  },
+  "appRepositoryChanges": "No files changed in either application repository during this fixture preparation.",
+  "limitations": [
+    "No Jev accuracy or latency measurements yet.",
+    "Assistant reference is not independently human reviewed.",
+    "Illustrative cost scenarios are not measured usage or guaranteed bounds."
+  ]
+}

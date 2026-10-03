@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-09-11T23:10:37.953624+00:00",
+  "hashes": {
+    "runs/vigo-2025-12-23-v1/manifest.json": "387137e1b29a785a85a4f2429fee2110aeacc5e882f9ea844104728dbf038186",
+    "runs/vigo-2025-12-23-v1/responses/block-01-extract.json": "120d9d8e303f4c79051ce12fbde4986f8fbab5e1e7c3dcfcf68fb52993c778dc",
+    "runs/vigo-2025-12-23-v1/responses/block-01-matters.json": "15ca8fa9cc4b6157765b1ea187bac1fdd74bcbc838afec851520e6c774c93162",
+    "runs/vigo-2025-12-23-v1/responses/block-02-context.json": "6e253556c568fca5f2ec35ebebe3b272ecf545d1899a1af4809a23611c8e93be",
+    "runs/vigo-2025-12-23-v1/responses/block-02-extract.json": "dc7a77481758aa5e7a8047fce4d30c34cc8a1b770e45e5ce3c4a87d7e5953b3e",
+    "runs/vigo-2025-12-23-v1/responses/block-02-matters.json": "c3ad653ae564810072ef897fe1f686cd0964973225cf29c06025cf672f2d8378",
+    "runs/vigo-2025-12-23-v1/responses/block-03-extract.json": "6356a9eed127973f0da15adf9972290731900bcbcdf2890f4ca9f13fbb161c0d",
+    "runs/vigo-2025-12-23-v1/responses/block-03-matters.json": "d5c0b806a1179574fdab1350047d4e27db34794d54b3d47961a402b1cfa7376d",
+    "runs/vigo-2025-12-23-luna-v1/manifest.json": "b732ba6b9ee7393192383e961fae942b5d09493220eaa1ad6a1e93fd22807522",
+    "runs/vigo-2025-12-23-luna-v1/responses/block-01-extract.json": "a008ee723a069af2d96dc61df09756e57a4646cd72a970845ad06ec219ab3aea",
+    "runs/vigo-2025-12-23-luna-v1/responses/block-01-matters.json": "4e67f946a2571fbe5ea86281e4d8659b4a70d211505d0c40746946a4b3e63700",
+    "runs/vigo-2025-12-23-luna-v1/responses/block-02-extract.json": "00c2425a2a7a0a2a13736aacc3dbd0eb74efe30a27152415c98235596ce6ccfe",
+    "runs/vigo-2025-12-23-luna-v1/responses/block-02-matters.json": "7e28b170e3a9194f3ce627f8bc77baedf73b4c4a95c94b280c472c68e24ace9f",
+    "runs/vigo-2025-12-23-luna-v1/responses/block-03-extract.json": "fe8e871cfb1238434285485419ed9fc8fbbdb05dcc2d992a3f7a4c83c5fa658a",
+    "runs/vigo-2025-12-23-luna-v1/responses/block-03-matters.json": "19df6bf8b8b0db768b3619f417bfd2bb10a6c871071f4edc4407c03d86207101",
+    "runs/vigo-2025-12-23-luna-xhigh-v1b/manifest.json": "91f032dd87d317257ddc79f9dcfee89ae80b8c9f233ae0ab06c6fa01b77435fe",
+    "runs/vigo-2025-12-23-luna-xhigh-v1b/responses/block-01-extract.json": "c2ce3c85a8b3b854a23e1e7b05710fd827f89407827b591287ab200485222b0e",
+    "runs/vigo-2025-12-23-luna-xhigh-v1b/responses/block-01-matters.json": "9b11d27968a65b72da9e96dc0875b54d2633ea59d6b3ae94fc10f4ac337229c8",
+    "runs/vigo-2025-12-23-luna-xhigh-v1b/responses/block-02-extract.json": "2828cc9529d52070a8d5c36206ecb096f8a09e2e04d386b3594bde9d7431e195",
+    "runs/vigo-2025-12-23-luna-xhigh-v1b/responses/block-02-matters.json": "814447fd26a2f139fe266c29d158c6ea5ed1fd19694b7f84ef96f617e9e2779b",
+    "runs/vigo-2025-12-23-luna-xhigh-v1b/responses/block-03-extract.json": "14540847520c03f9b6814ae48fee4d87e2aa53f55743b3c010f22856af2a70ba",
+    "runs/vigo-2025-12-23-luna-xhigh-v1b/responses/block-03-matters.json": "674312399e802c26c420e105d5434043e89feda0262ad609be995f8cbfb0dfe6",
+    "reference/gold.json": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+    "reference/frozen.json": "41c61ab05cfe61bd67c687548d4a9ea1cf9932ba8bee9f7416c8fff204c3a52a",
+    "inputs/transcripts/scribe-v2.json": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "inputs/transcripts/segments.json": "f9586c987436a721d0ae7de165f6a214a885925bb5ca67bea5709ddfb249dc5b"
+  },
+  "threeInitialPayloadsIdentical": true,
+  "generationMethodsInheritedUnchanged": true
+}

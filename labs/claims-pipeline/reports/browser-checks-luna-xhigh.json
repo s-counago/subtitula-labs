@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-09-12",
+  "url": "http://127.0.0.1:8767/reports/explorador-luna-xhigh.html",
+  "result": "passed",
+  "visualInspection": "Captured and inspected the top of the rendered page: readable title, 89 candidates, 25 matters, subscription label, review notice and summary, with no visible clipping.",
+  "searchChecks": [
+    {"query": "Sogama", "visibleRecords": 4, "totalRecords": 89},
+    {"query": "cultura", "visibleRecords": 2, "totalRecords": 89}
+  ],
+  "referenceLinkCheck": {"target": "X083", "clearedActiveSearch": true, "visibleRecordsAfterClick": 89},
+  "referenceRows": 25,
+  "audioPlaybackRetested": false,
+  "audioStateAtHandoff": "paused, not started in this review",
+  "finalState": "Full explorer at the top, without filters, marked as a deliverable. Low explorer remains separately available."
+}

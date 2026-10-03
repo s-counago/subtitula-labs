@@ -1,0 +1,102 @@
+{
+  "decisions": [
+    {
+      "mentionId": "mention-755e0da0-2c58-5dea-b1b7-8dcbd134f770",
+      "action": "existing",
+      "canonicalId": "matter-9444922a-bab1-565b-855a-52579813df2d",
+      "canonicalLabel": null,
+      "reason": "Coincide exactamente con el presupuesto general municipal de Vigo para 2026."
+    },
+    {
+      "mentionId": "mention-d093a503-417e-5fa7-ac25-d7a5556032bf",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Traspaso de CEDRO á Xunta de Galicia",
+      "reason": "Asunto institucional específico no presente en el catálogo."
+    },
+    {
+      "mentionId": "mention-e45fc94f-0dca-517f-a62d-78d9f1c6b02f",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Importe financeiro herdado polo Concello de Vigo",
+      "reason": "Refiere al importe financiero heredado por el gobierno municipal, distinto del presupuesto general."
+    },
+    {
+      "mentionId": "mention-a7ceeb89-9aa8-5da7-8131-7abe78f0391d",
+      "action": "existing",
+      "canonicalId": "matter-e5908fad-a149-5ec6-bfdc-32a64f33229e",
+      "canonicalLabel": null,
+      "reason": "Coincide con las enmiendas al presupuesto municipal de Vigo para 2026."
+    },
+    {
+      "mentionId": "mention-ec8b8048-758a-526d-8355-50fc73c0ddd0",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Subida de impostos e petición de crédito municipal en Ferrol",
+      "reason": "Asunto fiscal y crediticio específico de Ferrol no presente en el catálogo."
+    },
+    {
+      "mentionId": "mention-f340a836-dc44-5a39-b121-750d84e65a45",
+      "action": "existing",
+      "canonicalId": "matter-286990a7-56ba-55a5-b01e-c4b9147449b0",
+      "canonicalLabel": null,
+      "reason": "Coincide con la deuda por habitante de la Xunta de Galicia."
+    },
+    {
+      "mentionId": "mention-4f8ea24e-d1a4-5c56-83ea-803b6751a5cb",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Taxa municipal de lixo de Ponteareas",
+      "reason": "Tasa municipal de residuos de Ponteareas, sin asunto equivalente en el catálogo."
+    },
+    {
+      "mentionId": "mention-a2b7284a-c326-512e-9cc5-1ab432ff9e20",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Uso pola Xunta de Galicia dos ingresos do imposto de depósito para reciclaxe",
+      "reason": "Asunto específico sobre el destino de ingresos del impuesto de depósito en Galicia."
+    },
+    {
+      "mentionId": "mention-b8b9b2e4-d298-548a-a78d-a150f493484d",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Copago dos concellos a Sogama polo tratamento de residuos en 2025",
+      "reason": "Copago a Sogama por tratamiento de residuos en 2025, distinto de otros asuntos de residuos."
+    },
+    {
+      "mentionId": "mention-3dfff34e-7578-55e8-a245-2f2df5e9802a",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Actuación na Praia da Punta no orzamento de Vigo para 2026",
+      "reason": "Actuación concreta en la Praia da Punta para 2026, distinta del presupuesto general y de las alegaciones vecinales."
+    },
+    {
+      "mentionId": "mention-c5137d74-1a47-5bfe-9ea8-bc5e8b2a0578",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Reforma do mercado de Teis en Vigo",
+      "reason": "Proyecto específico de reforma de un mercado municipal no presente en el catálogo."
+    },
+    {
+      "mentionId": "mention-ad866aea-a02e-599a-93fd-735867d60ec7",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Mellora da piscina e do pavillón municipais de Vigo",
+      "reason": "Mejora específica de instalaciones deportivas, distinta del crédito extraordinario y de las pistas de atletismo catalogadas."
+    },
+    {
+      "mentionId": "mention-1f2139d7-a9ab-58e9-a634-a15c9ab82d47",
+      "action": "existing",
+      "canonicalId": "matter-97aaba39-2d2d-53c8-bf0c-68e5114705dd",
+      "canonicalLabel": null,
+      "reason": "La mención describe la modificación del crédito extraordinario municipal de Vigo para transformación urbana catalogado para 2025."
+    },
+    {
+      "mentionId": "mention-9896c0d2-8e35-5f16-8741-6b8b489b7058",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Voto particular do BNG sobre o orzamento de Vigo para 2026",
+      "reason": "Voto particular procesal sobre el presupuesto 2026, distinto del presupuesto general y de sus enmiendas."
+    }
+  ]
+}

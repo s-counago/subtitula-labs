@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-09-11",
+  "url": "http://127.0.0.1:8767/reports/explorador.html",
+  "result": "passed",
+  "checks": [
+    "Revisión visual de la página y de las notas de auditoría junto a las afirmaciones.",
+    "Vista inicial: 56 de 56 registros, tres asuntos y resumen de los 25 casos comparados.",
+    "Búsqueda de 696,5: un registro visible.",
+    "Filtro Asunto pendiente: C055 y C056, dos registros visibles.",
+    "Botón Escuchar desde 25:38: salto temporal comprobado en el reproductor; audio pausado después de la prueba.",
+    "Recarga final: filtros restablecidos y audio sin reproducir."
+  ],
+  "scope": "Prueba de navegación y reproducción; no constituye una verificación auditiva de las afirmaciones de referencia.",
+  "serving": "Servidor local con soporte de peticiones parciales de audio, limitado a 127.0.0.1:8767."
+}

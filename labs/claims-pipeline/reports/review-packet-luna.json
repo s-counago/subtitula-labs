@@ -1,0 +1,1302 @@
+[
+  {
+    "gold": {
+      "id": "G01",
+      "evidenceSegmentIds": [
+        "S0004"
+      ],
+      "quote": "Hoxe, 23 de decembro de 2025, celebramos o dezanove orzamento consecutivo deste goberno municipal",
+      "speakerId": "speaker_1",
+      "expectedStatement": "O 23 de decembro de 2025 celébrase o décimo noveno orzamento consecutivo deste goberno municipal.",
+      "property": "consecutive_municipal_budget_number",
+      "valueText": "19",
+      "referencePeriod": "23 de decembro de 2025",
+      "conditions": [],
+      "expectedMatter": "Número ordinal do orzamento consecutivo presentado polo goberno municipal na sesión.",
+      "acceptanceNotes": "Conservar que se trata do orzamento consecutivo deste goberno municipal; non converter a valoración posterior sobre progreso e estabilidade nun feito adicional.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G02",
+      "evidenceSegmentIds": [
+        "S0006"
+      ],
+      "quote": "Política social en sentido amplio e atendendo a unha das necesidades principais que teñen as persoas como é a vivenda, con, eh, unha, un edificio de vivenda social en As Turáns, incrementando setecentos mil euros a bolsa de alugueiro, que se une os once millóns de euros que se xeneraron xa co crédito extraordinario deste ano 2025.",
+      "speakerId": "speaker_1",
+      "expectedStatement": "O orzamento incrementa en 700.000 euros a bolsa de alugueiro.",
+      "property": "rental_aid_budget_increase",
+      "valueText": "700.000 euros",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [
+        "É un incremento da bolsa de alugueiro, non o seu importe total."
+      ],
+      "expectedMatter": "Incremento orzamentario da bolsa municipal de alugueiro.",
+      "acceptanceNotes": "Non sumar nin confundir os 700.000 euros cos 11 millóns xa xerados polo crédito extraordinario de 2025; As Turáns aparece na cita como outra actuación de vivenda.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L004",
+        "statement": "El presupuesto incrementa en 700.000 euros la bolsa de alquiler.",
+        "speakerId": "speaker_1",
+        "matterKey": "politica_social_presupuesto_2026",
+        "property": "incremento_bolsa_alquiler",
+        "valueText": "setecentos mil euros",
+        "referencePeriod": "2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0006"
+        ],
+        "quote": "incrementando setecentos mil euros a bolsa de alugueiro",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 4,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:4",
+        "claimId": "claim-8d692d8f-14cc-586b-a16a-f38f6b778b17",
+        "occurrenceId": "appearance-8d692d8f-14cc-586b-a16a-f38f6b778b17",
+        "mentionId": "mention-87701c2f-fc26-53d0-bec7-2c620b7adb17",
+        "canonicalMatterId": "matter-40e7186f-baad-5bc7-a551-ba2892a84fca",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 119.76,
+        "end": 153.52,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G03",
+      "evidenceSegmentIds": [
+        "S0007"
+      ],
+      "quote": "Hai que recordar, como xa dixen, que dende o ano 2007 ao ano 2026, a política social se incrementou un 696,5 % nos orzamentos municipais.",
+      "speakerId": "speaker_1",
+      "expectedStatement": "A política social nos orzamentos municipais incrementouse un 696,5 % entre 2007 e 2026.",
+      "property": "social_policy_budget_increase",
+      "valueText": "696,5 %",
+      "referencePeriod": "2007-2026",
+      "conditions": [],
+      "expectedMatter": "Variación acumulada da política social nos orzamentos municipais.",
+      "acceptanceNotes": "Manter tanto o período 2007-2026 como a porcentaxe decimal; a transcrición non especifica base nominal ou real.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L005",
+        "statement": "La política social aumentó un 696,5 % entre 2007 y 2026 en los presupuestos municipales.",
+        "speakerId": "speaker_1",
+        "matterKey": "politica_social_presupuesto_2026",
+        "property": "variación_presupuestaria",
+        "valueText": "696,5 %",
+        "referencePeriod": "2007-2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "quote": "dende o ano 2007 ao ano 2026, a política social se incrementou un 696,5 % nos orzamentos municipais.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 5,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:5",
+        "claimId": "claim-7d5b5010-ecef-5d2f-9ef0-176443550a95",
+        "occurrenceId": "appearance-7d5b5010-ecef-5d2f-9ef0-176443550a95",
+        "mentionId": "mention-87701c2f-fc26-53d0-bec7-2c620b7adb17",
+        "canonicalMatterId": "matter-40e7186f-baad-5bc7-a551-ba2892a84fca",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 153.52,
+        "end": 189.44,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      },
+      {
+        "readingId": "L006",
+        "statement": "Las becas de inglés para cursar estudios en el extranjero pasan a tener 3.325.000 euros.",
+        "speakerId": "speaker_1",
+        "matterKey": "becas_ingles_presupuesto_2026",
+        "property": "dotación_presupuestaria",
+        "valueText": "tres millóns trescentos vinte e cinco mil euros",
+        "referencePeriod": "2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "quote": "con ese incremento nas becas de inglés para cursar, eh, estudios no estranxeiro, que pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 6,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:6",
+        "claimId": "claim-8b3536a4-4fff-5f79-bec3-3c7fff8ec35f",
+        "occurrenceId": "appearance-8b3536a4-4fff-5f79-bec3-3c7fff8ec35f",
+        "mentionId": "mention-d96f37e6-c5c2-5a7a-bd98-d3fbca3ad7fd",
+        "canonicalMatterId": "matter-259dc5c1-4e8d-586b-88df-c2c35320be49",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 153.52,
+        "end": 189.44,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G04",
+      "evidenceSegmentIds": [
+        "S0007"
+      ],
+      "quote": "En terceiro lugar, a política de apoio ás familias, eh, sobre todo á infancia, con esas becas de inglés, con ese incremento nas becas de inglés para cursar, eh, estudios no estranxeiro, que pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+      "speakerId": "speaker_1",
+      "expectedStatement": "As bolsas de inglés para cursar estudos no estranxeiro pasan a ter 3.325.000 euros.",
+      "property": "english_scholarship_budget_amount",
+      "valueText": "3.325.000 euros",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [
+        "Refírese ás bolsas de inglés para estudos no estranxeiro."
+      ],
+      "expectedMatter": "Dotación das bolsas municipais de inglés para estudar no estranxeiro.",
+      "acceptanceNotes": "A expresión «pasan a ter» indica nova dotación; non presentala como incremento de 3.325.000 euros.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L005",
+        "statement": "La política social aumentó un 696,5 % entre 2007 y 2026 en los presupuestos municipales.",
+        "speakerId": "speaker_1",
+        "matterKey": "politica_social_presupuesto_2026",
+        "property": "variación_presupuestaria",
+        "valueText": "696,5 %",
+        "referencePeriod": "2007-2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "quote": "dende o ano 2007 ao ano 2026, a política social se incrementou un 696,5 % nos orzamentos municipais.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 5,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:5",
+        "claimId": "claim-7d5b5010-ecef-5d2f-9ef0-176443550a95",
+        "occurrenceId": "appearance-7d5b5010-ecef-5d2f-9ef0-176443550a95",
+        "mentionId": "mention-87701c2f-fc26-53d0-bec7-2c620b7adb17",
+        "canonicalMatterId": "matter-40e7186f-baad-5bc7-a551-ba2892a84fca",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 153.52,
+        "end": 189.44,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      },
+      {
+        "readingId": "L006",
+        "statement": "Las becas de inglés para cursar estudios en el extranjero pasan a tener 3.325.000 euros.",
+        "speakerId": "speaker_1",
+        "matterKey": "becas_ingles_presupuesto_2026",
+        "property": "dotación_presupuestaria",
+        "valueText": "tres millóns trescentos vinte e cinco mil euros",
+        "referencePeriod": "2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0007"
+        ],
+        "quote": "con ese incremento nas becas de inglés para cursar, eh, estudios no estranxeiro, que pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 6,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:6",
+        "claimId": "claim-8b3536a4-4fff-5f79-bec3-3c7fff8ec35f",
+        "occurrenceId": "appearance-8b3536a4-4fff-5f79-bec3-3c7fff8ec35f",
+        "mentionId": "mention-d96f37e6-c5c2-5a7a-bd98-d3fbca3ad7fd",
+        "canonicalMatterId": "matter-259dc5c1-4e8d-586b-88df-c2c35320be49",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 153.52,
+        "end": 189.44,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G05",
+      "evidenceSegmentIds": [
+        "S0011"
+      ],
+      "quote": "Pero tamén de, adicando recursos a cultura, cun incremento dun sete por cento máis para cultura",
+      "speakerId": "speaker_1",
+      "expectedStatement": "O orzamento incrementa nun 7 % os recursos para cultura.",
+      "property": "culture_budget_increase",
+      "valueText": "7 %",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [],
+      "expectedMatter": "Incremento dos recursos municipais destinados á cultura.",
+      "acceptanceNotes": "Non inferir o importe absoluto nin unha base de comparación distinta da que deixa implícita a intervención.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G06",
+      "evidenceSegmentIds": [
+        "S0057"
+      ],
+      "quote": "Por tanto, las ineficiencias da Xunta de Galicia se nos trasladan a los concellos y se nos obliga a cumplir con a, con a, eh, copago a Sogama, eh, subindo de ochenta y seis euros por tonelada a ciento cuatro con cincuenta euros por tonelada en este año 2025.",
+      "speakerId": "speaker_1",
+      "expectedStatement": "O copagamento a Sogama subiu de 86 a 104,50 euros por tonelada en 2025.",
+      "property": "sogama_copayment_rate_change",
+      "valueText": "de 86 a 104,50 euros por tonelada",
+      "referencePeriod": "2025",
+      "conditions": [
+        "A unidade é euros por tonelada."
+      ],
+      "expectedMatter": "Cambio da tarifa por tonelada do copagamento municipal a Sogama.",
+      "acceptanceNotes": "Conservar os dous valores, a unidade e o ano; a atribución causal á Xunta forma parte do discurso, pero non é necesaria para aceptar a afirmación principal.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G07",
+      "evidenceSegmentIds": [
+        "S0015"
+      ],
+      "quote": "Hoxe traen a este pleno o mesmo proxecto de orzamentos que aprobaron inicialmente só cos votos do Partido Socialista, sen introducir máis cambios cun par de correccións de erros materiais.",
+      "speakerId": "speaker_2",
+      "expectedStatement": "O proxecto de orzamentos levado ao pleno é o mesmo aprobado inicialmente, salvo un par de correccións de erros materiais.",
+      "property": "changes_since_initial_budget_approval",
+      "valueText": "un par de correccións de erros materiais",
+      "referencePeriod": "aprobación definitiva de 23 de decembro de 2025",
+      "conditions": [],
+      "expectedMatter": "Cambios introducidos no proxecto de orzamentos entre a aprobación inicial e a definitiva.",
+      "acceptanceNotes": "Manter a formulación aproximada «un par» e que o falante cualifica os cambios como correccións de erros materiais.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L009",
+        "statement": "El grupo BNG afirma que el gobierno municipal aprobó inicialmente el mismo proyecto de presupuestos solo con los votos del Partido Socialista y con un par de correcciones de errores materiales.",
+        "speakerId": "speaker_2",
+        "matterKey": "presupuesto_general_vigo_2026",
+        "property": "aprobación_inicial_y_cambios",
+        "valueText": "solo con los votos del Partido Socialista; un par de correcciones de errores materiales",
+        "referencePeriod": "2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0015"
+        ],
+        "quote": "Hoxe traen a este pleno o mesmo proxecto de orzamentos que aprobaron inicialmente só cos votos do Partido Socialista, sen introducir máis cambios cun par de correccións de erros materiais.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 9,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:9",
+        "claimId": "claim-93f6d8e2-7ba2-5c80-9419-45a03eff6f92",
+        "occurrenceId": "appearance-93f6d8e2-7ba2-5c80-9419-45a03eff6f92",
+        "mentionId": "mention-e5135e6e-47e5-5dcf-b49e-7db68647c4c0",
+        "canonicalMatterId": "matter-76b0a70d-67d9-550b-adbb-0a594a4f7d3a",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 376.028,
+        "end": 404.748,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G08",
+      "evidenceSegmentIds": [
+        "S0016"
+      ],
+      "quote": "E en efecto, os seus cento noventa e oito non a todas e cada unha das emendas do BNG ao seu proxecto de orzamentos municipais son un xigantesco acto de irresponsabilidade",
+      "speakerId": "speaker_2",
+      "expectedStatement": "Foron rexeitadas as 198 emendas do BNG ao proxecto de orzamentos municipais.",
+      "property": "bng_budget_amendments_rejected_count",
+      "valueText": "198",
+      "referencePeriod": "tramitación do orzamento de 2026",
+      "conditions": [
+        "O número refírese ás emendas do BNG ao proxecto municipal."
+      ],
+      "expectedMatter": "Número de emendas orzamentarias do BNG que recibiron un voto negativo.",
+      "acceptanceNotes": "Separar o dato numérico da cualificación política «acto de irresponsabilidade».",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G09",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "duplicar as axudas sociais municipais que vostedes recortaron nun cincuenta por cento nos últimos cinco anos",
+      "speakerId": "speaker_2",
+      "expectedStatement": "As axudas sociais municipais foron recortadas nun 50 % nos últimos cinco anos.",
+      "property": "municipal_social_aid_reduction",
+      "valueText": "50 %",
+      "referencePeriod": "últimos cinco anos",
+      "conditions": [],
+      "expectedMatter": "Redución acumulada das axudas sociais municipais.",
+      "acceptanceNotes": "Non perder o período «últimos cinco anos». A proposta de duplicar as axudas é distinta do feito alegado sobre o recorte.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L010",
+        "statement": "El grupo BNG propone elevar a 3 millones de euros el Plan Municipal de Empleo.",
+        "speakerId": "speaker_2",
+        "matterKey": "plan_municipal_emprego",
+        "property": "propuesta_de_dotación",
+        "valueText": "tres millóns de euros",
+        "referencePeriod": null,
+        "conditions": [],
+        "modality": "proposal",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "quote": "Din non a elevar até os tres millóns de euros o Plan Municipal de Emprego",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 10,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:10",
+        "claimId": "claim-eaf96d07-be33-5065-ae13-fae3b4866844",
+        "occurrenceId": "appearance-eaf96d07-be33-5065-ae13-fae3b4866844",
+        "mentionId": "mention-c9c2a415-8da7-5379-a8b8-2f2ad24a2b87",
+        "canonicalMatterId": "matter-27ac9cc4-4a19-5108-8723-ed90c14ff92a",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 485.708,
+        "end": 513.947,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      },
+      {
+        "readingId": "L011",
+        "statement": "El grupo BNG afirma que las ayudas sociales municipales se redujeron un 50 % en los últimos cinco años.",
+        "speakerId": "speaker_2",
+        "matterKey": "politica_social_presupuesto_2026",
+        "property": "variación_de_ayudas_sociales",
+        "valueText": "cincuenta por cento",
+        "referencePeriod": "últimos cinco anos",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "negative",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "quote": "medidas tan importantes e necesarias como duplicar as axudas sociais municipais que vostedes recortaron nun cincuenta por cento nos últimos cinco anos",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 11,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:11",
+        "claimId": "claim-b8b98eef-0600-5fde-8779-a6a5497c961d",
+        "occurrenceId": "appearance-b8b98eef-0600-5fde-8779-a6a5497c961d",
+        "mentionId": "mention-87701c2f-fc26-53d0-bec7-2c620b7adb17",
+        "canonicalMatterId": "matter-40e7186f-baad-5bc7-a551-ba2892a84fca",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 485.708,
+        "end": 513.947,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G10",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "Din non a elevar até os tres millóns de euros o Plan Municipal de Emprego, despois de que nesta cidade teñamos nove mil postos de traballo menos dos que había na altura do ano 2009.",
+      "speakerId": "speaker_2",
+      "expectedStatement": "Propúxose elevar o Plan Municipal de Emprego ata 3 millóns de euros.",
+      "property": "municipal_employment_plan_proposed_amount",
+      "valueText": "3.000.000 euros",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [
+        "É unha proposta que o falante afirma que foi rexeitada."
+      ],
+      "expectedMatter": "Dotación proposta para o Plan Municipal de Emprego.",
+      "acceptanceNotes": "Non describir os 3 millóns como unha dotación aprobada; os 9.000 postos de traballo son unha afirmación secundaria distinta.",
+      "modality": "proposal"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L010",
+        "statement": "El grupo BNG propone elevar a 3 millones de euros el Plan Municipal de Empleo.",
+        "speakerId": "speaker_2",
+        "matterKey": "plan_municipal_emprego",
+        "property": "propuesta_de_dotación",
+        "valueText": "tres millóns de euros",
+        "referencePeriod": null,
+        "conditions": [],
+        "modality": "proposal",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "quote": "Din non a elevar até os tres millóns de euros o Plan Municipal de Emprego",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 10,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:10",
+        "claimId": "claim-eaf96d07-be33-5065-ae13-fae3b4866844",
+        "occurrenceId": "appearance-eaf96d07-be33-5065-ae13-fae3b4866844",
+        "mentionId": "mention-c9c2a415-8da7-5379-a8b8-2f2ad24a2b87",
+        "canonicalMatterId": "matter-27ac9cc4-4a19-5108-8723-ed90c14ff92a",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 485.708,
+        "end": 513.947,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      },
+      {
+        "readingId": "L011",
+        "statement": "El grupo BNG afirma que las ayudas sociales municipales se redujeron un 50 % en los últimos cinco años.",
+        "speakerId": "speaker_2",
+        "matterKey": "politica_social_presupuesto_2026",
+        "property": "variación_de_ayudas_sociales",
+        "valueText": "cincuenta por cento",
+        "referencePeriod": "últimos cinco anos",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "negative",
+        "evidenceSegmentIds": [
+          "S0018"
+        ],
+        "quote": "medidas tan importantes e necesarias como duplicar as axudas sociais municipais que vostedes recortaron nun cincuenta por cento nos últimos cinco anos",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 11,
+        "operationId": "vigo-2025-12-23-luna-v1:block-01:11",
+        "claimId": "claim-b8b98eef-0600-5fde-8779-a6a5497c961d",
+        "occurrenceId": "appearance-b8b98eef-0600-5fde-8779-a6a5497c961d",
+        "mentionId": "mention-87701c2f-fc26-53d0-bec7-2c620b7adb17",
+        "canonicalMatterId": "matter-40e7186f-baad-5bc7-a551-ba2892a84fca",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 485.708,
+        "end": 513.947,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-01"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G11",
+      "evidenceSegmentIds": [
+        "S0019"
+      ],
+      "quote": "Din non a mobilizar case dez millóns de euros máis a atender o principal problema desta cidade, que é o do acceso á vivenda",
+      "speakerId": "speaker_2",
+      "expectedStatement": "Propúxose mobilizar case 10 millóns de euros adicionais para o acceso á vivenda.",
+      "property": "additional_housing_funding_proposed",
+      "valueText": "case 10.000.000 de euros máis",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [
+        "É financiamento adicional e aproximado.",
+        "O falante afirma que a medida foi rexeitada."
+      ],
+      "expectedMatter": "Financiamento adicional proposto para políticas de acceso á vivenda.",
+      "acceptanceNotes": "Conservar os dous cualificadores «case» e «máis»; non normalizar a 10 millóns exactos nin a unha dotación total.",
+      "modality": "proposal"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G12",
+      "evidenceSegmentIds": [
+        "S0020"
+      ],
+      "quote": "rexeitando as alegacións formuladas pola Asociación Veciñal de Teis, que o BNG vamos defender, sexan estimadas a través dun voto particular",
+      "speakerId": "speaker_2",
+      "expectedStatement": "O BNG comprométese a defender mediante un voto particular que se estimen as alegacións da Asociación Veciñal de Teis.",
+      "property": "teis_allegations_particular_vote_defense",
+      "valueText": null,
+      "referencePeriod": "sesión de 23 de decembro de 2025",
+      "conditions": [
+        "A defensa realizaríase mediante un voto particular."
+      ],
+      "expectedMatter": "Compromiso de defensa parlamentaria das alegacións veciñais de Teis.",
+      "acceptanceNotes": "Non afirmar que as alegacións quedaron estimadas; a cita expresa a intención de defendelas e indica que estaban sendo rexeitadas.",
+      "modality": "commitment"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L021",
+        "statement": "As alegacións da Asociación Veciñal de Teis propoñen aumentar o orzamento para garantir unha biblioteca pública en Teis.",
+        "speakerId": "speaker_2",
+        "matterKey": "alegacions_asociacion_vecinal_teis",
+        "property": "proposta sobre biblioteca pública",
+        "valueText": null,
+        "referencePeriod": "2026",
+        "conditions": [
+          "segundo a intervención do BNG"
+        ],
+        "modality": "reported_statement",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0020"
+        ],
+        "quote": "nas que propoñen cuestións tan básicas como aumentar o orzamento para garantir que dunha vez por todas Teis teña unha verdadeira biblioteca pública",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 11,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:11",
+        "claimId": "claim-ff4dba7c-c43f-587b-8d71-1b0cde986f21",
+        "occurrenceId": "appearance-ff4dba7c-c43f-587b-8d71-1b0cde986f21",
+        "mentionId": "mention-acc4990c-a07d-5873-8156-f5bfdab05c27",
+        "canonicalMatterId": "matter-83472bdc-6c1d-5d67-83cc-e94230b6b108",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 541.348,
+        "end": 576.688,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G13",
+      "evidenceSegmentIds": [
+        "S0029"
+      ],
+      "quote": "E así poderíamos falar doutras taxas e impostos ata chegar, por exemplo, ao sablazo do lixo, que se incrementa ata un cincuenta por cento segundo os casos.",
+      "speakerId": "speaker_3",
+      "expectedStatement": "A taxa do lixo increméntase ata un 50 % segundo os casos.",
+      "property": "waste_fee_maximum_increase",
+      "valueText": "ata 50 %",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [
+        "A porcentaxe máxima depende do caso."
+      ],
+      "expectedMatter": "Incremento máximo da taxa municipal do lixo.",
+      "acceptanceNotes": "Manter «ata» e «segundo os casos»; non afirmar unha suba uniforme do 50 %.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L014",
+        "statement": "A taxa do lixo increméntase ata un cincuenta por cento segundo os casos.",
+        "speakerId": "speaker_3",
+        "matterKey": "taxa_lixo_vigo",
+        "property": "incremento",
+        "valueText": "ata un cincuenta por cento",
+        "referencePeriod": null,
+        "conditions": [
+          "segundo os casos"
+        ],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "quote": "ao sablazo do lixo, que se incrementa ata un cincuenta por cento segundo os casos.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 3,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:3",
+        "claimId": "claim-73d470e8-3483-5abb-a191-6e3f34c95bcf",
+        "occurrenceId": "appearance-73d470e8-3483-5abb-a191-6e3f34c95bcf",
+        "mentionId": "mention-0b0da2c9-a82c-57df-8eb2-a93fb2d55a66",
+        "canonicalMatterId": "matter-38843f98-7a28-5033-8075-84dd480e98f8",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 747.084,
+        "end": 778.224,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      },
+      {
+        "readingId": "L015",
+        "statement": "O informe económico do Concello recoñece que a taxa do lixo vai recibir arredor de 1,3 millóns de euros.",
+        "speakerId": "speaker_3",
+        "matterKey": "taxa_lixo_vigo",
+        "property": "importe previsto",
+        "valueText": "arredor de un coma tres millóns de euros",
+        "referencePeriod": null,
+        "conditions": [
+          "segundo o informe económico do Concello"
+        ],
+        "modality": "reported_statement",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0029"
+        ],
+        "quote": "O propio informe económico, mmm, deste concello, eh, recoñece que vai recibir desa gama arredor de un coma tres millóns de euros",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 4,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:4",
+        "claimId": "claim-c0d314ad-8a77-5781-9827-b9b1f7c194b3",
+        "occurrenceId": "appearance-c0d314ad-8a77-5781-9827-b9b1f7c194b3",
+        "mentionId": "mention-0b0da2c9-a82c-57df-8eb2-a93fb2d55a66",
+        "canonicalMatterId": "matter-38843f98-7a28-5033-8075-84dd480e98f8",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 747.084,
+        "end": 778.224,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G14",
+      "evidenceSegmentIds": [
+        "S0031"
+      ],
+      "quote": "En 2024 deixaron vostedes de executar cen millóns de euros.",
+      "speakerId": "speaker_3",
+      "expectedStatement": "En 2024 quedaron sen executar 100 millóns de euros.",
+      "property": "unexecuted_budget_amount",
+      "valueText": "100.000.000 de euros",
+      "referencePeriod": "2024",
+      "conditions": [],
+      "expectedMatter": "Importe orzamentario que o falante afirma que non se executou.",
+      "acceptanceNotes": "A transcrición non concreta partidas nin método de cálculo; non engadilos.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L016",
+        "statement": "En 2024 quedaron sen executar cen millóns de euros.",
+        "speakerId": "speaker_3",
+        "matterKey": "execucion_orzamentaria_vigo",
+        "property": "importe non executado",
+        "valueText": "cen millóns de euros",
+        "referencePeriod": "2024",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "quote": "En 2024 deixaron vostedes de executar cen millóns de euros.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 5,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:5",
+        "claimId": "claim-4dcde287-340e-58b0-9a44-1b096b98756a",
+        "occurrenceId": "appearance-4dcde287-340e-58b0-9a44-1b096b98756a",
+        "mentionId": "mention-2a5eda9e-6b75-51bb-8ef5-051cf7f5da1a",
+        "canonicalMatterId": "matter-d243d522-c5a2-5b71-b0dc-e63b74ab2512",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 815.924,
+        "end": 843.284,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      },
+      {
+        "readingId": "L017",
+        "statement": "No terceiro trimestre de 2025 a execución global situábase por debaixo do corenta por cento.",
+        "speakerId": "speaker_3",
+        "matterKey": "execucion_orzamentaria_vigo",
+        "property": "execución global",
+        "valueText": "por debaixo do corenta por cento",
+        "referencePeriod": "terceiro trimestre de 2025",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "quote": "E no terceiro trimestre deste presente 2025, a execución global sitúase por debaixo do corenta por cento.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 6,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:6",
+        "claimId": "claim-e33f49ef-781f-5470-bc15-e96ec8794e70",
+        "occurrenceId": "appearance-e33f49ef-781f-5470-bc15-e96ec8794e70",
+        "mentionId": "mention-2a5eda9e-6b75-51bb-8ef5-051cf7f5da1a",
+        "canonicalMatterId": "matter-d243d522-c5a2-5b71-b0dc-e63b74ab2512",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 815.924,
+        "end": 843.284,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      },
+      {
+        "readingId": "L018",
+        "statement": "No terceiro trimestre de 2025 a execución dos investimentos reais alcanzaba apenas o 7,75 por cento.",
+        "speakerId": "speaker_3",
+        "matterKey": "execucion_orzamentaria_vigo",
+        "property": "execución dos investimentos reais",
+        "valueText": "sete coma setenta e cinco por cento",
+        "referencePeriod": "terceiro trimestre de 2025",
+        "conditions": [
+          "apenas"
+        ],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "quote": "E no caso dos investimentos raís, apenas alcanza o sete coma setenta e cinco por cento.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 7,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:7",
+        "claimId": "claim-fcb6c7a3-feea-5dfc-82b7-9b92a8c73e3b",
+        "occurrenceId": "appearance-fcb6c7a3-feea-5dfc-82b7-9b92a8c73e3b",
+        "mentionId": "mention-2a5eda9e-6b75-51bb-8ef5-051cf7f5da1a",
+        "canonicalMatterId": "matter-d243d522-c5a2-5b71-b0dc-e63b74ab2512",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 815.924,
+        "end": 843.284,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G15",
+      "evidenceSegmentIds": [
+        "S0031"
+      ],
+      "quote": "E no terceiro trimestre deste presente 2025, a execución global sitúase por debaixo do corenta por cento.",
+      "speakerId": "speaker_3",
+      "expectedStatement": "No terceiro trimestre de 2025, a execución global situábase por debaixo do 40 %.",
+      "property": "global_budget_execution_rate",
+      "valueText": "por debaixo do 40 %",
+      "referencePeriod": "terceiro trimestre de 2025",
+      "conditions": [],
+      "expectedMatter": "Taxa global de execución orzamentaria comunicada para o terceiro trimestre.",
+      "acceptanceNotes": "Conservar o límite «por debaixo de» e o corte temporal do terceiro trimestre; non convertelo en 40 % exacto nin nun dato anual.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L016",
+        "statement": "En 2024 quedaron sen executar cen millóns de euros.",
+        "speakerId": "speaker_3",
+        "matterKey": "execucion_orzamentaria_vigo",
+        "property": "importe non executado",
+        "valueText": "cen millóns de euros",
+        "referencePeriod": "2024",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "quote": "En 2024 deixaron vostedes de executar cen millóns de euros.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 5,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:5",
+        "claimId": "claim-4dcde287-340e-58b0-9a44-1b096b98756a",
+        "occurrenceId": "appearance-4dcde287-340e-58b0-9a44-1b096b98756a",
+        "mentionId": "mention-2a5eda9e-6b75-51bb-8ef5-051cf7f5da1a",
+        "canonicalMatterId": "matter-d243d522-c5a2-5b71-b0dc-e63b74ab2512",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 815.924,
+        "end": 843.284,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      },
+      {
+        "readingId": "L017",
+        "statement": "No terceiro trimestre de 2025 a execución global situábase por debaixo do corenta por cento.",
+        "speakerId": "speaker_3",
+        "matterKey": "execucion_orzamentaria_vigo",
+        "property": "execución global",
+        "valueText": "por debaixo do corenta por cento",
+        "referencePeriod": "terceiro trimestre de 2025",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "quote": "E no terceiro trimestre deste presente 2025, a execución global sitúase por debaixo do corenta por cento.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 6,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:6",
+        "claimId": "claim-e33f49ef-781f-5470-bc15-e96ec8794e70",
+        "occurrenceId": "appearance-e33f49ef-781f-5470-bc15-e96ec8794e70",
+        "mentionId": "mention-2a5eda9e-6b75-51bb-8ef5-051cf7f5da1a",
+        "canonicalMatterId": "matter-d243d522-c5a2-5b71-b0dc-e63b74ab2512",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 815.924,
+        "end": 843.284,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      },
+      {
+        "readingId": "L018",
+        "statement": "No terceiro trimestre de 2025 a execución dos investimentos reais alcanzaba apenas o 7,75 por cento.",
+        "speakerId": "speaker_3",
+        "matterKey": "execucion_orzamentaria_vigo",
+        "property": "execución dos investimentos reais",
+        "valueText": "sete coma setenta e cinco por cento",
+        "referencePeriod": "terceiro trimestre de 2025",
+        "conditions": [
+          "apenas"
+        ],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0031"
+        ],
+        "quote": "E no caso dos investimentos raís, apenas alcanza o sete coma setenta e cinco por cento.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 7,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:7",
+        "claimId": "claim-fcb6c7a3-feea-5dfc-82b7-9b92a8c73e3b",
+        "occurrenceId": "appearance-fcb6c7a3-feea-5dfc-82b7-9b92a8c73e3b",
+        "mentionId": "mention-2a5eda9e-6b75-51bb-8ef5-051cf7f5da1a",
+        "canonicalMatterId": "matter-d243d522-c5a2-5b71-b0dc-e63b74ab2512",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 815.924,
+        "end": 843.284,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G16",
+      "evidenceSegmentIds": [
+        "S0033"
+      ],
+      "quote": "Un orçamento ao que este grupo municipal presentou trinta e nove emendas por un importe global de setenta e dous millóns de euros, setenta e dous coma tres millóns de euros",
+      "speakerId": "speaker_3",
+      "expectedStatement": "As emendas que o grupo municipal presentou ao orzamento sumaban un importe global de 72,3 millóns de euros.",
+      "property": "group_budget_amendments_total_amount",
+      "valueText": "72,3 millóns de euros",
+      "referencePeriod": "tramitación do orzamento de 2026",
+      "conditions": [],
+      "expectedMatter": "Importe global das emendas orzamentarias presentadas polo grupo do falante.",
+      "acceptanceNotes": "A fala primeiro di 72 millóns e inmediatamente precisa 72,3 millóns; conservar esa autocorrección na cita e usar 72,3 como valor final, sen atribuíla a unha corrección externa. As 39 emendas son contexto literal, non unha segunda afirmación esperada neste caso.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L019",
+        "statement": "O grupo municipal presentou trinta e nove emendas ao orzamento por un importe global de 72,3 millóns de euros.",
+        "speakerId": "speaker_3",
+        "matterKey": "emendas_orzamento_2026",
+        "property": "número e importe das emendas",
+        "valueText": "trinta e nove emendas; setenta e dous coma tres millóns de euros",
+        "referencePeriod": "2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0033"
+        ],
+        "quote": "Un orçamento ao que este grupo municipal presentou trinta e nove emendas por un importe global de setenta e dous millóns de euros, setenta e dous coma tres millóns de euros",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 8,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:8",
+        "claimId": "claim-29944e4a-dcdd-5d69-94cb-2ce176f77c91",
+        "occurrenceId": "appearance-29944e4a-dcdd-5d69-94cb-2ce176f77c91",
+        "mentionId": "mention-bd7081d8-2623-5919-9e1c-93153b86cbb9",
+        "canonicalMatterId": "matter-f59b055c-c961-519a-83a1-3c395264625c",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 876.924,
+        "end": 905.284,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G17",
+      "evidenceSegmentIds": [
+        "S0034"
+      ],
+      "quote": "Comezando pola vivenda, cun incremento, emmm, proposto ata os vinte e seis millóns de euros con que enfrontar unha política ambiciosa na materia de vivenda.",
+      "speakerId": "speaker_3",
+      "expectedStatement": "Propúxose elevar ata 26 millóns de euros os recursos para vivenda.",
+      "property": "housing_budget_proposed_amount",
+      "valueText": "ata 26.000.000 de euros",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [
+        "É un incremento proposto polo grupo do falante."
+      ],
+      "expectedMatter": "Dotación proposta para unha política municipal de vivenda.",
+      "acceptanceNotes": "Manter «proposto» e «ata»; non tratar os 26 millóns como unha dotación aprobada ou executada.",
+      "modality": "proposal"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L020",
+        "statement": "As emendas propoñían incrementar a partida de vivenda ata 26 millóns de euros.",
+        "speakerId": "speaker_3",
+        "matterKey": "politica_vivenda_vigo_2026",
+        "property": "importe proposto",
+        "valueText": "vinte e seis millóns de euros",
+        "referencePeriod": "2026",
+        "conditions": [
+          "incremento proposto"
+        ],
+        "modality": "proposal",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0034"
+        ],
+        "quote": "Comezando pola vivenda, cun incremento, emmm, proposto ata os vinte e seis millóns de euros con que enfrontar unha política ambiciosa na materia de vivenda.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 9,
+        "operationId": "vigo-2025-12-23-luna-v1:block-02:9",
+        "claimId": "claim-6b31e109-2a9d-5ffc-aceb-ea4209424f2c",
+        "occurrenceId": "appearance-6b31e109-2a9d-5ffc-aceb-ea4209424f2c",
+        "mentionId": "mention-65c62379-ec65-583f-bb95-3366db79c49a",
+        "canonicalMatterId": "matter-e2204187-9e1b-514c-a789-6a972d21db42",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 905.284,
+        "end": 941.924,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-02"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G18",
+      "evidenceSegmentIds": [
+        "S0036"
+      ],
+      "quote": "Entenderán, xa que logo, que nós tampouco podamos compartir estas contas que traen hoxe aquí e que vamos votar, obviamente, en contra das mesmas.",
+      "speakerId": "speaker_3",
+      "expectedStatement": "O grupo do falante anuncia que votará en contra das contas presentadas.",
+      "property": "announced_budget_vote",
+      "valueText": "en contra",
+      "referencePeriod": "votación do 23 de decembro de 2025",
+      "conditions": [
+        "É un anuncio de voto previo á votación formal."
+      ],
+      "expectedMatter": "Sentido de voto anunciado sobre o orzamento.",
+      "acceptanceNotes": "Non confundilo co resultado agregado posterior nin atribuílo a unha identidade real a partir da etiqueta de voz.",
+      "modality": "commitment"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G19",
+      "evidenceSegmentIds": [
+        "S0041"
+      ],
+      "quote": "Es el producto de la desesperación y es muy significativo que en la bancada del Partido Popular ya van ensayando el próximo mandato y solo hay cuatro concejales en el día de hoy.",
+      "speakerId": "speaker_4",
+      "expectedStatement": "Na bancada do Partido Popular había só catro concelleiros ese día.",
+      "property": "pp_councillors_present_count",
+      "valueText": "4",
+      "referencePeriod": "23 de decembro de 2025",
+      "conditions": [
+        "Refírese á presenza na bancada durante a sesión, segundo o falante."
+      ],
+      "expectedMatter": "Número de concelleiros do Partido Popular presentes na bancada durante o pleno.",
+      "acceptanceNotes": "Separar o reconto da valoración política sobre desesperación ou o seguinte mandato.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G20",
+      "evidenceSegmentIds": [
+        "S0045"
+      ],
+      "quote": "con los impuestos más bajos de Galicia.",
+      "speakerId": "speaker_4",
+      "expectedStatement": "O falante afirma que o orzamento municipal ten os impostos máis baixos de Galicia.",
+      "property": "municipal_tax_level_comparison",
+      "valueText": "os impostos máis baixos de Galicia",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [],
+      "expectedMatter": "Comparación do nivel dos impostos municipais de Vigo co resto de Galicia.",
+      "acceptanceNotes": "Rexistrar a comparación que formula o falante sen verificala nin limitar silenciosamente o universo comparado a unha clase de imposto concreta.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G21",
+      "evidenceSegmentIds": [
+        "S0044"
+      ],
+      "quote": "Eximir de, de impuestos hasta dieciséis millones a los que no pueden pagar.",
+      "speakerId": "speaker_4",
+      "expectedStatement": "A política social contempla exencións de impostos por un volume de ata 16 millóns para quen non pode pagar.",
+      "property": "social_tax_exemptions_amount",
+      "valueText": "ata 16 millóns",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [
+        "Destínase a persoas que non poden pagar.",
+        "A transcrición non explicita a unidade despois de «dezaseis millóns»; o contexto inmediato é fiscal e orzamentario."
+      ],
+      "expectedMatter": "Volume máximo de exencións fiscais presentado como primeira vertente da política social.",
+      "acceptanceNotes": "Manter «ata» e a condición de incapacidade de pago. A unidade monetaria está implícita polo contexto, polo que se acepta «16 millóns» ou «16 millóns de euros» con esa cautela.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L024",
+        "statement": "El presupuesto contempla exenciones o bonificaciones fiscales por hasta dieciséis millones para quienes no pueden pagar.",
+        "speakerId": "speaker_4",
+        "matterKey": "presupuesto_vigo_2026",
+        "property": "bonificaciones o exenciones fiscales",
+        "valueText": "hasta dieciséis millones",
+        "referencePeriod": "2026",
+        "conditions": [
+          "para los que no pueden pagar"
+        ],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0044"
+        ],
+        "quote": "La primera, bonificaciones. Eximir de, de impuestos hasta dieciséis millones a los que no pueden pagar.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 3,
+        "operationId": "vigo-2025-12-23-luna-v1:block-03:3",
+        "claimId": "claim-b3a5ff33-9af9-5ce6-9d3f-58a964907249",
+        "occurrenceId": "appearance-b3a5ff33-9af9-5ce6-9d3f-58a964907249",
+        "mentionId": "mention-822c817a-1ff6-54ed-b13f-2006495248d6",
+        "canonicalMatterId": "matter-76b0a70d-67d9-550b-adbb-0a594a4f7d3a",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 1164.939,
+        "end": 1199.46,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-03"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G22",
+      "evidenceSegmentIds": [
+        "S0045"
+      ],
+      "quote": "Por lo tanto, estamos ante un presupuesto que afortunadamente vamos a aprobar hoy con diecinueve votos de veintisiete concejales, que es el setenta por ciento de los que nos sentamos aquí",
+      "speakerId": "speaker_4",
+      "expectedStatement": "O falante anuncia que o orzamento será aprobado ese día con 19 votos de 27 concelleiros, o 70 %.",
+      "property": "announced_budget_approval_vote_count",
+      "valueText": "19 de 27 votos (70 %)",
+      "referencePeriod": "23 de decembro de 2025",
+      "conditions": [
+        "É un anuncio previo ao resultado formal da votación."
+      ],
+      "expectedMatter": "Previsión ou compromiso de aprobación do orzamento e apoio numérico anunciado.",
+      "acceptanceNotes": "Conservar os tres datos ligados: 19 votos, 27 concelleiros e 70 %. Non substituír este anuncio polo resultado formal de G25, aínda que coincidan.",
+      "modality": "commitment"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G23",
+      "evidenceSegmentIds": [
+        "S0045"
+      ],
+      "quote": "Un presupuesto sin deuda, que ya la quisiera tener cualquier concello",
+      "speakerId": "speaker_4",
+      "expectedStatement": "O orzamento preséntase como un orzamento sen débeda.",
+      "property": "budget_debt_status",
+      "valueText": "sen débeda",
+      "referencePeriod": "orzamento de 2026",
+      "conditions": [],
+      "expectedMatter": "Situación de débeda atribuída ao orzamento municipal.",
+      "acceptanceNotes": "Afirmación limitada ao que di o falante; non inferir importe, definición contable nin comparación municipal.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": []
+  },
+  {
+    "gold": {
+      "id": "G24",
+      "evidenceSegmentIds": [
+        "S0064"
+      ],
+      "quote": "Non hai abstencións. Queda rexeitado o voto particular por sete votos a favor, dezanove en contra e ningunha abstención.",
+      "speakerId": "speaker_0",
+      "expectedStatement": "O voto particular foi rexeitado por 7 votos a favor, 19 en contra e ningunha abstención.",
+      "property": "particular_vote_result",
+      "valueText": "7 a favor; 19 en contra; 0 abstencións",
+      "referencePeriod": "23 de decembro de 2025",
+      "conditions": [],
+      "expectedMatter": "Resultado formal da votación do voto particular.",
+      "acceptanceNotes": "O obxecto é o voto particular mencionado inmediatamente antes, non o orzamento xeral que se vota a continuación.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L023",
+        "statement": "El voto particular del BNG fue rechazado por siete votos a favor, diecinueve en contra y ninguna abstención.",
+        "speakerId": "speaker_0",
+        "matterKey": "voto_particular_bng_presupuesto_2026",
+        "property": "resultado de votación",
+        "valueText": "7 votos a favor, 19 en contra y 0 abstenciones",
+        "referencePeriod": "2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "negative",
+        "evidenceSegmentIds": [
+          "S0064"
+        ],
+        "quote": "Non hai abstencións. Queda rexeitado o voto particular por sete votos a favor, dezanove en contra e ningunha abstención.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 2,
+        "operationId": "vigo-2025-12-23-luna-v1:block-03:2",
+        "claimId": "claim-5b3eff62-944c-5c3a-b5af-e71f86252f4c",
+        "occurrenceId": "appearance-5b3eff62-944c-5c3a-b5af-e71f86252f4c",
+        "mentionId": "mention-572b77b7-f52f-56f8-9a5b-fa5a3d9680b2",
+        "canonicalMatterId": "matter-34b0d28c-6641-56ed-96a5-f6c914bf39ca",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 1538.252,
+        "end": 1557.212,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-03"
+      }
+    ]
+  },
+  {
+    "gold": {
+      "id": "G25",
+      "evidenceSegmentIds": [
+        "S0066"
+      ],
+      "quote": "Non hai abstencións. Quedan aprobados os Orzamentos Xerais do Concello para o ano dous mil vinte seis por dezanove votos a favor, sete en contra e ningunha abstencións.",
+      "speakerId": "speaker_0",
+      "expectedStatement": "Os Orzamentos Xerais do Concello para 2026 quedaron aprobados por 19 votos a favor, 7 en contra e ningunha abstención.",
+      "property": "general_budget_approval_result",
+      "valueText": "19 a favor; 7 en contra; 0 abstencións",
+      "referencePeriod": "orzamento de 2026, votado o 23 de decembro de 2025",
+      "conditions": [],
+      "expectedMatter": "Aprobación formal e reconto de votos dos Orzamentos Xerais do Concello de 2026.",
+      "acceptanceNotes": "Non intercambiar este reconto co do voto particular de G24, que ten os sentidos a favor e en contra invertidos.",
+      "modality": "asserted_fact"
+    },
+    "candidateMatchesBySourceOnly": [
+      {
+        "readingId": "L022",
+        "statement": "El presupuesto general del Concello de Vigo para 2026 fue aprobado por diecinueve votos a favor, siete en contra y ninguna abstención.",
+        "speakerId": "speaker_0",
+        "matterKey": "presupuesto_vigo_2026",
+        "property": "resultado de aprobación",
+        "valueText": "19 votos a favor, 7 en contra y 0 abstenciones",
+        "referencePeriod": "2026",
+        "conditions": [],
+        "modality": "asserted_fact",
+        "polarity": "positive",
+        "evidenceSegmentIds": [
+          "S0066"
+        ],
+        "quote": "Non hai abstencións. Quedan aprobados os Orzamentos Xerais do Concello para o ano dous mil vinte seis por dezanove votos a favor, sete en contra e ningunha abstencións. Parabéns á cidade de Vigo.",
+        "contextSegmentIds": [],
+        "contextStatus": "sufficient",
+        "uncertainty": null,
+        "candidateIndex": 1,
+        "operationId": "vigo-2025-12-23-luna-v1:block-03:1",
+        "claimId": "claim-2f6b6559-61a6-59a9-aab1-7e53c04631d8",
+        "occurrenceId": "appearance-2f6b6559-61a6-59a9-aab1-7e53c04631d8",
+        "mentionId": "mention-822c817a-1ff6-54ed-b13f-2006495248d6",
+        "canonicalMatterId": "matter-76b0a70d-67d9-550b-adbb-0a594a4f7d3a",
+        "sessionId": "vigo-pleno-2025-12-23",
+        "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+        "start": 1567.932,
+        "end": 1581.552,
+        "reviewState": "proposed",
+        "identityResolution": "one_claim_per_occurrence_in_v1",
+        "block": "block-03"
+      }
+    ]
+  }
+]

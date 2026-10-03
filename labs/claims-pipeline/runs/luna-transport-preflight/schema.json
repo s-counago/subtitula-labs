@@ -1,0 +1,203 @@
+{
+  "type": "object",
+  "properties": {
+    "matters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "object": {
+            "type": "string"
+          },
+          "territory": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "institution": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "referencePeriod": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidenceSegmentIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8
+          }
+        },
+        "required": [
+          "key",
+          "label",
+          "object",
+          "territory",
+          "institution",
+          "referencePeriod",
+          "evidenceSegmentIds"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 15
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "statement": {
+            "type": "string"
+          },
+          "speakerId": {
+            "type": "string"
+          },
+          "matterKey": {
+            "type": "string"
+          },
+          "property": {
+            "type": "string"
+          },
+          "valueText": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "referencePeriod": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8
+          },
+          "modality": {
+            "type": "string",
+            "enum": [
+              "asserted_fact",
+              "proposal",
+              "commitment",
+              "reported_statement",
+              "opinion"
+            ]
+          },
+          "polarity": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative"
+            ]
+          },
+          "evidenceSegmentIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8
+          },
+          "quote": {
+            "type": "string"
+          },
+          "contextSegmentIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8
+          },
+          "contextStatus": {
+            "type": "string",
+            "enum": [
+              "sufficient",
+              "insufficient"
+            ]
+          },
+          "uncertainty": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "statement",
+          "speakerId",
+          "matterKey",
+          "property",
+          "valueText",
+          "referencePeriod",
+          "conditions",
+          "modality",
+          "polarity",
+          "evidenceSegmentIds",
+          "quote",
+          "contextSegmentIds",
+          "contextStatus",
+          "uncertainty"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 40
+    },
+    "contextRequests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "anchorSegmentId": {
+            "type": "string"
+          },
+          "query": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "anchorSegmentId",
+          "query",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 3
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 10
+    }
+  },
+  "required": [
+    "matters",
+    "claims",
+    "contextRequests",
+    "notes"
+  ],
+  "additionalProperties": false
+}

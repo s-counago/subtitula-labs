@@ -1,0 +1,21 @@
+{
+  "updatedAt": "2026-09-11T19:41:25.456466+00:00",
+  "counts": {
+    "matters": 3,
+    "mentions": 5,
+    "claims": 56,
+    "occurrences": 56,
+    "citations": 110
+  },
+  "rejectedCandidates": 8,
+  "requests": 7,
+  "reportedUsage": {
+    "prompt_tokens": 25491,
+    "completion_tokens": 18438,
+    "total_tokens": 43929
+  },
+  "usageMissingFor": [],
+  "estimatedGenerationCostUsdFromReportedTokens": 0.00890466,
+  "costIsInvoice": false,
+  "contextRounds": 1
+}

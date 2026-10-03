@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "properties": {
+    "assessment": {
+      "type": "string",
+      "enum": [
+        "supported",
+        "contradicted",
+        "insufficient",
+        "conflicting",
+        "not_verifiable"
+      ]
+    },
+    "sourceRelations": {
+      "type": "object",
+      "properties": {
+        "D04COPY1": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D04COPY2": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D04COPY3": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        }
+      },
+      "required": [
+        "D04COPY1",
+        "D04COPY2",
+        "D04COPY3"
+      ],
+      "additionalProperties": false
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "missingEvidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidenceQuotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sourceId",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "assessment",
+    "sourceRelations",
+    "rationale",
+    "missingEvidence",
+    "evidenceQuotes"
+  ],
+  "additionalProperties": false
+}

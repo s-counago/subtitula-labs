@@ -1,0 +1,88 @@
+{
+  "decisions": [
+    {
+      "mentionId": "mention-b2b12892-76bc-5292-a33c-8f9e9e1382f5",
+      "action": "existing",
+      "canonicalId": "matter-9444922a-bab1-565b-855a-52579813df2d",
+      "canonicalLabel": "Orzamento xeral do Concello de Vigo para 2026",
+      "reason": "Coinciden o orzamento xeral municipal, Vigo, o Concello de Vigo e o período 2026."
+    },
+    {
+      "mentionId": "mention-5bb8d154-3f1b-597a-8086-80daa453c1d1",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Alegacións veciñais de Teis ao orzamento de Vigo para 2026",
+      "reason": "Asunto específico de alegacións veciñais de Teis e actuacións locais ligadas ao orzamento de 2026, sen coincidencia no catálogo."
+    },
+    {
+      "mentionId": "mention-abccb619-e620-55b1-8262-21eb82ba92db",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Fiscalidade municipal de Vigo para 2026",
+      "reason": "Trata especificamente taxas e impostos municipais de Vigo en 2026, un obxecto distinto do orzamento xeral."
+    },
+    {
+      "mentionId": "mention-773afe97-f3e2-55f9-8239-bd7738cab357",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Execución do orzamento municipal de Vigo de 2024",
+      "reason": "Identifica a execución orzamentaria de Vigo no período 2024, sen asunto coincidente no catálogo."
+    },
+    {
+      "mentionId": "mention-3d856a9c-670d-54ed-80c3-210c725f5fe6",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Execución do orzamento municipal de Vigo no terceiro trimestre de 2025",
+      "reason": "É a execución orzamentaria de Vigo nun período distinto, o terceiro trimestre de 2025."
+    },
+    {
+      "mentionId": "mention-8c0656c8-3ce7-5a2b-af2a-3388d7dd38d8",
+      "action": "pending",
+      "canonicalId": null,
+      "canonicalLabel": null,
+      "reason": "A mención reúne varios proxectos distintos e non fixa un único proxecto, institución responsable nin período."
+    },
+    {
+      "mentionId": "mention-ce3b3bb4-a44b-5da2-8688-38f9f422f9f5",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Vivenda pública planificada pola Xunta en Vigo",
+      "reason": "Obxecto específico de vivendas públicas planificadas pola Xunta no territorio de Vigo, sen coincidencia no catálogo."
+    },
+    {
+      "mentionId": "mention-2e5eb62c-5d3d-56ea-9ad9-d1d3ddcda6ee",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Empresa municipal de vivenda de Vigo para 2026",
+      "reason": "Refírese á empresa municipal de vivenda de Vigo e ao seu inicio previsto en 2026, un obxecto propio."
+    },
+    {
+      "mentionId": "mention-71a3d1eb-aa3b-5bae-8378-f5b888391b67",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Proposta de política municipal de vivenda de Vigo para 2026",
+      "reason": "Identifica unha proposta de política municipal de vivenda para 2026, distinta da actuación histórica e sen coincidencia no catálogo."
+    },
+    {
+      "mentionId": "mention-fc981a69-0a4d-529f-937c-e1c3ca83c43a",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Actuación municipal en vivenda en Vigo durante dezaoito anos",
+      "reason": "Refírese á actuación municipal en vivenda durante un período histórico de dezaoito anos, distinto da proposta de 2026."
+    },
+    {
+      "mentionId": "mention-39cc0a7b-06a3-5a1f-9f17-b424197d9f6b",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Emendas ao orzamento municipal de Vigo para 2026",
+      "reason": "Asunto específico das 39 emendas presentadas ao orzamento de 2026, non identificado como materia propia no catálogo."
+    },
+    {
+      "mentionId": "mention-920365ce-4783-5393-bb8b-d40b20d0781f",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Pistas de atletismo de Balaídos",
+      "reason": "É unha instalación deportiva concreta situada en Balaídos, separada do orzamento xeral e sen coincidencia no catálogo."
+    }
+  ]
+}

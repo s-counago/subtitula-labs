@@ -1,0 +1,2280 @@
+
+
+
+<!DOCTYPE html>
+<html lang="gl">
+    <head>
+        <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.vigo.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+        <!--<meta http-equiv="content-type" content="text/html;charset=windows-1252"/>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" /> 
+                <link rel="SHORTCUT ICON" href="/lib/img/vigo.ico" />
+        <meta name="robots" content="index,follow" />
+        <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+        <meta name="theme-color" content="#ffffff">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#ffffff">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.13.0/jquery-ui.min.js"></script>
+        <script src="/js/jquery.lightbox-0.5.js" type="text/javascript" charset="utf-8"></script>
+        <!-- Fuente Roboto -->
+        <link href='https://fonts.googleapis.com/css?family=Lexend%20Deca:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+        <!-- SmartMenus core CSS (required) -->
+        <link href="/lib/js/smartmenus/css/sm-core-css.css" rel="stylesheet" type="text/css" />
+        <!-- "sm-blue" menu theme (optional, you can use your own CSS, too) -->
+        <link href="/lib/js/smartmenus/css/sm-simple/sm-simple.css" rel="stylesheet" type="text/css" />
+        <!-- #main-menu config - instance specific stuff not covered in the theme -->
+        <!-- Put this in an external stylesheet if you want the media query to work in IE8 (e.g. where the rest of your page styles are) -->
+        
+
+            <!-- SmartMenus jQuery plugin -->
+            <script type="text/javascript" src="/lib/js/smartmenus/jquery.smartmenus.js"></script>
+
+            <!-- SmartMenus jQuery init -->
+
+            <script type="text/javascript">
+                $(function () {
+                    $('#main-menu').smartmenus({
+                        mainMenuSubOffsetX: -1,
+                        subMenusSubOffsetX: 10,
+                        subMenusSubOffsetY: 0
+                    });
+
+                    $('#menu-button').click(function () {
+                        var $this = $(this),
+                                $menu = $('#main-menu');
+                        if ($menu.is(':animated')) {
+                            return false;
+                        }
+                        if (!$this.hasClass('collapsed')) {
+                            $menu.slideUp(250, function () {
+                                $(this).addClass('collapsed').css('display', '');
+                            });
+                            $this.addClass('collapsed');
+                        } else {
+                            $menu.slideDown(250, function () {
+                                $(this).removeClass('collapsed');
+                            });
+                            $this.removeClass('collapsed');
+                        }
+                        return false;
+                    });
+                    $(document).ready(function () {
+                        $('[data-toggle="offcanvas"]').click(function () {
+                            $('.row-offcanvas').toggleClass('active')
+                        });
+                    });
+                });
+            </script>
+        
+        <!-- FIN SmartMenus core -->
+
+        <script src="/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+
+        <link media="all" type="text/css" rel="stylesheet" href="/lib/css/vigo_5.css?v=07-09-2023" />
+        <link href="/lib/css/sede_5.css?v=07-09-2023" rel="stylesheet" type="text/css" media="screen" />
+        <link href="/lib/css/sede_print.css" rel="stylesheet" type="text/css" media="print" />
+        <link media="all" type="text/css" rel="stylesheet" href="/lib/css/extensiones.css"/>
+        <link rel="stylesheet" href="/lib/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/lib/js/autocomplete/autocomplete.css"/>
+
+        <!--
+                <script src="/js/jquery.print-preview.js" type="text/javascript" charset="utf-8"></script>
+                <script src="/js/jquery.lightbox-0.5.js" type="text/javascript" charset="utf-8"></script>
+        -->
+
+        <script src="/aux2/avisocookies.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <title>Estados orzamentarios - Concello de Vigo</title>
+        <link rel="SHORTCUT ICON" href="/imx/vigo.ico">
+
+        
+
+        
+
+            <style>
+                .audiopdf {display: inline; margin: 0 6px;}
+                .audiopdf a {color: #bb0000 !important;}
+                .audiopdf img {
+                    margin: 0px;
+                    vertical-align: middle;
+                    height: 20px;
+                }
+            </style>
+
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                
+                    /*
+                     * Print preview plugin
+                     */
+                    // Add link for print preview and intialise
+
+                    /* LightBox */
+                    $('#fotosmenu a').lightBox({fixedNavigation: true});
+
+
+
+
+                    var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
+
+                    $('a').each(function () {
+                        var href = $(this).attr('href');
+
+                        if (typeof href == "undefined") {
+                        } else {
+
+                            if ((href.match(/^https?\:/i)) && (!href.match(document.domain))) {
+                                $(this).click(function () {
+                                    var extLink = href.replace(/^https?\:\/\//i, '');
+                                    pageTracker._trackEvent('External', 'Click', extLink);
+                                });
+                            }
+                            else if (href.match(/^mailto\:/i)) {
+                                $(this).click(function () {
+                                    var mailLink = href.replace(/^mailto\:/i, '');
+                                    pageTracker._trackEvent('Email', 'Click', mailLink);
+                                });
+                            }
+                            else if (href.match(filetypes)) {
+                                $(this).click(function () {
+                                    var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                                    var filePath = href.replace(/^https?\:\/\/(www.)mydomain\.com\//i, '');
+                                    pageTracker._trackEvent('Download', 'Click - ' + extension, filePath);
+                                });
+                            }
+                        }
+
+                    });
+
+
+
+
+                });
+
+            
+        </script>
+
+
+                
+        <script type="text/javascript">
+
+        <!--//
+            
+            startList = function () {
+                if (document.all && document.getElementById) {
+                    navRoot = document.getElementById("nav");
+                    for (i = 0; i < navRoot.childNodes.length; i++) {
+                        node = navRoot.childNodes[i];
+                        if (node.nodeName == "LI") {
+                            node.onmouseover = function () {
+                                this.className += " over";
+                            }
+                            node.onmouseout = function () {
+                                this.className = this.className.replace(" over", "");
+                            }
+                        }
+                    }
+                }
+            }
+            window.onload = startList;
+            
+                //-->
+        </script>
+        
+            <!--[if IE 8]>
+            <style type="text/css">
+                    /* css for IE 8 */
+                    .sm-simple {background-color: #CE190A;}
+            </style>
+            <script src="/lib/js/respond/respond.min.js" type="text/javascript" ></script>
+            <![endif]-->
+        
+
+        <script async type="text/javascript" src="//accesible-hoxe.vigo.org/i4tservice/jscm_loader.js"></script>
+ 
+</head>
+        <body>
+
+        
+        
+                   
+
+    <div id="contenedor">
+                <div id="accesibilidad" class="hidden-xs hidden-md hidden-lg hidden-sm">
+            <a href="#contenidohoxe" style="float: right;">Saltar al contenido</a>
+        </div>
+        <!--AVISO COOKIES-->
+
+<!-- INICIO CABECERA -->
+<div id="cabeceraContenedor">
+    <div id="cabeceraCaja">
+        <div id="cabecera">
+            <div class="idioma"  >
+                            <a href="http://sede.vigo.org" class="hidden-xs">  Sede Electrónica</a> <div class="pipeIdioma">|</div>
+                                    
+                                    <a title="Cambiar el idioma de la página a castellano." xml:lang="es" lang="es" href="/oconcello/economica26_estados.php?lang=cas"><span class="visible-xs">ES</span><span class="hidden-xs"> <i class="fa fa-globe" aria-hidden="true"></i> Español</span></a>
+                   <!-- <a title="Cambiar el idioma de la página a castellano." class="visible-xs" xml:lang="es" lang="es" href="economica26_estados.php?lang=cas">ES</a>-->
+                                <!--IDIOMA=es-->
+                <form name="gs" method="get" action="/actualidade/buscar.php" class="hidden-xs">
+                    <input type="hidden" value="017769677659879873903:q7clgjredw8" name="cx"/>
+                    <input type="hidden" value="FORID:11" name="cof"/>
+                    <input type="hidden" value="SI" name="buscar"/>
+                    <input type="hidden" value="UTF-8" name="ie"/>
+                    <input type="hidden" value="gal" name="lang"/>
+                    <label for="campobusq" >Buscar</label>
+                    <div class="input-group autocomplete">
+            <input type="text" value="" id="campobusq" class="form-control" title="Buscador en la web" placeholder="Buscador intelixente Vigo25" name="q"   />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-success" type="submit" value="Buscar">Buscar</button>
+                        </span>
+                    </div>
+                </form>	 	  
+            </div> <!--fin idioma-->
+            <div id="escudo_cabecera">
+                <a href="/?lang=gal"><img src="/lib/img/logo.png" alt="Escudo Concello de Vigo"/></a>
+            </div>
+            <div class="logo_sede">		
+                <!-- <a href="?lang=<%=lang%>" accesskey="0" class="sedetit1"> <%=(isG ? "Concello de Vigo" : "Ayuntamiento de Vigo")%></a>-->
+                <h1><a href="/?lang=gal" class="sedetit2"> Concello de Vigo</a> 
+                    <!--<a href="/index.php?lang=gal" class="sedetit2 visible-xs"> Concello de Vigo</a>--></h1>	
+            </div>
+
+
+            <div class="sepcabecera"></div>
+            <div id="menu-bar" >
+                <a href="#" id="menu-button" class="collapsed menuButton"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> Menú</a>
+                <!--IDIOMA=es-->
+                <form name="gs" method="get" action="/actualidade/buscar.php" >
+                    <input type="hidden" value="017769677659879873903:q7clgjredw8" name="cx"/>
+                    <input type="hidden" value="FORID:11" name="cof"/>
+                    <input type="hidden" value="SI" name="buscar"/>
+                    <input type="hidden" value="UTF-8" name="ie"/>
+                    <input type="hidden" value="gal" name="lang"/>
+                    <label for="campobusq2" >Buscar</label>
+                    <div class="input-group autocomplete">
+                        <input type="text" value="" id="campobusq2" class="form-control" title="Buscador en la web" placeholder="Buscar..." name="q"   />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-success" type="submit" value="Buscar">Buscar</button>
+                        </span>
+                    </div>
+                </form>	  
+            </div>
+        </div><!--FIN CABECERA-->
+    </div>
+</div> <!-- FIN cabeceraContenedor -->
+<script src="/lib/js/autocomplete/autocomplete.js" type="text/javascript"></script>
+<script> lang = 'gl';  labels =  ["Axenda","Outras Webs"]; </script>	
+
+
+    <div class="resultadosmovil">
+    <div id="campoResultados" style="width: 100%"></div>
+    </div>
+
+            <nav role="navigation" id="menuWeb">
+                <div id="menuHorizontal">
+                    <ul id="main-menu" class="sm sm-simple collapsed">
+                        <li><a href='/oconcello/casadoconcello.php?lang=gal'>Concello</a>
+<ul>
+<li><a href='/oconcello/casadoconcello.php?lang=gal'>Casa do Concello  </a>
+</li>
+<li><a href='/oconcello/saluda.php?lang=gal'>Saúdo do Alcalde  </a>
+</li>
+<li><a href='/oconcello/organizacionmun.php?lang=gal'>Organización Municipal  </a>
+<ul><li><a href='/oconcello/organosgob.php?lang=gal'>Órganos de Goberno  </a>
+<ul>
+<li><a href='/oconcello/alcaldia.php?lang=gal'>Alcaldía</a></li>
+<li><a href='/oconcello/tenencia.php?lang=gal'>Tenencia de Alcaldía</a></li>
+<li><a href='/oconcello/xuntagobernolocal.php?lang=gal'>Xunta de Goberno Local</a></li>
+<li><a href='/oconcello/pleno.php?lang=gal'>Pleno</a></li>
+<li><a href='/oconcello/concellerias.php?lang=gal'>Concellerías</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/gruposmunicipais.php?lang=gal'>Grupos Municipais  </a>
+<ul>
+<li><a href='/oconcello/grupos_composicion.php?lang=gal'>Compoñentes e voceiros</a></li>
+<li><a href='/oconcello/grupos_biografia.php?lang=gal'>Datos biográficos</a></li>
+<li><a href='/oconcello/grupos_retribucions.php?lang=gal'>Retribucións</a></li>
+<li><a href='/oconcello/grupos_intereses.php?lang=gal'>Rexistro de Intereses</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/persoaleventual.php?lang=gal'>Persoal Eventual  </a>
+</li>
+<li><a href='/oconcello/organosaut.php?lang=gal'>Organismos Autónomos  </a>
+</li>
+<li><a href='/oconcello/organos_organiz.php?lang=gal'>Outros órganos representativos  </a>
+</li>
+<li><a href='/oconcello/mandatos_ant.php?lang=gal'>Mandatos anteriores  </a>
+<ul>
+<li><a href='/oconcello/mandato2019_2023.php?lang=gal'>Mandato 2019-2023</a></li>
+<li><a href='/oconcello/mandato2015_2019.php?lang=gal'>Mandato 2015-2019</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/valedor.php?lang=gal'>Valedora da cidadanía  </a>
+<ul>
+<li><a href='/oconcello/valedor_informes.php?lang=gal'>Informes ao Pleno do Concello</a></li>
+<li><a href='/oconcello/valedor_actuacions.php?lang=gal'>Actuacións de Oficio</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/organos_normativa.php?lang=gal'>Normativa de aplicación  </a>
+</li>
+</ul>
+</li>
+<li><a href='/oconcello/orzamentos.php?lang=gal'>Información económica  </a>
+<ul><li><a href='/oconcello/economica27.php?lang=gal'>Exercicio 2027  </a>
+<ul>
+<li><a href='/oconcello/economica27_marco.php?lang=gal'>Marco orzamentario 2027-2029</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica26.php?lang=gal'>Exercicio 2026  </a>
+<ul>
+<li><a href='/oconcello/economica26_marco.php?lang=gal'>Marco orzamentario 2026 - 2028</a></li>
+<li><a href='/oconcello/economica26_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica26_orzamento.php?lang=gal'>Orzamento 2026</a></li>
+<li><a href='/oconcello/economica26_morosidade.php?lang=gal'>Período medio de pago e morosidade</a></li>
+<li><a href='/oconcello/economica_26_orzamento_exe.php?lang=gal'>Execución trimestral orzamento 2026</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica25.php?lang=gal'>Exercicio 2025  </a>
+<ul>
+<li><a href='/oconcello/economica25_marco.php?lang=gal'>Marco orzamentario 2025-2027</a></li>
+<li><a href='/oconcello/economica25_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica25_orzamento.php?lang=gal'>Orzamento</a></li>
+<li><a href='/oconcello/economica_25_orzamento_exe0.php?lang=gal'>Execución orzamento 2025</a></li>
+<li><a href='/oconcello/economica25_morosidade.php?lang=gal'>Período medio de pago e morosidade</a></li>
+<li><a href='/oconcello/economica25_liquidacion.php?lang=gal'>Liquidación 2025</a></li>
+<li><a href='/oconcello/economica25_contaxeral.php?lang=gal'>Conta Xeral 2025</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica24.php?lang=gal'>Exercicio 2024  </a>
+<ul>
+<li><a href='/oconcello/economica24_marco.php?lang=gal'>Marco orzamentario 2024-2026</a></li>
+<li><a href='/oconcello/economica24_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica24_orzamento.php?lang=gal'>Orzamento 2024</a></li>
+<li><a href='/oconcello/economica24_orzamento_exe0.php?lang=gal'>Ejecucion orzamento 2024</a></li>
+<li><a href='/oconcello/economica24_morosidade.php?lang=gal'>Morosidade 2024</a></li>
+<li><a href='/oconcello/economica24_liquidacion.php?lang=gal'>Liquidación e conta xeral</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica23.php?lang=gal'>Exercicio 2023  </a>
+<ul>
+<li><a href='/oconcello/economica23_orzamento_exe.php?lang=gal'>Marco Orzamentario 2023-2025</a></li>
+<li><a href='/oconcello/economica23_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica23_orzamento.php?lang=gal'>Orzamento 2023</a></li>
+<li><a href='/oconcello/economica23_orzamento_exe0.php?lang=gal'>Ejecucion Orzamento 2023</a></li>
+<li><a href='/oconcello/economica23_morosidade.php?lang=gal'>Morosidade 2023</a></li>
+<li><a href='/oconcello/economica23_liquidacion.php?lang=gal'>Liquidación e conta xeral</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica22.php?lang=gal'>Exercicio 2022  </a>
+<ul>
+<li><a href='/oconcello/economica22_orzamento_exe.php?lang=gal'>Marco Orzamentario 2022-2024</a></li>
+<li><a href='/oconcello/economica22_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica22_orzamento.php?lang=gal'>Orzamento 2022</a></li>
+<li><a href='/oconcello/economica22_morosidad.php?lang=gal'>Morosidade 2022</a></li>
+<li><a href='/oconcello/economica22_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2022</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica21.php?lang=gal'>Exercicio 2021  </a>
+<ul>
+<li><a href='/oconcello/economica21_orzamento_exe.php?lang=gal'>Marco Orzamentario 2021-2023</a></li>
+<li><a href='/oconcello/economica21_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica21_orzamento.php?lang=gal'>Orzamento 2021</a></li>
+<li><a href='/oconcello/economica21_orzamento_exe0.php?lang=gal'>Execución Orzamento 2021</a></li>
+<li><a href='/oconcello/economica21_morosidad.php?lang=gal'>Morosidade 2021</a></li>
+<li><a href='/oconcello/economica21_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2021</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica20.php?lang=gal'>Exercicio 2020  </a>
+<ul>
+<li><a href='/oconcello/economica20_orzamento_exe.php?lang=gal'>Marco Orzamentario 2020-2022</a></li>
+<li><a href='/oconcello/economica20_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica20_orzamento.php?lang=gal'>Orzamento 2020</a></li>
+<li><a href='/oconcello/economica20_morosidad.php?lang=gal'>Morosidade 2020</a></li>
+<li><a href='/oconcello/economica20_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2020</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica19.php?lang=gal'>Exercicio 2019  </a>
+<ul>
+<li><a href='/oconcello/economica19_orzamento_exe.php?lang=gal'>Marco Orzamentario 2019-2021</a></li>
+<li><a href='/oconcello/economica19_lineas_fund.php?lang=gal'>Liñas fundamentais</a></li>
+<li><a href='/oconcello/economica19_orzamento.php?lang=gal'>Orzamento 2019</a></li>
+<li><a href='/oconcello/economica19_morosidad.php?lang=gal'>Morosidade 2019</a></li>
+<li><a href='/oconcello/economica19_pef.php?lang=gal'>Plan económico financeiro (PEF)</a></li>
+<li><a href='/oconcello/economica19_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2019</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica17.php?lang=gal'>Exercicio 2017  </a>
+<ul>
+<li><a href='/oconcello/economica17_orzamento.php?lang=gal'>Orzamento 2017</a></li>
+<li><a href='/oconcello/economica17_morosidad.php?lang=gal'>Morosidade 2017</a></li>
+<li><a href='/oconcello/economica17_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2017</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica16.php?lang=gal'>Exercicio 2016  </a>
+<ul>
+<li><a href='/oconcello/economica16_orzamento.php?lang=gal'>Orzamento 2016</a></li>
+<li><a href='/oconcello/economica16_morosidad.php?lang=gal'>Morosidade 2016</a></li>
+<li><a href='/oconcello/economica16_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2016</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica18.php?lang=gal'>Exercicio 2018  </a>
+<ul>
+<li><a href='/oconcello/economica18_orzamento_exe.php?lang=gal'>Marco Orzamentario 2018-2020</a></li>
+<li><a href='/oconcello/economica18_lineas_fund.php?lang=gal'>Liñas fundamentais </a></li>
+<li><a href='/oconcello/economica18_orzamento.php?lang=gal'>Orzamento 2018</a></li>
+<li><a href='/oconcello/economica18_morosidad.php?lang=gal'>Morosidade 2018</a></li>
+<li><a href='/oconcello/economica18_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2018</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica15.php?lang=gal'>Exercicio 2015  </a>
+<ul>
+<li><a href='/oconcello/economica15_orzamento.php?lang=gal'>Orzamento 2015</a></li>
+<li><a href='/oconcello/economica15_morosidad.php?lang=gal'>Morosidade 2015</a></li>
+<li><a href='/oconcello/economica15_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2015</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica14.php?lang=gal'>Exercicio 2014  </a>
+<ul>
+<li><a href='/oconcello/economica14_orzamento.php?lang=gal'>Orzamento 2014</a></li>
+<li><a href='/oconcello/economica14_morosidad.php?lang=gal'>Morosidade 2014</a></li>
+<li><a href='/oconcello/economica14_liquidacion.php?lang=gal'>Liquidación e Conta Xeral 2014</a></li>
+</ul>
+</li>
+<li><a href='/oconcello/economica13.php?lang=gal'>Exercicio 2013  </a>
+</li>
+<li><a href='/oconcello/economica12.php?lang=gal'>Exercicio 2012  </a>
+</li>
+<li><a href='/oconcello/economica10.php?lang=gal'>Exercicio 2010  </a>
+</li>
+<li><a href='/oconcello/economica11.php?lang=gal'>Exercicio 2011  </a>
+</li>
+<li><a href='/oconcello/economica09.php?lang=gal'>Exercicio 2009  </a>
+</li>
+<li><a href='/oconcello/economica07.php?lang=gal'>Exercicio 2007  </a>
+</li>
+<li><a href='/oconcello/economica08.php?lang=gal'>Exercicio 2008  </a>
+</li>
+<li><a href='/oconcello/economica06.php?lang=gal'>Exercicio 2006  </a>
+</li>
+<li><a href='/oconcello/economica_control_fisc.php?lang=gal'>Control interno e fiscalización  </a>
+</li>
+<li><a href='/oconcello/rend_contas.php?lang=gal'>Rendición de Contas  </a>
+</li>
+</ul>
+</li>
+<li><a href='/oconcello/directorio.php?lang=gal'>Directorio municipal  </a>
+</li>
+<li><a href='/oconcello/escudo.php?lang=gal'>Bandeira e escudo  </a>
+</li>
+<li><a href='/oconcello/concellodixital1.php?lang=gal'>Normativa   </a>
+</li>
+<li><a href='/oconcello/comocontactar.php?lang=gal'>Como contactar  </a>
+</li>
+<li><a href='http://transparencia.vigo.org?lang=gal'>Portal de Transparencia</a>
+</li>
+<li><a href='/oconcello/avisolegal.php?lang=gal'>Web Municipal  </a>
+<ul><li><a href='/oconcello/avisolegal.php?lang=gal'>Aviso Legal  </a>
+</li>
+<li><a href='/oconcello/discap_accesibilidad.php?lang=gal'>Accesibilidade web  </a>
+</li>
+<li><a href='/oconcello/mapaweb.php?lang=gal'>Mapa do web   </a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/comochegar.php?lang=gal'>Vigo</a>
+<ul>
+<li><a href='http://www.turismodevigo.org?lang=gal'>Web de Turismo de Vigo</a>
+</li>
+<li><a href='/conecenos/comochegar.php?lang=gal'>Chegar a Vigo  </a>
+</li>
+<li><a href='/historia/hv_index.php?lang=gal'>Patrimonio e historia  </a>
+<ul><li><a href='/historia/historia_vigo.php?lang=gal'>Historia de Vigo  </a>
+<ul>
+<li><a href='/historia/hv_fragoso_ria.php?lang=gal'>A paisaxe de Vigo</a></li>
+<li><a href='/historia/hv_paleolitico.php?lang=gal'>Paleolítico</a></li>
+<li><a href='/historia/hv_neolitico.php?lang=gal'>O Neolítico</a></li>
+<li><a href='/historia/hv_calcolitico.php?lang=gal'>O Calcolítico e a Idade de Bronce</a></li>
+<li><a href='/historia/hv_ferro.php?lang=gal'>A Idade de Ferro</a></li>
+<li><a href='/historia/hv_romanizacion.php?lang=gal'>Conquista e romanización</a></li>
+<li><a href='/historia/hv_tardoantiguidade.php?lang=gal'>Vigo na tardoantigüidade</a></li>
+<li><a href='/historia/hv_idade_media.php?lang=gal'>Vigo medieval</a></li>
+<li><a href='/historia/hv_idade_moderna.php?lang=gal'>Vigo moderno</a></li>
+<li><a href='/historia/hv_idade_contemporanea.php?lang=gal'>Vigo contemporáneo</a></li>
+<li><a href='/historia/hv_ejes.php?lang=gal'>Recorridos temáticos</a></li>
+</ul>
+</li>
+<li><a href='/historia/hv_catalogos.php?lang=gal'>Catálogos  </a>
+<ul>
+<li><a href='/historia/hv_catalogo_arqueologia.php?lang=gal'>Catálogo de arqueoloxía</a></li>
+<li><a href='/historia/hv_catalogo_arquitectura.php?lang=gal'>Catálogo de arquitectura</a></li>
+<li><a href='/historia/hv_etnografia.php?lang=gal'>Catálogo de etnografía</a></li>
+<li><a href='/historia/hv_catalogo_escultura.php?lang=gal'>Catálogo de monumentos e esculturas</a></li>
+<li><a href='/historia/hv_catalogo_personajes.php?lang=gal'>Catálogo de personaxes na historia</a></li>
+</ul>
+</li>
+<li><a href='/historia/hv_mapas.php?lang=gal'>Mapas  </a>
+<ul>
+<li><a href='/historia/hv_catografia_historica.php?lang=gal'>Cartografía histórica</a></li>
+<li><a href='/historia/hv_catalogos_mapas.php?lang=gal'>Mapas de catálogos e historia</a></li>
+</ul>
+</li>
+<li><a href='/historia/hv_multimedia.php?lang=gal'>Multimedia  </a>
+<ul>
+<li><a href='/historia/hv_fotogrametrias_3d.php?lang=gal'>Fotogrametrías 3D</a></li>
+<li><a href='/historia/hv_vigo_360.php?lang=gal'>Vigo en 360</a></li>
+</ul>
+</li>
+<li><a href='/historia/hv_rutas_interactivas.php?lang=gal'>Rutas interactivas  </a>
+</li>
+<li><a href='/historia/hv_educacion.php?lang=gal'>Recursos educativos  </a>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/rutas.php?lang=gal'>Rutas interactivas  </a>
+<ul><li><a href='/conecenos/rutas_ciudad.php?lang=gal'>Rutas interactivas pola cidade  </a>
+<ul>
+<li><a href='/conecenos/rutas_arquitectura.php?lang=gal'>Rutas de arquitectura</a></li>
+<li><a href='/conecenos/rutas_arqueologia_historia.php?lang=gal'>Rutas de arqueoloxía e historia</a></li>
+<li><a href='/conecenos/rutas_turismo_ciudad.php?lang=gal'>Rutas de turismo e cidade</a></li>
+<li><a href='/conecenos/rutas_parques_jardines.php?lang=gal'>Rutas de parques e xardíns</a></li>
+<li><a href='/conecenos/rutas_cine_literatura.php?lang=gal'>Rutas de cine e literatura</a></li>
+<li><a href='/conecenos/rutas_igualdad.php?lang=gal'>Rutas de igualdade</a></li>
+<li><a href='/conecenos/rutas_vigo_ciudad_color.php?lang=gal'>Rutas de Vigo Cidade de Cor</a></li>
+<li><a href='/conecenos/rutas_vigozoo.php?lang=gal'>Rutas de Vigonature</a></li>
+<li><a href='/conecenos/rutas_marco.php?lang=gal'>Rutas do MARCO</a></li>
+<li><a href='/conecenos/rutas_laxeiro.php?lang=gal'>Rutas da Fundación Laxeiro</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/rutas_naturaleza.php?lang=gal'>Rutas de natureza e sendeirismo  </a>
+<ul>
+<li><a href='/conecenos/rutas_cies.php?lang=gal'>Rutas das Illas Cíes</a></li>
+<li><a href='/conecenos/rutas_senderos_azules.php?lang=gal'>Rutas de carreiros azuis</a></li>
+<li><a href='/conecenos/rutas_senderos_locales.php?lang=gal'>Rutas de sendeiros locais</a></li>
+<li><a href='/conecenos/rutas_largo_recorrido.php?lang=gal'>Rutas de sendeiros de longo percorrido</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/rueiro.php?lang=gal'>Rueiro  </a>
+</li>
+<li><a href='/conecenos/ciudad.php?lang=gal'>Información  </a>
+<ul><li><a href='/conecenos/identidad.php?lang=gal'>Identidade  </a>
+</li>
+<li><a href='/conecenos/parroquias.php?lang=gal'>Parroquias  </a>
+<ul>
+<li><a href='/conecenos/pr_alcabre.php?lang=gal'>Alcabre</a></li>
+<li><a href='/conecenos/pr_beade.php?lang=gal'>Beade</a></li>
+<li><a href='/conecenos/pr_bembrive.php?lang=gal'>Bembrive</a></li>
+<li><a href='/conecenos/pr_bouzas.php?lang=gal'>Bouzas</a></li>
+<li><a href='/conecenos/pr_cabral.php?lang=gal'>Cabral</a></li>
+<li><a href='/conecenos/pr_candean.php?lang=gal'>Candeán</a></li>
+<li><a href='/conecenos/pr_castrelos.php?lang=gal'>Castrelos</a></li>
+<li><a href='/conecenos/pr_cies.php?lang=gal'>Cíes</a></li>
+<li><a href='/conecenos/pr_coia.php?lang=gal'>Coia</a></li>
+<li><a href='/conecenos/pr_comesana.php?lang=gal'>Comesaña</a></li>
+<li><a href='/conecenos/pr_coruxo.php?lang=gal'>Coruxo</a></li>
+<li><a href='/conecenos/pr_freixeiro.php?lang=gal'>Freixeiro</a></li>
+<li><a href='/conecenos/pr_lavadores.php?lang=gal'>Lavadores</a></li>
+<li><a href='/conecenos/pr_matama.php?lang=gal'>Matamá</a></li>
+<li><a href='/conecenos/pr_navia.php?lang=gal'>Navia</a></li>
+<li><a href='/conecenos/pr_oia.php?lang=gal'>Oia</a></li>
+<li><a href='/conecenos/pr_saians.php?lang=gal'>Saians</a></li>
+<li><a href='/conecenos/pr_sanpaio.php?lang=gal'>San Paio</a></li>
+<li><a href='/conecenos/pr_sanxoanmonte.php?lang=gal'>San Xoan do Monte</a></li>
+<li><a href='/conecenos/pr_sardoma.php?lang=gal'>Sárdoma</a></li>
+<li><a href='/conecenos/pr_teis.php?lang=gal'>Teis</a></li>
+<li><a href='/conecenos/pr_valadares.php?lang=gal'>Valadares</a></li>
+<li><a href='/conecenos/pr_vigocentro.php?lang=gal'>Vigo centro</a></li>
+<li><a href='/conecenos/pr_zamans.php?lang=gal'>Zamáns</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/riadevigo.php?lang=gal'>A Ría de Vigo  </a>
+</li>
+<li><a href='/conecenos/infoturistica.php?lang=gal'>Puntos de información  </a>
+</li>
+<li><a href='/conecenos/transporte.php?lang=gal'>Transporte urbano  </a>
+</li>
+<li><a href='/conecenos/emerxencias.php?lang=gal'>Emerxencias  </a>
+</li>
+<li><a href='/conecenos/naweb.php?lang=gal'>Vigo na web  </a>
+</li>
+<li><a href='/conecenos/cronica.php?lang=gal'>Cronista oficial de Vigo  </a>
+<ul>
+<li><a href='/conecenos/cronica2018.php?lang=gal'>Crónica do acontecido na cidade de Vigo en 2018</a></li>
+<li><a href='/conecenos/cronica2017.php?lang=gal'>Crónica do acontecido na cidade de Vigo en 2017</a></li>
+<li><a href='/conecenos/cr_cies_cultural.php?lang=gal'>Conferencia - O enorme patrimonio Cultural das Cíes</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/fiestas.php?lang=gal'>Festas  </a>
+<ul>
+<li><a href='/conecenos/f_enero.php?lang=gal'>Xaneiro</a></li>
+<li><a href='/conecenos/f_febrero.php?lang=gal'>Febreiro</a></li>
+<li><a href='/conecenos/f_marzo.php?lang=gal'>Marzo</a></li>
+<li><a href='/conecenos/f_abril.php?lang=gal'>Abril</a></li>
+<li><a href='/conecenos/f_mayo.php?lang=gal'>Maio</a></li>
+<li><a href='/conecenos/f_junio.php?lang=gal'>Xuño</a></li>
+<li><a href='/conecenos/f_julio.php?lang=gal'>Xullo</a></li>
+<li><a href='/conecenos/f_agosto.php?lang=gal'>Agosto</a></li>
+<li><a href='/conecenos/f_septiembre.php?lang=gal'>Setembro</a></li>
+<li><a href='/conecenos/f_octubre.php?lang=gal'>Outubro</a></li>
+<li><a href='/conecenos/f_noviembre.php?lang=gal'>Novembro</a></li>
+<li><a href='/conecenos/f_diciembre.php?lang=gal'>Decembro</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/trafico.php?lang=gal'>Cámaras web  </a>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/cultura.php?lang=gal'>Cultura e arte  </a>
+<ul><li><a href='/conecenos/c_museos.php?lang=gal'>Museos, Fundacións e Centros culturais  </a>
+<ul>
+<li><a href='/movemonos/m_castrelos.php?lang=gal'>Museo-Pazo Quiñones de León</a></li>
+<li><a href='/movemonos/m_marco.php?lang=gal'>Museo de arte contemporánea (MARCO)</a></li>
+<li><a href='/movemonos/m_verbum.php?lang=gal'>Museo Verbum</a></li>
+<li><a href='/movemonos/m_mar.php?lang=gal'>Museo do Mar de Galicia</a></li>
+<li><a href='/movemonos/m_pacheco.php?lang=gal'>Arquivo fotográfico Pacheco</a></li>
+<li><a href='/movemonos/m_laxeiro.php?lang=gal'>Fundación Laxeiro</a></li>
+<li><a href='/movemonos/m_penzol.php?lang=gal'>Fundación Penzol</a></li>
+<li><a href='/movemonos/m_castro.php?lang=gal'>Castro de Vigo</a></li>
+<li><a href='/movemonos/m_artes.php?lang=gal'>Casa das Artes</a></li>
+<li><a href='/movemonos/m_liste.php?lang=gal'>Museo Liste-Etnográfico de Vigo </a></li>
+<li><a href='/movemonos/m_deportivo.php?lang=gal'>Museo da Arte Deportiva</a></li>
+<li><a href='/movemonos/m_riego.php?lang=gal'>Colección de Arte Francisco Fernández del Riego</a></li>
+<li><a href='/movemonos/m_ccaixanova.php?lang=gal'>Teatro Afundación</a></li>
+<li><a href='/movemonos/m_scaixanova.php?lang=gal'>Sede Afundación </a></li>
+<li><a href='/movemonos/m_naturnova.php?lang=gal'>Centro de Educación Ambienta Naturnova</a></li>
+<li><a href='/movemonos/m_coleccion.php?lang=gal'>Espazo Colección Afundación </a></li>
+<li><a href='/movemonos/m_barrie.php?lang=gal'>Fundación Pedro Barrié de la Maza</a></li>
+<li><a href='/movemonos/m_galega.php?lang=gal'>Casa Galega da Cultura</a></li>
+<li><a href='/movemonos/a_ayuntamiento.php?lang=gal'>Auditorio do Concello de Vigo</a></li>
+<li><a href='/movemonos/m_salaArtika.php?lang=gal'>Sala Artika</a></li>
+<li><a href='/movemonos/m_salesianos.php?lang=gal'>Teatro-Cine Salesianos</a></li>
+<li><a href='/movemonos/m_ensalle.php?lang=gal'>Teatro Ensalle</a></li>
+<li><a href='/movemonos/m_anfaco.php?lang=gal'>Museo Anfaco da Industria Conserveira</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/c_monumentos.php?lang=gal'>Monumentos e esculturas  </a>
+</li>
+<li><a href='/conecenos/c_iglesias.php?lang=gal'>Igrexas e capelas  </a>
+<ul>
+<li><a href='/movemonos/ig_maria.php?lang=gal'>Concatedral ou Igrexa de Santa María</a></li>
+<li><a href='/movemonos/ig_soledad.php?lang=gal'>Igrexa da Soidade</a></li>
+<li><a href='/movemonos/ig_santiago.php?lang=gal'>Igrexa de Santiago de Vigo</a></li>
+<li><a href='/movemonos/ig_sfrancisco.php?lang=gal'>Igrexa de San Francisco</a></li>
+<li><a href='/movemonos/ig_fatima.php?lang=gal'>Igrexa de Nosa Señora de Fátima</a></li>
+<li><a href='/movemonos/ig_alcabre.php?lang=gal'>Igrexa de Alcabre</a></li>
+<li><a href='/movemonos/ig_bembrive.php?lang=gal'>Igrexa Románica de Bembrive</a></li>
+<li><a href='/movemonos/ig_bouzas.php?lang=gal'>Igrexa de Bouzas</a></li>
+<li><a href='/movemonos/ig_cabral.php?lang=gal'>Igrexa de Santa Mariña de Cabral</a></li>
+<li><a href='/movemonos/ig_candean.php?lang=gal'>Igrexa de san Cristovo de Candeán</a></li>
+<li><a href='/movemonos/ig_castrelos.php?lang=gal'>Igrexa Románica de Castrelos</a></li>
+<li><a href='/movemonos/ig_comesana.php?lang=gal'>Igrexa de Santo André de Comesaña</a></li>
+<li><a href='/movemonos/ig_coruxo.php?lang=gal'>Igrexa Románica de Coruxo</a></li>
+<li><a href='/movemonos/ig_beade.php?lang=gal'>Igrexa Santo Estevo de Beade</a></li>
+<li><a href='/movemonos/ig_freixeiro.php?lang=gal'>Igrexa de Freixeiro</a></li>
+<li><a href='/movemonos/ig_inmaculada.php?lang=gal'>Igrexa da Inmaculada Concepción</a></li>
+<li><a href='/movemonos/ig_lavadores.php?lang=gal'>Igrexa de Santa Cristina de Lavadores</a></li>
+<li><a href='/movemonos/ig_matama.php?lang=gal'>Igrexa de Matamá</a></li>
+<li><a href='/movemonos/ig_navia.php?lang=gal'>Igrexa de Navia</a></li>
+<li><a href='/movemonos/ig_navia2.php?lang=gal'>Igrexa de Navia (nova)</a></li>
+<li><a href='/movemonos/ig_oia.php?lang=gal'>Igrexa de Oia</a></li>
+<li><a href='/movemonos/ig_saians.php?lang=gal'>Igrexa de San Xurxo de Saiáns</a></li>
+<li><a href='/movemonos/ig_sardoma.php?lang=gal'>Igrexa de San Pedro de Sárdoma</a></li>
+<li><a href='/movemonos/ig_valladares.php?lang=gal'>Igrexa de Valadares</a></li>
+<li><a href='/movemonos/ig_carmen.php?lang=gal'>Igrexa del Carmen</a></li>
+<li><a href='/movemonos/ig_guia.php?lang=gal'>Ermita da Guía</a></li>
+<li><a href='/movemonos/ig_alba.php?lang=gal'>Capela de Nosa Señora do Alba</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/c_bibliotecas.php?lang=gal'>Bibliotecas  </a>
+<ul>
+<li><a href='/movemonos/bb_emao.php?lang=gal'>Biblioteca da Escola Municipal de Artes e Oficios</a></li>
+<li><a href='/movemonos/bb_once.php?lang=gal'>Biblioteca Braille da Once</a></li>
+<li><a href='/movemonos/bb_marco.php?lang=gal'>Biblioteca-Centro de Documentación MARCO</a></li>
+<li><a href='/movemonos/bb_ccaixanova.php?lang=gal'>Biblioteca //Afundación Centro Cultural </a></li>
+<li><a href='/movemonos/bb_central.php?lang=gal'>Biblioteca Pública Juan Compañel</a></li>
+<li><a href='/movemonos/bb_universidad.php?lang=gal'>Biblioteca Central da Universidade de Vigo</a></li>
+<li><a href='/movemonos/bb_comercio.php?lang=gal'>Biblioteca da Cámara de Comercio de Vigo</a></li>
+<li><a href='/movemonos/bb_teleco.php?lang=gal'>Biblioteca de la E.T.S. de Enxeñeiros de Telecomunicacións</a></li>
+<li><a href='/movemonos/bb_industrial.php?lang=gal'>Biblioteca Universitaria de Torrecedeira</a></li>
+<li><a href='/movemonos/bb_ciencias.php?lang=gal'>Biblioteca da Facultade de Ciencias</a></li>
+<li><a href='/movemonos/bb_mar.php?lang=gal'>Biblioteca da Facultade de Ciencias do Mar e Bioloxía</a></li>
+<li><a href='/movemonos/bb_penzol.php?lang=gal'>Biblioteca da Fundación Penzol</a></li>
+<li><a href='/movemonos/bb_vilas.php?lang=gal'>Biblioteca Pública Municipal  Xosé Neira Vilas</a></li>
+<li><a href='/movemonos/bb_oceanografico.php?lang=gal'>Biblioteca do Centro Oceanográfico de Vigo</a></li>
+<li><a href='/movemonos/muller3.php?lang=gal'>Centro de documentación e recursos feministas de Vigo</a></li>
+<li><a href='/movemonos/bb_marinas.php?lang=gal'>Biblioteca do Instituto de Investigacións Mariñas</a></li>
+<li><a href='/movemonos/bb_liste.php?lang=gal'>Biblioteca do Museo Etnográfico, Fundación Liste</a></li>
+<li><a href='/movemonos/bb_torrecedeira.php?lang=gal'>Biblioteca de Torrecedeira</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/naturaleza.php?lang=gal'>Parques e sendeirismo  </a>
+<ul><li><a href='/conecenos/n_jardines.php?lang=gal'>Parques e xardíns  </a>
+<ul>
+<li><a href='/movemonos/np_alameda.php?lang=gal'>A Alameda</a></li>
+<li><a href='/movemonos/np_castro.php?lang=gal'>O Castro</a></li>
+<li><a href='/movemonos/np_guia.php?lang=gal'>A Guía</a></li>
+<li><a href='/movemonos/np_castrelos.php?lang=gal'>Castrelos</a></li>
+<li><a href='/movemonos/np_otros.php?lang=gal'>Outros parques e xardíns</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/n_parques.php?lang=gal'>Parques forestais  </a>
+<ul>
+<li><a href='/movemonos/nf_coruxo.php?lang=gal'>Coruxo</a></li>
+<li><a href='/movemonos/nf_beade.php?lang=gal'>Beade</a></li>
+<li><a href='/movemonos/nf_comesana.php?lang=gal'>Santo André de Comesaña</a></li>
+<li><a href='/movemonos/nf_zamanes.php?lang=gal'>Zamáns</a></li>
+<li><a href='/movemonos/nf_bembrive.php?lang=gal'>Bembrive</a></li>
+<li><a href='/movemonos/nf_cabral.php?lang=gal'>Bandeira-Cabral</a></li>
+<li><a href='/movemonos/nf_saians.php?lang=gal'>Saiáns</a></li>
+<li><a href='/movemonos/nf_alba.php?lang=gal'>Monte Alba-Cepudo</a></li>
+<li><a href='/movemonos/nf_madroa.php?lang=gal'>Teis-A Madroa</a></li>
+<li><a href='/movemonos/nf_vixiador.php?lang=gal'>Vixiador-Candeán</a></li>
+<li><a href='/movemonos/nf_pozos.php?lang=gal'>Monte dos Pozos-Valadares</a></li>
+<li><a href='/movemonos/nf_oia.php?lang=gal'>San Miguel de Oia</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/n_senderismo.php?lang=gal'>Rutas de sendeirismo  </a>
+<ul>
+<li><a href='/conecenos/ns_gr53.php?lang=gal'>Sendeiro GR53</a></li>
+<li><a href='/conecenos/ns_gr58.php?lang=gal'>GR58 - Sendeiro as Greas</a></li>
+<li><a href='/conecenos/ns_urbano.php?lang=gal'>Sendeiros urbanos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/cies.php?lang=gal'>As Illas Cíes  </a>
+<ul><li><a href='/conecenos/cies_info.php?lang=gal'>Información  </a>
+</li>
+<li><a href='/conecenos/cies_historia.php?lang=gal'>Historia  </a>
+</li>
+<li><a href='/conecenos/cies_playas.php?lang=gal'>Praias  </a>
+<ul>
+<li><a href='/conecenos/cies_p_rodas.php?lang=gal'>Praia de Rodas</a></li>
+<li><a href='/conecenos/cies_p_bolos.php?lang=gal'>Praia de Bolos</a></li>
+<li><a href='/conecenos/cies_p_senora.php?lang=gal'>Praia de Nosa Señora</a></li>
+<li><a href='/conecenos/cies_p_cantareira.php?lang=gal'>Praia de Cantareira</a></li>
+<li><a href='/conecenos/cies_p_margaridas.php?lang=gal'>Praia de Margaridas</a></li>
+<li><a href='/conecenos/cies_p_mixueiro.php?lang=gal'>Praia de Mixueiro </a></li>
+<li><a href='/conecenos/cies_p_areina.php?lang=gal'>Praia de Areiña</a></li>
+<li><a href='/conecenos/cies_p_martino.php?lang=gal'>Praia de San Martiño</a></li>
+<li><a href='/conecenos/cies_p_figueiras.php?lang=gal'>Praia de Figueiras</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/cies_rutas.php?lang=gal'>Rutas de sendeirismo  </a>
+<ul>
+<li><a href='/conecenos/cies_r_mfaro.php?lang=gal'>Ruta do Monte Faro</a></li>
+<li><a href='/conecenos/cies_r_porta.php?lang=gal'>Ruta do Faro da Porta </a></li>
+<li><a href='/conecenos/cies_r_principe.php?lang=gal'>Ruta do Alto do Príncipe</a></li>
+<li><a href='/conecenos/cies_r_agudo.php?lang=gal'>Ruta do Monte Agudo</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/cies_fauna.php?lang=gal'>Fauna e flora  </a>
+<ul>
+<li><a href='/conecenos/cies_ff_fauna.php?lang=gal'>Fauna</a></li>
+<li><a href='/conecenos/cies_ff_flora.php?lang=gal'>Flora</a></li>
+<li><a href='/conecenos/cies_ff_fondos.php?lang=gal'>Vida e fondos mariños</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/cies_faros.php?lang=gal'>Os faros  </a>
+<ul>
+<li><a href='/conecenos/cies_f_mfaro.php?lang=gal'>Faro do Monte Faro </a></li>
+<li><a href='/conecenos/cies_f_porta.php?lang=gal'>Faro da Porta  </a></li>
+<li><a href='/conecenos/cies_f_peito.php?lang=gal'>Faro do Monte Agudo ou Faro de O Peito </a></li>
+</ul>
+</li>
+<li><a href='/conecenos/cies_normas.php?lang=gal'>Normativa  </a>
+</li>
+</ul>
+</li>
+<li><a href='http://hoxe.vigo.org/movemonos/mabiente_playas.php?lang=gal'>Praias</a>
+<ul><li><a href='http://hoxe.vigo.org/movemonos/mabiente_playas.php?lang=gal'>Praias de Vigo</a>
+</li>
+<li><a href='http://hoxe.vigo.org/conecenos/cies_playas.php?lang=gal'>Praias das Illas Cíes</a>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/eventos.php?lang=gal'>Negocios  </a>
+<ul><li><a href='/conecenos/a_ifevi.php?lang=gal'>Instituto Feiral de Vigo-IFEVI  </a>
+</li>
+<li><a href='/conecenos/a_congresos.php?lang=gal'>Auditorio Pazo de Congresos  </a>
+</li>
+<li><a href='/conecenos/a_auditorios.php?lang=gal'>Auditorios e salóns de actos  </a>
+<ul>
+<li><a href='/conecenos/a_cccaixanova.php?lang=gal'>Auditorio Teatro Afundación</a></li>
+<li><a href='/conecenos/a_cscaixanova.php?lang=gal'>Auditorio Sede Afundación</a></li>
+<li><a href='/conecenos/a_castrelos.php?lang=gal'>Auditorio de Castrelos</a></li>
+<li><a href='/conecenos/a_ayuntamiento.php?lang=gal'>Auditorio do Concello de Vigo</a></li>
+<li><a href='/conecenos/a_caixagalicia.php?lang=gal'>Auditorio do Teatro-Cine Fraga CaixaGalicia</a></li>
+<li><a href='/conecenos/a_barrie.php?lang=gal'>Auditorio da Fundación Pedro Barrié de la Maza</a></li>
+<li><a href='/conecenos/a_universidad.php?lang=gal'>Sala de Congresos (Auditorio) da Cidade Universitaria de Vigo</a></li>
+<li><a href='/conecenos/a_codax.php?lang=gal'>Auditorio Martín Códax del Conservatorio Superior de Música</a></li>
+<li><a href='/conecenos/a_comercio.php?lang=gal'>Cámara de Comercio de Vigo</a></li>
+<li><a href='/conecenos/a_financiero.php?lang=gal'>Auditorio Círculo de Empresarios de Galicia</a></li>
+<li><a href='/conecenos/a_zfranca.php?lang=gal'>Zona Franca de Vigo</a></li>
+<li><a href='/conecenos/a_mmar.php?lang=gal'>Auditorios Museo do Mar</a></li>
+<li><a href='/conecenos/a_marco.php?lang=gal'>Salón de Actos do MARCO-Museo de Arte Contemporánea</a></li>
+<li><a href='/conecenos/a_verbum.php?lang=gal'>Salón de Actos do Museo Casa das Palabras- VERBUM</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/a_hoteles.php?lang=gal'>Hoteis para realizar congresos  </a>
+<ul>
+<li><a href='/conecenos/a_h_5e.php?lang=gal'>Auditorios Hoteis de 5 estrelas</a></li>
+<li><a href='/conecenos/a_h_4e.php?lang=gal'>Auditorios Hoteis de 4 estrelas</a></li>
+<li><a href='/conecenos/a_h_3e.php?lang=gal'>Auditorios Hoteis de 3 estrelas</a></li>
+<li><a href='/conecenos/a_h_2e.php?lang=gal'>Auditorios Hoteis de 2 estrelas</a></li>
+<li><a href='/conecenos/a_h_1e.php?lang=gal'>Auditorios Hoteis de 1 estrela</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/feder_inicio.php?lang=gal'>Fondo Europeo de Desenvolvemento Rexional (FEDER). Período 2014 - 2020  </a>
+<ul><li><a href='/conecenos/feder.php?lang=gal'>Estratexia de Desenvolvemento Urbano VIGO VERTICAL  </a>
+<ul>
+<li><a href='/conecenos/vv_programacion.php?lang=gal'>Programación</a></li>
+<li><a href='/conecenos/vv_gestionyseguimiento.php?lang=gal'>Xestión e seguimento</a></li>
+<li><a href='/conecenos/vv_evaluacion.php?lang=gal'>Avaliación</a></li>
+<li><a href='/conecenos/vv_comunicacion.php?lang=gal'>Comunicación</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/feder_vei.php?lang=gal'>Vigo Edificios Inteligentes  </a>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/feder2021_2027.php?lang=gal'>Fondo Europeo de Desenvolvemento Rexional (FEDER). Período 2021 - 2027  </a>
+<ul><li><a href='/conecenos/feder2021_2027_fundBiodiv.php?lang=gal'>Fundación Biodiversidad: Convocatoria axudas FEDER para impulso renaturalización de cidades  </a>
+</li>
+<li><a href='/conecenos/axUrbana_planIntFEDER.php?lang=gal'>Plans de actuación integrados de entidades locais, FEDER 2021- 2027  </a>
+<ul>
+<li><a href='/conecenos/axUrbanaPlanInVigoVert.php?lang=gal'>Plan de actuación integrado. Vigo Vertical Travesas-Castrelos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/feader_inicio.php?lang=gal'>Fondo Europeo Agrario de Desenvolvemento Rural (FEADER)  </a>
+</li>
+<li><a href='/conecenos/plan_rec_transf_res.php?lang=gal'>Plan de recuperación, transformación e resiliencia  </a>
+<ul><li><a href='/conecenos/prtr_pmcpse.php?lang=gal'>Programa municipal de coordinación, planificación, seguemento e evaluación dos proxectos financiados con fondos do PRTR  </a>
+</li>
+<li><a href='/conecenos/prtr_antifraude.php?lang=gal'>Plan de medidas Antifraude  </a>
+</li>
+<li><a href='/conecenos/prtr_contratacion.php?lang=gal'>Plan integral de contratación  </a>
+</li>
+<li><a href='/conecenos/prtr_autoevaluacion.php?lang=gal'>Autoevaluación (Orde HFP/1030/2021)  </a>
+</li>
+<li><a href='/conecenos/prtr_programas.php?lang=gal'>Programas  </a>
+<ul>
+<li><a href='/conecenos/prtr_prog_zbe_TransTranspUrb.php?lang=gal'>Zonas de baixas emisións e transformación dixital e sostible do transporte urbano 1ª convocatoria</a></li>
+<li><a href='/conecenos/prtr_prog_zbe_TransTranspUrb2.php?lang=gal'>Zonas de baixas emisións e transformación dixital e sostible do transporte urbano 2ª convocatoria</a></li>
+<li><a href='/conecenos/prtr_prog_transDig_modEELL.php?lang=gal'>Transformación dixital e modernización das administracións das EELL (convocatoria 2021)</a></li>
+<li><a href='/conecenos/prtr_prog_promoVidaSaudable.php?lang=gal'>Promoción de estilos de vida saudable</a></li>
+<li><a href='/conecenos/prtr_prog_actComerZonasTurismo.php?lang=gal'>Axudas fortalecemento actividade comercial  en zonas turísticas, convocatoria 2022</a></li>
+<li><a href='/conecenos/prtr_prog_biorresiduos.php?lang=gal'>Actuacións en materia  de biorresiduos. Convocatoria 2022-2023</a></li>
+<li><a href='/conecenos/prtr_prog_biorresiduos_2.php?lang=gal'>Actuacións en materia de biorresiduos. Convocatoria 2023-2024</a></li>
+<li><a href='/conecenos/prtr_prog_pstd2022.php?lang=gal'>Plans de sustentabilidade turística en destinos para entidades locais 2022</a></li>
+<li><a href='/conecenos/prtr_prog_pstd2023.php?lang=gal'>Plans de sustentabilidade turística en destino para entidades locais 2023</a></li>
+<li><a href='/conecenos/prtr_prog_pirep_local.php?lang=gal'>Rehabilitación edificios de titularidade pública para Entidades Locais</a></li>
+<li><a href='/conecenos/prtr_prog_ccdeell.php?lang=gal'>Centros de capacitación dixital de entidades locais</a></li>
+<li><a href='/conecenos/prtr_prog_axendaUrbana.php?lang=gal'>Axudas para proxectos piloto de plans de acción local da Axenda Urbana Española</a></li>
+<li><a href='/conecenos/prtr_prog_errp.php?lang=gal'>Programa de axudas ás actuacións de rehabilitación a nivel de barrio</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/prtr_proxectos.php?lang=gal'>Proxectos  </a>
+</li>
+<li><a href='/conecenos/prtr_comunicacion.php?lang=gal'>Comunicación  </a>
+</li>
+<li><a href='/conecenos/prtr_normativa.php?lang=gal'>Normativa e enlaces de interese  </a>
+</li>
+</ul>
+</li>
+<li><a href='/conecenos/axenda_urbana.php?lang=gal'>Plan de acción axenda urbana de Vigo  </a>
+<ul><li><a href='/conecenos/axUrbana_esp.php?lang=gal'>A axenda urbana española  </a>
+</li>
+<li><a href='/conecenos/axUrbana_desenvolvemento.php?lang=gal'>Desenvolvemento do proxecto: Plan de acción da axenda urbana de Vigo  </a>
+<ul>
+<li><a href='/conecenos/axUrbana_estructura.php?lang=gal'>Estructura organizativa</a></li>
+<li><a href='/conecenos/axUrbana_metodoloxia.php?lang=gal'>Metodoloxía para o desenvolvemento do Plan de Acción</a></li>
+<li><a href='/conecenos/axUrbana_contidos.php?lang=gal'>Estructura e contidos do Plan de Acción</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/axUrbana_comunicacion.php?lang=gal'>Actuacións de comunicación  </a>
+</li>
+<li><a href='/conecenos/axUrbana_planIntgradoEELL.php?lang=gal'>Plans de actuación integrados de entidades locais  </a>
+<ul>
+<li><a href='/conecenos/axUrbana_planInVigoVert.php?lang=gal'>Plan de actuación integrado. Vigo Vertical Travesas-Castrelos</a></li>
+</ul>
+</li>
+<li><a href='/conecenos/axUrbana_noticias.php?lang=gal'>Noticias  </a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/servicios_cidadans.php?lang=gal'>Servizos cidadanía</a>
+<ul>
+<li><a href='/movemonos/at_cidada.php?lang=gal'>Atención Cidadá  </a>
+<ul><li><a href='/movemonos/at_cidada_010.php?lang=gal'>Servizo de información cidadá: 010  </a>
+<ul>
+<li><a href='/movemonos/at_cidada_010_funciones.php?lang=gal'>Funcións</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/at_cidada_video.php?lang=gal'>Videointerpretación 010  </a>
+</li>
+<li><a href='/movemonos/at_cidada_int.php?lang=gal'>Internet  </a>
+</li>
+<li><a href='/movemonos/at_cidada_pres.php?lang=gal'>Presencial  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/oar.php?lang=gal'>Oficina de asistencia en materia de rexistro  </a>
+<ul><li><a href='/movemonos/oar_funciones.php?lang=gal'>Funcións  </a>
+</li>
+<li><a href='/movemonos/oar_funciona_hab.php?lang=gal'>Rexistro do funcionariado habilitado  </a>
+</li>
+<li><a href='/movemonos/oar_faq.php?lang=gal'>Preguntas frecuentes  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/estatistica_tramites.php?lang=gal'>Estatística - Padrón  </a>
+<ul><li><a href='/movemonos/estatistica_tramites_1.php?lang=gal'>Certificados, volantes e documentos  </a>
+</li>
+<li><a href='/movemonos/estatistica_tramites_2.php?lang=gal'>Alta, baixa e modificación de datos no padrón de habitantes  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/mocidade.php?lang=gal'>Xuventude  </a>
+<ul><li><a href='/movemonos/mocidade_tramites.php?lang=gal'>Trámites de Xuventude  </a>
+</li>
+<li><a href='/movemonos/mocidade_sit.php?lang=gal'>Casa da Xuventude  </a>
+</li>
+<li><a href='/movemonos/mocidade_vigosonico.php?lang=gal'>Vigosónico  </a>
+</li>
+<li><a href='/movemonos/mocidade_salas.php?lang=gal'>Salas de uso público  </a>
+<ul>
+<li><a href='/movemonos/mocidade3.php?lang=gal'>Sala de xuntanzas</a></li>
+<li><a href='/movemonos/mocidade2.php?lang=gal'>Sala de exposicións</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/mocidadelinks.php?lang=gal'>Enlaces de Interese  </a>
+</li>
+<li><a href='/movemonos/mocidade_noticias.php?lang=gal'>Noticias de Xuventude  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/infancia.php?lang=gal'>Infancia  </a>
+<ul><li><a href='/movemonos/infancia_garderia.php?lang=gal'>Escolas Infantís. Garderías (0-3 anos)  </a>
+</li>
+<li><a href='/movemonos/infancia_escolas.php?lang=gal'>Escolas infantís e de primaria (3-12 anos)  </a>
+</li>
+<li><a href='/movemonos/mocidade0.php?lang=gal'>Espazos de Lecer Infantil  </a>
+<ul>
+<li><a href='/movemonos/infancia_ludoteca1.php?lang=gal'>Espazo de Lecer Casa da Xuventude</a></li>
+<li><a href='/movemonos/infancia_ludoteca2.php?lang=gal'>Espazo de Lecer de Coia</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/infancia_ocio.php?lang=gal'>Actividades  </a>
+</li>
+<li><a href='/movemonos/infancia_axudas.php?lang=gal'>Axudas de infancia e familia  </a>
+</li>
+<li><a href='/movemonos/infancia_atencion.php?lang=gal'>Atención Domiciliaria da Infancia  </a>
+</li>
+<li><a href='/movemonos/infancia_legislacion.php?lang=gal'>Lexislación  </a>
+</li>
+<li><a href='/movemonos/infancia_enlaces.php?lang=gal'>Enlaces de interese  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/maiores.php?lang=gal'>Maiores  </a>
+<ul><li><a href='/movemonos/maiores_tramites.php?lang=gal'>Trámites para Maiores  </a>
+</li>
+<li><a href='/movemonos/maiores_lei.php?lang=gal'>Lexislación  </a>
+</li>
+<li><a href='/movemonos/maiores_centros.php?lang=gal'>Centros  </a>
+<ul>
+<li><a href='/movemonos/maiores_centro1.php?lang=gal'>Centros de DIA</a></li>
+<li><a href='/movemonos/maiores_centro2.php?lang=gal'>Residencias</a></li>
+<li><a href='/movemonos/maiores_centro3.php?lang=gal'>Centros Sociais</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/maiores_edu.php?lang=gal'>Educación  </a>
+<ul>
+<li><a href='/movemonos/maiores_edu_xeral.php?lang=gal'>Xeral</a></li>
+<li><a href='/movemonos/maiores_edu_aula.php?lang=gal'>Aula Mentor</a></li>
+<li><a href='/movemonos/maiores_edu_cidead.php?lang=gal'>CIDEAD</a></li>
+<li><a href='/movemonos/maiores_edu_fp.php?lang=gal'>Formación Profesional</a></li>
+<li><a href='/movemonos/maiores_edu_uni.php?lang=gal'>Universidade</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/maiores_ocio.php?lang=gal'>Ocio e lecer  </a>
+<ul>
+<li><a href='/movemonos/maiores_ocio_bal.php?lang=gal'>Balnearios</a></li>
+<li><a href='/movemonos/maiores_ocio_cc.php?lang=gal'>Centro cívicos</a></li>
+<li><a href='/movemonos/maiores_ocio_cursos.php?lang=gal'>Avellentamento Activo - Vigo, cidade amiga das persoas maiores</a></li>
+<li><a href='/movemonos/maiores_ocio_em.php?lang=gal'>Escolas municipáis</a></li>
+<li><a href='/movemonos/maiores_ocio_ims.php?lang=gal'>Viaxes do IMSERSO</a></li>
+<li><a href='/movemonos/maiores_ocio_act.php?lang=gal'>Actividades Interxeneracionais</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/maiores_parq.php?lang=gal'>Parques  </a>
+</li>
+<li><a href='/movemonos/maiores_transpo.php?lang=gal'>Transporte  </a>
+</li>
+<li><a href='/movemonos/maiores_serv.php?lang=gal'>Servizos sociais  </a>
+</li>
+<li><a href='/movemonos/maiores_teleasistencia.php?lang=gal'>Teleasistencia  </a>
+</li>
+<li><a href='/movemonos/maiores_sanidad.php?lang=gal'>Saúde e Sanidade  </a>
+</li>
+<li><a href='/movemonos/maiores_noticias.php?lang=gal'>Noticias  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/discapacidad.php?lang=gal'>Persoas con discapacidade  </a>
+<ul><li><a href='/movemonos/discap_lei.php?lang=gal'>Lexislación  </a>
+</li>
+<li><a href='/movemonos/discap_recon.php?lang=gal'>Recoñecemento da discapacidade  </a>
+</li>
+<li><a href='/movemonos/discap_centros.php?lang=gal'>Centros de Asistencia  </a>
+</li>
+<li><a href='/movemonos/discap_transpo.php?lang=gal'>Transporte  </a>
+<ul>
+<li><a href='/movemonos/discap_tr_vitr.php?lang=gal'>Autobús urbano</a></li>
+<li><a href='/movemonos/discap_tr_tarx.php?lang=gal'>Prazas de aparcadoiro</a></li>
+<li><a href='/movemonos/discap_tr_renfe.php?lang=gal'>Ferrocarril</a></li>
+<li><a href='/movemonos/discap_tr_aena.php?lang=gal'>Aeroportos</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/discap_vigo.php?lang=gal'>Vigo accesible  </a>
+</li>
+<li><a href='/movemonos/discap_serv.php?lang=gal'>Servizos sociais  </a>
+</li>
+<li><a href='/movemonos/discap_ocio.php?lang=gal'>Ocio e deporte  </a>
+</li>
+<li><a href='/movemonos/discap_edu.php?lang=gal'>Educación  </a>
+<ul>
+<li><a href='/movemonos/discap_edu_esp.php?lang=gal'>Centro de Educación Especial</a></li>
+<li><a href='/movemonos/discap_edu_pub.php?lang=gal'>Centros Públicos de Integración</a></li>
+<li><a href='/movemonos/discap_edu_priv.php?lang=gal'>Centros Privados, Concertados ou de iniciativa social</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/discap_accesibilidad.php?lang=gal'>Accesibilidade web  </a>
+</li>
+<li><a href='/movemonos/discap_enlaces.php?lang=gal'>Enlaces de interese  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/deportes.php?lang=gal'>Deportes  </a>
+<ul><li><a href='https://deportes.vigo.org?lang=gal'>Web de deportes</a>
+</li>
+<li><a href='/movemonos/deportes_noticias.php?lang=gal'>Noticias Xornal  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/sanidade_saude.php?lang=gal'>Sanidade e Saúde  </a>
+<ul><li><a href='/movemonos/sanidade_psaude.php?lang=gal'>Plan Saúde  </a>
+<ul>
+<li><a href='/movemonos/sanidade_psaude23.php?lang=gal'>Actividades 2023</a></li>
+<li><a href='/movemonos/sanidade_psaude20.php?lang=gal'>Actividades 2020</a></li>
+<li><a href='/movemonos/sanidade_psaude12.php?lang=gal'>Actividades 2012</a></li>
+<li><a href='/movemonos/sanidade_psaude11.php?lang=gal'>Actividades 2011</a></li>
+<li><a href='/movemonos/sanidade_psaude1.php?lang=gal'>Actividades 2010</a></li>
+<li><a href='/movemonos/sanidade_psaude2.php?lang=gal'>Información Técnica</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/sanidade_pbio.php?lang=gal'>Parques biosaudables  </a>
+</li>
+<li><a href='/movemonos/sanidade_nutricion.php?lang=gal'>Nutrición  </a>
+<ul>
+<li><a href='/movemonos/sanidade_nutricion1.php?lang=gal'>Menús saudables</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/educacion.php?lang=gal'>Educación  </a>
+<ul><li><a href='/movemonos/educacion_infa.php?lang=gal'>Educación infantil, primaria e secundaria  </a>
+</li>
+<li><a href='/movemonos/edu_rede_eim.php?lang=gal'>Rede de escolas infantís municipais  </a>
+</li>
+<li><a href='/movemonos/edu_emma.php?lang=gal'>Escolas municipais de música e artes do concello de Vigo  </a>
+</li>
+<li><a href='/movemonos/educacion7.php?lang=gal'>Escola municipal de artes e oficios (EMAO)  </a>
+<ul>
+<li><a href='/movemonos/emao27.php?lang=gal'>Curso 2026-2027</a></li>
+<li><a href='/movemonos/emao26.php?lang=gal'>Curso 2025-2026</a></li>
+<li><a href='/movemonos/emao25.php?lang=gal'>Curso 2024-2025</a></li>
+<li><a href='/movemonos/emao24.php?lang=gal'>Curso 2023-2024</a></li>
+<li><a href='/movemonos/emao23.php?lang=gal'>Curso 2022-2023</a></li>
+<li><a href='/movemonos/emao22.php?lang=gal'>Curso 2021-2022</a></li>
+<li><a href='/movemonos/emao_plan.php?lang=gal'>Plan de estudos 2015</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/educacion_program.php?lang=gal'>Programas educativos  </a>
+</li>
+<li><a href='/movemonos/edu_cemv.php?lang=gal'>Consello escolar municipal de Vigo (CEMV)  </a>
+</li>
+<li><a href='/movemonos/edu_foanpas.php?lang=gal'>Federación olívica de asociacións de nais e pais do alumnado de Vigo e comarca (FOANPAS)  </a>
+</li>
+<li><a href='/movemonos/educacionSalasEstudio.php?lang=gal'>Salas de estudo  </a>
+</li>
+<li><a href='/movemonos/edu_uned.php?lang=gal'>Aula UNED Vigo  </a>
+</li>
+<li><a href='/movemonos/educacion_univers.php?lang=gal'>Universidade de Vigo  </a>
+</li>
+<li><a href='/movemonos/educacion_noticias.php?lang=gal'>Noticias de Educacion  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/cultura_vigo.php?lang=gal'>Cultura  </a>
+<ul><li><a href='/movemonos/c_museos.php?lang=gal'>Museos, Fundacións e Centros culturais  </a>
+<ul>
+<li><a href='/movemonos/m_castrelos.php?lang=gal'>Museo-Pazo Quiñones de León</a></li>
+<li><a href='/movemonos/m_marco.php?lang=gal'>Museo de arte contemporánea (MARCO)</a></li>
+<li><a href='/movemonos/m_verbum.php?lang=gal'>Museo Verbum</a></li>
+<li><a href='/movemonos/m_mar.php?lang=gal'>Museo do Mar de Galicia</a></li>
+<li><a href='/movemonos/m_pacheco.php?lang=gal'>Arquivo fotográfico Pacheco</a></li>
+<li><a href='/movemonos/m_laxeiro.php?lang=gal'>Fundación Laxeiro</a></li>
+<li><a href='/movemonos/m_penzol.php?lang=gal'>Fundación Penzol</a></li>
+<li><a href='/movemonos/m_castro.php?lang=gal'>Castro de Vigo</a></li>
+<li><a href='/movemonos/m_artes.php?lang=gal'>Casa das Artes</a></li>
+<li><a href='/movemonos/m_liste.php?lang=gal'>Museo Liste-Etnográfico de Vigo </a></li>
+<li><a href='/movemonos/m_deportivo.php?lang=gal'>Museo da Arte Deportiva</a></li>
+<li><a href='/movemonos/m_riego.php?lang=gal'>Colección de Arte Francisco Fernández del Riego</a></li>
+<li><a href='/movemonos/m_ccaixanova.php?lang=gal'>Teatro Afundación</a></li>
+<li><a href='/movemonos/m_scaixanova.php?lang=gal'>Sede Afundación </a></li>
+<li><a href='/movemonos/m_naturnova.php?lang=gal'>Centro de Educación Ambienta Naturnova</a></li>
+<li><a href='/movemonos/m_coleccion.php?lang=gal'>Espazo Colección Afundación </a></li>
+<li><a href='/movemonos/m_barrie.php?lang=gal'>Fundación Pedro Barrié de la Maza</a></li>
+<li><a href='/movemonos/m_galega.php?lang=gal'>Casa Galega da Cultura</a></li>
+<li><a href='/movemonos/a_ayuntamiento.php?lang=gal'>Auditorio do Concello de Vigo</a></li>
+<li><a href='/movemonos/m_salaArtika.php?lang=gal'>Sala Artika</a></li>
+<li><a href='/movemonos/m_salesianos.php?lang=gal'>Teatro-Cine Salesianos</a></li>
+<li><a href='/movemonos/m_ensalle.php?lang=gal'>Teatro Ensalle</a></li>
+<li><a href='/movemonos/m_anfaco.php?lang=gal'>Museo Anfaco da Industria Conserveira</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/c_bibliotecas.php?lang=gal'>Bibliotecas  </a>
+<ul>
+<li><a href='/movemonos/bb_emao.php?lang=gal'>Biblioteca da Escola Municipal de Artes e Oficios</a></li>
+<li><a href='/movemonos/bb_once.php?lang=gal'>Biblioteca Braille da Once</a></li>
+<li><a href='/movemonos/bb_marco.php?lang=gal'>Biblioteca-Centro de Documentación MARCO</a></li>
+<li><a href='/movemonos/bb_ccaixanova.php?lang=gal'>Biblioteca //Afundación Centro Cultural </a></li>
+<li><a href='/movemonos/bb_central.php?lang=gal'>Biblioteca Pública Juan Compañel</a></li>
+<li><a href='/movemonos/bb_universidad.php?lang=gal'>Biblioteca Central da Universidade de Vigo</a></li>
+<li><a href='/movemonos/bb_comercio.php?lang=gal'>Biblioteca da Cámara de Comercio de Vigo</a></li>
+<li><a href='/movemonos/bb_teleco.php?lang=gal'>Biblioteca de la E.T.S. de Enxeñeiros de Telecomunicacións</a></li>
+<li><a href='/movemonos/bb_industrial.php?lang=gal'>Biblioteca Universitaria de Torrecedeira</a></li>
+<li><a href='/movemonos/bb_ciencias.php?lang=gal'>Biblioteca da Facultade de Ciencias</a></li>
+<li><a href='/movemonos/bb_mar.php?lang=gal'>Biblioteca da Facultade de Ciencias do Mar e Bioloxía</a></li>
+<li><a href='/movemonos/bb_penzol.php?lang=gal'>Biblioteca da Fundación Penzol</a></li>
+<li><a href='/movemonos/bb_vilas.php?lang=gal'>Biblioteca Pública Municipal  Xosé Neira Vilas</a></li>
+<li><a href='/movemonos/bb_oceanografico.php?lang=gal'>Biblioteca do Centro Oceanográfico de Vigo</a></li>
+<li><a href='/movemonos/muller3.php?lang=gal'>Centro de documentación e recursos feministas de Vigo</a></li>
+<li><a href='/movemonos/bb_marinas.php?lang=gal'>Biblioteca do Instituto de Investigacións Mariñas</a></li>
+<li><a href='/movemonos/bb_liste.php?lang=gal'>Biblioteca do Museo Etnográfico, Fundación Liste</a></li>
+<li><a href='/movemonos/bb_torrecedeira.php?lang=gal'>Biblioteca de Torrecedeira</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/c_monumentos.php?lang=gal'>Monumentos e esculturas  </a>
+</li>
+<li><a href='/movemonos/c_edificios.php?lang=gal'>Edificios históricos  </a>
+<ul>
+<li><a href='/movemonos/h_ceta.php?lang=gal'>Casa de Ceta ou de Arines</a></li>
+<li><a href='/movemonos/h_figueroa.php?lang=gal'>Palacete Urbano da Familia Pazos Figueroa</a></li>
+<li><a href='/movemonos/h_concello.php?lang=gal'>A Antigua Casa do Concello</a></li>
+<li><a href='/movemonos/h_marco.php?lang=gal'>O Museo de Arte Contemporánea (MARCO)</a></li>
+<li><a href='/movemonos/h_rectorado.php?lang=gal'>O antigo Reitorado da Universidade de Vigo</a></li>
+<li><a href='/movemonos/h_barcena.php?lang=gal'>Casas de Manuel Bárcena Franco </a></li>
+<li><a href='/movemonos/h_universal.php?lang=gal'>Hotel Universal</a></li>
+<li><a href='/movemonos/h_oficios.php?lang=gal'>Escola de Artes e Oficios </a></li>
+<li><a href='/movemonos/h_moderno.php?lang=gal'>Edificio El Moderno</a></li>
+<li><a href='/movemonos/h_duran.php?lang=gal'>Edificio de Estanislao Durán</a></li>
+<li><a href='/movemonos/h_oya.php?lang=gal'>Casas de Oya</a></li>
+<li><a href='/movemonos/h_simeon.php?lang=gal'>Edificio Simeón </a></li>
+<li><a href='/movemonos/h_mulder.php?lang=gal'>Edificio Mülder </a></li>
+<li><a href='/movemonos/h_bonin.php?lang=gal'>Edificio Bonín </a></li>
+<li><a href='/movemonos/h_correos.php?lang=gal'>A Casa de Correos e Telégrafos </a></li>
+<li><a href='/movemonos/h_mercantil.php?lang=gal'>Edificio Círculo Mercantil  </a></li>
+<li><a href='/movemonos/h_bvigo.php?lang=gal'>O edificio Banco de Vigo (Pastor)</a></li>
+<li><a href='/movemonos/h_barbon.php?lang=gal'>Teatro García Barbón </a></li>
+<li><a href='/movemonos/h_salgueiro.php?lang=gal'>Salgueiro García Barbón</a></li>
+<li><a href='/movemonos/h_bancesp.php?lang=gal'>Antigo Banco de España (Casa das Artes)</a></li>
+<li><a href='/movemonos/h_santairene.php?lang=gal'>Instituto Santa Irene</a></li>
+<li><a href='/movemonos/h_fraga.php?lang=gal'>O Teatro Cine Fraga </a></li>
+<li><a href='/movemonos/h_albo.php?lang=gal'>Edificio Albo</a></li>
+<li><a href='/movemonos/h_salesas.php?lang=gal'>Mosteiro da Visitación das Salesas Reales</a></li>
+<li><a href='/movemonos/h_sscaixanova.php?lang=gal'>Edificio da Sede Social de Novacaixagalicia</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/c_iglesias.php?lang=gal'>Igrexas e capelas  </a>
+<ul>
+<li><a href='/movemonos/ig_maria.php?lang=gal'>Concatedral ou Igrexa de Santa María</a></li>
+<li><a href='/movemonos/ig_soledad.php?lang=gal'>Igrexa da Soidade</a></li>
+<li><a href='/movemonos/ig_santiago.php?lang=gal'>Igrexa de Santiago de Vigo</a></li>
+<li><a href='/movemonos/ig_sfrancisco.php?lang=gal'>Igrexa de San Francisco</a></li>
+<li><a href='/movemonos/ig_fatima.php?lang=gal'>Igrexa de Nosa Señora de Fátima</a></li>
+<li><a href='/movemonos/ig_alcabre.php?lang=gal'>Igrexa de Alcabre</a></li>
+<li><a href='/movemonos/ig_bembrive.php?lang=gal'>Igrexa Románica de Bembrive</a></li>
+<li><a href='/movemonos/ig_bouzas.php?lang=gal'>Igrexa de Bouzas</a></li>
+<li><a href='/movemonos/ig_cabral.php?lang=gal'>Igrexa de Santa Mariña de Cabral</a></li>
+<li><a href='/movemonos/ig_candean.php?lang=gal'>Igrexa de san Cristovo de Candeán</a></li>
+<li><a href='/movemonos/ig_castrelos.php?lang=gal'>Igrexa Románica de Castrelos</a></li>
+<li><a href='/movemonos/ig_comesana.php?lang=gal'>Igrexa de Santo André de Comesaña</a></li>
+<li><a href='/movemonos/ig_coruxo.php?lang=gal'>Igrexa Románica de Coruxo</a></li>
+<li><a href='/movemonos/ig_beade.php?lang=gal'>Igrexa Santo Estevo de Beade</a></li>
+<li><a href='/movemonos/ig_freixeiro.php?lang=gal'>Igrexa de Freixeiro</a></li>
+<li><a href='/movemonos/ig_inmaculada.php?lang=gal'>Igrexa da Inmaculada Concepción</a></li>
+<li><a href='/movemonos/ig_lavadores.php?lang=gal'>Igrexa de Santa Cristina de Lavadores</a></li>
+<li><a href='/movemonos/ig_matama.php?lang=gal'>Igrexa de Matamá</a></li>
+<li><a href='/movemonos/ig_navia.php?lang=gal'>Igrexa de Navia</a></li>
+<li><a href='/movemonos/ig_navia2.php?lang=gal'>Igrexa de Navia (nova)</a></li>
+<li><a href='/movemonos/ig_oia.php?lang=gal'>Igrexa de Oia</a></li>
+<li><a href='/movemonos/ig_saians.php?lang=gal'>Igrexa de San Xurxo de Saiáns</a></li>
+<li><a href='/movemonos/ig_sardoma.php?lang=gal'>Igrexa de San Pedro de Sárdoma</a></li>
+<li><a href='/movemonos/ig_valladares.php?lang=gal'>Igrexa de Valadares</a></li>
+<li><a href='/movemonos/ig_carmen.php?lang=gal'>Igrexa del Carmen</a></li>
+<li><a href='/movemonos/ig_guia.php?lang=gal'>Ermita da Guía</a></li>
+<li><a href='/movemonos/ig_alba.php?lang=gal'>Capela de Nosa Señora do Alba</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/cultura_noticias.php?lang=gal'>Noticias de Cultura  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/arquivo_municipal.php?lang=gal'>Arquivo municipal  </a>
+<ul><li><a href='/movemonos/arquivo_institucion.php?lang=gal'>Institución  </a>
+<ul>
+<li><a href='/movemonos/arquivo_institucion_acceso.php?lang=gal'>Instalacións e acceso</a></li>
+<li><a href='/movemonos/arquivo_institucion_servicio.php?lang=gal'>Servizos</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/arquivo_fondos.php?lang=gal'>Fondos e coleccións  </a>
+<ul>
+<li><a href='/movemonos/arquivo_fondos_publicos.php?lang=gal'>Fondos públicos</a></li>
+<li><a href='/movemonos/arquivo_fondos_privados.php?lang=gal'>Fondos privados</a></li>
+<li><a href='/movemonos/arquivo_fondos_coleccions.php?lang=gal'>Coleccións</a></li>
+<li><a href='/movemonos/arquivo_fondos_outras.php?lang=gal'>Outras coleccións</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/arquivo_noticias.php?lang=gal'>Novas de interese  </a>
+<ul>
+<li><a href='/movemonos/arquivo_noticias_4.php?lang=gal'>O Arquivo municipal dixitalizará os seus fondos patrimoniais</a></li>
+<li><a href='/movemonos/arquivo_noticias_3.php?lang=gal'>Día Internacional dos Arquivos</a></li>
+<li><a href='/movemonos/arquivo_noticias_2.php?lang=gal'>O Arquivo municipal de Vigo estrea sección propia na web do Concello</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/arquivo_documentacion.php?lang=gal'>Documentación do arquivo  </a>
+</li>
+<li><a href='/movemonos/arquivo_recursos.php?lang=gal'>Recursos profesionais  </a>
+</li>
+<li><a href='/movemonos/arquivo_enlaces.php?lang=gal'>Ligazóns de interese  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/muller.php?lang=gal'>Igualdade  </a>
+<ul><li><a href='/movemonos/muller_tramites.php?lang=gal'>Trámites de Igualdade  </a>
+</li>
+<li><a href='/movemonos/muller_actividades.php?lang=gal'>Actividades  </a>
+</li>
+<li><a href='/movemonos/muller_coeducacion.php?lang=gal'>Coeducación  </a>
+</li>
+<li><a href='/movemonos/muller_vxenero.php?lang=gal'>Violencia de xénero  </a>
+<ul>
+<li><a href='/movemonos/muller_vxenero5.php?lang=gal'>Definición de Violencia</a></li>
+<li><a href='/movemonos/muller_vxenero6.php?lang=gal'>Tipos de Violencia</a></li>
+<li><a href='/movemonos/muller_vxenero7.php?lang=gal'>Ciclo da Violencia</a></li>
+<li><a href='/movemonos/muller_vxenero1.php?lang=gal'>Recomendacións ante agresións</a></li>
+<li><a href='/movemonos/muller_vxenero8.php?lang=gal'>Sair da Violencia</a></li>
+<li><a href='/movemonos/muller_vxenero2.php?lang=gal'>Dereitos das mulleres vítimas da Violencia de Xénero</a></li>
+<li><a href='/movemonos/muller_vxenero3.php?lang=gal'>Onde acudir: Recursos e Servizos</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/muller_laboral.php?lang=gal'>Igualdade laboral  </a>
+<ul>
+<li><a href='/movemonos/muller_laboral1.php?lang=gal'>Dereitos Laborais Básicos</a></li>
+<li><a href='/movemonos/muller_laboral2.php?lang=gal'>Discriminación Laboral</a></li>
+<li><a href='/movemonos/muller_laboral3.php?lang=gal'>Actuacións ante a Discriminación</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/muller4.php?lang=gal'>Atención Domiciliaria da Infancia  </a>
+</li>
+<li><a href='/movemonos/muller_centros.php?lang=gal'>Centros Municipais de atención ás mulleres  </a>
+<ul>
+<li><a href='/movemonos/muller0.php?lang=gal'>Centro Municipal de Información dos Dereitos da Muller  </a></li>
+<li><a href='/movemonos/muller7.php?lang=gal'>Casa das Mulleres  </a></li>
+<li><a href='/movemonos/muller3.php?lang=gal'>Centro de documentación e recursos feministas</a></li>
+<li><a href='/movemonos/muller1.php?lang=gal'>Centro de Emerxencia para mulleres</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/muller_consello.php?lang=gal'>Consello Municipal da Muller  </a>
+</li>
+<li><a href='/movemonos/muller_subvencions.php?lang=gal'>Subvencións  </a>
+</li>
+<li><a href='/movemonos/muller8.php?lang=gal'>Publicacións  </a>
+</li>
+<li><a href='/movemonos/muller_noticias.php?lang=gal'>Noticias de Igualdade  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/empregolocal.php?lang=gal'>Emprego Local  </a>
+<ul><li><a href='/movemonos/emprego_orientacion.php?lang=gal'>Orientación laboral  </a>
+</li>
+<li><a href='/movemonos/emprego_formOnline.php?lang=gal'>Formación online  </a>
+</li>
+<li><a href='/movemonos/emprego_formacion.php?lang=gal'>Formación para o emprego  </a>
+<ul>
+<li><a href='/movemonos/emprego_form_insercionLab.php?lang=gal'>Vigo pola inserción laboral</a></li>
+<li><a href='/movemonos/emprego_form_obra.php?lang=gal'>Obradoiros de emprego: Vigo Capacita X e Formaweb V</a></li>
+<li><a href='/movemonos/emprego_form_hist.php?lang=gal'>Proxectos anteriores</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/emprego_insercion.php?lang=gal'>Inserción laboral  </a>
+<ul>
+<li><a href='/movemonos/emprego_integracion.php?lang=gal'>Programa de integración de emprego</a></li>
+<li><a href='/movemonos/emprego_vigo_emprega.php?lang=gal'>Programa municipal Vigo emprega</a></li>
+<li><a href='/movemonos/emprego_cooperacion.php?lang=gal'>Cooperación</a></li>
+<li><a href='/movemonos/emprego_axuda.php?lang=gal'>Axuda á contratación</a></li>
+<li><a href='/movemonos/emprego_insercion_hist.php?lang=gal'>Histórico inserción laboral</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/emprego_apoio.php?lang=gal'>Apoio a empresas e ao emprendemento  </a>
+<ul>
+<li><a href='/movemonos/emprego_iles.php?lang=gal'>Iniciativas Locais de Emprego (ILEs)</a></li>
+<li><a href='/movemonos/emprego_peim.php?lang=gal'>Proxectos empresariais de interese municipal (PEIM)</a></li>
+<li><a href='/movemonos/emprego_empresas.php?lang=gal'>Axuda á creación de empresas</a></li>
+<li><a href='/movemonos/emprego_vigoemprende.php?lang=gal'>Asesoramento a Emprendedores e PEMES: VigoEmprende</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/emprego_convenios.php?lang=gal'>Convenios de colaboración  </a>
+</li>
+<li><a href='/movemonos/emprego_proxectos.php?lang=gal'>Outros proxectos  </a>
+</li>
+<li><a href='/movemonos/emprego_pme.php?lang=gal'>PME 2008-2011  </a>
+</li>
+<li><a href='http://sede.vigo.org/expedientes/oposicions/ofertas.jsp?lang=gal'>Ofertas públicas de emprego</a>
+</li>
+<li><a href='/movemonos/emprego_tramites.php?lang=gal'>Trámites de Emprego  </a>
+</li>
+<li><a href='/movemonos/emprego_publi.php?lang=gal'>Publicacións  </a>
+</li>
+<li><a href='/movemonos/emprego_noticias.php?lang=gal'>Noticias de Emprego  </a>
+</li>
+<li><a href='/movemonos/emprego_obsocioec.php?lang=gal'>Observatorio socioeconómico  </a>
+</li>
+<li><a href='/movemonos/emprego_enlaces.php?lang=gal'>Enlaces de interese  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/atencionsocial.php?lang=gal'>Servizos Sociais  </a>
+<ul><li><a href='/movemonos/atencionsocial_imv.php?lang=gal'>Ingreso mínimo vital  </a>
+</li>
+<li><a href='/movemonos/atencionsocial_uts.php?lang=gal'>Unidades de traballo social  </a>
+</li>
+<li><a href='/movemonos/atencionsocial1.php?lang=gal'>Infancia e familia  </a>
+<ul>
+<li><a href='/movemonos/atencionsocial11.php?lang=gal'>Programa socioeducativo e de apoio familiar</a></li>
+<li><a href='/movemonos/atencionsocial12.php?lang=gal'>Outros programas de Infancia e Familia</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/atencionsocial3a.php?lang=gal'>Persoas en situación de vulnerabilidade social  </a>
+<ul>
+<li><a href='/movemonos/vulnerabilidade_soc1.php?lang=gal'>Centro Integral de Inclusión e Emerxencia Social (CIIES) para persoas sen fogar</a></li>
+<li><a href='/movemonos/vulnerabilidade_soc2.php?lang=gal'>Programa de inclusión sociolaboral</a></li>
+<li><a href='/movemonos/vulnerabilidade_soc3.php?lang=gal'>Outros programas de inclusión</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/atencionsocial_prest.php?lang=gal'>Prestacións económicas municipais  </a>
+</li>
+<li><a href='/movemonos/atencionsocial2.php?lang=gal'>Persoas maiores  </a>
+</li>
+<li><a href='/movemonos/atencionsocial3.php?lang=gal'>Persoas con discapacidade  </a>
+<ul>
+<li><a href='/movemonos/discapacidades1.php?lang=gal'>Outros programas e servizos para persoas con discapacidade</a></li>
+<li><a href='/movemonos/discapacidades2.php?lang=gal'>Consello de accesibilidade</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/atencionsocial5.php?lang=gal'>Persoas migrantes  </a>
+</li>
+<li><a href='/movemonos/atencionsocial8_drog.php?lang=gal'>Drogodependencias e outras adiccións  </a>
+<ul>
+<li><a href='/movemonos/atencionsocial8.php?lang=gal'>Plan Local de drogodependencias e outras adiccións</a></li>
+<li><a href='/movemonos/cedro.php?lang=gal'>CEDRO</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/atencionsocial7.php?lang=gal'>Fomento da Solidariedade e a Participación  </a>
+<ul>
+<li><a href='/movemonos/atencionsocial7_cmcis.php?lang=gal'>Consello Municipal de Cooperación Internacional e Solidariedade</a></li>
+<li><a href='/movemonos/atencionsocial7_sub.php?lang=gal'>Subvencións a entidades sociais</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/atencionsocialmem.php?lang=gal'>Memorias  </a>
+</li>
+<li><a href='/movemonos/atencionsocialsub.php?lang=gal'>Subvencións FSE  </a>
+</li>
+<li><a href='/movemonos/atencionsocial_tram.php?lang=gal'>Trámites de Servizos Sociais  </a>
+</li>
+<li><a href='/movemonos/atencion_noticias.php?lang=gal'>Noticias de Benestar Social  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/asociaciones.php?lang=gal'>Participación cidadá  </a>
+<ul><li><a href='/movemonos/asocia_noticias.php?lang=gal'>Noticias   </a>
+</li>
+<li><a href='/movemonos/at_cidada_cam.php?lang=gal'>Oficinas Municipais de Distrito  </a>
+</li>
+<li><a href='/movemonos/at_cidada_cciv.php?lang=gal'>Centros Municipais  </a>
+<ul>
+<li><a href='/movemonos/at_cidada_cciv5.php?lang=gal'>Centro Municipal de Bouzas</a></li>
+<li><a href='/movemonos/at_cidada_cciv1.php?lang=gal'>Centro Municipal Casco Vello</a></li>
+<li><a href='/movemonos/at_cidada_cciv2.php?lang=gal'>Centro Municipal de Coruxo</a></li>
+<li><a href='/movemonos/at_cidada_cciv4.php?lang=gal'>Centro Municipal de Saians</a></li>
+<li><a href='/movemonos/at_cidada_cciv3.php?lang=gal'>Centro Municipal de Teis</a></li>
+<li><a href='/movemonos/at_cidada_cciv6.php?lang=gal'>Centro Municipal da Raposeira</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/at_cidada_cmit.php?lang=gal'>Centros Municipais de Internet  </a>
+</li>
+<li><a href='/movemonos/asociacion.php?lang=gal'>Asociacións  </a>
+<ul>
+<li><a href='/movemonos/asociacions.php?lang=gal'>Listaxe de asociacións</a></li>
+<li><a href='/movemonos/asociacions2.php?lang=gal'>Portal das asociacións</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/asociacions1.php?lang=gal'>Regulamentos  </a>
+</li>
+<li><a href='/movemonos/at_cidada_vias.php?lang=gal'>Vías de Participación en Funcións do Concello  </a>
+<ul>
+<li><a href='/movemonos/at_cidada_vias1.php?lang=gal'>Elaboración de Orzamentos</a></li>
+<li><a href='/movemonos/at_cidada_vias2.php?lang=gal'>Elaboración das Ordenanzas Fiscais</a></li>
+<li><a href='/movemonos/at_cidada_vias3.php?lang=gal'>Elaboración de Ordenanzas e Disposicións Regulamentarias</a></li>
+<li><a href='/movemonos/at_cidada_vias4.php?lang=gal'>Elaboración dos Instrumentos Urbanísticos</a></li>
+<li><a href='/movemonos/at_cidada_vias5.php?lang=gal'>Outras Consultas Cidadáns</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/asociacions_publi.php?lang=gal'>Publicacións e Enquisas  </a>
+</li>
+<li><a href='/movemonos/asociacions_tram.php?lang=gal'>Trámites  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/solidariedade.php?lang=gal'>Voluntariado (OMV)  </a>
+<ul><li><a href='/movemonos/solidariedade_vol.php?lang=gal'>Faite voluntario ou voluntaria  </a>
+</li>
+<li><a href='/movemonos/solidariedade_maior.php?lang=gal'>Acompañamento a Maiores, Menores e Persoas con discapacidade  </a>
+</li>
+<li><a href='/movemonos/solidariedade_amb.php?lang=gal'>Voluntariado Medioambiental  </a>
+</li>
+<li><a href='/movemonos/solidariedade_cul.php?lang=gal'>Voluntariado Cultural  </a>
+</li>
+<li><a href='/movemonos/solidariedade_cid.php?lang=gal'>Voluntariado en Eventos na Cidade  </a>
+</li>
+<li><a href='/movemonos/solidariedade_eav.php?lang=gal'>Voluntariado en Entidades de Acción Voluntaria (EAV)  </a>
+<ul>
+<li><a href='/movemonos/solidariedade_omv1.php?lang=gal'>Como formar parte da OMV como Entidade</a></li>
+<li><a href='/movemonos/solidariedade_omv2.php?lang=gal'>Ventaxas</a></li>
+<li><a href='/movemonos/solidariedade_omv3.php?lang=gal'>Entidades adheridas a OMV</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/solidariedade_form.php?lang=gal'>Formación  </a>
+</li>
+<li><a href='/movemonos/solidariedade_tram.php?lang=gal'>Trámites de Voluntariado  </a>
+</li>
+<li><a href='/movemonos/solidariedade_not.php?lang=gal'>Noticias de Voluntariado  </a>
+</li>
+<li><a href='/movemonos/solidariedade_act.php?lang=gal'>Actualización datos persoas voluntarias  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/lingua.php?lang=gal'>Lingua  </a>
+<ul><li><a href='/movemonos/lingua0.php?lang=gal'>Estudo sociolingüístico  </a>
+</li>
+<li><a href='/movemonos/lingua1.php?lang=gal'>Páxinas de recursos na rede  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/vigoverde4.php?lang=gal'>Consumo  </a>
+<ul><li><a href='/movemonos/consumo_tramites.php?lang=gal'>Trámites da OMIC  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/protocolo.php?lang=gal'>Protocolo  </a>
+</li>
+<li><a href='https://hoxe.vigo.org/oconcello/valedor.php?lang=gal'>Valedora da cidadanía</a>
+<ul><li><a href='/movemonos/valedor_informes.php?lang=gal'>Informes ao Pleno do Concello  </a>
+</li>
+<li><a href='/movemonos/valedor_actuacions.php?lang=gal'>Actuacións de Oficio  </a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/servicios.php?lang=gal'>Servizos cidade</a>
+<ul>
+<li><a href='/movemonos/vigoverde2.php?lang=gal'>Augas  </a>
+<ul><li><a href='/movemonos/aguas_tramites.php?lang=gal'>Trámites do Servizo de Augas  </a>
+</li>
+<li><a href='/movemonos/visitas_depuradora.php?lang=gal'>Visitas á depuradora do Lagares  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/vigoverde3.php?lang=gal'>Iluminación pública  </a>
+<ul><li><a href='/movemonos/alumeado_tramites.php?lang=gal'>Trámites de Iluminación pública  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/bombeiros.php?lang=gal'>Bombeiros  </a>
+<ul><li><a href='/movemonos/bombeiros_tramites.php?lang=gal'>Trámites de Bombeiros  </a>
+</li>
+<li><a href='/movemonos/bombeiros_noticias.php?lang=gal'>Noticias de bombeiros e seguridade  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/cemiterios.php?lang=gal'>Cemiterios  </a>
+<ul><li><a href='/movemonos/cemit_certif.php?lang=gal'>Certificacións e documentos  </a>
+</li>
+<li><a href='/movemonos/cemit_nichos.php?lang=gal'>Nichos, cinceiros e oseiro  </a>
+</li>
+<li><a href='/movemonos/cemit_licenzas.php?lang=gal'>Exhumación e inhumación  </a>
+</li>
+<li><a href='/movemonos/cemit_transmision.php?lang=gal'>Transmisións  </a>
+</li>
+<li><a href='/movemonos/cemit_taxas.php?lang=gal'>Exencións de taxas  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/comercio.php?lang=gal'>Comercio  </a>
+<ul><li><a href='/movemonos/comercio_venta.php?lang=gal'>Venda ambulante  </a>
+</li>
+<li><a href='/movemonos/comercio_mercados.php?lang=gal'>Asociacións de comerciantes e Mercados  </a>
+</li>
+<li><a href='/movemonos/comercio_normas.php?lang=gal'>Normativa  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/laboratorio.php?lang=gal'>Laboratorio Municipal  </a>
+<ul><li><a href='/movemonos/labo_historia.php?lang=gal'>Historia do Laboratorio  </a>
+</li>
+<li><a href='/movemonos/labo_augas.php?lang=gal'>Control analítico augas de consumo humano  </a>
+</li>
+<li><a href='/movemonos/labo_fontes.php?lang=gal'>Control analítico de Fontes e mananciais  </a>
+<ul>
+<li><a href='/movemonos/labo_fontes2.php?lang=gal'>Mapa de fontes e mananciais</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/labo_praias.php?lang=gal'>Control analítico de praias  </a>
+</li>
+<li><a href='/movemonos/labo_mediambiente.php?lang=gal'>Control medioambiental  </a>
+</li>
+<li><a href='/movemonos/labo_plaga.php?lang=gal'>Control de pragas  </a>
+</li>
+<li><a href='/movemonos/labo_visitas.php?lang=gal'>Visitas ao Laboratorio  </a>
+</li>
+<li><a href='/movemonos/labo_museo.php?lang=gal'>Museo do Laboratorio  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/limpeza.php?lang=gal'>Limpeza e xestión de residuos  </a>
+<ul><li><a href='/movemonos/limpeza_enseres.php?lang=gal'>Recollida domiciliaria de mobles e obxectos  </a>
+</li>
+<li><a href='/movemonos/limpeza_recicla.php?lang=gal'>Reciclaxe  </a>
+<ul>
+<li><a href='/movemonos/limpieza_ben_reciclaje.php?lang=gal'>Beneficios da reciclaxe</a></li>
+<li><a href='/movemonos/asistente_reciclaje.php?lang=gal'>Asistente virtual de reciclaxe</a></li>
+<li><a href='/movemonos/limpieza_consumo_responsable.php?lang=gal'>Consumo responsable</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/limpeza_organica.php?lang=gal'>Tipos de residuos e colectores  </a>
+<ul>
+<li><a href='/movemonos/limp_org_dom.php?lang=gal'>Lixo doméstico</a></li>
+<li><a href='/movemonos/limp_org_form.php?lang=gal'>Residuos orgánicos (FORM). Contenedor marrón</a></li>
+<li><a href='/movemonos/limp_cont_compos.php?lang=gal'>Solicitude de composteiro individual</a></li>
+<li><a href='/movemonos/limp_org_ramas.php?lang=gal'>Ramas e podas</a></li>
+<li><a href='/movemonos/limp_recli_latas.php?lang=gal'>Latas</a></li>
+<li><a href='/movemonos/limp_recli_plastic.php?lang=gal'>Envases plásticos</a></li>
+<li><a href='/movemonos/limp_recli_bricks.php?lang=gal'>Bricks</a></li>
+<li><a href='/movemonos/limp_recli_papel.php?lang=gal'>Papel e cartón</a></li>
+<li><a href='/movemonos/limp_recli_vidrio.php?lang=gal'>Vidro</a></li>
+<li><a href='/movemonos/limp_cont_aceite.php?lang=gal'>Aceite usado doméstico</a></li>
+<li><a href='/movemonos/limp_cont_electr.php?lang=gal'>Material electrónico</a></li>
+<li><a href='/movemonos/limp_cont_pilas.php?lang=gal'>Pilas usadas</a></li>
+<li><a href='/movemonos/limp_cont_roupaCalzado.php?lang=gal'>Roupa e calzado</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/limpieza_mapa.php?lang=gal'>Mapa de colectores de reciclaxe  </a>
+</li>
+<li><a href='/movemonos/limpeza_puntoLimpo.php?lang=gal'>Puntos limpos  </a>
+<ul>
+<li><a href='/movemonos/puntoLimpo_fixo.php?lang=gal'>Punto limpo fixo</a></li>
+<li><a href='/movemonos/puntoLimpo_mobil.php?lang=gal'>Punto limpo móbil</a></li>
+<li><a href='/movemonos/puntoLimpo_prox.php?lang=gal'>Puntos limpos de proximidade</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/limpeza_tramites.php?lang=gal'>Trámites de limpeza  </a>
+</li>
+<li><a href='/movemonos/limpeza_calles.php?lang=gal'>Limpeza de rúas, viarias e praias  </a>
+</li>
+<li><a href='/movemonos/limpeza0.php?lang=gal'>Empresas concesionarias  </a>
+</li>
+<li><a href='/movemonos/limpeza_enlaces.php?lang=gal'>Enlaces de interese  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/vigoverde1.php?lang=gal'>Medio Ambiente  </a>
+<ul><li><a href='/movemonos/mabiente_vigo.php?lang=gal'>Vigo, Medio Ambiente e Paisaxe  </a>
+</li>
+<li><a href='/movemonos/mabiente_noticias.php?lang=gal'>Noticias de Medio Ambiente  </a>
+</li>
+<li><a href='/movemonos/mabiente_playas_intro.php?lang=gal'>Praias  </a>
+<ul>
+<li><a href='/movemonos/mabiente_playas.php?lang=gal'>Praias de Vigo</a></li>
+<li><a href='/movemonos/mabiente_fichas_playas.php?lang=gal'>Fichas técnicas</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/mabiente_espazo_protexido.php?lang=gal'>Espazos protexidos  </a>
+</li>
+<li><a href='/movemonos/mabiente_rutas_sendas.php?lang=gal'>Rutas e sendas  </a>
+<ul>
+<li><a href='/movemonos/mabiente_senda_azul.php?lang=gal'>Sendas azuis</a></li>
+<li><a href='/movemonos/mabiente_rutas_urb.php?lang=gal'>Rutas urbanas</a></li>
+<li><a href='/movemonos/mabiente_sendas.php?lang=gal'>Sendas de pequeno e longo recorrido</a></li>
+<li><a href='/movemonos/mabiente_fichas_sendas.php?lang=gal'>Fichas técnicas</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/mabiente_animais.php?lang=gal'>Animais  </a>
+<ul>
+<li><a href='/movemonos/adoptame_vigo.php?lang=gal'>Adóptame en Vigo</a></li>
+<li><a href='/movemonos/maVigoPlaneta.php?lang=gal'>Campaña VIGO Planeta</a></li>
+<li><a href='/movemonos/n_anim_gatos.php?lang=gal'>Plan sanitario de esterilización felina</a></li>
+<li><a href='/movemonos/n_anim_parques.php?lang=gal'>Parques e praia canina</a></li>
+<li><a href='/movemonos/n_anim_regiac.php?lang=gal'>Animais de compañía: REGIAC</a></li>
+<li><a href='/movemonos/recollidaAnimaisAbandonados.php?lang=gal'>Centro Municipal de Recollida de Animais Abandonados</a></li>
+<li><a href='/movemonos/n_anim_perigosos.php?lang=gal'>Animais potencialmente perigosos</a></li>
+<li><a href='/movemonos/n_anim_gaviotas.php?lang=gal'>Control de poboación de gaivotas</a></li>
+<li><a href='/movemonos/n_anim_circos.php?lang=gal'>Prohibición de circos con animais</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/mabiente_camino.php?lang=gal'>Programa Camiño a Camiño  </a>
+<ul>
+<li><a href='/movemonos/n_cac_calen.php?lang=gal'>Calendario do programa</a></li>
+<li><a href='/movemonos/n_cac_anos_ant.php?lang=gal'>Edicións anteriores</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/mabiente_hort_urbanas.php?lang=gal'>Hortas urbanas  </a>
+</li>
+<li><a href='/movemonos/mabiente_rios_humedais.php?lang=gal'>Ríos e zonas húmidas  </a>
+</li>
+<li><a href='/movemonos/mabiente_cont_acustica.php?lang=gal'>Protección contra o ruído  </a>
+</li>
+<li><a href='/movemonos/mabiente_concienciacion.php?lang=gal'>Concienciación medioambiental  </a>
+<ul>
+<li><a href='/movemonos/mabiente_aceite.php?lang=gal'>Recollida de aceite usado</a></li>
+<li><a href='/movemonos/mabiente_age_natural.php?lang=gal'>Axenda 2011 Vigo Natural</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/mabiente_ciclos.php?lang=gal'>Ciclo de Montaña, Medio Ambiente e Cambio Climático  </a>
+</li>
+<li><a href='/movemonos/mabiente_ax21.php?lang=gal'>Axenda 21  </a>
+</li>
+<li><a href='/movemonos/mabiente_lex_ambiental.php?lang=gal'>Lexislación ambiental  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/vigoverde0.php?lang=gal'>Montes, parques e xardíns  </a>
+<ul><li><a href='/movemonos/parques_tramites.php?lang=gal'>Trámites de Xardíns  </a>
+</li>
+<li><a href='/movemonos/n_jardines.php?lang=gal'>Parques e xardíns  </a>
+<ul>
+<li><a href='/movemonos/np_alameda.php?lang=gal'>A Alameda</a></li>
+<li><a href='/movemonos/np_castro.php?lang=gal'>O Castro</a></li>
+<li><a href='/movemonos/np_guia.php?lang=gal'>A Guía</a></li>
+<li><a href='/movemonos/np_castrelos.php?lang=gal'>Castrelos</a></li>
+<li><a href='/movemonos/np_otros.php?lang=gal'>Outros parques e xardíns</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/n_parques.php?lang=gal'>Parques forestais  </a>
+<ul>
+<li><a href='/movemonos/nf_coruxo.php?lang=gal'>Coruxo</a></li>
+<li><a href='/movemonos/nf_beade.php?lang=gal'>Beade</a></li>
+<li><a href='/movemonos/nf_comesana.php?lang=gal'>Santo André de Comesaña</a></li>
+<li><a href='/movemonos/nf_zamanes.php?lang=gal'>Zamáns</a></li>
+<li><a href='/movemonos/nf_bembrive.php?lang=gal'>Bembrive</a></li>
+<li><a href='/movemonos/nf_cabral.php?lang=gal'>Bandeira-Cabral</a></li>
+<li><a href='/movemonos/nf_saians.php?lang=gal'>Saiáns</a></li>
+<li><a href='/movemonos/nf_alba.php?lang=gal'>Monte Alba-Cepudo</a></li>
+<li><a href='/movemonos/nf_madroa.php?lang=gal'>Teis-A Madroa</a></li>
+<li><a href='/movemonos/nf_vixiador.php?lang=gal'>Vixiador-Candeán</a></li>
+<li><a href='/movemonos/nf_pozos.php?lang=gal'>Monte dos Pozos-Valadares</a></li>
+<li><a href='/movemonos/nf_oia.php?lang=gal'>San Miguel de Oia</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/parques_rede_faixas.php?lang=gal'>Plan de prevención e defensa contra incendios forestais do concello de Vigo (PMPDIF)  </a>
+</li>
+<li><a href='/movemonos/parques_noticias.php?lang=gal'>Noticias do servizo  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/inventario_municipal.php?lang=gal'>Inventario Municipal  </a>
+</li>
+<li><a href='/movemonos/phistorico.php?lang=gal'>Patrimonio Histórico  </a>
+<ul><li><a href='/movemonos/phistorico_bic.php?lang=gal'>Bens de Interés Cultural  </a>
+</li>
+<li><a href='/movemonos/phistorico_castro.php?lang=gal'>Castro de Vigo  </a>
+</li>
+<li><a href='/movemonos/phistorico_toralla.php?lang=gal'>Villa romana de Toralla e CIMR  </a>
+</li>
+<li><a href='/movemonos/phistorico_muralla.php?lang=gal'>Muralla de Vigo  </a>
+<ul>
+<li><a href='/movemonos/phistorico_ciudadela.php?lang=gal'>San Sebastián foi máis ca unha cidadela</a></li>
+<li><a href='/movemonos/phistorico_sen_defensas.php?lang=gal'>Sen defensas Vigo era presa fácil de piratas e inimigos</a></li>
+<li><a href='/movemonos/phistorico_estratexico.php?lang=gal'>San Sebastián lugar estratéxico de defensa na vila</a></li>
+<li><a href='/movemonos/phistorico_medieval_moderno.php?lang=gal'>Unha muralla de alma medieval e corpo moderno</a></li>
+<li><a href='/movemonos/phistorico_defensa_laxe.php?lang=gal'>Antes das murallas a vila xa se defendía dende o cabo da Laxe</a></li>
+<li><a href='/movemonos/phistorico_reconquista.php?lang=gal'>Coa Reconquista Vigo liberouse da ocupación francesa</a></li>
+<li><a href='/movemonos/phistorico_construcion.php?lang=gal'>Vigo constrúe as murallas malia as dificultades</a></li>
+<li><a href='/movemonos/phistorico_berbes.php?lang=gal'>O Berbés, construído sobre unha praia, quedará fora das murallas</a></li>
+<li><a href='/movemonos/phistorico_derruba.php?lang=gal'>As murallas derrúbanse cando perden utilidade e sentido</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/phistorico_xardins.php?lang=gal'>Ruta botánica do xardín do Pazo Quiñones de León  </a>
+<ul>
+<li><a href='/movemonos/phist_castrelos_acceso.php?lang=gal'>O xardín de acceso</a></li>
+<li><a href='/movemonos/phist_castrelos_roseiral.php?lang=gal'>Rosaleda</a></li>
+<li><a href='/movemonos/phist_castrelos_xfrances.php?lang=gal'>Xardín francés</a></li>
+<li><a href='/movemonos/phist_castrelos_alcoube.php?lang=gal'>Alcoube - Pradeiras Concepción Arenal</a></li>
+<li><a href='/movemonos/phist_castrelos_bosquete.php?lang=gal'>Bosquete</a></li>
+<li><a href='/movemonos/phist_castrelos_xingles.php?lang=gal'>Xardín inglés</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/phistorico_urban.php?lang=gal'>Urban  </a>
+</li>
+<li><a href='/movemonos/phistorico_noticias.php?lang=gal'>Noticias de Patrimonio Histórico  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/policia.php?lang=gal'>Policía Local  </a>
+<ul><li><a href='/movemonos/policia_tramites.php?lang=gal'>Trámites Policía Local  </a>
+</li>
+<li><a href='/movemonos/policia_evap.php?lang=gal'>E.V.A.P.  </a>
+<ul>
+<li><a href='/movemonos/policia_evap1.php?lang=gal'>Funcións</a></li>
+<li><a href='/movemonos/policia_evap2.php?lang=gal'>Orde de protección</a></li>
+<li><a href='/movemonos/policia_evap3.php?lang=gal'>Novidades</a></li>
+<li><a href='/movemonos/policia_evap4.php?lang=gal'>Denuncia</a></li>
+<li><a href='/movemonos/policia_evap6.php?lang=gal'>Enlaces</a></li>
+<li><a href='/movemonos/policia_evap7.php?lang=gal'>Estatísticas</a></li>
+<li><a href='/movemonos/policia_evap8.php?lang=gal'>Documentación</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/policia_edu.php?lang=gal'>Educación Vial  </a>
+<ul>
+<li><a href='/movemonos/policia_edu1.php?lang=gal'>Actividades</a></li>
+<li><a href='/movemonos/policia_edu2.php?lang=gal'>Ligazóns de Interese</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/policia_objPerdidos.php?lang=gal'>Obxectos perdidos  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/pcivil.php?lang=gal'>Protección Civil    </a>
+<ul><li><a href='/movemonos/pcivil_grupos.php?lang=gal'>Grupos e funcións  </a>
+</li>
+<li><a href='/movemonos/pcivil_voluntariado.php?lang=gal'>Voluntariado  </a>
+<ul>
+<li><a href='/movemonos/pcivil_voluntario.php?lang=gal'>Facerse voluntario</a></li>
+<li><a href='/movemonos/pcivil_vol_norm.php?lang=gal'>Normativa</a></li>
+<li><a href='/movemonos/pcivil_vol_func.php?lang=gal'>Funcións</a></li>
+<li><a href='/movemonos/pcivil_vol_forma.php?lang=gal'>Formación</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/pcivil_historia.php?lang=gal'>Historia  </a>
+</li>
+<li><a href='/movemonos/pcivil_normas.php?lang=gal'>Normativa  </a>
+</li>
+<li><a href='/movemonos/pcivil_enlaces.php?lang=gal'>Enlaces de interese  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/trafico_vigo.php?lang=gal'>Mobilidade: tráfico e transportes  </a>
+<ul><li><a href='/movemonos/trafico_tramites.php?lang=gal'>Trámites de Tráfico  </a>
+</li>
+<li><a href='/movemonos/trafico_avisos.php?lang=gal'>Avisos de Tráfico  </a>
+</li>
+<li><a href='/movemonos/trafico_camaras.php?lang=gal'>Tráfico en tiempo real e cámaras  </a>
+</li>
+<li><a href='/movemonos/trafico_autobus.php?lang=gal'>Autobús urbano. Vitrasa  </a>
+</li>
+<li><a href='/movemonos/trafico_taxis.php?lang=gal'>Taxis  </a>
+</li>
+<li><a href='/movemonos/trafico_zonaazul.php?lang=gal'>Estacionamento zona azul (XER)  </a>
+</li>
+<li><a href='/movemonos/trafico_parkings.php?lang=gal'>Aparcadoiros  </a>
+</li>
+<li><a href='/movemonos/movilidad_vigo_vertical.php?lang=gal'>Vigo Vertical: ascensores, ramplas e escaleiras mecánicas  </a>
+</li>
+<li><a href='/movemonos/trafico_multas.php?lang=gal'>Multas de tráfico  </a>
+</li>
+<li><a href='/movemonos/trafico_autoriza.php?lang=gal'>Transportes e autorizacións especiais  </a>
+</li>
+<li><a href='/movemonos/trafico_noticias.php?lang=gal'>Noticias de tráfico e seguridade  </a>
+</li>
+<li><a href='/movemonos/plan_mov_urbana.php?lang=gal'>Plan de movilidade urbana sostenible  </a>
+</li>
+</ul>
+</li>
+<li><a href='http://www.turismodevigo.org?lang=gal'>Turismo</a>
+</li>
+<li><a href='/movemonos/urbanismo.php?lang=gal'>Xerencia Municipal de Urbanismo  </a>
+<ul><li><a href='/movemonos/urbanismo_xerencia.php?lang=gal'>Información Xeral - Teléfonos  </a>
+</li>
+<li><a href='/movemonos/urb_info_economica.php?lang=gal'>Información económica  </a>
+<ul>
+<li><a href='/movemonos/urb_info_ec_2026.php?lang=gal'>Exercicio 2026</a></li>
+<li><a href='/movemonos/urb_info_ec_2025.php?lang=gal'>Exercicio 2025</a></li>
+<li><a href='/movemonos/urb_info_ec_2024.php?lang=gal'>Exercicio 2024</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/urbanismo_noticias.php?lang=gal'>Noticias  </a>
+</li>
+<li><a href='/movemonos/urbanismo_tramites.php?lang=gal'>Trámites e servizos  </a>
+<ul>
+<li><a href='/movemonos/urbanismo_licencias.php?lang=gal'>Licenzas de Obras e Actividades</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/urbanismo_edificaciones.php?lang=gal'>Edificacións  </a>
+<ul>
+<li><a href='/movemonos/urbanismo4.php?lang=gal'> Informe de Avaliación dos Edificios IAE</a></li>
+<li><a href='/movemonos/urbanismo2.php?lang=gal'>Oficina de Rehabilitación</a></li>
+<li><a href='/movemonos/urbanismo_vivenda.php?lang=gal'>Punto de Información Vivenda</a></li>
+<li><a href='/movemonos/urb_rex_soares.php?lang=gal'>Rexistro Municipal de Soares</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/urb_ambiente.php?lang=gal'>Avaliacións ambientais de plans e proxectos  </a>
+</li>
+<li><a href='/movemonos/urbanismo_px.php?lang=gal'>Planeamento e Xestión  </a>
+<ul>
+<li><a href='/movemonos/urbanismo_pxom_2025.php?lang=gal'>Planeamento vixente</a></li>
+<li><a href='/movemonos/urb_plan_gest_1a.php?lang=gal'>Planeamento de desenvolvemento en tramitación</a></li>
+<li><a href='/movemonos/urb_gest_exec_en_tramit.php?lang=gal'>Xestión / Execución do Plan en tramitación</a></li>
+<li><a href='/movemonos/urb_plan_convenios.php?lang=gal'>Convenios Urbanísticos</a></li>
+<li><a href='/movemonos/urbanismo_pxom2.php?lang=gal'>Planeamento histórico</a></li>
+<li><a href='/movemonos/urb_plan_gest_1b.php?lang=gal'>Preguntas frecuentes</a></li>
+<li><a href='/movemonos/urb_plan_gest_2b.php?lang=gal'>Enlaces de interese</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/urbanismo_infra.php?lang=gal'>Urbanizacións e Infraestruturas  </a>
+</li>
+<li><a href='/movemonos/urbanismo_cartograf_gral.php?lang=gal'>Cartografía oficial  </a>
+<ul>
+<li><a href='/movemonos/urbanismo_rede_bases.php?lang=gal'>Outras publicacións</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/urb_plan_rec_transf_res.php?lang=gal'>Plan de recuperación, transformación e resilencia  </a>
+<ul>
+<li><a href='/movemonos/urb_prtr_antifraude.php?lang=gal'>Plan de medidas antifraude</a></li>
+<li><a href='/movemonos/urb_plan_rec_transf_res_p1.php?lang=gal'>Programa de axudas ás actuacións de rehabilitación a nivel de barrio</a></li>
+</ul>
+</li>
+<li><a href='/movemonos/urbanismo_pef.php?lang=gal'>Plataforma de Edición de Proxectos  </a>
+</li>
+<li><a href='/movemonos/urbanismo_normas.php?lang=gal'>Normativa  </a>
+</li>
+<li><a href='/movemonos/urbanismo3.php?lang=gal'>Actas do Consello da Xerencia  </a>
+</li>
+<li><a href='/movemonos/urbanismo_dir.php?lang=gal'>Directorio  </a>
+</li>
+<li><a href='/movemonos/urbanismo_tramitesP.php?lang=gal'>Trámites e servizos  </a>
+<ul>
+<li><a href='/movemonos/urbanismo_licenciasP.php?lang=gal'>Licenzas e comunicacións</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/vias_obras.php?lang=gal'>Vías e Obras  </a>
+<ul><li><a href='/movemonos/v_obras_canaliza.php?lang=gal'>Licenzas para obras en dominio público  </a>
+</li>
+<li><a href='/movemonos/v_obras_tramites.php?lang=gal'>Trámites de Vías e Obras  </a>
+</li>
+</ul>
+</li>
+<li><a href='/movemonos/vigo_wifi.php?lang=gal'>Vigo Wifi  </a>
+<ul><li><a href='/movemonos/vigowifi_instala.php?lang=gal'>Instalacións municipais  </a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/sede/?lang=gal'>Sede electrónica</a>
+<ul>
+<li><a href='http://sede.vigo.org/expedientes/tramites/tramites.jsp?lang=gal'>Trámites e Información</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=cc_cidada&amp;lang=gal'>Carpeta cidadá</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/sede/tributos.jsp?lang=gal'>Oficina tributaria</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/perfilcontratante/index.jsp?lang=gal'>Contratación</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=subastas_ad&amp;lang=gal'>Poxas tributarias </a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/tramites/tramites.jsp?lang=gal&amp;amp;tip=doc'>Impresos</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/avisos/?lang=gal'>Convocatorias e subvencións</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/oposicions/ofertas.jsp?lang=gal'>Ofertas de emprego</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/actas/?lang=gal'>Actas e acordos</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=sede_sugerencias&amp;lang=gal'>Queixas e suxestións</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/taboleiro/index.jsp?exp=1&amp;lang=gal'>Taboleiro de anuncios e Edictos</a>
+</li>
+</ul>
+</li>
+<li><a href='/actualidade/redes_sociales.php?lang=gal'>Actualidade</a>
+<ul>
+<li><a href='http://hoxe.vigo.org/axenda/?lang=gal'>Axenda de Vigo</a>
+</li>
+<li><a href='/actualidade/apps.php?lang=gal'>Apps Municipais  </a>
+<ul><li><a href='/actualidade/app_vigo.php?lang=gal'>Vigo App. Aplicación móbil cidade  </a>
+<ul>
+<li><a href='/actualidade/appvigo_datos_usuario.php?lang=gal'>App Vigo: eliminación datos de usuario</a></li>
+</ul>
+</li>
+<li><a href='/actualidade/apps_aviso.php?lang=gal'>Apps: Política de Privacidade  </a>
+</li>
+</ul>
+</li>
+<li><a href='/actualidade/vigo25.php?lang=gal'>Vigo25 AI: buscador, asistente e chatbot con Intelixencia Artificial  </a>
+<ul><li><a href='/actualidade/vigo25_politica_privacidad.php?lang=gal'>Vigo25: Política de privacidade  </a>
+</li>
+</ul>
+</li>
+<li><a href='/actualidade/redes_sociales.php?lang=gal'>Redes sociais  </a>
+</li>
+<li><a href='http://xornal.vigo.org/?lang=gal'>Xornal de Vigo</a>
+</li>
+<li><a href='/actualidade/avisos_vigo.php?lang=gal'>Avisos  </a>
+</li>
+<li><a href='/actualidade/avisos_trafico.php?lang=gal'>Avisos de tráfico  </a>
+</li>
+<li><a href='/actualidade/avisos_transporte.php?lang=gal'>Avisos de transporte  </a>
+</li>
+<li><a href='http://sede.vigo.org/expedientes/oposicions/ofertas.jsp?lang=gal'>Ofertas de emprego</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/avisos/?lang=gal'>Convocatorias e subvencións</a>
+</li>
+<li><a href='http://sede.vigo.org/expedientes/perfilcontratante/index.jsp?lan=gal&amp;lang=gal'>Perfil de Contratante</a>
+</li>
+<li><a href='https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=subastas&amp;amp;lang=gal'>Poxas e adxudicacións directas</a>
+</li>
+</ul>
+</li>
+
+                    </ul>    
+                </div>
+            </nav>
+<!--INICIO CUERPO-->
+<div class="sep"></div>
+
+         
+
+            <div class="container-fluid bodyhoxe">
+                <ol class="breadcrumb">
+<li><a href="/">Inicio</a></li>
+<li> <a href="casadoconcello.php?lang=gal">Concello</a> </li><li> <a href="orzamentos.php?lang=gal">Información económica</a> </li><li> <a href="economica26.php?lang=gal">Exercicio 2026</a> </li><li> <a href="economica26_orzamento.php?lang=gal">Orzamento 2026</a> </li><li> Estados orzamentarios</li>
+</ol>
+<div style="clear:both"></div>
+                <div class="row row-offcanvas row-offcanvas-right">
+                    <div class="col-xs-12 col-sm-9 col-sm-push-3"> 
+                    
+                        <div id="contenidohoxe" >     
+                            <div id="escoitar">
+                                <img src="/js/speaker_red.png"  alt="Escoitar"> 
+                                <a href="#" data-insuit-reader="contenidohoxe" accesskey="e" title="Escuchar el texto de la secci&oacute;n (Tecla de acceso: 'E')">Escoitar</a>
+                            </div>
+                            <!--CENTRO-->
+                                                        <div id="tituloprincipal">
+                                                           
+                                    <p>Información económica</p> 
+                                    <h1>Estados orzamentarios </h1>
+                                                            </div>
+                            
+                             
+                            
+                                                                                         
+                                                        <div id="texto">
+                                <div id="locutionarea">
+                                    <!-- voz_start -->
+                                                                            <p>Entidade:</p>
+
+<ul>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/COMPARATIVO%20%20AREAS%20DE%20GASTOS.pdf">Comparativo &aacute;reas de gastos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/COMPARATIVO%20CAPITULOS%20DE%20GASTOS.pdf">Comparativo cap&iacute;tulos de gastos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/COMPARATIVO%20CAPITULOS%20DE%20INGRESOS.pdf">Comparativo cap&iacute;tulos de ingresos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/COMPARATIVO%20POLITICAS%20DE%20GASTOS.pdf">Comparativo pol&iacute;ticas de gastos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/GASTO%20POR%20AREA%20E%20CAPITULO.pdf">Gasto por &aacute;rea e cap&iacute;tulo</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/ORZAMENTO%20DE%20GASTOS%20POR%20PROGRAMAS.pdf">Orzamento de gastos por programas</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/ORZAMENTO%20DE%20INGRESOS%20POR%20SUBCONCEPTOS.pdf">Orzamento de ingresos por subconceptos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/entidade/RESUMEN%20POR%20CAPITULOS.pdf">Resumo&nbsp;por cap&iacute;tulos</a></li>
+</ul>
+
+<p>Consolidados</p>
+
+<ul>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/CLASIFICACION%20POR%20AREA%20E%20CAPITULO.pdf">Clasificaci&oacute;n por &aacute;rea e cap&iacute;tulo</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/COMPARATIVO%20DE%20%20INGRESOS%20POR%20CAPITULOS.pdf">Comparativo de ingresos por cap&iacute;tulos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/COMPARATIVO%20DE%20GASTOS%20POR%20CAPITULOS.pdf">Comparativo de gastos por cap&iacute;tulos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/COMPARATIVO%20DE%20GASTOS%20POR%20POLITICAS%20DE%20GASTO.pdf">Comparativo de gastos por pol&iacute;ticas de gasto</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/COMPARATIVO%20DE%20GASTOS%20POR%20AREAS.pdf">Comparativo de gastos por &aacute;reas</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/ORZAMENTO%20POR%20PROGRAMAS%20E%20PARTIDAS_CONS.pdf">Orzamento por programas e partidas consolidados</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/PLAN%20ANUAL%20DE%20INVESTIMENTOS.pdf">Plan anual de investimentos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/RELACION%20DE%20INGRESOS%20POR%20SUBCONCEPTOS.pdf">Relaci&oacute;n de ingresos por subconceptos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/consolidados/RESUME%20POR%20CAPITULOS%20INGRESOS%20E%20GASTOS.pdf">Resumo&nbsp;por cap&iacute;tulos ingresos e gastos</a></li>
+</ul>
+
+<p>Urbanismo:</p>
+
+<ul>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/urbanismo/COMPARATIVO%20DE%20GASTOS%20POR%20CAPITULOS.pdf">Comparativo de gastos por cap&iacute;tulos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/urbanismo/COMPARATIVO%20DE%20INGRESOS%20POR%20CAPITULOS.pdf">Comparativo de ingresos por cap&iacute;tulos</a></li>
+	<li><a href="../pdf/orzamentos/2026/orzamento/estados/urbanismo/ESTADO%20DE%20GASTOS%20E%20INGRESOS.pdf">Estado de gastos e ingresos</a></li>
+</ul>
+
+                                    
+                                    
+                                    <!-- voz_end -->  
+                                </div> <!-- locutionarea --> 
+
+                                
+                                                                
+                                
+                                                                    
+
+
+                                                                                                                                                                                                                                                                                                                   </div>  <!-- TEXTO--> 
+                                                <!-- FIN CENTRO-->
+                                            </div> <!--contenidohoxe-->
+                                        </div><!--/.col-xs-12.col-sm-9-->
+                                        <!-- MENU DERECHO QUE SE OCULTA OFF-CANVAS-->
+                                                                                    <div class="col-xs-12 col-sm-3 col-sm-pull-9 pl0">
+                                                <div class="menuizquierda">
+    <div class="menuTextvigo"> 
+        	      		  			  		<ul>
+		  								 	<li class="servizo_menu">
+					 							 			<a href="economica26.php?lang=gal">Exercicio 2026</a> 
+					 							 	</li> 	
+				 		
+		  				  		
+          		<li>					<a href="economica26_marco.php?lang=gal" >Marco orzamentario 2026 - 2028</a>					
+					</li>
+											  				  		
+          		<li>					<a href="economica26_lineas_fund.php?lang=gal" >Liñas fundamentais</a>					
+					</li>
+											  				  		
+          		<li><div class="menuizquierda_s"><a href="economica26_orzamento.php?lang=gal" >Orzamento 2026</a></div>
+          		
+          		
+          							
+					<ul>         			 <li>						<a href="economica26_tramitacion.php?lang=gal" >Tramitación</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_informes.php?lang=gal" >Informes</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_fundacions.php?lang=gal" >Fundacións</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_persoal.php?lang=gal" >Persoal</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_subvNom.php?lang=gal" >Subvencións nominativas</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_impactoXenero.php?lang=gal" >Impacto de xénero</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_paif.php?lang=gal" >PAIF e plan de investimentos</a>		
+					</li>
+					          							
+					         			 <li><div class="menuderecha_s"><a href="economica26_estados.php?lang=gal" >Estados orzamentarios</a></div>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_estadoDeuda.php?lang=gal" >Escenario da débeda</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_prevPeche.php?lang=gal" >Previsión de peche 2025</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_liq30092025.php?lang=gal" >Liquidación a 30/09/2025</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_liq31122024.php?lang=gal" >Liquidación a 31/12/2024</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_regrasFiscais.php?lang=gal" >Regras fiscais</a>		
+					</li>
+					          							
+					         			 <li>						<a href="economica26_emendas.php?lang=gal" >Emendas</a>		
+					</li>
+					</ul>          		          		
+          		
+          							
+					</li>
+											  				  		
+          		<li>					<a href="economica26_morosidade.php?lang=gal" >Período medio de pago e morosidade</a>					
+					</li>
+											  				  		
+          		<li>					<a href="economica_26_orzamento_exe.php?lang=gal" >Execución trimestral orzamento 2026</a>					
+					</li>
+					</ul>						  		
+			                  </div>
+</div> <!--menuhijos5-->
+                                                                                                    <div id="fotosmenu2"><img src="/imx/img/economica26_estados.jpg" class="img-menulateral" alt="Estados orzamentarios"  onError="this.onerror = '';this.style.visibility='hidden';" >
+                                                    </div>
+                                                                                                <div id="fotosmenu">
+<div class="galeria">
+</div>
+</div>
+
+                                                
+                                            </div><!--/.sidebar-offcanvas-->
+                                                                            </div><!--/row-->
+                                </div><!--/.container-->
+                           
+                                
+                          <div class="sep"></div>
+<!--PE-->
+<div class="cleaner">&nbsp;</div>
+
+<div id="pievgo">
+
+    <div class="pie-vigo">
+            <div class="pie-vigo-contenido">
+                <p class="pieDestacado">Concello de Vigo</p>
+				<p >Praza do Rei - 36202 - Vigo (Pontevedra) - Teléfono: 010 - 986810100</p>
+            </div>		
+            
+    </div>
+
+    <div class="pie-enlaces">
+        <div class="pie-enlaces-contenido">
+            <h2>Servizos da Sede Electrónica</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <ul>
+                        <li><a href="https://sede.vigo.org/expedientes/tramites/tramites.jsp?lang=gal" title="Procedimientos">Procedementos: Trámites e Impresos</a></li>
+                        <li><a href="https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=cc_cidada&amp;lang=gal" title="Carpeta Ciudadana">Carpeta Cidadá</a></li>
+                        <li><a href="https://sede.vigo.org/expedientes/taboleiro/?lang=gal" title="Tablón de Edictos">Taboleiro de Edictos e Anuncios</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <ul>
+                        <li><a href="https://sede.vigo.org/expedientes/oposicions/ofertas.jsp?lang=gal" title="Ofertas de Empleo">Ofertas de Emprego</a></li>
+                        <li><a href="https://sede.vigo.org/expedientes/perfilcontratante/?lang=gal" title="Perfil del Contratante">Perfil de Contratante</a></li>
+                        <li><a href="https://sede.vigo.org/expedientes/actas/?lang=gal" title="Actas / Acordos" accesskey="7">Actas e acordos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <ul>
+                        <li><a href="https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=oficinatributos&amp;lang=gal" title="Oficina Tributaria" accesskey="8">Oficina Tributaria</a></li>
+                        <li><a href="https://sede.vigo.org/expedientes/avisos/?lang=gal" title="Convocatorias e Subvencións" accesskey="9">Convocatorias e Subvencións</a></li>
+                        <li><a href="https://sede.vigo.org/expedientes/taboleiro/?lang=gal" title="Expedientes en exposición pública">Expedientes en Exposición Pública</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>	
+    </div>
+
+    <div class="pie-buttons">
+        <div class="pie-buttons-contenido">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    
+                        <div class="pie-buttons-bt" >
+                            <h2><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Sede Electrónica </h2>
+                            <a href="https://sede.vigo.org/">
+                                Acceda á Sede Electrónica do Concello de Vigo                            </a>
+                        </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                        <div class="pie-buttons-bt"  >
+                            <h2><i class="fa fa-laptop" aria-hidden="true"></i> Como vai a miña xestión?</h2>
+                            <a href="https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=sede_estado&amp;lang=gal" >
+                                Consulte o estado das súas solicitudes                            </a>
+                        </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                        <div class="pie-buttons-bt"   >
+                            <h2><i class="fa fa-file-text" aria-hidden="true"></i> Verificación de documentos</h2>
+                            <a href="https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=sede_csv&amp;lang=gal">
+                                Comprobe a validez dos documentos emitidos polo Concello de Vigo.                            </a>
+                        </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="pie-menu">
+        <div class="pie-menu-contenido">
+            <ul>	  		
+                        <li><a href="/oconcello/avisolegal.php?lang=gal" title="Aviso Legal" accesskey="a">Aviso Legal</a></li>
+                        <li class="first"><a href="https://sede.vigo.org/expedientes/sede_textos/texto.jsp?idt=sede_lopd&amp;lang=gal" title="Protección de Datos" accesskey="d">Protección de Datos</a></li>
+
+                        <li><a href="/oconcello/mapaweb.php?lang=gal" title="Mapa Web " accesskey="m">Mapa Web</a></li>
+                        <li><a href="/oconcello/concellodixital4.php?lang=gal" title="Mapa Web " accesskey="c">Contacto</a></li>
+                        <li><a href="/movemonos/discap_accesibilidad.php?lang=gal" title="Accesibilidade" accesskey="0">Accesibilidade</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<!-- BotÃ³n para abrir el chatbot -->
+<button id="openChatbot"><i class="fa fa-comments-o"></i>Precisas axuda?</button>
+
+    <!-- Ventana modal del chatbot -->
+    <div id="chatbotModal">
+        <div class="modal-header">
+            <span>Buscador Vigo25</span>
+             <!-- Selector de idioma -->
+             <select id="languageSelect">
+                <option value="es" >Espa&ntilde;ol</option>
+                <option value="gl" selected>Galego</option>
+            </select>
+            <span class="close" id="closeChatbot">&times;</span>
+        </div>
+        <div class="modal-body">
+            <!-- iFrame con el contenido del chatbot -->
+            <iframe id="chatbotIframe" src=""></iframe> <!-- Puedes reemplazar con la URL de tu chatbot -->
+        </div>
+    </div>
+    <link href="/lib/chat/chat.css" rel="stylesheet" type="text/css" />
+    <script async type="text/javascript" src="/lib/chat/chat.js"></script>                        </div><!--contenedor-->
+                    </body>
+                </html>

@@ -1,0 +1,127 @@
+{
+  "ledger": [
+    {
+      "request": {
+        "anchorSegmentId": "S0027",
+        "query": "suba lineal dun catro por cento a boa parte das taxas e impostos municipais",
+        "reason": "A suba do 4% é un dato necesario para cuantificar a 'maior presión fiscal' mencionada."
+      },
+      "returnedIds": [
+        "S0022",
+        "S0023",
+        "S0024",
+        "S0025",
+        "S0026",
+        "S0027",
+        "S0028",
+        "S0029",
+        "S0030",
+        "S0031",
+        "S0032"
+      ],
+      "scope": "same_transcript",
+      "characterBudget": 10000
+    }
+  ],
+  "segments": [
+    {
+      "id": "S0022",
+      "sequence": 22,
+      "start": 611.548,
+      "end": 641.068,
+      "speakerId": "speaker_2",
+      "text": "Cun proxecto aberto para transformar en positivo a cidade e avanzar cara a un Vigo máis habitábel e moito máis verde, un Vigo igualitario e socialmente xusto e un Vigo que asuma o seu papel como motor dunha nova Galiza. Miren, como deixou dito Unamuno: Vencer non é convencer. Hoxe vostedes terán os votos, mais non teñen as razóns. Hoxe vostedes poderán impoñer a súa maioría absoluta, como Rueda fixo no Parlamento de Galiza para impoñer uns orzamentos que lle viran as costas a Vigo.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0023",
+      "sequence": 23,
+      "start": 641.068,
+      "end": 669.698,
+      "speakerId": "speaker_2",
+      "text": "Mais dende logo, o BNG vamos seguir a defender que os recursos da cidade deben ser orientados a atender as necesidades reais das viguesas e dos vigueses, que o diñeiro do Concello de Vigo non é o diñeiro de Abel Caballero, senón o de todas as viguesas e de todos os vigueses. Que o obxectivo dos orzamentos municipais non debe seguir i-incrementando o gasto inaugurábel, senón dende logo dar resposta ás necesidades da cidadanía, mellorar os servizos públicos e poñer en marcha un novo modelo de cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0024",
+      "sequence": 24,
+      "start": 669.698,
+      "end": 678.248,
+      "speakerId": "speaker_2",
+      "text": "Nunca un goberno, tendo tantos recursos, fixo tan pouco por mellorar a calidade de vida, mais dende logo poderán disfrutar esta vitoria pírrica, pero que é en perda a cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0025",
+      "sequence": 25,
+      "start": 680.678,
+      "end": 682.248,
+      "speakerId": "speaker_0",
+      "text": "Turno Grupo Popular.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0026",
+      "sequence": 26,
+      "start": 684.548,
+      "end": 706.847,
+      "speakerId": "speaker_2",
+      "text": "Grazas, presidente. Bo día a todas e todos. Comezo por recoñecer que este é un orzamento cumpridor no formal, mais tamén dicindo que cumprir cos papeis non é suficiente cando falla política, que é o que hoxe vimos nós aquí a evidenciar. Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0027",
+      "sequence": 27,
+      "start": 706.848,
+      "end": 735.208,
+      "speakerId": "speaker_2",
+      "text": "E todo iso son, si, decisións políticas. Miren, se falamos de fiscalidade, cómpre lembrar que por terceiro ano consecutivo vostedes van aplicar no 2026 unha suba lineal dun catro por cento a boa parte das taxas e impostos municipais. Doce puntos en apenas tres exercicios que afoga as economías familiares nun contexto no que este concello presume de débeda cero e remanentes. Non hai, xa que logo, xustificación algunha máis que priorizar as arcas de Abel Caballero por riba dos petos dos cidadáns, nomeadamente os que tanto lles custa chegar a fin de mes.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0028",
+      "sequence": 28,
+      "start": 735.208,
+      "end": 746.688,
+      "speakerId": "speaker_2",
+      "text": "Así acontece, por exemplo, co IBI, o máis caro de toda Galicia, con moita diferencia. E non veñan coa escusa do Catastro, porque o IBI é un imposto municipal e, por tanto, vostedes deciden subilo ou non. E o que fan é subilo, e, por tanto, non teñen disculpa",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0029",
+      "sequence": 29,
+      "start": 747.084,
+      "end": 778.224,
+      "speakerId": "speaker_3",
+      "text": "E así poderíamos falar doutras taxas e impostos ata chegar, por exemplo, ao sablazo do lixo, que se incrementa ata un cincuenta por cento segundo os casos. O propio informe económico, mmm, deste concello, eh, recoñece que vai recibir desa gama arredor de un coma tres millóns de euros, a mesma cantidade que en noventa e catro, noventa e cinco. Unha achega finalista, estable e coñecida á que hai que sumar outra achega da Xunta. Entre os dous absorben, sí, o sesenta por cento do sablazo imposto por Pedro Sánchez, mentres que o Goberno de Abel Caballero decide non absorber nin un só euro do restante corenta por cento.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0030",
+      "sequence": 30,
+      "start": 778.224,
+      "end": 815.924,
+      "speakerId": "speaker_3",
+      "text": "Isto non é unha obriga técnica, é unha decisión política. Polo tanto, e para que quede claro, quen sube o lixo en Vigo non é só Gama, son Pedro Sánchez e Abel Caballero. En definitiva, non é fiscalidade responsable, é unha carreira por apañar máis a costa do peto e do sacrificio dos vigueses. E mentres este goberno sube impostos, perde subvencións de fondos europeos, señora Neiros, que temos que por do peto tamén, de novo, por parte de todos os vigueses, como os tres millóns desa reforma que vostede anunciou dese Concello da Torre ou as bonificacións a Paz Vigo e a gratuidade do Vitras aos menores de quince anos que está por ver, non tiñamos que devolver pola súa incompetencia na implantación das zonas de baixas emisións.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0031",
+      "sequence": 31,
+      "start": 815.924,
+      "end": 843.284,
+      "speakerId": "speaker_3",
+      "text": "Se falamos de execución, o problema faise aínda máis evidente. A experiencia dos últimos anos é reveladora. En 2024 deixaron vostedes de executar cen millóns de euros. E no terceiro trimestre deste presente 2025, a execución global sitúase por debaixo do corenta por cento. E no caso dos investimentos raís, apenas alcanza o sete coma setenta e cinco por cento. Cada ano aproban máis contas, pero cada ano executan menos. E mentres, os proxectos non avanzan e o diñeiro se acumula.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0032",
+      "sequence": 32,
+      "start": 843.284,
+      "end": 876.923,
+      "speakerId": "speaker_3",
+      "text": "E mentres tanto, que fan? Dicir non ás outras administracións que preteñen investir na nosa cidade. Bloquéanse ou rexeítanse proxectos como o Centro de Asociaciónismo, a ETA ou as máis de cinco mil trescentas viviendas públicas planificadas pola Xunta na nosa cidade. Miren, en materia de vivienda, a Xunta chega para suplir o que non fixeron vostedes nestes dezaoito anos, porque claro que teñen competencias na materia. Precisamente por iso andan agora anunciando a empresa municipal de vivienda, pero é que no 2026 apenas botará a andar, porque xa veremos se comezan dalgunha vez con algunha das obras mil veces anunciadas en Santa Cristina e en Esturáns.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    }
+  ]
+}

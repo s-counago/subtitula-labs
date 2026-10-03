@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-09-11T22:01:49.267787+00:00",
+  "result": "passed",
+  "initialExtractionPayloadsEqualToGlm": [
+    "block-01-extract",
+    "block-02-extract",
+    "block-03-extract"
+  ],
+  "initialExtractionPayloadsEqualToLunaLow": [
+    "block-01-extract",
+    "block-02-extract",
+    "block-03-extract"
+  ],
+  "unchangedBaselineAndReference": true,
+  "cachedResponsesReplayed": 6,
+  "newModelCalls": 0,
+  "databaseCountsAfterFirstImport": {
+    "matters": 25,
+    "mentions": 41,
+    "claims": 89,
+    "occurrences": 89,
+    "citations": 120
+  },
+  "databaseCountsAfterSecondImport": {
+    "matters": 25,
+    "mentions": 41,
+    "claims": 89,
+    "occurrences": 89,
+    "citations": 120
+  },
+  "unexpectedToolItems": 0,
+  "evaluationCounts": {
+    "partial": 7,
+    "faithful": 12,
+    "missed": 6
+  },
+  "exactDuplicateRecords": 0
+}

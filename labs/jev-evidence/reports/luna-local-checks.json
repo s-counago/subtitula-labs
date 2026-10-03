@@ -1,0 +1,16 @@
+{
+  "verifiedAt": "2026-09-23T12:54:21.785209+00:00",
+  "localTestsPassed": 30,
+  "localTestsFailed": 0,
+  "testCommand": "python -m unittest discover -s scripts -p 'test_*.py'",
+  "testResult": "Observed exit code 0; all model responses in unit tests are temporary mocks.",
+  "realCompletedEvaluations": 28,
+  "localDocumentationLinksVerified": true,
+  "originalAndAlternativeFrozenInputsVerified": true,
+  "nonliteralCitationCases": [
+    "curated-F10",
+    "curated-F11"
+  ],
+  "realRunVerification": "reports/luna-subscription-verification.json",
+  "inferenceCallsDuringThisCheck": 0
+}

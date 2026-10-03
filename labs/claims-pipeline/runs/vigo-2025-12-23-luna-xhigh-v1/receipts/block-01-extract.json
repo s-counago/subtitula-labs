@@ -1,0 +1,9 @@
+{
+  "stage": "block-01-extract",
+  "startedAt": "2026-09-11T21:22:55.031548+00:00",
+  "state": "failed_or_uncertain",
+  "requestSha256": "35e4c4bb3836ea06c75dcf5914c0ba4cf27276fb70d9f6e1048a044eaf9a6f21",
+  "finishedAt": "2026-09-11T21:28:55.140217+00:00",
+  "errorType": "RuntimeError",
+  "error": "Codex timed out; outcome uncertain, no automatic retry."
+}

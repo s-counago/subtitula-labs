@@ -1,0 +1,1966 @@
+[
+  {
+    "statement": "El presupuesto general del Concello de Vigo para 2026 se aprobó en sesión extraordinaria el día 23 de diciembre de 2025.",
+    "speakerId": "speaker_0",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "aprobación",
+    "valueText": "aprobación definitiva",
+    "referencePeriod": "2026",
+    "conditions": [
+      "sesión extraordinaria",
+      "23 de diciembre de 2025"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0001"
+    ],
+    "quote": "Tratamento será, como todos os anos, cinco minutos de intervención e tres de réplica do Goberno. Punto único da orden do día, eh: alegacións e aprobación definitiva.",
+    "contextSegmentIds": [
+      "S0001"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 1,
+    "operationId": "vigo-2025-12-23-v1:block-01:1",
+    "claimId": "claim-3e40c068-a98c-594a-8246-98700deeb6ee",
+    "occurrenceId": "appearance-3e40c068-a98c-594a-8246-98700deeb6ee",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 9.32,
+    "end": 48.22,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "El presupuesto general del Concello de Vigo para 2026 incluye 350 millones de euros adicionales.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "cantidad_adicional",
+    "valueText": "trescentos cincuenta millóns de euros",
+    "referencePeriod": "2026",
+    "conditions": [
+      "recursos propios",
+      "débeda cero"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0005",
+      "S0012"
+    ],
+    "quote": "Con este orzamento que aprobaremos a continuación, se engaden trescentos cincuenta millóns de euros adicionais para transformar a cidade, para mellorar as condicións de vida, eh, de toda a cidade.",
+    "contextSegmentIds": [
+      "S0005",
+      "S0012"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 2,
+    "operationId": "vigo-2025-12-23-v1:block-01:2",
+    "claimId": "claim-f3d713d4-12eb-5233-ab2c-80a8a3ae0f2e",
+    "occurrenceId": "appearance-f3d713d4-12eb-5233-ab2c-80a8a3ae0f2e",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 89.84,
+    "end": 361.82,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "El Concello de Vigo tiene cero euros de deuda por galego.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "deuda_per_capita",
+    "valueText": "cero euros",
+    "referencePeriod": null,
+    "conditions": [
+      "recursos propios",
+      "débeda cero"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0005"
+    ],
+    "quote": "Con recursos propios e un ano máis con débeda cero, factor diferencial respecto doutras administracións, tanto locais como autonómicas. Hai que recordar que a Xunta de Galicia ten unha débeda de, eh, catro mil cincocentos euros por galego, mentres que o Concello de Vigo ten cero euros de débeda por galego.",
+    "contextSegmentIds": [
+      "S0005"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 3,
+    "operationId": "vigo-2025-12-23-v1:block-01:3",
+    "claimId": "claim-7e24070e-f2b8-5323-8908-e41be49b2d20",
+    "occurrenceId": "appearance-7e24070e-f2b8-5323-8908-e41be49b2d20",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 89.84,
+    "end": 119.76,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "Las becas de inglés para cursar estudios en el extranjero se incrementaron a 3.325.000 euros.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "dotacion_becas_ingles",
+    "valueText": "tres millóns trescentos vinte e cinco mil euros",
+    "referencePeriod": "2026",
+    "conditions": [
+      "política de apoio ás familias",
+      "infancia"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0007"
+    ],
+    "quote": "que pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+    "contextSegmentIds": [
+      "S0007"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 5,
+    "operationId": "vigo-2025-12-23-v1:block-01:5",
+    "claimId": "claim-69bf8c28-3555-5d4b-ab4c-6146ec5aab6b",
+    "occurrenceId": "appearance-69bf8c28-3555-5d4b-ab4c-6146ec5aab6b",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 153.52,
+    "end": 189.44,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "Las subvenciones y ayudas a asociaciones e instituciones se incrementaron a más de 38 millones de euros.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "dotacion_subvenciones_asociaciones",
+    "valueText": "máis de trinta e oito millóns de euros",
+    "referencePeriod": "2026",
+    "conditions": [
+      "política de apoio cole-colectivos",
+      "capítulo catro"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0008"
+    ],
+    "quote": "con máis de trinta e oito millóns de euros no capítulo catro de subvencións e axudas a todas as asociacións e todas as, eh, institucións desta cidade.",
+    "contextSegmentIds": [
+      "S0008"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 6,
+    "operationId": "vigo-2025-12-23-v1:block-01:6",
+    "claimId": "claim-54086f72-9932-57b0-a79c-20fe57b92c90",
+    "occurrenceId": "appearance-54086f72-9932-57b0-a79c-20fe57b92c90",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 189.44,
+    "end": 217.0,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "El incremento de la partida de política social desde 2007 hasta 2026 es del 696,5%.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "incremento_politica_social",
+    "valueText": "696,5 %",
+    "referencePeriod": "2026",
+    "conditions": [
+      "dende o ano 2007 ao ano 2026"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0007"
+    ],
+    "quote": "Hai que recordar, como xa dixen, que dende o ano 2007 ao ano 2026, a política social se incrementou un 696,5 % nos orzamentos municipais.",
+    "contextSegmentIds": [
+      "S0007"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 8,
+    "operationId": "vigo-2025-12-23-v1:block-01:8",
+    "claimId": "claim-a7b353a5-6053-58e8-afa1-00910211e545",
+    "occurrenceId": "appearance-a7b353a5-6053-58e8-afa1-00910211e545",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 153.52,
+    "end": 189.44,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "El incremento de la partida de cultura es del 7%.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "incremento_cultura",
+    "valueText": "sete por cento",
+    "referencePeriod": "2026",
+    "conditions": [
+      "adicando recursos a cultura"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0011"
+    ],
+    "quote": "Pero tamén de, adicando recursos a cultura, cun incremento dun sete por cento máis para cultura, eh, crecendo na programación cultural en todos os barrios, en axudas tamén, en concorrencia non competitiva para as entidades e transformando tamén os espazos que xa temos, como é, como son os baixos do auditorio, eh, Mar, eh, de Vigo e tamén con achegas a todos os museos municipais, que como saben son gratuitos: o Marco, Casa das Artes, Verbum. E, por tanto, incrementando esas, eh, dotacións para a política, eh, cultural.",
+    "contextSegmentIds": [
+      "S0011"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 9,
+    "operationId": "vigo-2025-12-23-v1:block-01:9",
+    "claimId": "claim-c606567c-0fa3-5797-acb1-ee9654085fa5",
+    "occurrenceId": "appearance-c606567c-0fa3-5797-acb1-ee9654085fa5",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 285.04,
+    "end": 313.52,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "Se destinaron más de 44 millones de euros en el presupuesto del año 2026 para transformar la ciudad.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "presupuesto_transformacion_2026",
+    "valueText": "corenta e catro millóns de euros",
+    "referencePeriod": "2026",
+    "conditions": [
+      "transformar toda a cidade",
+      "recursos propios",
+      "débeda cero"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0010"
+    ],
+    "quote": "Hai que destacar que neste caso xa engadimos máis de setenta millóns de euros nun crédito extraordinario neste ano 2025, que xunto cos corenta e catro millóns de euros do orzamento do ano 2026, permiten transformar toda a cidade e atender a todas esas necesidades de todos os barrios, de todas as parroquias e de todas as zonas da nosa, eh, cidade.",
+    "contextSegmentIds": [
+      "S0010"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 10,
+    "operationId": "vigo-2025-12-23-v1:block-01:10",
+    "claimId": "claim-0d8533d8-2352-56c5-9595-83a8d7d20005",
+    "occurrenceId": "appearance-0d8533d8-2352-56c5-9595-83a8d7d20005",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 254.48,
+    "end": 285.04,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "Se destinaron más de 1 millón de euros para la adquisición de vehículos eléctricos y la electrificación de cocheiras.",
+    "speakerId": "speaker_1",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "dotacion_vehiculos_electricos",
+    "valueText": "máis dun millón de euros",
+    "referencePeriod": "2026",
+    "conditions": [
+      "política de apoio ás familias",
+      "vehículo eléctrico",
+      "electrificación das cocheiras"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0009"
+    ],
+    "quote": "apo-- eh, apostando pola, polo vehículo eléctrico, con, eh, mil-- máis dun millón de euros para adquisición de vehículos eléctricos e para a electrificación das cocheiras, e transformando sobre todo todas e cada unha das zonas da cidade.",
+    "contextSegmentIds": [
+      "S0009"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 11,
+    "operationId": "vigo-2025-12-23-v1:block-01:11",
+    "claimId": "claim-db1d52c9-eaf3-5614-971b-bd815103a535",
+    "occurrenceId": "appearance-db1d52c9-eaf3-5614-971b-bd815103a535",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 217.0,
+    "end": 254.48,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "El BNG rechazó duplicar las ayudas sociales municipales.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "rechazo_duplicar_ayudas_sociales",
+    "valueText": "duplicar as axudas sociais municipais",
+    "referencePeriod": null,
+    "conditions": [
+      "medidas tan importantes e necesarias"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0018"
+    ],
+    "quote": "O problema non é que lle digan non ao BNG. O problema é que lle din non a medidas tan importantes e necesarias como duplicar as axudas sociais municipais que vostedes recortaron nun cincuenta por cento nos últimos cinco anos, mentres aumentaba un cento cincuenta por cento máis o gasto en luces e adornos de Nadal.",
+    "contextSegmentIds": [
+      "S0018"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 13,
+    "operationId": "vigo-2025-12-23-v1:block-01:13",
+    "claimId": "claim-74ab6b8c-402a-5c77-9f9e-6b0fb616afbd",
+    "occurrenceId": "appearance-74ab6b8c-402a-5c77-9f9e-6b0fb616afbd",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 485.708,
+    "end": 513.947,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "El BNG rechazó elevar el Plan Municipal de Emprego a 3 millones de euros.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "rechazo_plan_municipal_empleo",
+    "valueText": "elevar até os tres millóns de euros",
+    "referencePeriod": null,
+    "conditions": [
+      "Plan Municipal de Emprego"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0018"
+    ],
+    "quote": "Din non a elevar até os tres millóns de euros o Plan Municipal de Emprego, despois de que nesta cidade teñamos nove mil postos de traballo menos dos que había na altura do ano 2009.",
+    "contextSegmentIds": [
+      "S0018"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 14,
+    "operationId": "vigo-2025-12-23-v1:block-01:14",
+    "claimId": "claim-655c40f4-cef2-5d88-a5e7-54222cc425a7",
+    "occurrenceId": "appearance-655c40f4-cef2-5d88-a5e7-54222cc425a7",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 485.708,
+    "end": 513.947,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "El BNG rechazó movilizar casi 10 millones de euros más para atender el acceso a la vivienda.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_2026_concello_vigo",
+    "property": "rechazo_mobilizar_vivienda",
+    "valueText": "mobilizar case dez millóns de euros máis",
+    "referencePeriod": null,
+    "conditions": [
+      "atender o principal problema desta cidade",
+      "acceso á vivenda"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0019"
+    ],
+    "quote": "Din non a mobilizar case dez millóns de euros máis a atender o principal problema desta cidade, que é o do acceso á vivenda, a destinar máis recursos a facer das políticas feministas unha verdadeira prioridade política, a poñer fin ao abandono dos barrios e parroquias, a despregar un plan de resposta á emerxencia climática ou a reverter as políticas de desertización cultural, de maltrato ao deporte vigués e de desmantelamento das políticas para a nosa mocidade.",
+    "contextSegmentIds": [
+      "S0019"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 15,
+    "operationId": "vigo-2025-12-23-v1:block-01:15",
+    "claimId": "claim-12686864-02c5-5f64-8d17-953176c4c770",
+    "occurrenceId": "appearance-12686864-02c5-5f64-8d17-953176c4c770",
+    "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 513.948,
+    "end": 541.348,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-01"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 é descrito como cumpridor no formal pero defraudador pola falta de política.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "calidade",
+    "valueText": "cumpridor no formal",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Comezo por recoñecer que este é un orzamento cumpridor no formal, mais tamén dicindo que cumprir cos papeis non é suficiente cando falla política",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 1,
+    "operationId": "vigo-2025-12-23-v1:block-02:1",
+    "claimId": "claim-ea9ebc7f-9498-5e81-b06e-f3ff0c1ee278",
+    "occurrenceId": "appearance-ea9ebc7f-9498-5e81-b06e-f3ff0c1ee278",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina maior presión fiscal con baixa execución.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "maior presión fiscal con baixa execución",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 2,
+    "operationId": "vigo-2025-12-23-v1:block-02:2",
+    "claimId": "claim-be36bb2f-f28b-55e5-bc74-c5e31fa1e0b1",
+    "occurrenceId": "appearance-be36bb2f-f28b-55e5-bc74-c5e31fa1e0b1",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 3,
+    "operationId": "vigo-2025-12-23-v1:block-02:3",
+    "claimId": "claim-837108c6-b415-5608-8831-6346b57dc358",
+    "occurrenceId": "appearance-837108c6-b415-5608-8831-6346b57dc358",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 4,
+    "operationId": "vigo-2025-12-23-v1:block-02:4",
+    "claimId": "claim-59abd328-a111-53b5-8d56-b8ac59ed73ed",
+    "occurrenceId": "appearance-59abd328-a111-53b5-8d56-b8ac59ed73ed",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 5,
+    "operationId": "vigo-2025-12-23-v1:block-02:5",
+    "claimId": "claim-b03cbe8a-b1a4-5dfe-9134-1b8d3d21d7ce",
+    "occurrenceId": "appearance-b03cbe8a-b1a4-5dfe-9134-1b8d3d21d7ce",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina maior presión fiscal.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "maior presión fiscal",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 6,
+    "operationId": "vigo-2025-12-23-v1:block-02:6",
+    "claimId": "claim-bad58408-468a-58f8-8ca6-6ecbdde43b08",
+    "occurrenceId": "appearance-bad58408-468a-58f8-8ca6-6ecbdde43b08",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina baixa execución.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "baixa execución",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 7,
+    "operationId": "vigo-2025-12-23-v1:block-02:7",
+    "claimId": "claim-35d3e95a-8c4e-5907-866e-483dec5c14b6",
+    "occurrenceId": "appearance-35d3e95a-8c4e-5907-866e-483dec5c14b6",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 8,
+    "operationId": "vigo-2025-12-23-v1:block-02:8",
+    "claimId": "claim-c36fceaf-0409-50b5-8242-edaf645dfaf3",
+    "occurrenceId": "appearance-c36fceaf-0409-50b5-8242-edaf645dfaf3",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 9,
+    "operationId": "vigo-2025-12-23-v1:block-02:9",
+    "claimId": "claim-fc2633f4-c251-5576-8ce5-15dd2853ce24",
+    "occurrenceId": "appearance-fc2633f4-c251-5576-8ce5-15dd2853ce24",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 10,
+    "operationId": "vigo-2025-12-23-v1:block-02:10",
+    "claimId": "claim-ba039605-c12e-55b0-8838-6308fd2db6f8",
+    "occurrenceId": "appearance-ba039605-c12e-55b0-8838-6308fd2db6f8",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 11,
+    "operationId": "vigo-2025-12-23-v1:block-02:11",
+    "claimId": "claim-429aa942-c4f2-51bc-8ae6-8732a69b18e3",
+    "occurrenceId": "appearance-429aa942-c4f2-51bc-8ae6-8732a69b18e3",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 12,
+    "operationId": "vigo-2025-12-23-v1:block-02:12",
+    "claimId": "claim-a2e70fd7-547d-58e0-bef7-46612eb43b22",
+    "occurrenceId": "appearance-a2e70fd7-547d-58e0-bef7-46612eb43b22",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 13,
+    "operationId": "vigo-2025-12-23-v1:block-02:13",
+    "claimId": "claim-6eb28289-9e56-5936-8ae7-6abbe4e653c9",
+    "occurrenceId": "appearance-6eb28289-9e56-5936-8ae7-6abbe4e653c9",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 14,
+    "operationId": "vigo-2025-12-23-v1:block-02:14",
+    "claimId": "claim-3828534b-f164-5d86-859e-d0f55f55852d",
+    "occurrenceId": "appearance-3828534b-f164-5d86-859e-d0f55f55852d",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 15,
+    "operationId": "vigo-2025-12-23-v1:block-02:15",
+    "claimId": "claim-e7e3ce2f-b2a3-5e9d-9ada-46932ac2ef78",
+    "occurrenceId": "appearance-e7e3ce2f-b2a3-5e9d-9ada-46932ac2ef78",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 16,
+    "operationId": "vigo-2025-12-23-v1:block-02:16",
+    "claimId": "claim-88a693e5-9684-5f20-a32b-508733f5cd70",
+    "occurrenceId": "appearance-88a693e5-9684-5f20-a32b-508733f5cd70",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 17,
+    "operationId": "vigo-2025-12-23-v1:block-02:17",
+    "claimId": "claim-fca55cec-576d-5423-8b33-77b8e92de4f6",
+    "occurrenceId": "appearance-fca55cec-576d-5423-8b33-77b8e92de4f6",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 18,
+    "operationId": "vigo-2025-12-23-v1:block-02:18",
+    "claimId": "claim-3080bd53-f28d-503d-a27c-8f6d7a0da364",
+    "occurrenceId": "appearance-3080bd53-f28d-503d-a27c-8f6d7a0da364",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 19,
+    "operationId": "vigo-2025-12-23-v1:block-02:19",
+    "claimId": "claim-43092c65-91e3-5b01-96c2-c3bc4b74d4e6",
+    "occurrenceId": "appearance-43092c65-91e3-5b01-96c2-c3bc4b74d4e6",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 20,
+    "operationId": "vigo-2025-12-23-v1:block-02:20",
+    "claimId": "claim-a1fbb5f4-fa49-5562-8108-626805626bce",
+    "occurrenceId": "appearance-a1fbb5f4-fa49-5562-8108-626805626bce",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 21,
+    "operationId": "vigo-2025-12-23-v1:block-02:21",
+    "claimId": "claim-a0eab004-2355-5b87-9da3-d2b0818a82fa",
+    "occurrenceId": "appearance-a0eab004-2355-5b87-9da3-d2b0818a82fa",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 22,
+    "operationId": "vigo-2025-12-23-v1:block-02:22",
+    "claimId": "claim-8fc7774e-3342-508f-b442-604e1a152613",
+    "occurrenceId": "appearance-8fc7774e-3342-508f-b442-604e1a152613",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 23,
+    "operationId": "vigo-2025-12-23-v1:block-02:23",
+    "claimId": "claim-77fa5ca0-62de-518d-8dd4-2fb2d9810e94",
+    "occurrenceId": "appearance-77fa5ca0-62de-518d-8dd4-2fb2d9810e94",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 24,
+    "operationId": "vigo-2025-12-23-v1:block-02:24",
+    "claimId": "claim-9a3582f1-0f35-5dd1-9377-77120da8c83b",
+    "occurrenceId": "appearance-9a3582f1-0f35-5dd1-9377-77120da8c83b",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 25,
+    "operationId": "vigo-2025-12-23-v1:block-02:25",
+    "claimId": "claim-142a88d0-6939-55a1-9322-702796ddc90c",
+    "occurrenceId": "appearance-142a88d0-6939-55a1-9322-702796ddc90c",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 26,
+    "operationId": "vigo-2025-12-23-v1:block-02:26",
+    "claimId": "claim-9c292146-0145-58a2-8c92-d80d597da440",
+    "occurrenceId": "appearance-9c292146-0145-58a2-8c92-d80d597da440",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 27,
+    "operationId": "vigo-2025-12-23-v1:block-02:27",
+    "claimId": "claim-a4d7ee37-b256-5987-862d-743dee96cd13",
+    "occurrenceId": "appearance-a4d7ee37-b256-5987-862d-743dee96cd13",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 28,
+    "operationId": "vigo-2025-12-23-v1:block-02:28",
+    "claimId": "claim-ecce0e28-1a28-5238-966b-174b527c5de3",
+    "occurrenceId": "appearance-ecce0e28-1a28-5238-966b-174b527c5de3",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 29,
+    "operationId": "vigo-2025-12-23-v1:block-02:29",
+    "claimId": "claim-b520fc18-770d-5276-993c-a571d3922bc0",
+    "occurrenceId": "appearance-b520fc18-770d-5276-993c-a571d3922bc0",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 30,
+    "operationId": "vigo-2025-12-23-v1:block-02:30",
+    "claimId": "claim-d9519b80-93ca-5ffb-ac21-32fa9ec5ede2",
+    "occurrenceId": "appearance-d9519b80-93ca-5ffb-ac21-32fa9ec5ede2",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 31,
+    "operationId": "vigo-2025-12-23-v1:block-02:31",
+    "claimId": "claim-1b1af87d-2ec4-59c4-83b8-20e817d8fd04",
+    "occurrenceId": "appearance-1b1af87d-2ec4-59c4-83b8-20e817d8fd04",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 32,
+    "operationId": "vigo-2025-12-23-v1:block-02:32",
+    "claimId": "claim-7a393fba-cd70-5616-8084-8d48c9c4ded3",
+    "occurrenceId": "appearance-7a393fba-cd70-5616-8084-8d48c9c4ded3",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 33,
+    "operationId": "vigo-2025-12-23-v1:block-02:33",
+    "claimId": "claim-ba2cbf86-d442-57f6-a1cc-d2cec4612916",
+    "occurrenceId": "appearance-ba2cbf86-d442-57f6-a1cc-d2cec4612916",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 34,
+    "operationId": "vigo-2025-12-23-v1:block-02:34",
+    "claimId": "claim-dbc17576-5894-5cac-99e3-a55bf25c8300",
+    "occurrenceId": "appearance-dbc17576-5894-5cac-99e3-a55bf25c8300",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 35,
+    "operationId": "vigo-2025-12-23-v1:block-02:35",
+    "claimId": "claim-0ffd4a66-d8b1-5cda-89bd-f934d5c65009",
+    "occurrenceId": "appearance-0ffd4a66-d8b1-5cda-89bd-f934d5c65009",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 36,
+    "operationId": "vigo-2025-12-23-v1:block-02:36",
+    "claimId": "claim-aa908462-e560-516c-a9df-7cbfe344d30e",
+    "occurrenceId": "appearance-aa908462-e560-516c-a9df-7cbfe344d30e",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 37,
+    "operationId": "vigo-2025-12-23-v1:block-02:37",
+    "claimId": "claim-96f72baa-2919-5ce4-9439-161d02dbe9c6",
+    "occurrenceId": "appearance-96f72baa-2919-5ce4-9439-161d02dbe9c6",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "unha evidente falta de sensibilidade social",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 38,
+    "operationId": "vigo-2025-12-23-v1:block-02:38",
+    "claimId": "claim-c3993103-ad9b-535e-b80c-726618fd6927",
+    "occurrenceId": "appearance-c3993103-ad9b-535e-b80c-726618fd6927",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "investimentos repetidos",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 39,
+    "operationId": "vigo-2025-12-23-v1:block-02:39",
+    "claimId": "claim-50444687-9c4f-5012-9bd9-5427efba08d3",
+    "occurrenceId": "appearance-50444687-9c4f-5012-9bd9-5427efba08d3",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+    "speakerId": "speaker_2",
+    "matterKey": "presupuesto_general_2026",
+    "property": "características",
+    "valueText": "prioridades equivocadas",
+    "referencePeriod": "2026",
+    "conditions": [
+      "falta de política"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0026"
+    ],
+    "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+    "contextSegmentIds": [
+      "S0026"
+    ],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 40,
+    "operationId": "vigo-2025-12-23-v1:block-02:40",
+    "claimId": "claim-92d4adad-fcd4-5a7f-b0df-354917e687d5",
+    "occurrenceId": "appearance-92d4adad-fcd4-5a7f-b0df-354917e687d5",
+    "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+    "canonicalMatterId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 684.548,
+    "end": 706.847,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-02"
+  },
+  {
+    "statement": "El Partido Popular pretendía reducir impuestos por un importe de treinta millones de euros.",
+    "speakerId": "speaker_1",
+    "matterKey": "reduccion_impuestos",
+    "property": "importe_reduccion_impuestos",
+    "valueText": "treinta millones de euros",
+    "referencePeriod": null,
+    "conditions": [
+      "reducir impuestos"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0054"
+    ],
+    "quote": "Pero lo que es más evidente es que o Partido Popular pretende, hay que decirlo coloquialmente para que se entienda, soplar y sorber al mismo tiempo. Pretende reducir impuestos por un importe de treinta millón de, treinta millones de euros y a la vez incrementar o gasto público, sin explicar cómo se fai.",
+    "contextSegmentIds": [],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 2,
+    "operationId": "vigo-2025-12-23-v1:block-03:2",
+    "claimId": "claim-dfeac637-9593-54f6-8f48-9bce5e4127d5",
+    "occurrenceId": "appearance-dfeac637-9593-54f6-8f48-9bce5e4127d5",
+    "mentionId": "mention-3b5a916d-2d9f-52e6-8ae2-4aba7bf6c71e",
+    "canonicalMatterId": "matter-8791e1e6-a6e7-58ac-bded-c6ba526f028a",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 1351.2,
+    "end": 1377.5,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-03"
+  },
+  {
+    "statement": "La mejora de la piscina y del pavillón están también en el crédito extraordinario.",
+    "speakerId": "speaker_1",
+    "matterKey": "mejora_piscina_pavillon",
+    "property": "ubicacion",
+    "valueText": "en el crédito extraordinario",
+    "referencePeriod": "2026",
+    "conditions": [
+      "mejora de la piscina y del pavillón"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0059"
+    ],
+    "quote": "A mellora da piscina e do pavillón están tamén no crédito extraordinario.",
+    "contextSegmentIds": [],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 6,
+    "operationId": "vigo-2025-12-23-v1:block-03:6",
+    "claimId": "claim-da16cb31-1661-5c70-b8d8-3f5f6575e09b",
+    "occurrenceId": "appearance-da16cb31-1661-5c70-b8d8-3f5f6575e09b",
+    "mentionId": "mention-74a0b181-16bc-52c8-915c-4a973fbda20c",
+    "canonicalMatterId": "matter-4f89e6b0-7f19-57af-aacc-f2fefbb4a1d2",
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 1482.952,
+    "end": 1508.372,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-03"
+  },
+  {
+    "statement": "El voto particular del Bloque Nacionalista Galego fue rechazado por siete votos a favor, diecinueve en contra y ninguna abstención.",
+    "speakerId": "speaker_0",
+    "matterKey": "presupuesto_general_2026",
+    "property": "resultado_voto_particular",
+    "valueText": "rechazado por siete votos a favor, diecinueve en contra y ninguna abstención",
+    "referencePeriod": "2026",
+    "conditions": [
+      "voto particular del Bloque Nacionalista Galego"
+    ],
+    "modality": "reported_statement",
+    "polarity": "negative",
+    "evidenceSegmentIds": [
+      "S0064"
+    ],
+    "quote": "Non hai abstencións. Queda rexeitado o voto particular por sete votos a favor, dezanove en contra e ningunha abstención.",
+    "contextSegmentIds": [],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 8,
+    "operationId": "vigo-2025-12-23-v1:block-03:8",
+    "claimId": "claim-05f664c9-8fe7-5ba7-9186-bfbe300fe96a",
+    "occurrenceId": "appearance-05f664c9-8fe7-5ba7-9186-bfbe300fe96a",
+    "mentionId": "mention-7c41079e-ac01-59af-bedb-ce7424723d45",
+    "canonicalMatterId": null,
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 1538.252,
+    "end": 1557.212,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-03"
+  },
+  {
+    "statement": "Los Presupuestos Generales del Concello para el año dos mil veintiséis fueron aprobados por diecinueve votos a favor, siete en contra y ninguna abstención.",
+    "speakerId": "speaker_0",
+    "matterKey": "presupuesto_general_2026",
+    "property": "resultado_aprobacion",
+    "valueText": "aprobados por diecinueve votos a favor, siete en contra y ninguna abstención",
+    "referencePeriod": "2026",
+    "conditions": [
+      "Presupuestos Generales del Concello para el año dos mil veintiséis"
+    ],
+    "modality": "reported_statement",
+    "polarity": "positive",
+    "evidenceSegmentIds": [
+      "S0066"
+    ],
+    "quote": "Non hai abstencións. Quedan aprobados os Orzamentos Xerais do Concello para o ano dous mil vinte seis por dezanove votos a favor, sete en contra e ningunha abstencións. Parabéns á cidade de Vigo.",
+    "contextSegmentIds": [],
+    "contextStatus": "sufficient",
+    "uncertainty": null,
+    "candidateIndex": 9,
+    "operationId": "vigo-2025-12-23-v1:block-03:9",
+    "claimId": "claim-c141e997-0d8c-50ea-8f7a-ce8bc4dc2466",
+    "occurrenceId": "appearance-c141e997-0d8c-50ea-8f7a-ce8bc4dc2466",
+    "mentionId": "mention-7c41079e-ac01-59af-bedb-ce7424723d45",
+    "canonicalMatterId": null,
+    "sessionId": "vigo-pleno-2025-12-23",
+    "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+    "start": 1567.932,
+    "end": 1581.552,
+    "reviewState": "proposed",
+    "identityResolution": "one_claim_per_occurrence_in_v1",
+    "block": "block-03"
+  }
+]

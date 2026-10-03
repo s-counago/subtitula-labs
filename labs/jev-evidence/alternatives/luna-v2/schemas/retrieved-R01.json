@@ -1,0 +1,125 @@
+{
+  "type": "object",
+  "properties": {
+    "assessment": {
+      "type": "string",
+      "enum": [
+        "supported",
+        "contradicted",
+        "insufficient",
+        "conflicting",
+        "not_verifiable"
+      ]
+    },
+    "sourceRelations": {
+      "type": "object",
+      "properties": {
+        "D01-p003-c001": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D01-p013-c002": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D04-p001-c002": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D05-p001-c015": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D05-p001-c006": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        },
+        "D04-p001-c003": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "context",
+            "repeats",
+            "unrelated"
+          ]
+        }
+      },
+      "required": [
+        "D01-p003-c001",
+        "D01-p013-c002",
+        "D04-p001-c002",
+        "D05-p001-c015",
+        "D05-p001-c006",
+        "D04-p001-c003"
+      ],
+      "additionalProperties": false
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "missingEvidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidenceQuotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sourceId",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "assessment",
+    "sourceRelations",
+    "rationale",
+    "missingEvidence",
+    "evidenceQuotes"
+  ],
+  "additionalProperties": false
+}

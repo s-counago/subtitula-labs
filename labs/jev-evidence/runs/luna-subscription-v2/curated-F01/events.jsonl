@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a0ce4e-1bc9-7000-9a24-cd636d464d88"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in C:\\Users\\Sejio\\.codex\\config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"error","message":"Exceeded skills context budget. All skill descriptions were removed and 20 additional skills were not included in the model-visible skills list."}}
+{"type":"item.completed","item":{"id":"item_3","type":"agent_message","text":"{\"assessment\":\"supported\",\"sourceRelations\":{\"D01\":\"supports\"},\"rationale\":\"La evidencia de 2025 identifica a Sogama como empresa pública autonómica y señala que la Xunta de Galicia posee el 51%, por lo que la participación es mayoritaria.\",\"missingEvidence\":[],\"evidenceQuotes\":[{\"sourceId\":\"D01\",\"quote\":\"Sogama é unha empresa pública autonómica, participada no 51% pola Xunta de Galicia\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":3122,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":188,"reasoning_output_tokens":83}}

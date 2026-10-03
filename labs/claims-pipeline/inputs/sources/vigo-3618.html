@@ -1,0 +1,609 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+    
+
+
+<!DOCTYPE html>
+
+
+
+
+<html lang="es">
+    <head>
+        <meta charset="ISO-8859-1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<meta name="language" content="es"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<link rel="SHORTCUT ICON" href="/expedientes/data/vigo.ico" />
+	<meta name="robots" content="index,follow" />
+        
+        <script src="/expedientes/sede_responsive/js/jquery/jquery-3.7.1.min.js"></script>
+   	<script src="/expedientes/sede_responsive/js/jquery/jquery-migrate-3.4.0.min.js"></script>
+        <script src="/expedientes/sede_responsive/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+   	<script src="/expedientes/sede_responsive/js/jquery/jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+        
+	
+	<script async type="text/javascript" src="//accesible-sede.vigo.org/i4tservice/jscm_loader.js"></script>
+	
+ 	<!-- Responsive tabs sede -->
+	<script src="/expedientes/sede_responsive/js/responsive-tabs.js" type="text/javascript"></script>
+	<link href="/expedientes/sede_responsive/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/expedientes/sede_responsive/css/portada.css" rel="stylesheet">
+	
+   	<!-- SmartMenus core CSS (required) -->
+        <link href="/expedientes/sede_responsive/js/smartmenus/css/sm-core-css.css" rel="stylesheet" type="text/css">
+        <!-- "sm-blue" menu theme (optional, you can use your own CSS, too) -->
+        <link href="/expedientes/sede_responsive/js/smartmenus/css/sm-simple/sm-simple.css" rel="stylesheet" type="text/css">
+        <!-- #main-menu config - instance specific stuff not covered in the theme -->
+        <!-- Put this in an external stylesheet if you want the media query to work in IE8 (e.g. where the rest of your page styles are) -->
+
+        <!-- SmartMenus jQuery plugin -->
+        <script type="text/javascript" src="/expedientes/lib/js/smartmenus/jquery.smartmenus.js"></script>
+        <script type="text/javascript" src="/expedientes/sede_responsive/js/smartmenus/jquery.smartmenus.js"></script>
+        <!-- SmartMenus jQuery init -->
+        <script type="text/javascript">
+            // for avoid c.curCSS is not a function from jquery-ui
+            jQuery.curCSS = function(element, prop, val) {
+                return jQuery(element).css(prop, val);
+            };      
+            $(function () {
+                $('#main-menu').smartmenus({
+                    mainMenuSubOffsetX: -1,
+                    subMenusSubOffsetX: 10,
+                    subMenusSubOffsetY: 0
+                });
+
+                $('#menu-button').click(function () {
+                    var $this = $(this),
+                        $menu = $('#main-menu');
+                    if ($menu.is(':animated')) {
+                        return false;
+                    }
+                    if (!$this.hasClass('collapsed')) {
+                        $menu.slideUp(250, function () {
+                            $(this).addClass('collapsed').css('display', '');
+                        });
+                        $this.addClass('collapsed');
+                    } else {
+                        $menu.slideDown(250, function () {
+                            $(this).removeClass('collapsed');
+                        });
+                        $this.removeClass('collapsed');
+                    }
+                    return false;
+                });
+
+                $('#ccidadan-menu').smartmenus({
+                    mainMenuSubOffsetX: -1,
+                    subMenusSubOffsetX: 10,
+                    subMenusSubOffsetY: 0
+                });
+
+                $('#ccidadan-menu-button').click(function () {
+                    var $this = $(this),
+                        $menu = $('#ccidadan-menu');
+                    if ($menu.is(':animated')) {
+                        return false;
+                    }
+                    if (!$this.hasClass('collapsed')) {
+                        $menu.slideUp(250, function () {
+                            $(this).addClass('collapsed').css('display', '');
+                        });
+                        $this.addClass('collapsed');
+                    } else {
+                        $menu.slideDown(250, function () {
+                            $(this).removeClass('collapsed');
+                        });
+                        $this.removeClass('collapsed');
+                    }
+                    return false;
+                });
+
+                $(document).ready(function () {
+                    $('[data-toggle="offcanvas"]').click(function () {
+                        $('.row-offcanvas').toggleClass('active')
+                    });
+                    $('.carousel').carousel({
+                        interval: 8000
+                    })
+                    $(window).on('load',function(){
+                        $('#mi_modal').modal('show');
+                    });
+                });
+            });
+	</script>
+  	<!-- FIN SmartMenus core -->
+  	
+	<script src="/expedientes/sede_responsive/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<link href="/expedientes/sede_responsive/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+
+	<script src="/expedientes/sede/js/scripts.js" type="text/javascript"></script>
+
+	 		
+<script type="text/javascript" src="/expedientes/data/tablesort.js"></script>
+<link type="text/css" href="/expedientes/data/tablesorttram.css" rel="stylesheet"/>
+<style type="text/css" media="all">
+    @import "tramites.css";
+</style>
+
+<title>Arquivos Pleno Municipal - Concello de Vigo</title>
+<link href="/expedientes/data/searchfield/searchfield.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="/expedientes/data/searchfield/searchfield.js"></script>
+
+
+
+
+
+
+
+
+
+<meta content="eSede Vigo.org" name="description"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="/expedientes/sede_responsive/css/sede_responsive.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/expedientes/sede_responsive/css/vigo_responsive.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="/expedientes/aux2/ui.tabs2.css" type="text/css" media="print, projection, screen" />
+<link href="/expedientes/sede/sede_print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="/expedientes/css/blitzer/jquery-ui-1.8.14.custom.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+<style type="text/css">
+    <!--
+    @import"/expedientes/sede/dhtml-horiz.css";
+    -->
+</style>
+
+
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.vigo.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+<script type="text/javascript">
+<!--
+    function reset_html(id) {
+        $('#' + id).html($('#' + id).html());
+    }
+
+    $(document).ready(function () {
+        var file_input_index = 0;
+        $('input[type=file]').each(function () {
+            file_input_index++;
+            $(this).wrap('<div id="file"><div id="file_input_container_' + file_input_index + '"></div></div>');
+            $(this).before('<input type="button" value="Borrar" style="float: right;" onclick="reset_html(\'file_input_container_' + file_input_index + '\')" />');
+        });
+
+        /*  jQuery('#contenidosuperior').addClass('row-fluid');
+         jQuery('#col1').addClass('span9');
+         jQuery('#col2').addClass('span3');
+         jQuery('#col1').removeAttr('id');
+         jQuery('#col2').removeAttr('id');*/
+
+    });
+
+    $(function () {
+        // a workaround for a flaw in the demo system (http://dev.jqueryui.com/ticket/4375), ignore!
+        $("#dialog:ui-dialog").dialog("destroy");
+
+        $("#dialog-message").dialog({
+            modal: true,
+            autoOpen: false,
+            height: 230,
+            width: 450,
+            buttons: {
+                Aceptar: function () {
+                    $(this).dialog("close");
+                }
+            }
+        });
+    });
+
+    function dialogocc() {
+        $("#dialog-message").dialog("open");
+    }
+
+    //Logout TLS Authentication
+    function logHTTP() {
+        var xmlHttp = new XMLHttpRequest();
+
+        /* xmlHttp.timeout = 2000; // 2 seconds
+         
+         xmlHttp.onreadystatechange = function ()
+         {
+         if (xmlHttp.readyState == 4)
+         {
+         console.log("status: "+xmlHttp.status);
+         console.log("response: '"+xmlHttp.responseText+"'");
+         }
+         };*/
+        try {
+            xmlHttp.open("GET", "/expedientes/sede/", true, "logout", "logout");
+            xmlHttp.send("");
+            xmlhttp.abort();
+        } catch (err) {
+        }
+    }
+
+    function logout(elem) {
+        if (document.all == null) {
+            if (window.crypto) {
+                // try{
+                //window.crypto.logout();
+                // Components.classes["@mozilla.org/security/sdr;1"].getService(Components.interfaces.nsISecretDecoderRing).logoutAndTeardown();
+                // return false; //firefox ok -- no need to follow the link
+                //  } catch (err) {//Safari, Opera, Chrome -- try with tis session breaking
+                logHTTP();
+                logHTTP();
+                logHTTP();
+                //  }
+            } else { //also try with session breaking
+                logHTTP();
+                logHTTP();
+                logHTTP();
+            }
+        } else { // MSIE 6+
+            document.execCommand('ClearAuthenticationCache');
+            return false;
+        }
+        ;
+        return true
+    }
+-->
+</script>
+</head>
+    
+<body>
+    <div id="contenedor">	
+        <!-- INICIO CABECERA -->
+        <div id="cabeceraContenedor">
+            <div id="cabeceraCaja">
+                <div id="cabecera">
+                    <section class="topSuperior">
+                        <article class="escTitle">
+                            <div id="escudo_cabecera">
+                                <img src="../img/logo_responsive.png" alt="Escudo Concello de Vigo"/>
+                            </div>
+                            <div class="logo_sede">
+                                <h1><a href="/expedientes/sede/" accesskey="0" class="sedetit2"> Sede Electrónica</a></h1>	
+                            </div>
+                        </article>   
+
+                        <article class="top-buscador" class="hidden-xs">
+                            <div class="navsup" class="hidden-xs">		
+                                <form name="gs" method="get" action="/expedientes/tramites/tramitesbusqueda.jsp" class="buscador-top">
+                                    <input type="hidden" value="017769677659879873903:q7clgjredw8" name="cx"/>
+                                    <input type="hidden" value="FORID:11" name="cof"/>
+                                    <input type="hidden" value="UTF-8" name="ie"/>
+                                    <input type="hidden" value="gal" name="lang"/>
+                                    <label for="campobusq" >Buscar</label>
+                                    <div class="input-group">
+                                        <input type="text" value="" id="campobusq" title="Buscar en la web" class="form-control" placeholder="Buscar..." name="q">
+                                        <span class="input-group-btn">
+                                            <button class="btn search-button" type="submit" value="Buscar">Buscar</button>
+                                        </span>
+                                    </div>
+                                </form>	
+                            </div> 
+                        </article>
+
+                        <article class="topIdi">
+                            <div class="idioma">
+                                
+                                <a href="http://www.vigo.org">vigo.org</a> <div style="color: #fff; padding: 0 0.8em; display:inline">|</div>
+                                
+                                    <a title="Cambiar el idioma de la página a castellano." xml:lang="es" lang="es" href="/expedientes//actas/videos_actas_new.jsp?id=3618&amp;lang=es">
+                                        <span class="visible-xs"><i class="fa fa-globe" aria-hidden="true"></i> CAS</span>
+                                        <span class="hidden-xs"><i class="fa fa-globe" aria-hidden="true"></i> Castellano</span>
+                                    </a>
+                                
+                            </div> <!--fin idioma-->
+                        </article>
+                    </section>
+                    
+		            
+                    <nav role="navigation">
+                        <div id="menuHorizontal">
+                            <ul id="main-menu" class="sm sm-simple collapsed" ><li><a href="/expedientes/sede/?lang=ga" >Sede</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_identificacion&amp;lang=ga" >Identificación da sede</a></li><li><a href="#"  class="has-submenu" >Sinatura electrónica</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_firma&amp;lang=ga" >Sistemas de sinatura aceptados</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_sellos&amp;lang=ga" >Certificados de selo electrónico</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_verificacion&amp;lang=ga" >Verificación dos certificados da Sede</a></li></ul></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_hora&amp;lang=ga" >Data e hora oficial</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_calendario&amp;lang=ga" >Calendario días inhábiles</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_normativa&amp;lang=ga" >Normativa Reguladora da Sede</a></li><li><a href="/expedientes/admelectronica/?lang=ga" >Observatorio de Administración Electrónica</a></li><li><a href="/expedientes/admelectronica/noticias.jsp?lang=ga" >Noticias da Sede</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_admonelectronica&amp;lang=ga" >Servizo de Administración Electrónica</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_lopd&amp;lang=ga"  class="has-submenu" >Protección de Datos</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_reg_act&amp;lang=ga" >Inventario de actividades de tratamento</a></li><li><a href="#"  class="has-submenu" >Exercicio de dereitos</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_lopd_normas&amp;lang=ga" >Normativa aplicable</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_lopd_ejder&amp;lang=ga" >Exercicio de dereitos</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_lopd_defder&amp;lang=ga" >Definición de dereitos</a></li></ul></li></ul></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_cookies&amp;lang=ga" >Política de cookies</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_accesibilidad&amp;lang=ga" >Accesibilidade web</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=mapaweb&amp;lang=ga" >Mapa da web da Sede Electrónica</a></li></ul></li><li><a href="/expedientes/tramites/tramites.jsp?lang=ga" >Procedementos</a><ul><li><a href="/expedientes/tramites/tramites.jsp?lang=ga" >Trámites e Procedementos</a></li><li><a href="/expedientes/tramites/tramites.jsp?tip=doc&lang=" >Impresos</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_registro&amp;lang=ga"  class="has-submenu" >Rexistro Electrónico</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_obligRegElectr&amp;lang=ga" >Obrigados ao rexistro electrónico</a></li></ul></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_estado&amp;lang=ga" >Estado de tramitación: Como vai a miña xestión?</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_notificacions&amp;lang=ga" >Notificacións Electrónicas</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_csv&amp;lang=ga" >Verificación de documentos (CSV)</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=sede_sugerencias&amp;lang=ga" >Suxestións e Queixas</a></li></ul></li><li><a href="/expedientes/usuarios/login.jsp?lang=ga" >Carpeta Cidadá</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_cidada&amp;lang=ga"  class="has-submenu" >Información e alta no servizo</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_servicios&amp;lang=ga"  class="has-submenu" >Servizos que ofrece</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_servicio_1&amp;lang=ga" >Rexistro Electrónico</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_servicio_2&amp;lang=ga" >Consulta de Expedientes</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_servicio_3&amp;lang=ga" >Información tributaria</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_servicio_4&amp;lang=ga" >Multas de tráfico</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_servicio_5&amp;lang=ga" >Padrón de habitantes</a></li></ul></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_acceso_usuario_clave_pin&amp;lang=ga" >Solicitar PIN-SMS</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=cc_acceso_dni&amp;lang=ga" >Uso do DNI electrónico</a></li></ul></li><li><a href="/expedientes/usuarios/cc_acceso_usuario_clave_pin.jsp?lang=ga" >Acceso por NIF e PIN</a></li><li><a href="/expedientes/firma/firma.jsp?lang=ga" >Acceso por Certificado, DNI electrónico e sistema Cl@ve</a></li><li><a href="/expedientes/textos/texto.jsp?idt=exp_solicitudes&amp;lang=ga"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Rexistro Electrónico  Xeral</a><ul><li><a href="/expedientes/textos/texto.jsp?idt=exp_concello&amp;lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Solicitudes ao Concello de Vigo</a></li><li><a href="/expedientes/textos/texto.jsp?idt=exp_pleno_concello&amp;lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Solicitudes ao Pleno do Concello de Vigo</a></li><li><a href="/expedientes/textos/texto.jsp?idt=exp_xerencia&amp;lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Solicitudes á Xerencia de Urbanismo</a></li></ul></li><li><a href="/expedientes/usuarios/expedientes.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Os meus Expedientes</a></li><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Os meus Recibos e Tributos</a><ul><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Tributos</a><ul><li><a href="/expedientes/recibos/cc_recibos_ibi.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Bens Inmobles</a></li><li><a href="/expedientes/recibos/cc_recibos_veh.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Vehículos</a></li><li><a href="/expedientes/recibos/cc_recibos_iae.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Actividades Económicas</a></li><li><a href="/expedientes/recibos/cc_recibos_lixo.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Recollida de lixo</a></li><li><a href="/expedientes/recibos/cc_recibos_exa.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Exaccións unificadas ind.</a></li></ul></li><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Recibos </a><ul><li><a href="/expedientes/ejecutiva/recibos_pendientes.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Recibos pendentes</a></li><li><a href="/expedientes/recibos/recibos_pagados.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Recibos pagados</a></li><li><a href="/expedientes/recibos/autoliq_pagadas.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Autoliquidaciones pagadas</a></li><li><a href="/expedientes/recibos/recibos_pagar.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Pagamento online</a></li><li><a href="/expedientes/recibos/cc_domiciliar.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Domiciliacións</a></li><li><a href="/expedientes/recibos/cc_facil10.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Fácil 10</a></li></ul></li><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >As miñas Liquidacións</a><ul><li><a href="/expedientes/recibos/liquidaciones_pendentes.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Liquidacións pendentes</a></li><li><a href="/expedientes/recibos/liquidaciones_pagadas.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Liquidacións pagadas</a></li></ul></li><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Solicitude de Certificados</a><ul><li><a href="/expedientes/recibos/recibos_pagados.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Certificados de recibos pagados</a></li><li><a href="/expedientes/recibos/cc_recibos_tramit.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Certificados de non ter débedas</a></li></ul></li></ul></li><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Multas</a><ul><li><a href="/expedientes/ejecutiva/multas_voluntaria.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Multas pendentes</a></li><li><a href="/expedientes/ejecutiva/multas_resueltas.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Resoltas ou en proceso</a></li></ul></li><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Notificacións</a><ul><li><a href="/expedientes/notificaciones/not.nt?op=1&lang="  class="ccprotegido" onclick="dialogocc();return false;" >Pendentes</a></li><li><a href="/expedientes/notificaciones/not.nt?op=2&lang="  class="ccprotegido" onclick="dialogocc();return false;" >Recibidas</a></li><li><a href="/expedientes/notificaciones/not.nt?op=3&lang="  class="ccprotegido" onclick="dialogocc();return false;" >Rexeitadas</a></li><li><a href="/expedientes/notificaciones/not.nt?op=8&lang="  class="ccprotegido" onclick="dialogocc();return false;" >Non retiradas en prazo</a></li><li><a href="/expedientes/notificaciones/not.nt?op=10&lang="  class="ccprotegido" onclick="dialogocc();return false;" >Datos de contacto</a></li></ul></li><li><a href="#"  class="ccprotegido" onclick="dialogocc();return false;"  class="has-submenu" >Padrón de Habitantes</a><ul><li><a href="/expedientes/padron/cc_padron_datos.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Datos personais</a></li><li><a href="/expedientes/padron/cc_padron_familia.jsp?lang=ga"  class="ccprotegido" onclick="dialogocc();return false;" >Unidade familiar</a></li></ul></li><li><a href="#"  class="has-submenu" >Configuración</a><ul><li><a href="/expedientes/usuarios/cc_clave_pin_cl.jsp" >Actualizar PIN</a></li><li><a href="/expedientes/usuarios/cc_clave_pin_telefono.jsp" >Actualizar nº teléfono</a></li><li><a href="/expedientes/usuarios/cc_dir_notifica.jsp" >Datos de avisos de notficacións</a></li></ul></li></ul></li><li><a href="#" >Publicacións</a><ul><li><a href="/expedientes/taboleiro/?lang=ga" >Taboleiro de Anuncios e Edictos</a></li><li><a href="/expedientes/oposicions/ofertas.jsp?lang=ga" >Ofertas de Emprego</a></li><li><a href="/expedientes/actas/?lang=ga"  class="has-submenu" >Ordes do día, Actas e Acordos</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=mocions&amp;lang=ga" >Mocións de Partidos Políticos</a></li></ul></li><li><a href="/expedientes/avisos/?lang=ga" >Convocatorias e Subvencións</a></li><li><a href="/expedientes/avisos/res_xudiciais.jsp?lang=ga" >Sentenzas e resolucións xudiciais</a></li><li><a href="/expedientes/avisos/publicidadnormas.jsp?lang=ga" >Normas en tramitación </a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=subastas_ad&amp;lang=ga" >Poxas tributarias</a></li></ul></li><li><a href="/expedientes/sede/tributos.jsp?lang=ga" >Oficina tributaria</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=oficinatributos&amp;lang=ga" >Información</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos&amp;lang=ga"  class="has-submenu" >Tributos</a><ul><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_ibi&amp;lang=ga" >IBI. Imposto de Bens Inmobles</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_veh&amp;lang=ga" >IVTM. Vehículos de Tracción Mecánica</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_iae&amp;lang=ga" >IAE. Imposto de Actividades Económicas</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_plus&amp;lang=ga" >Plusvalía</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_lixo&amp;lang=ga" >Xestión tributaria Lixo Vivenda</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_eui&amp;lang=ga" >EUI. Exaccións Unificadas Industriais</a></li></ul></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=autoliquidaciones&amp;lang=ga" >Autoliquidacións</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=concellodixital3&amp;lang=ga" >Calendario do contribuinte</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=concellodixital11&amp;lang=ga" >Ordenanzas fiscais</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_normas&amp;lang=ga" >Normas de ingreso dos Tributos Periódicos</a></li><li><a href="/expedientes/sede_textos/texto.jsp?idt=tributos_tram&amp;lang=ga" >Trámites económicos</a></li></ul></li><li><a href="/expedientes/perfilcontratante/?lang=ga" >Contratación</a></li></ul>
+                    	</div>
+                    </nav>
+                        
+                    <div id="menu-bar">
+                	<a href="#" id="menu-button" class="collapsed menuButton"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> Menú</a>
+	                <!--IDIOMA=es-->
+	                <form name="gs" method="get" action="/expedientes/tramites/tramitesbusqueda.jsp">
+	                    <input type="hidden" value="017769677659879873903:q7clgjredw8" name="cx">
+	                    <input type="hidden" value="FORID:11" name="cof">
+	                    <input type="hidden" value="SI" name="buscar">
+	                    <input type="hidden" value="UTF-8" name="ie">
+	                    <input type="hidden" value="gal" name="lang">
+	                    <label for="campobusq2">Buscar</label>
+	                    <div class="input-group">
+	                        <input type="text" value="" id="campobusq2" title="Buscar en la web" class="form-control" placeholder="Buscar..." name="q">
+	                        <span class="input-group-btn">
+	                            <button class="btn btn-default btn-success" type="submit" value="Buscar">Buscar</button>
+	                        </span>
+	                    </div>
+	                </form>	  
+	            </div>     
+                </div>
+            </div>    
+        </div><!--FIN CABECERA-->
+
+        <!--INICIO CUERPO-->
+        <div class="container">
+            
+                          
+    <!--inicio contenido-->
+    <div id="contenidoSede">  
+<ul id="crumbs">
+    <li> <a href="/expedientes/sede/?lang=ga">Sede electrónica</a> </li>	
+    <li> <a href="index.jsp?lang=gal">Actas</a></li>
+    <li> <a href="videos_actas.jsp?lang=ga">Arquivos Pleno Municipal</a></li>
+</ul>
+
+<main id="contenidosuperior">
+    <header class="header-sede">SEDE ELECTRÓNICA</header>   
+    
+    <section id="col1" class="col col-md-8 col-xs-12">
+        <article id="tramite">	            
+            
+                                     
+                      
+                        <header id="tituloprincipalflex">
+                            <div><i class="fa fa-video-camera icon_title" aria-hidden="true"></i></div> 
+                            <h1>
+                                                                
+                                Pleno Municipal do día 2025-12-23 00:00:00.0  
+                                
+                            </h1>
+                        </header>
+                          
+                        <div class="enderezo" >
+                            <ul>
+                                
+                                    <li>
+                                        <a href="../actas/fichero_actas.jsp?id=3618&t=ACTA&id=2&amp;lang=ga">
+                                            <i class="fa fa-file-text-o icon_title" aria-hidden="true"></i>
+                                            Acta en PDF
+                                        </a>
+                                    </li>
+                                
+                                
+                                    <li>
+                                        <a href="../actas/fichero_actas.jsp?id=3618&t=OD&id=1&amp;lang=ga">
+                                            <i class="fa fa-file-text-o icon_title" aria-hidden="true"></i>
+                                             Orde do día en PDF 
+                                        </a>
+                                    </li>
+                                
+                                
+                                
+                                    <li>
+                                        <a href="https://mediateca.vigo.org/library/items/122"><i class="fa fa-video-camera icon_title" aria-hidden="true"></i> Ver video (378535.1 Kb)</a>
+                                    </li>
+                                
+                                
+                            </ul>
+                        </div>
+                    
+                
+                
+        </article>
+    </section>
+    <aside id="col2" class="col col-md-4 col-xs-12">
+        
+
+<section class="row" style="padding-left: 20px;">
+    <div class="banner_izq rounded-corners-shallow col-sm-6 col-xs-12" onclick="location.href='http://hoxe.vigo.org/actualidade/app_vigo.php?lang=gal'">
+        <h2>
+            <img alt="Logo"  src="/expedientes/lib/img/logo_app.png" style="width: 2.5rem; height: auto;"/>
+            <a href="http://hoxe.vigo.org/actualidade/app_vigo.php?lang=gal">App móbil Vigo</a>
+        </h2>
+        <p >Información da cidade (transporte, axenda, recursos, ...), trámites, ofertas de emprego,...</p>
+    </div>
+            
+    <div class="banner_izq rounded-corners-shallow col-sm-6 col-xs-12" onclick="location.href='/expedientes/usuarios/login.jsp?lang=gal'">
+        <h2>
+            <i class="fa fa-users icon_title" aria-hidden="true"></i>
+            <a href="/expedientes/usuarios/login.jsp?lang=gal">Carpeta Cidadá</a>
+        </h2>
+        <p >Rexistro electrónico, datos fiscais, padrón de habitantes e trámites avanzados</p>
+    </div>
+
+    <div class="clearfix visible-sm-block"></div>
+
+    <div class="banner_izq bannersleft rounded-corners-shallow col col-xs-12" onclick="location.href='/expedientes/recibos/recibo.jsp?lang=gal'">
+        <h2>
+            <i class="fa fa-credit-card icon_title" aria-hidden="true"></i>
+            <a href="/expedientes/recibos/recibo.jsp?lang=gal">Pagamento de Recibos</a>
+        </h2>
+        <p>Pague os seus recibos por Internet de forma rápida, cómoda e segura.</p>
+    </div>
+    <div class="banner_izq rounded-corners-shallow col col-xs-12" onclick="location.href='/expedientes/formularios/consulta_expediente.jsp?lang=gal'">
+        <h2>
+            <i class="fa fa-check-circle-o icon_title" aria-hidden="true"></i>
+            <a href="/expedientes/formularios/consulta_expediente.jsp?lang=gal">Consulta de solicitudes web</a>
+        </h2>
+        <p>Coñeza o estado das súas solicitudes mediante o seu código <b>Wnnnn-mmm</b></p>
+    </div>
+    <div class="banner_izq rounded-corners-shallow col col-xs-12" onclick="location.href='/expedientes/formularios/consulta_documento.jsp?lang=gal'">
+        <h2>
+            <i class="fa fa-file-text-o icon_title" aria-hidden="true"></i>
+            <a href="/expedientes/formularios/consulta_documento.jsp?lang=gal">Consulta de solicitudes</a>
+        </h2>
+        <p>Coñeza o estado das súas solicitudes presentadas no <b>Rexistro Xeral</b></p>
+    </div>
+    <div class="banner_izq rounded-corners-shallow col col-xs-12" onclick="location.href='/expedientes/tramites/tramitescat.jsp?id=225&lang=gal'">
+        <h2>
+            <i class="fa fa-exclamation-circle icon_title" aria-hidden="true"></i>
+            <a href="/expedientes/tramites/tramitescat.jsp?id=225&lang=gal">Sistema interno de información</a>
+        </h2>
+        <p>Canle que permite realizar suxestións e alertar sobre factores de risco, infraccións do código ético ou infraccións normativas</p>
+    </div>
+</section>	
+    </aside>
+</main> <!--contenidosuperior-->
+
+
+        </div><!--fin contenidoSede-->
+    </div>	 <!--fin cuerpo-->
+
+    <!--inicio pie-->
+    <article id="pie" style="text-align:initial !important; margin:0 !important;" >	
+        <section id="contenidoinferior">
+            <article class="infoweb">
+                <h3>Concello de Vigo (Servizo de Administración Electrónica)</h3>
+                <p>Praza do Rei 1 - 36202 - Vigo (Pontevedra) - Teléfono: 010 - 986810100</p>
+            </article>
+            
+            <article class="card-wrap-outer">
+                <section class="card-wrap-inner">
+                    <div class="banner rounded-corners-shallow " onclick="location.href='http://www.vigo.org'" >
+                        <header>
+                            <i class="fa fa-mouse-pointer" aria-hidden="true"></i>
+                            <!--<img alt="vigo.org" src="../sede/banner_pc3.png" class="fright"/>-->
+                            <h2><a href="http://www.vigo.org/">Portal Web www.vigo.org</a></h2>
+                        </header>
+                        <section class="header-links">
+                            <p class="flexible">Acceda ao portal web do Concello de Vigo</p>
+                        </section>
+                    </div>
+                </section>
+                <section class="card-wrap-inner">                        
+                    <div class="banner rounded-corners-shallow" onclick="location.href='/expedientes/sede_textos/texto.jsp?idt=sede_estado&amp;lang=gal'" >
+                        <header>
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                            <!--<img alt="" src="../sede/banner_pc2.png" class="fright"/>-->
+                            <h2><a href="/expedientes/sede_textos/texto.jsp?idt=sede_estado&amp;lang=gal">Como vai a miña xestión?</a></h2>
+                        </header>
+                        <section class="header-links">
+                            <p class="flexible">Consulte o estado das súas solicitudes</p>
+                        </section>
+                    </div>  
+                </section>
+                <section class="card-wrap-inner">           
+                    <div class="banner rounded-corners-shallow" onclick="location.href='/expedientes/sede_textos/texto.jsp?idt=sede_csv&amp;lang=gal'" >
+                        <header>
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <!--<img alt="" src="../sede/banner_pc.png" class="fright"/>-->
+                            <h2><a href="/expedientes/sede_textos/texto.jsp?idt=sede_csv&amp;lang=gal">CSV Verificación de documentos</a></h2>
+                        </header>
+                        <section class="header-links">
+                            <p class="flexible">Comprobe a validez dos documentos emitidos polo Concello de Vigo.</p>
+                        </section>
+                    </div>    
+                </section>
+            </article>
+        </section>  
+                    
+        <section class="enlaces">
+            <h2>Servizos da Sede Electrónica</h2>
+            
+            <aside class="links-sede">
+                <ul class="pie-list">
+                    <li><a title="Procedimientos" href="/expedientes/tramites/tramites.jsp?la/ng=gal?lang=gal">Procedementos: Trámites e Impresos</a></li>
+                    <li><a title="Carpeta Ciudadana" href="/expedientes/sede_textos/texto.jsp?idt=cc_cidada&amp;lang=gal">Carpeta Cidadá</a></li>
+                    <li><a title="Tablón de Edictos" href="/expedientes/taboleiro/?lang=gal">Taboleiro de Edictos e Anuncios</a></li>
+                </ul>
+                <ul class="pie-list">
+                    <li><a title="Ofertas de Empleo" href="/expedientes/oposicions/ofertas.jsp?lang=gal">Ofertas de Emprego</a></li>
+                    <li><a title="Perfil del Contratante" href="/expedientes/perfilcontratante/?lang=gal">Perfil de Contratante</a></li>
+                    <li><a accesskey="7" title="Actas / Acordos" href="/expedientes/actas/?lang=gal">Actas e acordos</a></li>
+                </ul>
+                <ul class="pie-list">
+                    <li><a accesskey="8" title="Oficina Tributaria" href="/expedientes/sede_textos/texto.jsp?idt=oficinatributos&amp;lang=gal">Oficina Tributaria</a></li>
+                    <li><a accesskey="9" title="Convocatorias e Subvencións" href="/expedientes/avisos/?lang=gal">Convocatorias e Subvencións</a></li>
+                    <li><a  title="Expedientes en exposición pública" href="/expedientes/taboleiro/?lang=gal">Expedientes en Exposición Pública</a></li>
+                </ul>
+            </aside>
+        </section>
+                
+        <aside class="faldon">                
+            <ul class="footer-links">	  		
+                <li class="first"><a accesskey="d" title="Protección de Datos" href="/expedientes/sede_textos/texto.jsp?idt=sede_lopd&amp;lang=gal">Protección de Datos</a></li>
+                <li><a accesskey="m" title="Mapa Web " href="/expedientes/sede_textos/texto.jsp?idt=mapaweb&amp;lang=gal">Mapa Web</a></li>
+                <li><a accesskey="0" title="Accesibilidade" href="/expedientes/sede_textos/texto.jsp?idt=sede_accesibilidad&amp;lang=gal">Accesibilidade</a></li>
+            </ul>
+            <section style="text-align: right">
+                <img src="../img/bandera_2007-20111.png" alt="Fondos FEDER" style="height: 60px; "/> <img src="../img/CAB-MEH.gif" alt="Ministerio AAPP" style="height: 60px;">
+            </section>
+        </aside>
+    </article><!--fin pie-->
+
+</div><!--fin pagina-->
+
+<div id="dialog-message" title="Acceso non autorizado: Identificación requirida">
+<div style="float: left; margin-left:1em;"><img src="/expedientes/img/portada/c_cidadans120.png" alt="Carpeta cidadá"></div>
+<p style="text-align: justify; padding: 1.5em 0.5em 0 9em">
+Para ter acceso a este apartado necesita identificarse mediante usuario e clave de Carpeta Cidadá ou mediante Certificado electrónico (como o DNI electrónico).
+	
+</p>
+<p style="margin-top:1em; ">
+    <a href="/expedientes/sede_textos/texto.jsp?idt=cc_cidada&amp;lang=gal" style="font-weight:bold;text-decoration:underline;">Máis información</a>
+</p>
+</div>
+<!-- Botón para abrir el chatbot -->
+<button id="openChatbot"><i class="fa fa-comments-o"></i>Precisas axuda?</button>
+
+<!-- Ventana modal del chatbot -->
+<div id="chatbotModal">
+ <div class="modal-header">
+ <span>Asistente Vigo25</span>
+ <!-- Selector de idioma -->
+ <select id="languageSelect">
+     
+        <option value="es">Español</option>
+        <option value="gl" selected>Galego</option>
+     
+ </select>
+ <span class="close" id="closeChatbot">&times;</span>
+ </div>
+ <div class="modal-body">
+ <!-- iFrame con el contenido del chatbot -->
+ <iframe id="chatbotIframe" src=""></iframe> <!-- Puedes reemplazar con la URL de tu chatbot -->
+ </div>
+</div>
+<link href="https://hoxe.vigo.org/lib/chat/chat.css" rel="stylesheet" type="text/css" />
+<script async type="text/javascript" src="https://hoxe.vigo.org/lib/chat/chat.js"></script>  
+
+</body>
+</html>

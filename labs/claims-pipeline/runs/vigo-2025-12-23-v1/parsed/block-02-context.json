@@ -1,0 +1,906 @@
+{
+  "matters": [
+    {
+      "key": "presupuesto_general_2026",
+      "label": "Presupuesto general del Concello de Vigo para 2026",
+      "object": "Presupuesto municipal",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0026",
+        "S0027",
+        "S0028",
+        "S0029",
+        "S0030",
+        "S0031",
+        "S0032",
+        "S0033"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "statement": "O orzamento municipal de 2026 é descrito como cumpridor no formal pero defraudador pola falta de política.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "calidade",
+      "valueText": "cumpridor no formal",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Comezo por recoñecer que este é un orzamento cumpridor no formal, mais tamén dicindo que cumprir cos papeis non é suficiente cando falla política",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina maior presión fiscal con baixa execución.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "maior presión fiscal con baixa execución",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina maior presión fiscal.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "maior presión fiscal",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina baixa execución.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "baixa execución",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina unha evidente falta de sensibilidade social.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "unha evidente falta de sensibilidade social",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina investimentos repetidos.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "investimentos repetidos",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O orzamento municipal de 2026 combina prioridades equivocadas.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_general_2026",
+      "property": "características",
+      "valueText": "prioridades equivocadas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "falta de política"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0026"
+      ],
+      "quote": "Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social",
+      "contextSegmentIds": [
+        "S0026"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  ],
+  "contextRequests": [],
+  "notes": []
+}

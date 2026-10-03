@@ -1,0 +1,21 @@
+{
+  "stage": "block-02-extract",
+  "startedAt": "2026-09-11T19:37:54.023455+00:00",
+  "requestSha256": "2db1bb1294c0126e34d5dca73f397360e6df184a4a039c489402cf4e947cd180",
+  "state": "completed",
+  "finishedAt": "2026-09-11T19:38:03.481359+00:00",
+  "elapsedSeconds": 9.437,
+  "httpStatus": 200,
+  "responseSha256": "dc7a77481758aa5e7a8047fce4d30c34cc8a1b770e45e5ce3c4a87d7e5953b3e",
+  "usage": {
+    "prompt_tokens": 5022,
+    "completion_tokens": 648,
+    "total_tokens": 5670,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "neurons": 51.208200000000005
+  },
+  "finishReason": "stop",
+  "errorCodes": []
+}

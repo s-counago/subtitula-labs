@@ -1,0 +1,66 @@
+{
+  "diagnostic": {
+    "createdAt": "2026-09-22T07:02:00.358913+00:00",
+    "providerCalls": 0,
+    "selectedItems": 6,
+    "plannedHttpCalls": 6,
+    "locallyAbstainedItems": 0,
+    "mode": "diagnostic",
+    "requestBytes": 25672,
+    "questions": 13,
+    "inputTokenScenario": [
+      6813,
+      16121
+    ],
+    "directCostScenarioUSD": [
+      0.00028615,
+      0.00067708
+    ],
+    "estimateMethod": "Illustrative scenarios: JSON characters / 4 + 32 per question; JSON characters / 2 + 256 per question. Not the Jev tokenizer, not bounds or measured usage.",
+    "priceSource": "https://docs.typesafe.ai/models",
+    "priceCheckedOn": "2026-09-22",
+    "excludes": [
+      "source search",
+      "PDF extraction",
+      "manual preparation",
+      "taxes",
+      "gateway fees",
+      "provider serialization differences"
+    ],
+    "latencyMeasured": false,
+    "accuracyMeasured": false,
+    "referenceHumanReviewed": false
+  },
+  "guarded": {
+    "createdAt": "2026-09-22T07:02:00.358913+00:00",
+    "providerCalls": 0,
+    "selectedItems": 6,
+    "plannedHttpCalls": 5,
+    "locallyAbstainedItems": 1,
+    "mode": "guarded",
+    "requestBytes": 23149,
+    "questions": 12,
+    "inputTokenScenario": [
+      6152,
+      14608
+    ],
+    "directCostScenarioUSD": [
+      0.00025838,
+      0.00061354
+    ],
+    "estimateMethod": "Illustrative scenarios: JSON characters / 4 + 32 per question; JSON characters / 2 + 256 per question. Not the Jev tokenizer, not bounds or measured usage.",
+    "priceSource": "https://docs.typesafe.ai/models",
+    "priceCheckedOn": "2026-09-22",
+    "excludes": [
+      "source search",
+      "PDF extraction",
+      "manual preparation",
+      "taxes",
+      "gateway fees",
+      "provider serialization differences"
+    ],
+    "latencyMeasured": false,
+    "accuracyMeasured": false,
+    "referenceHumanReviewed": false
+  }
+}

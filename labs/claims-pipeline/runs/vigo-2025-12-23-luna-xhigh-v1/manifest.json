@@ -1,0 +1,46 @@
+{
+  "startedAt": "2026-09-11T21:22:54.704369+00:00",
+  "experimentId": "vigo-2025-12-23-luna-xhigh-v1",
+  "model": "gpt-5.6-luna",
+  "referenceSha256": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+  "referenceFrozenAt": "2026-09-11T19:36:44.105589+00:00",
+  "segmentsSha256": "f9586c987436a721d0ae7de165f6a214a885925bb5ca67bea5709ddfb249dc5b",
+  "inputHashes": {
+    "config/experiment.json": "c67edf107b4523e8de3e00d99056e71dea0b1742c8a273026e0b7b84ae39d4fd",
+    "config/extraction-prompt.txt": "9f1ab7c14ec6de0df3d267cd3aceeaa1ff4003a97333f70d241f60634f88dd3d",
+    "config/resolution-prompt.txt": "733d1b65e7fb35752e21b37146eb35300ad4cfd60daa2aa4a60aac375b280bb2",
+    "scripts/pipeline.py": "bdf03b98775d41bec01603b08fa5944184e5439bf0c010bfb97d5e50a90e7174",
+    "scripts/contracts.py": "6dd408a6afcb1c8365825069ca8d67b81b88abd280457ba216a9a50bc6d22fe2",
+    "scripts/common.py": "4ed7f1f1ce30fbc49384038c0cb2ed492778b5ea5c19a7115a3327690256641a"
+  },
+  "referenceContentsProvidedToModel": false,
+  "state": "interrupted",
+  "adapterHashes": {
+    "scripts/luna_pipeline.py": "67a67188b76102efb995e5ec8d2943df4cab4fc6a4280ce207575d246f13d829",
+    "config/luna-experiment.json": "651ff13ad365f0c3faa1899ed34282292563c98f8ac30a40d8dcca388783f00e"
+  },
+  "transport": "codex_exec",
+  "codexVersion": "codex-cli 0.153.4",
+  "authMethod": "chatgpt_subscription",
+  "reasoningEffort": "xhigh",
+  "baselineExperimentId": "vigo-2025-12-23-v1",
+  "comparisonLimits": [
+    "Same Codex transport, model, task instructions, schemas and workflow as Luna low.",
+    "A fresh inference is stochastic; one run per effort does not measure variance.",
+    "Later context and resolution inputs depend on each run output."
+  ],
+  "variantHashes": {
+    "scripts/luna_xhigh.py": "2237ec60be04b29f7f59e6895f24434d5ab28bea0e49af87d68047974003f09f",
+    "config/luna-xhigh-experiment.json": "2b8ffc82a7af9251fafcd1bcd3cc920cde7390e1c448fd61125041f75aa1eccf"
+  },
+  "comparisonExperimentId": "vigo-2025-12-23-luna-v1",
+  "changedInferenceParameter": {
+    "reasoningEffort": {
+      "from": "low",
+      "to": "xhigh"
+    }
+  },
+  "finishedAt": "2026-09-11T21:28:55.140217+00:00",
+  "terminationCause": "local_timeout_360_seconds",
+  "reportedUsageUnavailable": true
+}

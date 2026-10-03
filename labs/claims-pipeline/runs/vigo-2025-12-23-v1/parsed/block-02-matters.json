@@ -1,0 +1,11 @@
+{
+  "decisions": [
+    {
+      "mentionId": "mention-45565cd6-c32c-5932-8d74-8969cfd3b559",
+      "action": "existing",
+      "canonicalId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+      "canonicalLabel": "Presupuesto General del Concello de Vigo para 2026",
+      "reason": "Coincidencia exacta de objeto, institución, territorio y periodo con el catálogo."
+    }
+  ]
+}

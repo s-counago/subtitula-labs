@@ -1,0 +1,11 @@
+{
+  "decisions": [
+    {
+      "mentionId": "mention-12042543-bb6d-503b-9a6e-71457924212e",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Presupuesto General del Concello de Vigo para 2026",
+      "reason": "El objeto, territorio (Vigo), institución (Concello de Vigo) y periodo (2026) coinciden exactamente con los datos del catálogo."
+    }
+  ]
+}

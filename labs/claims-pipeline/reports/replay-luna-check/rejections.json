@@ -1,0 +1,54 @@
+[
+  {
+    "block": "block-02",
+    "candidateIndex": 10,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "O grupo municipal afirmou que as súas trinta e nove emendas foron rexeitadas todas.",
+      "speakerId": "speaker_3",
+      "matterKey": "emendas_orzamento_2026",
+      "property": "resultado das emendas",
+      "valueText": "todas e cada unha delas",
+      "referencePeriod": "2026",
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0035"
+      ],
+      "quote": "trinta e nove emendas por un importe de setenta e dous millóns que vostedes rexeitaron todas e cada unha delas.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-03",
+    "candidateIndex": 4,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "El gobierno municipal afirma que las personas que acuden al Concello con necesidad salen con una solución, incluyendo necesidades de alquiler, alimentos o ayuda energética.",
+      "speakerId": "speaker_4",
+      "matterKey": "ayudas_sociales_municipales",
+      "property": "respuesta a necesidades sociales",
+      "valueText": null,
+      "referencePeriod": null,
+      "conditions": [
+        "según el orador, mediante decisiones día a día y de junta de gobierno a junta de gobierno"
+      ],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0044"
+      ],
+      "quote": "E o que entra neste concello con unha necesidade, sae con unha solución, decidida día a día, decidida junta de gobierno a junta de gobierno, sin límite para aquellos que necesitan un alquiler, alimentos, ayuda energética, para todos los que necesitan.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  }
+]

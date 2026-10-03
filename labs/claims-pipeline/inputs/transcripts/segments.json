@@ -1,0 +1,611 @@
+{
+  "createdAt": "2026-09-11T19:28:26.161652+00:00",
+  "sourceSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+  "normalizerVersion": "1.0",
+  "sourceLanguage": "glg",
+  "segments": [
+    {
+      "id": "S0001",
+      "sequence": 1,
+      "start": 9.32,
+      "end": 48.22,
+      "speakerId": "speaker_0",
+      "text": "Bos días, señoras e señores concelleiros. Iniciamos Pleno do Concello extraordinario convocado po día de hoxe ás dez horas. A orden do día en poder das señoras e señores concelleiros. Constatamos quórum, secretario. Se abre sesión pública, eh, iniciamos, eh, a, a culminación dos debates de orden, eh, do día. Tratamento será, como todos os anos, cinco minutos de intervención e tres de réplica do Goberno. Punto único da orden do día, eh: alegacións e aprobación definitiva.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0002",
+      "sequence": 2,
+      "start": 48.22,
+      "end": 54.92,
+      "speakerId": "speaker_0",
+      "text": "Orzamento Xeral do Concello de Vigo po ano 2026. Ten a palabra o concelleiro de Facenda. Seu turno.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0003",
+      "sequence": 3,
+      "start": 58.94,
+      "end": 60.8,
+      "speakerId": "speaker_1",
+      "text": "Ben voadas de todos. Hoxe...",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0004",
+      "sequence": 4,
+      "start": 63.08,
+      "end": 89.84,
+      "speakerId": "speaker_1",
+      "text": "a ver, agora si. Hoxe, 23 de decembro de 2025, celebramos o dezanove orzamento consecutivo deste goberno municipal, o que significa a maior época de progreso e de estabilidade política para esta cidade. Progreso en todos os ámbitos para todas as persoas que viven nesta cidade, para as trescentas mil persoas, máis de trescentas mil persoas que viven nesta cidade ou para as máis de corenta e un mil actividades económicas que se desenvolven na cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0005",
+      "sequence": 5,
+      "start": 89.84,
+      "end": 119.76,
+      "speakerId": "speaker_1",
+      "text": "Con este orzamento que aprobaremos a continuación, se engaden trescentos cincuenta millóns de euros adicionais para transformar a cidade, para mellorar as condicións de vida, eh, de toda a cidade. Con recursos propios e un ano máis con débeda cero, factor diferencial respecto doutras administracións, tanto locais como autonómicas. Hai que recordar que a Xunta de Galicia ten unha débeda de, eh, catro mil cincocentos euros por galego, mentres que o Concello de Vigo ten cero euros de débeda por galego.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0006",
+      "sequence": 6,
+      "start": 119.76,
+      "end": 153.52,
+      "speakerId": "speaker_1",
+      "text": "Por tanto, achegando todos os recursos á cidade, todos, todos os recursos para a cidadanía nos oito eixos que, eh, sinalaba na intervención do pasado mes de novembro na aprobación inicial do orzamento. En primeiro lugar, como non pode ser de outro xeito, a política social. Política social en sentido amplio e atendendo a unha das necesidades principais que teñen as persoas como é a vivenda, con, eh, unha, un edificio de vivenda social en As Turáns, incrementando setecentos mil euros a bolsa de alugueiro, que se une os once millóns de euros que se xeneraron xa co crédito extraordinario deste ano 2025.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0007",
+      "sequence": 7,
+      "start": 153.52,
+      "end": 189.44,
+      "speakerId": "speaker_1",
+      "text": "Pero incrementando tamén todas as partidas de política social. Hai que recordar, como xa dixen, que dende o ano 2007 ao ano 2026, a política social se incrementou un 696,5 % nos orzamentos municipais. En segundo lugar, o segundo eixe é a garantía dos servizos públicos de calidade, que converten a esta cidade, como xa saben, na mellor, eh, cidade, eh, para, eh, vivir. En terceiro lugar, a política de apoio ás familias, eh, sobre todo á infancia, con esas becas de inglés, con ese incremento nas becas de inglés para cursar, eh, estudios no estranxeiro, que pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0008",
+      "sequence": 8,
+      "start": 189.44,
+      "end": 217.0,
+      "speakerId": "speaker_1",
+      "text": "Por certo, unhas becas de inglés que o Bloque Nacionalista Galego quería, eh, eliminar. E tamén incrementando as dotacións públicas como unha ludoteca en, en la zona de Ribeira Tienza. Eh, tamén as axudas a esos colectivos das familias e dos, eh, rapaces. En cuarto lugar, co apo-- coa política de apoio cole-colectivos, con máis de trinta e oito millóns de euros no capítulo catro de subvencións e axudas a todas as asociacións e todas as, eh, institucións desta cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0009",
+      "sequence": 9,
+      "start": 217.0,
+      "end": 254.48,
+      "speakerId": "speaker_1",
+      "text": "En quinto lugar, transformando a cidade nunha cidade verde e con espazos de encontro, con novos, novos puntos de encontro, con, eh, achegas para novos parques infantís, novas, eh, xardíns ou con parques infantís, eh, eh, parques caninos, eh, co apoio ao medio ambiente como é as praias para manter esas doce bandeiras azuis que temos na nosa cidade. Tamén con toda a mellora das instalacións deportivas. En sexto lugar, modernizando e transformando a cidade, apo-- eh, apostando pola, polo vehículo eléctrico, con, eh, mil-- máis dun millón de euros para adquisición de vehículos eléctricos e para a electrificación das cocheiras, e transformando sobre todo todas e cada unha das zonas da cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0010",
+      "sequence": 10,
+      "start": 254.48,
+      "end": 285.04,
+      "speakerId": "speaker_1",
+      "text": "A diferencia de cando gobernaban outros, que só se transformaban algunas zonas, nós transformamos todos os puntos dos máis de cento dez quilómetros cadrados que ten a cidade de Vigo. Hai que destacar que neste caso xa engadimos máis de setenta millóns de euros nun crédito extraordinario neste ano 2025, que xunto cos corenta e catro millóns de euros do orzamento do ano 2026, permiten transformar toda a cidade e atender a todas esas necesidades de todos os barrios, de todas as parroquias e de todas as zonas da nosa, eh, cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0011",
+      "sequence": 11,
+      "start": 285.04,
+      "end": 313.52,
+      "speakerId": "speaker_1",
+      "text": "Pero tamén de, adicando recursos a cultura, cun incremento dun sete por cento máis para cultura, eh, crecendo na programación cultural en todos os barrios, en axudas tamén, en concorrencia non competitiva para as entidades e transformando tamén os espazos que xa temos, como é, como son os baixos do auditorio, eh, Mar, eh, de Vigo e tamén con achegas a todos os museos municipais, que como saben son gratuitos: o Marco, Casa das Artes, Verbum. E, por tanto, incrementando esas, eh, dotacións para a política, eh, cultural.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0012",
+      "sequence": 12,
+      "start": 313.52,
+      "end": 361.82,
+      "speakerId": "speaker_1",
+      "text": "E por último, como non pode ser de outro xeito, mellorando e mantendo o noso patrimonio coa EMAO, coa biblioteca, co Museo Piñeiros de León, coa Casa da Xuventude, cos atrios das igreasias, pese a que non lle gusten a algúns, con centros cívicos ou mesmo mellorando tamén as instalacións da Casa do Concello. En definitiva, son máis de trescentos cincuenta millóns de euros adicados directamente a seguir transformando a cidade, a seguir facendo de Vigo a mellor cidade da comunidade autónoma, a mellor cidade de Galicia, e para seguir apostando pola política de gasto público nun contexto de, dun pago, dun paro que ronda, eh, o catro por cento na cidade, donde hai máis de cento vinte mil cinco centas persoas afiliadas aos distintos reximes da Seguridad Social e, por tanto, que precisa a cidade ese pulo, pulo dos orzamentos públicos municipais para",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0013",
+      "sequence": 13,
+      "start": 361.82,
+      "end": 367.719,
+      "speakerId": "speaker_1",
+      "text": "seguir crecendo, para seguir transformando a cidade e para s-seguir facendo de Vigo a mellor cidade de Galicia. Gracias.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0014",
+      "sequence": 14,
+      "start": 367.72,
+      "end": 370.88,
+      "speakerId": "speaker_0",
+      "text": "Moitas gracias, señor concelleiro. Turno de grupos. Grupo BNG",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0015",
+      "sequence": 15,
+      "start": 376.028,
+      "end": 404.748,
+      "speakerId": "speaker_2",
+      "text": "Hoxe traen a este pleno o mesmo proxecto de orzamentos que aprobaron inicialmente só cos votos do Partido Socialista, sen introducir máis cambios cun par de correccións de erros materiais. Permítame parafrasear ao seu secretario xeral en Galiza, o señor Besteiro, do que agora tentan tomar distancia. Dixo Besteiro no debate no Parlamento galego antes da aprobación dos presupostos da Xunta o seguinte: Este pleno converteuse nun lugar para dar forma a decisións tomadas de antemán.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0016",
+      "sequence": 16,
+      "start": 404.748,
+      "end": 452.928,
+      "speakerId": "speaker_2",
+      "text": "Non aprobar as contas igual— van aprobar as contas igual que entraron, sen melloras, sen correccións, igual de curtos e sen escoitar nada do que pasa fóra. E remachaba o seu secretario xeral nunhas palabras que hoxe permítame facer propias: Aceptar emendas non é un síntoma de febleza, é un exercicio de responsabilidade política. E en efecto, os seus cento noventa e oito non a todas e cada unha das emendas do BNG ao seu proxecto de orzamentos municipais son un xigantesco acto de irresponsabilidade, pero tamén un claro exercicio de cinismo político, aplicando neste pleno o mesmo rodete absolutista que aplica o Partido Popular de Rueda e que vostedes, con toda razón, lle afean no Parlamento de Galiza.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0017",
+      "sequence": 17,
+      "start": 452.928,
+      "end": 485.708,
+      "speakerId": "speaker_2",
+      "text": "E son tamén a evidencia da cegueira e da xordeira dun goberno municipal que teima en non entender algo básico fundamental: que democracia é moito máis que votar cada catro anos, confundindo unha lexítima maioría absoluta cunha especie de dictadura romana sobre a premisa do autoritario: Aquí mando eu. Pero os seus orzamentos en réxime de monólogo xordo son sobre todo unha grande equivocación política por insistir en virarlles as costas á cidade e en desatender as necesidades das viguesas e dos vigueses.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0018",
+      "sequence": 18,
+      "start": 485.708,
+      "end": 513.947,
+      "speakerId": "speaker_2",
+      "text": "O problema non é que lle digan non ao BNG. O problema é que lle din non a medidas tan importantes e necesarias como duplicar as axudas sociais municipais que vostedes recortaron nun cincuenta por cento nos últimos cinco anos, mentres aumentaba un cento cincuenta por cento máis o gasto en luces e adornos de Nadal. Din non a elevar até os tres millóns de euros o Plan Municipal de Emprego, despois de que nesta cidade teñamos nove mil postos de traballo menos dos que había na altura do ano 2009.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0019",
+      "sequence": 19,
+      "start": 513.948,
+      "end": 541.348,
+      "speakerId": "speaker_2",
+      "text": "Din non a mobilizar case dez millóns de euros máis a atender o principal problema desta cidade, que é o do acceso á vivenda, a destinar máis recursos a facer das políticas feministas unha verdadeira prioridade política, a poñer fin ao abandono dos barrios e parroquias, a despregar un plan de resposta á emerxencia climática ou a reverter as políticas de desertización cultural, de maltrato ao deporte vigués e de desmantelamento das políticas para a nosa mocidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0020",
+      "sequence": 20,
+      "start": 541.348,
+      "end": 576.688,
+      "speakerId": "speaker_2",
+      "text": "E a todos eses non, hoxe queren engadir outras cinco negativas, rexeitando as alegacións formuladas pola Asociación Veciñal de Teis, que o BNG vamos defender, sexan estimadas a través dun voto particular, nas que propoñen cuestións tan básicas como aumentar o orzamento para garantir que dunha vez por todas Teis teña unha verdadeira biblioteca pública e non unha sala de lectura na que non vai haber nada para ler, na que demandan a mellora do parque da, dos parques da Guía ou da Rioxa, a, hm, actuacións para mellorar a accesibilidade na praia da Punta ou acondicionamento do Auditorio de Teis ou melloras na Vía Verde.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0021",
+      "sequence": 21,
+      "start": 576.688,
+      "end": 611.548,
+      "speakerId": "speaker_2",
+      "text": "Todos os seus non só demostran a falla de, de visión dun goberno instalado na inercia do máis do mesmo, cun uni, único proxecto. O seu único proxecto é permanecer todo o tempo que poidan no goberno da cidade, mais non transformala. Miren, poderán gañar, estou certo, van gañar esta votación coa súa maioría absolutísima, impondo uns orzamentos deseñados ao dictado do capricho do alcalde. Pero neste debate o Bloque Nacionalista Galego logramos algo importante: demostrar que si hai alternativa ao seu desgoberno.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0022",
+      "sequence": 22,
+      "start": 611.548,
+      "end": 641.068,
+      "speakerId": "speaker_2",
+      "text": "Cun proxecto aberto para transformar en positivo a cidade e avanzar cara a un Vigo máis habitábel e moito máis verde, un Vigo igualitario e socialmente xusto e un Vigo que asuma o seu papel como motor dunha nova Galiza. Miren, como deixou dito Unamuno: Vencer non é convencer. Hoxe vostedes terán os votos, mais non teñen as razóns. Hoxe vostedes poderán impoñer a súa maioría absoluta, como Rueda fixo no Parlamento de Galiza para impoñer uns orzamentos que lle viran as costas a Vigo.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0023",
+      "sequence": 23,
+      "start": 641.068,
+      "end": 669.698,
+      "speakerId": "speaker_2",
+      "text": "Mais dende logo, o BNG vamos seguir a defender que os recursos da cidade deben ser orientados a atender as necesidades reais das viguesas e dos vigueses, que o diñeiro do Concello de Vigo non é o diñeiro de Abel Caballero, senón o de todas as viguesas e de todos os vigueses. Que o obxectivo dos orzamentos municipais non debe seguir i-incrementando o gasto inaugurábel, senón dende logo dar resposta ás necesidades da cidadanía, mellorar os servizos públicos e poñer en marcha un novo modelo de cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0024",
+      "sequence": 24,
+      "start": 669.698,
+      "end": 678.248,
+      "speakerId": "speaker_2",
+      "text": "Nunca un goberno, tendo tantos recursos, fixo tan pouco por mellorar a calidade de vida, mais dende logo poderán disfrutar esta vitoria pírrica, pero que é en perda a cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0025",
+      "sequence": 25,
+      "start": 680.678,
+      "end": 682.248,
+      "speakerId": "speaker_0",
+      "text": "Turno Grupo Popular.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0026",
+      "sequence": 26,
+      "start": 684.548,
+      "end": 706.847,
+      "speakerId": "speaker_2",
+      "text": "Grazas, presidente. Bo día a todas e todos. Comezo por recoñecer que este é un orzamento cumpridor no formal, mais tamén dicindo que cumprir cos papeis non é suficiente cando falla política, que é o que hoxe vimos nós aquí a evidenciar. Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0027",
+      "sequence": 27,
+      "start": 706.848,
+      "end": 735.208,
+      "speakerId": "speaker_2",
+      "text": "E todo iso son, si, decisións políticas. Miren, se falamos de fiscalidade, cómpre lembrar que por terceiro ano consecutivo vostedes van aplicar no 2026 unha suba lineal dun catro por cento a boa parte das taxas e impostos municipais. Doce puntos en apenas tres exercicios que afoga as economías familiares nun contexto no que este concello presume de débeda cero e remanentes. Non hai, xa que logo, xustificación algunha máis que priorizar as arcas de Abel Caballero por riba dos petos dos cidadáns, nomeadamente os que tanto lles custa chegar a fin de mes.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0028",
+      "sequence": 28,
+      "start": 735.208,
+      "end": 746.688,
+      "speakerId": "speaker_2",
+      "text": "Así acontece, por exemplo, co IBI, o máis caro de toda Galicia, con moita diferencia. E non veñan coa escusa do Catastro, porque o IBI é un imposto municipal e, por tanto, vostedes deciden subilo ou non. E o que fan é subilo, e, por tanto, non teñen disculpa",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0029",
+      "sequence": 29,
+      "start": 747.084,
+      "end": 778.224,
+      "speakerId": "speaker_3",
+      "text": "E así poderíamos falar doutras taxas e impostos ata chegar, por exemplo, ao sablazo do lixo, que se incrementa ata un cincuenta por cento segundo os casos. O propio informe económico, mmm, deste concello, eh, recoñece que vai recibir desa gama arredor de un coma tres millóns de euros, a mesma cantidade que en noventa e catro, noventa e cinco. Unha achega finalista, estable e coñecida á que hai que sumar outra achega da Xunta. Entre os dous absorben, sí, o sesenta por cento do sablazo imposto por Pedro Sánchez, mentres que o Goberno de Abel Caballero decide non absorber nin un só euro do restante corenta por cento.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0030",
+      "sequence": 30,
+      "start": 778.224,
+      "end": 815.924,
+      "speakerId": "speaker_3",
+      "text": "Isto non é unha obriga técnica, é unha decisión política. Polo tanto, e para que quede claro, quen sube o lixo en Vigo non é só Gama, son Pedro Sánchez e Abel Caballero. En definitiva, non é fiscalidade responsable, é unha carreira por apañar máis a costa do peto e do sacrificio dos vigueses. E mentres este goberno sube impostos, perde subvencións de fondos europeos, señora Neiros, que temos que por do peto tamén, de novo, por parte de todos os vigueses, como os tres millóns desa reforma que vostede anunciou dese Concello da Torre ou as bonificacións a Paz Vigo e a gratuidade do Vitras aos menores de quince anos que está por ver, non tiñamos que devolver pola súa incompetencia na implantación das zonas de baixas emisións.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0031",
+      "sequence": 31,
+      "start": 815.924,
+      "end": 843.284,
+      "speakerId": "speaker_3",
+      "text": "Se falamos de execución, o problema faise aínda máis evidente. A experiencia dos últimos anos é reveladora. En 2024 deixaron vostedes de executar cen millóns de euros. E no terceiro trimestre deste presente 2025, a execución global sitúase por debaixo do corenta por cento. E no caso dos investimentos raís, apenas alcanza o sete coma setenta e cinco por cento. Cada ano aproban máis contas, pero cada ano executan menos. E mentres, os proxectos non avanzan e o diñeiro se acumula.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0032",
+      "sequence": 32,
+      "start": 843.284,
+      "end": 876.923,
+      "speakerId": "speaker_3",
+      "text": "E mentres tanto, que fan? Dicir non ás outras administracións que preteñen investir na nosa cidade. Bloquéanse ou rexeítanse proxectos como o Centro de Asociaciónismo, a ETA ou as máis de cinco mil trescentas viviendas públicas planificadas pola Xunta na nosa cidade. Miren, en materia de vivienda, a Xunta chega para suplir o que non fixeron vostedes nestes dezaoito anos, porque claro que teñen competencias na materia. Precisamente por iso andan agora anunciando a empresa municipal de vivienda, pero é que no 2026 apenas botará a andar, porque xa veremos se comezan dalgunha vez con algunha das obras mil veces anunciadas en Santa Cristina e en Esturáns.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0033",
+      "sequence": 33,
+      "start": 876.924,
+      "end": 905.284,
+      "speakerId": "speaker_3",
+      "text": "Por certo, neste último ámbito, lonxe de facer nada, aínda van perder outro millón douscentos mil euros de fondos europeos. Ese é a súa política en materia, mmm, de vivenda. Un orçamento ao que este grupo municipal presentou trinta e nove emendas por un importe global de setenta e dous millóns de euros, setenta e dous coma tres millóns de euros, co obxectivo de convertir estas, eh, contas nun presuposto transformador da cidade, onde cada euro permita un crecemento centrado, sí, nas persoas.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0034",
+      "sequence": 34,
+      "start": 905.284,
+      "end": 941.924,
+      "speakerId": "speaker_3",
+      "text": "Comezando pola vivenda, cun incremento, emmm, proposto ata os vinte e seis millóns de euros con que enfrontar unha política ambiciosa na materia de vivenda. Porque vostedes, en dezaoito anos, nin fixeron un parque municipal de vivenda, nin promoción directa, nin rehabilitación real, nin un solo reservado, nin unha política de alugueiro alcanzable, nin medidas efectivas para movilizar a vivenda baleira. Tamén seguindo pola política social para ampliar os programas de acompañamento aos nosos maiores e de conciliación familiar, pero tamén reforzando as partidas para as obras nos colexios, porque o mantemento dos centros educativos de primaria é competencia deste goberno municipal e queda moito por facer mentres se dediquen a botar balóns fóra.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0035",
+      "sequence": 35,
+      "start": 941.924,
+      "end": 965.064,
+      "speakerId": "speaker_3",
+      "text": "Como tamén merecen máis as nosas instalacións deportivas, como estamos a ver estes días coas pistas de, mmm, de atletismo de Balaídos, que aínda teñen que homologar logo da chapuza que fixeron vostedes. Tamén presentamos emendas de apoio ao emprendemento xuvenil e feminino ou incentivos á contratación, entre outras. Como digo, trinta e nove emendas por un importe de setecen-- de setenta e dous millóns que vostedes rexeitaron todas e cada unha delas.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0036",
+      "sequence": 36,
+      "start": 965.064,
+      "end": 988.764,
+      "speakerId": "speaker_3",
+      "text": "Vostedes dixeron non a mellorar estes presupostos. Entenderán, xa que logo, que nós tampouco podamos compartir estas contas que traen hoxe aquí e que vamos votar, obviamente, en contra das mesmas. Porque un ano máis volve ser un orçamento, ao noso entender, errado, e sobre todo porque un ano máis volverá quedar en papel mollado, como demostrará a baixa execución. E o tempo dará a nosa razón. Máis nada, moitas grazas.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0037",
+      "sequence": 37,
+      "start": 988.764,
+      "end": 991.244,
+      "speakerId": "speaker_0",
+      "text": "Turno Goberno, señor concelleiro de Facenda",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0038",
+      "sequence": 38,
+      "start": 993.284,
+      "end": 993.284,
+      "speakerId": "speaker_0",
+      "text": ".",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0039",
+      "sequence": 39,
+      "start": 996.184,
+      "end": 999.244,
+      "speakerId": "speaker_0",
+      "text": "Intervir Grupo Socialista, señor López Font, seu turno.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0040",
+      "sequence": 40,
+      "start": 1003.483,
+      "end": 1044.943,
+      "speakerId": "speaker_4",
+      "text": "Moitas grazas, alcalde. Buenos días a todas e a todos. La verdad es que esta suma de cinco minutos invertidos por Partido Popular y por o Bloque Nacionalista Galego demuestra lo que viene ocurriendo en este año que finaliza: lo conjuntados que están PP y BNGA, que dicen lo mismo, que no se enteran absolutamente de nada y que el BNGA, sobre todo, cumple últimamente ese papel de blanqueador de la Xunta. Estuvo simpático o portavoz del BNGA diciendo que solo con los votos del PSOE, seis coma trece veces más de concejales que lo que le dieron a ustedes en las elecciones.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0041",
+      "sequence": 41,
+      "start": 1044.944,
+      "end": 1091.924,
+      "speakerId": "speaker_4",
+      "text": "Y un ejemplo es el lamentable discurso del BNGA hace unos días en el traspaso de Cedro a la Xunta de Galicia, votando no aquí cuando el BNGA vota en las cidades en las que gobierna sí a ese traspaso. Se le acabó o mantra de decir que el BNGA dice en todos los sitios lo mismo. Por lo tanto, eh, están ustedes más con rueda que o Partido Popular de Vigo. También coinciden ambos los dos en el carroñerismo político como forma política de actuar. Es el producto de la desesperación y es muy significativo que en la bancada del Partido Popular ya van ensayando el próximo mandato y solo hay cuatro concejales en el día de hoy.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0042",
+      "sequence": 42,
+      "start": 1091.924,
+      "end": 1134.7,
+      "speakerId": "speaker_4",
+      "text": "Miren, a este goberno solo se le puede asociar por lo realizado. Una obra política sin igual No asociarnos a nada más que lo que se ha hecho durante dieciocho años. Significa que las viguesas y los vigueses nos conocen, nos valoran por lo que hacemos y se fían de nosotros. Saben que el dinero de este concello, precisamente este presupuesto, va destinado a la ciudad. No pueden decir lo mismo ustedes, BNGA y Partido Popular cuando gobernaron, porque hoy todavía la ciudad se pregunta qué ocurría cuando gobernaban ustedes, qué ocurría con los presupuestos.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0043",
+      "sequence": 43,
+      "start": 1134.7,
+      "end": 1164.939,
+      "speakerId": "speaker_4",
+      "text": "No se hacía absolutamente nada y encima le dejaron a este gobierno, que siempre me corrige el concejal de Hacienda, casi cien millones de euros. Por lo tanto, esta es la realidad, esta es la realidad de este presupuesto. Miren, gana la ciudad con este presupuesto, por mucho que se rían. Gana la ciudad. No se enteran de lo que está pasando en esta ciudad. Y quiero detenerme en la política social. La política social tiene dos vertientes muy claras.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0044",
+      "sequence": 44,
+      "start": 1164.939,
+      "end": 1199.46,
+      "speakerId": "speaker_4",
+      "text": "La primera, bonificaciones. Eximir de, de impuestos hasta dieciséis millones a los que no pueden pagar. Pero luego hay otra vertiente de la política social: es ayudar al que entra en este concello con una necesidad. Y el que entra en este concello con una necesidad, sale con una solución, decidida día a día, decidida junta de gobierno a junta de gobierno, sin límite para aquellos que necesitan un alquiler, alimentos, ayuda energética, para todos los que necesitan.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0045",
+      "sequence": 45,
+      "start": 1199.46,
+      "end": 1239.88,
+      "speakerId": "speaker_4",
+      "text": "Eso no tiene límite este gobierno y eso está ciertamente en ese presupuesto. Por lo tanto, estamos ante un presupuesto que afortunadamente vamos a aprobar hoy con diecinueve votos de veintisiete concejales, que es el setenta por ciento de los que nos sentamos aquí, y esa es la auténtica democracia, lo que se vota en mayo, y es un presupuesto que quisiera tener cualquier familia. Es el presupuesto de la ciudad y de la familia que significa Vigo. Un presupuesto sin deuda, que ya la quisiera tener cualquier concello, con los impuestos más bajos de Galicia.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0046",
+      "sequence": 46,
+      "start": 1239.88,
+      "end": 1295.67,
+      "speakerId": "speaker_4",
+      "text": "Señor Martín, se lo tiene que hacer ver y le puede dar una clase el señor Aneiros cuando quiera. Creando miles de empleos, el mejor plan de empleo en función de todo lo que se realiza, construyendo vivienda cuando le corresponde a la Xunta de Galicia y ustedes dos andan a blanquear a lo que le corresponde a la Xunta, embelleciendo la ciudad con humanizaciones, con una explosión de color y belleza, con Vigo ciudad de color, con decenas de parques y jardines, atendiendo a la mejor política social de España, enviando a nuestros hijos a estudiar inglés con becas de comedor gratuitas, no así la Xunta, fomentando el deporte y la cultura y consiguiendo un prestigio como ciudad que estos días se hace más patente y que ya sé que a ustedes les irrita muchísimo.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0047",
+      "sequence": 47,
+      "start": 1295.67,
+      "end": 1308.44,
+      "speakerId": "speaker_4",
+      "text": "Pero estamos en Navidad. La Navidad de Vigo es la mejor. Todos la disfrutamos hoy, salvo ustedes siete. Pero esta ciudad seguirá progresando. El año que viene nos volveremos a-",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0048",
+      "sequence": 48,
+      "start": 1308.44,
+      "end": 1309.82,
+      "speakerId": "speaker_0",
+      "text": "Muchas gracias, señor concejero.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0049",
+      "sequence": 49,
+      "start": 1309.82,
+      "end": 1310.32,
+      "speakerId": "speaker_4",
+      "text": "Concluyo.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0050",
+      "sequence": 50,
+      "start": 1310.32,
+      "end": 1310.72,
+      "speakerId": "speaker_0",
+      "text": "Muchas gracias.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0051",
+      "sequence": 51,
+      "start": 1310.72,
+      "end": 1312.76,
+      "speakerId": "speaker_4",
+      "text": "Un nuevo presupuesto. Gracias.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0052",
+      "sequence": 52,
+      "start": 1319.309,
+      "end": 1323.54,
+      "speakerId": "speaker_0",
+      "text": "Su turno final, efectivamente, señor concejero de Facenda.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0053",
+      "sequence": 53,
+      "start": 1323.54,
+      "end": 1351.2,
+      "speakerId": "speaker_1",
+      "text": "Escoitando a la oposición, hay que decir que andan como almas perdidas. O Partido Popular, con una falta de proyecto más que evidente. Esas treinta y nueve enmiendas lo que pretenden blanquear es ausencia da Xunta de Galicia en Vigo, pedindo que el Concello de Vigo asuma competencias que le corresponden a Xunta de Galicia. Falaba o voceiro do Partido Popular da vivienda y de a ETA. Mire, llegan dezaoito anos tarde a esta ciudad. Llegan dezaoito mi-- anos tarde a esta ciudad.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0054",
+      "sequence": 54,
+      "start": 1351.2,
+      "end": 1377.5,
+      "speakerId": "speaker_1",
+      "text": "Pero lo que es más evidente es que o Partido Popular pretende, hay que decirlo coloquialmente para que se entienda, soplar y sorber al mismo tiempo. Pretende reducir impuestos por un importe de treinta millón de, treinta millones de euros y a la vez incrementar o gasto público, sin explicar cómo se fai. Pero también o Partido Popular, allí donde gobierna, sube los impuestos, porque en Ferrol creo que gobierna un exconceir-- un exconcejero da Xunta de Galicia, do señor Feijóo, ¿verdad?",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0055",
+      "sequence": 55,
+      "start": 1377.5,
+      "end": 1403.04,
+      "speakerId": "speaker_1",
+      "text": "Y allí, ¿qué, qué se fixo? Subir los impuestos un veinticinco por ciento y pedir un crédito de once millones. Ese es o modelo do Partido Popular, igual que en la Xunta de Galicia. Deuda pública por galego de cuatro mil quinientos euros, baixando nominalmente algunos impuestos que no afectan más que a cuatro personas en esta ciudad. O mesmo, como sucede con el lixo, ya que lo saca. Donde gobierna o Partido Popular, como es el caso de Ponteareas, sube un ochenta y cinco por ciento la tasa do lixo.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0056",
+      "sequence": 56,
+      "start": 1403.04,
+      "end": 1430.739,
+      "speakerId": "speaker_1",
+      "text": "Y quien fai cai-- es cierto, quien fai caixa con el lixo es a Xunta de Galicia. En sus presupuestos ten doce millones y medio do impuesto de depósito que cedió a, o Estado español, la Xunta de Galicia, para facer precisamente política de reciclaxe, de favorecer o, a, a, o, o reciclaxe, o reciclaxe de residuos y o, eh, digamos, la regeneración de los residuos, que no invierte. Lo que fai es tapar a deuda que ten la sociedad pública da Xunta de Galicia, que se llama Sogama.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0057",
+      "sequence": 57,
+      "start": 1430.74,
+      "end": 1456.28,
+      "speakerId": "speaker_1",
+      "text": "Por tanto, las ineficiencias da Xunta de Galicia se nos trasladan a los concellos y se nos obliga a cumplir con a, con a, eh, copago a Sogama, eh, subindo de ochenta y seis euros por tonelada a ciento cuatro con cincuenta euros por tonelada en este año 2025. Por tanto, ahí está la Xunta de Galicia. Mire, el Bloque Nacionalista Galego, pues di que es más de lo mismo. Sí, más de lo mismo, porque yo llevo escoitando el mismo discurso, señor Pérez Iglesias, por lo menos cuatro anos.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0058",
+      "sequence": 58,
+      "start": 1456.28,
+      "end": 1482.952,
+      "speakerId": "speaker_1",
+      "text": "Un discurso oco, baleiro, sin alternativas. Eh, fala de, siempre de las mismas cosas. Miren qué modelo ten de, de ciudad: desertización, rodete, más de lo mismo, mayoría absolutísima, dictado, gasto inagurabel. Ese es el modelo de ciudad Que ten o señor Pérez Iglesias. Pero mire, o que é máis grave é que tratan de branquear as alegacións dunha asociación de veciños, con todo o dereito, que demanda cousas que xa, xa está no orçamento. A praia da Punta está nos orzamentos do vinte e seis.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0059",
+      "sequence": 59,
+      "start": 1482.952,
+      "end": 1508.372,
+      "speakerId": "speaker_1",
+      "text": "A reforma do mercado de Teis, no, no crédito extraordinario. A mellora da piscina e do pavillón están tamén no crédito extraordinario. A biblioteca está en marcha e que, por tanto, o que pretenden é cubrir que eles, o Bloque, votaron en contra de esa modificación, dese crédito extraordinario de setenta e dous millóns que mellora a cidade. Ese é a política do Bloque: poñer paus na roda. Nós o que queremos é aportar, achegar trescentos cincuenta coma oito millóns de euros á cidade para seguir transformando a cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0060",
+      "sequence": 60,
+      "start": 1508.372,
+      "end": 1509.052,
+      "speakerId": "speaker_1",
+      "text": "Gracias.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0061",
+      "sequence": 61,
+      "start": 1509.052,
+      "end": 1509.872,
+      "speakerId": "speaker_0",
+      "text": "Moitas gracias.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0062",
+      "sequence": 62,
+      "start": 1514.952,
+      "end": 1526.932,
+      "speakerId": "speaker_0",
+      "text": "Rematado o debate, procedemos ás votacións. Primeiro hai un voto particular do Bloque Nacionalista Galego que cumpre votar. Votos a favor de o voto particular do BNG.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0063",
+      "sequence": 63,
+      "start": 1531.552,
+      "end": 1532.812,
+      "speakerId": "speaker_0",
+      "text": "Votos en contra.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0064",
+      "sequence": 64,
+      "start": 1538.252,
+      "end": 1557.212,
+      "speakerId": "speaker_0",
+      "text": "Non hai abstencións. Queda rexeitado o voto particular por sete votos a favor, dezanove en contra e ningunha abstención. E agora cumpre votar o punto único da orde do día: Orzamento Xeral do Concello de Vigo para o ano dous mil vinte seis. Votos a favor.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0065",
+      "sequence": 65,
+      "start": 1563.872,
+      "end": 1564.712,
+      "speakerId": "speaker_0",
+      "text": "Votos en contra.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0066",
+      "sequence": 66,
+      "start": 1567.932,
+      "end": 1581.552,
+      "speakerId": "speaker_0",
+      "text": "Non hai abstencións. Quedan aprobados os Orzamentos Xerais do Concello para o ano dous mil vinte seis por dezanove votos a favor, sete en contra e ningunha abstencións. Parabéns á cidade de Vigo.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0067",
+      "sequence": 67,
+      "start": 1589.272,
+      "end": 1597.372,
+      "speakerId": "speaker_0",
+      "text": "Non habendo máis puntos da orde do día, señoras, señores concelleiros, se levanta a sesión. Feliz Navidad a todas e a todos.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    }
+  ]
+}

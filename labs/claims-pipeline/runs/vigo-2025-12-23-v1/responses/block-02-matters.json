@@ -1,0 +1,45 @@
+{
+  "result": {
+    "id": "chatcmpl-90290aa3118b6b90",
+    "object": "chat.completion",
+    "created": 1789155627,
+    "model": "@cf/zai-org/glm-4.7-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"decisions\": [{\"mentionId\": \"mention-45565cd6-c32c-5932-8d74-8969cfd3b559\", \"action\": \"existing\", \"canonicalId\": \"matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff\", \"canonicalLabel\": \"Presupuesto General del Concello de Vigo para 2026\", \"reason\": \"Coincidencia exacta de objeto, institución, territorio y periodo con el catálogo.\"}]}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null,
+          "reasoning_content": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1951,
+      "completion_tokens": 122,
+      "total_tokens": 2073,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "neurons": 15.171299999999999
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}

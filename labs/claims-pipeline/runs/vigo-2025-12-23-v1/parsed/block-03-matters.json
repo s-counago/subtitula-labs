@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "mentionId": "mention-7c41079e-ac01-59af-bedb-ce7424723d45",
+      "action": "new",
+      "canonicalId": "matter-99f4807d-4898-54bc-ae28-eeb8877ca1ff",
+      "canonicalLabel": "Presupuesto General del Concello de Vigo para 2026",
+      "reason": "Coincide exactamente con el asunto del catálogo (objeto, institución, territorio y periodo)."
+    },
+    {
+      "mentionId": "mention-3b5a916d-2d9f-52e6-8ae2-4aba7bf6c71e",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Reducción de impuestos",
+      "reason": "Asunto genérico no presente en el catálogo. La mención se refiere a una política específica dentro del debate presupuestario."
+    },
+    {
+      "mentionId": "mention-74a0b181-16bc-52c8-915c-4a973fbda20c",
+      "action": "new",
+      "canonicalId": null,
+      "canonicalLabel": "Mejora de la piscina y del pavillón",
+      "reason": "Asunto específico no presente en el catálogo. La mención se refiere a una obra concreta dentro del crédito extraordinario."
+    }
+  ]
+}

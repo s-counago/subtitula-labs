@@ -1,0 +1,51 @@
+{
+  "experimentId": "vigo-2025-12-23-v1",
+  "reviewer": "root assistant",
+  "basis": "Manual semantic comparison against the frozen transcript-only reference; no external fact check or audio verification.",
+  "referenceSha256": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+  "scope": "25 preselected positive cases; not an exhaustive session annotation",
+  "strictSuccessRequiresCorrectModality": true,
+  "cases": [
+    {"goldId":"G01","status":"missed","claimReadingIds":[],"notes":"No recupera el decimonoveno presupuesto consecutivo. C001 introduce una aprobación ya consumada y no recoge el ordinal."},
+    {"goldId":"G02","status":"missed","claimReadingIds":[],"notes":"El candidato 4 del bloque 1 fue rechazado por alterar la mayúscula inicial de la cita. Además, su paráfrasis restringía indebidamente la bolsa de alquiler a As Turáns."},
+    {"goldId":"G03","status":"partial","claimReadingIds":["C006"],"notes":"Conserva 696,5 % y 2007–2026 en texto/condiciones. referencePeriod solo dice 2026 y clasifica la afirmación directa como reported_statement."},
+    {"goldId":"G04","status":"partial","claimReadingIds":["C004"],"notes":"Recupera la nueva dotación de 3.325.000 euros y el destino de las becas; utiliza reported_statement para una afirmación directa."},
+    {"goldId":"G05","status":"partial","claimReadingIds":["C007"],"notes":"Recupera el incremento del 7 % para cultura, pero la modalidad estructurada es reported_statement en vez de asserted_fact."},
+    {"goldId":"G06","status":"missed","claimReadingIds":[],"notes":"El candidato 3 del bloque 3 formulaba la subida de Sogama, pero citaba una larga continuación diferente y alterada. La validación lo rechazó."},
+    {"goldId":"G07","status":"missed","claimReadingIds":[],"notes":"No aparece la ausencia de cambios sustanciales entre aprobación inicial y definitiva."},
+    {"goldId":"G08","status":"missed","claimReadingIds":[],"notes":"No recupera las 198 enmiendas del BNG rechazadas."},
+    {"goldId":"G09","status":"missed","claimReadingIds":[],"notes":"No recupera el recorte del 50 % durante los últimos cinco años. C010 trata otra proposición e invierte quién rechazaba duplicar las ayudas."},
+    {"goldId":"G10","status":"invalid","claimReadingIds":["C011"],"notes":"Conserva 3 millones y el Plan Municipal de Emprego, pero afirma que el BNG rechazó la medida. La intervención del BNG reprocha ese rechazo al gobierno."},
+    {"goldId":"G11","status":"invalid","claimReadingIds":["C012"],"notes":"Conserva casi 10 millones adicionales y vivienda, pero atribuye el rechazo al BNG, invirtiendo el sentido de la intervención."},
+    {"goldId":"G12","status":"missed","claimReadingIds":[],"notes":"No recupera el compromiso de defender las alegaciones mediante voto particular. Un candidato del bloque anterior fue rechazado por extraerse del contexto vecino y también invertía el sujeto."},
+    {"goldId":"G13","status":"missed","claimReadingIds":[],"notes":"No recupera la subida de la tasa de basura de hasta el 50 % según los casos."},
+    {"goldId":"G14","status":"missed","claimReadingIds":[],"notes":"No recupera los 100 millones no ejecutados en 2024."},
+    {"goldId":"G15","status":"missed","claimReadingIds":[],"notes":"No recupera la ejecución global inferior al 40 % en el tercer trimestre de 2025."},
+    {"goldId":"G16","status":"missed","claimReadingIds":[],"notes":"No recupera el importe final corregido de 72,3 millones en las enmiendas."},
+    {"goldId":"G17","status":"missed","claimReadingIds":[],"notes":"No recupera la propuesta de elevar los recursos de vivienda hasta 26 millones."},
+    {"goldId":"G18","status":"missed","claimReadingIds":[],"notes":"No recupera el anuncio de voto contrario del grupo del hablante."},
+    {"goldId":"G19","status":"missed","claimReadingIds":[],"notes":"No recupera el comentario explícito sobre cuatro concejales presentes del PP."},
+    {"goldId":"G20","status":"missed","claimReadingIds":[],"notes":"No recupera la comparación de impuestos más bajos de Galicia."},
+    {"goldId":"G21","status":"missed","claimReadingIds":[],"notes":"No recupera las exenciones de hasta 16 millones para personas que no pueden pagar."},
+    {"goldId":"G22","status":"missed","claimReadingIds":[],"notes":"No recupera el anuncio previo de aprobación con 19 de 27 votos y el 70 %. C056 es un acto distinto, el resultado formal posterior."},
+    {"goldId":"G23","status":"missed","claimReadingIds":[],"notes":"No recupera la afirmación de presupuesto sin deuda de speaker_4. C003 pertenece a otra voz y a otro momento; no sustituye esta aparición."},
+    {"goldId":"G24","status":"partial","claimReadingIds":["C055"],"notes":"Resultado y votos correctos. Modalidad reported_statement inadecuada para el anuncio directo de presidencia; referencePeriod confunde el año presupuestario con el acto de votación."},
+    {"goldId":"G25","status":"partial","claimReadingIds":["C056"],"notes":"Presupuesto de 2026, aprobación y votos correctos. La modalidad debería ser asserted_fact, no reported_statement."}
+  ],
+  "negativeControls": [
+    {"id":"N01","status":"prohibited_inference_not_observed","notes":"No se extrajo la frase citada de Besteiro como hecho directo del hablante municipal."},
+    {"id":"N02","status":"prohibited_inference_not_observed","notes":"No se convirtió la secuencia noventa y cuatro/noventa y cinco en un dato preciso; tampoco se extrajo esa parte del debate."},
+    {"id":"N03","status":"prohibited_inference_not_observed","notes":"No se resolvió como entidad concreta Concello da Torre; el pasaje quedó sin extracción."},
+    {"id":"N04","status":"prohibited_inference_not_observed","notes":"No se completó la frase truncada del año siguiente."},
+    {"id":"N05","status":"prohibited_inference_not_observed","notes":"C053 usa otra frase de S0054; no afirma la identidad ni el cargo del gobernante de Ferrol."},
+    {"id":"N06","status":"prohibited_inference_not_observed","notes":"No se creó un indicador de pago del 4 %; el dato de paro tampoco fue extraído."}
+  ],
+  "observedErrors": [
+    {"id":"E01","claimReadingIds":["C001"],"type":"unsupported_temporal_assertion","notes":"Afirma que el presupuesto se aprobó citando la apertura de la sesión, antes de la votación."},
+    {"id":"E02","claimReadingIds":["C008"],"type":"quantity_qualifier_changed","notes":"Añade más de a los 44 millones de 2026; la cita dice corenta e catro millóns sin ese operador."},
+    {"id":"E03","claimReadingIds":["C010","C011","C012"],"type":"subject_role_inverted","notes":"Convierte propuestas defendidas por el BNG y rechazadas por su interlocutor en medidas rechazadas por el BNG."},
+    {"id":"E04","claimReadingIds":["C013","C014","C015","C016","C017","C018","C019","C020","C021","C022","C023","C024","C025","C026","C027","C028","C029","C030","C031","C032","C033","C034","C035","C036","C037","C038","C039","C040","C041","C042","C043","C044","C045","C046","C047","C048","C049","C050","C051","C052"],"type":"repeated_low_information_output","notes":"40 registros del mismo segmento S0026, siete formulaciones distintas y 33 duplicados textuales. Alcanzó el máximo de 40 elementos del esquema."},
+    {"id":"E05","claimReadingIds":[],"type":"modality_contract_not_followed","notes":"Las 56 salidas guardadas usan reported_statement, pese a que el contrato distingue afirmación directa, propuesta, compromiso y declaración referida."},
+    {"id":"E06","claimReadingIds":["C054"],"type":"unresolved_object_and_period","notes":"Agrupa piscina y pabellón sin resolver qué instalaciones son y les asigna 2026 aunque la declaración menciona un crédito extraordinario sin explicitar ese año."}
+  ]
+}

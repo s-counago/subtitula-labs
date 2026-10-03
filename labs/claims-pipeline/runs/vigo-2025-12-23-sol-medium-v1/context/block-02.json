@@ -1,0 +1,127 @@
+{
+  "ledger": [
+    {
+      "request": {
+        "anchorSegmentId": "S0029",
+        "query": "«desa gama»",
+        "reason": "Non se pode identificar con seguridade que entidade, achega ou ingreso é o referente de «desa gama», polo que non se extrae a previsión de arredor de 1,3 millóns de euros."
+      },
+      "returnedIds": [
+        "S0024",
+        "S0025",
+        "S0026",
+        "S0027",
+        "S0028",
+        "S0029",
+        "S0030",
+        "S0031",
+        "S0032",
+        "S0033",
+        "S0034"
+      ],
+      "scope": "same_transcript",
+      "characterBudget": 10000
+    }
+  ],
+  "segments": [
+    {
+      "id": "S0024",
+      "sequence": 24,
+      "start": 669.698,
+      "end": 678.248,
+      "speakerId": "speaker_2",
+      "text": "Nunca un goberno, tendo tantos recursos, fixo tan pouco por mellorar a calidade de vida, mais dende logo poderán disfrutar esta vitoria pírrica, pero que é en perda a cidade.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0025",
+      "sequence": 25,
+      "start": 680.678,
+      "end": 682.248,
+      "speakerId": "speaker_0",
+      "text": "Turno Grupo Popular.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0026",
+      "sequence": 26,
+      "start": 684.548,
+      "end": 706.847,
+      "speakerId": "speaker_2",
+      "text": "Grazas, presidente. Bo día a todas e todos. Comezo por recoñecer que este é un orzamento cumpridor no formal, mais tamén dicindo que cumprir cos papeis non é suficiente cando falla política, que é o que hoxe vimos nós aquí a evidenciar. Porque este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0027",
+      "sequence": 27,
+      "start": 706.848,
+      "end": 735.208,
+      "speakerId": "speaker_2",
+      "text": "E todo iso son, si, decisións políticas. Miren, se falamos de fiscalidade, cómpre lembrar que por terceiro ano consecutivo vostedes van aplicar no 2026 unha suba lineal dun catro por cento a boa parte das taxas e impostos municipais. Doce puntos en apenas tres exercicios que afoga as economías familiares nun contexto no que este concello presume de débeda cero e remanentes. Non hai, xa que logo, xustificación algunha máis que priorizar as arcas de Abel Caballero por riba dos petos dos cidadáns, nomeadamente os que tanto lles custa chegar a fin de mes.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0028",
+      "sequence": 28,
+      "start": 735.208,
+      "end": 746.688,
+      "speakerId": "speaker_2",
+      "text": "Así acontece, por exemplo, co IBI, o máis caro de toda Galicia, con moita diferencia. E non veñan coa escusa do Catastro, porque o IBI é un imposto municipal e, por tanto, vostedes deciden subilo ou non. E o que fan é subilo, e, por tanto, non teñen disculpa",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0029",
+      "sequence": 29,
+      "start": 747.084,
+      "end": 778.224,
+      "speakerId": "speaker_3",
+      "text": "E así poderíamos falar doutras taxas e impostos ata chegar, por exemplo, ao sablazo do lixo, que se incrementa ata un cincuenta por cento segundo os casos. O propio informe económico, mmm, deste concello, eh, recoñece que vai recibir desa gama arredor de un coma tres millóns de euros, a mesma cantidade que en noventa e catro, noventa e cinco. Unha achega finalista, estable e coñecida á que hai que sumar outra achega da Xunta. Entre os dous absorben, sí, o sesenta por cento do sablazo imposto por Pedro Sánchez, mentres que o Goberno de Abel Caballero decide non absorber nin un só euro do restante corenta por cento.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0030",
+      "sequence": 30,
+      "start": 778.224,
+      "end": 815.924,
+      "speakerId": "speaker_3",
+      "text": "Isto non é unha obriga técnica, é unha decisión política. Polo tanto, e para que quede claro, quen sube o lixo en Vigo non é só Gama, son Pedro Sánchez e Abel Caballero. En definitiva, non é fiscalidade responsable, é unha carreira por apañar máis a costa do peto e do sacrificio dos vigueses. E mentres este goberno sube impostos, perde subvencións de fondos europeos, señora Neiros, que temos que por do peto tamén, de novo, por parte de todos os vigueses, como os tres millóns desa reforma que vostede anunciou dese Concello da Torre ou as bonificacións a Paz Vigo e a gratuidade do Vitras aos menores de quince anos que está por ver, non tiñamos que devolver pola súa incompetencia na implantación das zonas de baixas emisións.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0031",
+      "sequence": 31,
+      "start": 815.924,
+      "end": 843.284,
+      "speakerId": "speaker_3",
+      "text": "Se falamos de execución, o problema faise aínda máis evidente. A experiencia dos últimos anos é reveladora. En 2024 deixaron vostedes de executar cen millóns de euros. E no terceiro trimestre deste presente 2025, a execución global sitúase por debaixo do corenta por cento. E no caso dos investimentos raís, apenas alcanza o sete coma setenta e cinco por cento. Cada ano aproban máis contas, pero cada ano executan menos. E mentres, os proxectos non avanzan e o diñeiro se acumula.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0032",
+      "sequence": 32,
+      "start": 843.284,
+      "end": 876.923,
+      "speakerId": "speaker_3",
+      "text": "E mentres tanto, que fan? Dicir non ás outras administracións que preteñen investir na nosa cidade. Bloquéanse ou rexeítanse proxectos como o Centro de Asociaciónismo, a ETA ou as máis de cinco mil trescentas viviendas públicas planificadas pola Xunta na nosa cidade. Miren, en materia de vivienda, a Xunta chega para suplir o que non fixeron vostedes nestes dezaoito anos, porque claro que teñen competencias na materia. Precisamente por iso andan agora anunciando a empresa municipal de vivienda, pero é que no 2026 apenas botará a andar, porque xa veremos se comezan dalgunha vez con algunha das obras mil veces anunciadas en Santa Cristina e en Esturáns.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0033",
+      "sequence": 33,
+      "start": 876.924,
+      "end": 905.284,
+      "speakerId": "speaker_3",
+      "text": "Por certo, neste último ámbito, lonxe de facer nada, aínda van perder outro millón douscentos mil euros de fondos europeos. Ese é a súa política en materia, mmm, de vivenda. Un orçamento ao que este grupo municipal presentou trinta e nove emendas por un importe global de setenta e dous millóns de euros, setenta e dous coma tres millóns de euros, co obxectivo de convertir estas, eh, contas nun presuposto transformador da cidade, onde cada euro permita un crecemento centrado, sí, nas persoas.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    },
+    {
+      "id": "S0034",
+      "sequence": 34,
+      "start": 905.284,
+      "end": 941.924,
+      "speakerId": "speaker_3",
+      "text": "Comezando pola vivenda, cun incremento, emmm, proposto ata os vinte e seis millóns de euros con que enfrontar unha política ambiciosa na materia de vivenda. Porque vostedes, en dezaoito anos, nin fixeron un parque municipal de vivenda, nin promoción directa, nin rehabilitación real, nin un solo reservado, nin unha política de alugueiro alcanzable, nin medidas efectivas para movilizar a vivenda baleira. Tamén seguindo pola política social para ampliar os programas de acompañamento aos nosos maiores e de conciliación familiar, pero tamén reforzando as partidas para as obras nos colexios, porque o mantemento dos centros educativos de primaria é competencia deste goberno municipal e queda moito por facer mentres se dediquen a botar balóns fóra.",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395"
+    }
+  ]
+}

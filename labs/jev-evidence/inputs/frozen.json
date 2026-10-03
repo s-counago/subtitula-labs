@@ -1,0 +1,10 @@
+{
+  "createdAt": "2026-09-22T06:45:43.228264+00:00",
+  "files": {
+    "inputs/cases.json": "5c0752fea240d7c75b89dbe46b01bee9f5491b38f17ac0f1f6b5a94e1ee9cce1",
+    "inputs/provenance.json": "313d2ec730a73dcc78a3f90a0f5d3bf93062460cd8e4b1634a764c184b3ff8e8",
+    "inputs/reference.json": "849ad4f68bd1069f96b312f1a58fe2094d86c51b7edb7d8ff958c5413a963dd2",
+    "inputs/sources.json": "6ab85d103e730ac75c5b8481f8138bb4213fb5439d557a4cadde7a0ac00eeb9a",
+    "config/protocol.json": "db4225173b37085c155ce9455ba3531288e09579455e68a30c7701596abd178d"
+  }
+}

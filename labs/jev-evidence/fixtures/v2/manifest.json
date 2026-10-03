@@ -1,0 +1,57 @@
+{
+  "createdAt": "2026-09-22T07:03:45.847617+00:00",
+  "suite": "jev-fixtures-v2",
+  "files": {
+    "policy.json": "c2bc2d8959e9cee2ca901aba9dfd28a594eef56a54e2033ae1ba5e4d56f30e2d",
+    "reference.json": "b597afc3678cc607328aa4663bf60a125daec1bc5533127be40167d11c453380",
+    "requests/C01.json": "564aa1c8792eb9a881d187d6d2b47f59ee414d628be547d90c469f8e4f8e20ac",
+    "requests/C02.json": "9572751ab4523d980402513f5787acf6fd89d7209325f93c44e938e4fdd89d6d",
+    "requests/C03.json": "0c8024805b68bf75a3fccd6d3d7a22db7168b6b49eeafd770c0a37ab2aaa9f06",
+    "requests/C04.json": "3b95f2bc2472d0e50703ebfe5b96219e41f081d4dacec512e968703e85425767",
+    "requests/C05.json": "da0074a2ef1a8d1034967b8aadf388cad8da8e37e75ef77acaf5db198185d5e9",
+    "requests/C06.json": "ef0d2b23ae823cde742bb27f98b351d0bfbff246620f80b606ad2d4c827d4ca0",
+    "requests/C07.json": "6689d280f882e86499557d176e32a9afcf515f613f28ef7e1342dfc784db6149",
+    "requests/F01.json": "f2c573cb967692eabed11ef7580c38d036a2a0f79533b289ac5c8653dd40f359",
+    "requests/F02.json": "d27ebf611e58ed6340d05f6b8c931c66b304a205e64cc17b9c764845b58fdf64",
+    "requests/F03.json": "47b26182d0fb7473e9c226221666bca998ba321c4cd05e8aa3a133195351c3c1",
+    "requests/F04.json": "bb24580b9d73c4f4fb7a78144a0626eb9753ceac9031235424f2dc99d717a96e",
+    "requests/F05.json": "e07bc4cf997989bf76602005a3a0c8e2e9a9dadf8177955fd535ddd7ce3359de",
+    "requests/F06.json": "c206864322c4ecbd4fb837a49611f39742dfe2f858427afe7c89b5c4088ca0d3",
+    "requests/F07.json": "c280288a13d81c603a7fe94bbe1e68a1a17fb646ad74abe07e84ea8f49ff3c16",
+    "requests/F08.json": "20a6b227b587eedf4293babf62f4325251825a2305d1f8a14495b0e60d8d558a",
+    "requests/F09.json": "064e0701c67e243c2c7a061dd6a88f8b5dea0c9bb2fcc914e53cc51da9ac5196",
+    "requests/F10.json": "07cf368a149db0ea4aece458d037096615ae95c79695b870678f53523a9eceed",
+    "requests/F11.json": "975bb5a99df2acdacd4e2b80ee89139709811bd22aa2d95a2f47c8e08d071041",
+    "requests/F12.json": "a8ade8757876c903c497810474b340583f6b19b98788546ea45c229df662b5f2",
+    "requests/F13.json": "5f0c3ca3de57fc636c545e4535c606ac9f817f2f6d25b2e1fb78f94b08619da6",
+    "requests/R01.json": "f7e15bb3d2d0bd498a8cdd4958f9a5ceb4d0025abbdda9710a17f508b1a9da07",
+    "requests/R02.json": "5ab1157df83aa8119484c1d7888c93333cb43c3e0a93ab80f1c0d229418dd814",
+    "requests/R03.json": "7da71718f3c251999234cbf2ffe2f5dc52eb8d05e5d2110405f09ce95a497d03",
+    "requests/R04.json": "fb373e95d2c73474de214a66688bf9140a3247ba172b54f8c15a346e931eccdb",
+    "transport.json": "3db8da65a2157d07b93ef9b08e01193f6995e1687fc7e11e15b016841915d5b7"
+  },
+  "parents": {
+    "inputs/cases.json": "5c0752fea240d7c75b89dbe46b01bee9f5491b38f17ac0f1f6b5a94e1ee9cce1",
+    "inputs/reference.json": "849ad4f68bd1069f96b312f1a58fe2094d86c51b7edb7d8ff958c5413a963dd2",
+    "inputs/sources.json": "6ab85d103e730ac75c5b8481f8138bb4213fb5439d557a4cadde7a0ac00eeb9a",
+    "inputs/frozen.json": "0a101776046c6433f8aba0389dd8d6df1d3ebebd56bfef50ad33e9d0bc957942",
+    "scripts/experiment.py": "332667f9c82ca0b8f5349774a612fa8778443a4109505a8210f05359f2a8edde",
+    "scripts/build_fixtures.py": "3eef4656251d11c58b459bd4334398e347a2a2b7cade65ca2ff2cff2b439c790"
+  },
+  "fixtureCount": 24,
+  "realClaims": 4,
+  "controlledVariants": 20,
+  "expectedDistribution": {
+    "supported": 9,
+    "insufficient": 9,
+    "contradicted": 4,
+    "not_verifiable": 1,
+    "conflicting": 1
+  },
+  "newExternalSources": 0,
+  "syntheticSourceCases": [
+    "F12",
+    "F13"
+  ],
+  "note": "Prepared without provider inference. Reuses original frozen inputs unchanged."
+}

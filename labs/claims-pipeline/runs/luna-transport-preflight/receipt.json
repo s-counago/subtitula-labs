@@ -1,0 +1,14 @@
+{
+  "verifiedAt": "2026-09-11T21:03:32.746244+00:00",
+  "state": "completed",
+  "reportedCodexUsage": {
+    "input_tokens": 2481,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25,
+    "reasoning_output_tokens": 0
+  },
+  "toolItemCount": 0,
+  "responseSha256": "75a9ac0425655c4c70e60e42634e0586dcd13c8cba9998721adb8cc5387c9e10",
+  "note": "Initial adapter classified two startup warning events as tool activity. Saved output was verified offline; no second inference."
+}

@@ -1,0 +1,18 @@
+{
+  "checkedOn": "2026-09-22",
+  "inferenceCalls": 0,
+  "realJevResultsAvailable": false,
+  "typesafeProcessEnvironmentKeyPresent": false,
+  "labEnvFilePresent": false,
+  "typesafeConsole": "login_required",
+  "cloudflareReadOnlyChecks": [
+    {"route": "ai/models/search?search=jev", "httpStatus": 200, "resultCount": 0},
+    {"route": "ai-gateway/billing/credit-balance", "httpStatus": 403},
+    {"route": "ai-gateway/gateways", "httpStatus": 403}
+  ],
+  "creditBalance": "unknown",
+  "note": "The classic catalog search did not establish Jev availability for this account. Official Cloudflare documentation lists typesafe/jev. A 403 does not establish credit balance.",
+  "purchases": 0,
+  "deployments": 0,
+  "nextRequirement": "Local TYPESAFE_API_KEY for an account with access, or confirmation of existing Cloudflare AI Gateway credits."
+}

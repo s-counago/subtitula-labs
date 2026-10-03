@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-11T22:05:14.038892+00:00",
+  "result": "passed",
+  "cards": 89,
+  "referenceRows": 25,
+  "allInternalReportLinksExist": true,
+  "receiptCountersMatchPreservedCompletionEvents": true,
+  "receiptsChecked": 6,
+  "newModelCalls": 0,
+  "gainedFaithfulCases": [
+    "G05",
+    "G06",
+    "G08",
+    "G20",
+    "G23"
+  ],
+  "lostFaithfulCases": [
+    "G03",
+    "G09"
+  ],
+  "claimsWithPendingMatter": [
+    "X047"
+  ],
+  "comparisonReportSha256": "2763c6747ae1a25879e242bc1f1017f3433e430f244d6248a6a47c923994dda9",
+  "explorerSha256": "178c31353e935b8848919b4386a7c777be1b90668a16014911c3621c10be4050"
+}

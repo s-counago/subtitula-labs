@@ -1,0 +1,635 @@
+{
+  "createdAt": "2026-09-23T12:43:00.451761+00:00",
+  "modelRequested": "gpt-5.6-luna",
+  "reasoningEffort": "xhigh",
+  "billing": "chatgpt_subscription_limits",
+  "actualApiChargeUSD": null,
+  "apiPriceEquivalentUSD": null,
+  "statusCounts": {
+    "failed_or_uncertain": 1,
+    "not_attempted": 27
+  },
+  "groups": {
+    "curatedReal": {
+      "completed": 0,
+      "scored": 0,
+      "correct": 0,
+      "agreementRate": null,
+      "falseSupport": 0,
+      "falseContradiction": 0,
+      "candidateCount": 0,
+      "candidateErrors": 0,
+      "candidatePrecision": null,
+      "candidateCoverage": null,
+      "confusion": {
+        "supported": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "contradicted": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "insufficient": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "conflicting": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "not_verifiable": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        }
+      }
+    },
+    "curatedControls": {
+      "completed": 0,
+      "scored": 0,
+      "correct": 0,
+      "agreementRate": null,
+      "falseSupport": 0,
+      "falseContradiction": 0,
+      "candidateCount": 0,
+      "candidateErrors": 0,
+      "candidatePrecision": null,
+      "candidateCoverage": null,
+      "confusion": {
+        "supported": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "contradicted": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "insufficient": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "conflicting": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "not_verifiable": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        }
+      }
+    },
+    "retrievedReal": {
+      "completed": 0,
+      "scored": 0,
+      "correct": 0,
+      "agreementRate": null,
+      "falseSupport": 0,
+      "falseContradiction": 0,
+      "candidateCount": 0,
+      "candidateErrors": 0,
+      "candidatePrecision": null,
+      "candidateCoverage": null,
+      "confusion": {
+        "supported": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "contradicted": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "insufficient": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "conflicting": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        },
+        "not_verifiable": {
+          "supported": 0,
+          "contradicted": 0,
+          "insufficient": 0,
+          "conflicting": 0,
+          "not_verifiable": 0
+        }
+      }
+    }
+  },
+  "knownUsage": {},
+  "unknownConsumption": [
+    "curated-R01"
+  ],
+  "latency": {
+    "curated": {
+      "samples": 0,
+      "p50Seconds": null,
+      "p95Seconds": null,
+      "totalSuccessfulSeconds": 0
+    },
+    "retrieved": {
+      "samples": 0,
+      "p50Seconds": null,
+      "p95Seconds": null,
+      "totalSuccessfulSeconds": 0
+    }
+  },
+  "pairedLabels": [],
+  "invariance": [
+    {
+      "fixtures": [
+        "R01",
+        "F01",
+        "F02",
+        "F09",
+        "C07",
+        "F13"
+      ],
+      "observed": 0,
+      "labels": [],
+      "consistent": null
+    },
+    {
+      "fixtures": [
+        "R04",
+        "F08"
+      ],
+      "observed": 0,
+      "labels": [],
+      "consistent": null
+    }
+  ],
+  "results": [
+    {
+      "jobId": "curated-R01",
+      "fixtureId": "R01",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "public_control",
+      "status": "failed_or_uncertain",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-R02",
+      "fixtureId": "R02",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "budget_amount",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-R03",
+      "fixtureId": "R03",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": false,
+      "expected": "supported",
+      "challenge": "program_identity",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-R04",
+      "fixtureId": "R04",
+      "track": "curated",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "compound_claim_and_vat",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C01",
+      "fixtureId": "C01",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "public_vs_wholly_owned",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C02",
+      "fixtureId": "C02",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "tenfold_amount",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C03",
+      "fixtureId": "C03",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "no_evidence",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "missing_evidence",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C04",
+      "fixtureId": "C04",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "reported_claim_only",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "only_reported_statements",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C05",
+      "fixtureId": "C05",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "budget_vs_payment",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C06",
+      "fixtureId": "C06",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "irrelevant_source",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-C07",
+      "fixtureId": "C07",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "injected_attachment",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F01",
+      "fixtureId": "F01",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "spanish_paraphrase",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F02",
+      "fixtureId": "F02",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "english_paraphrase",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F03",
+      "fixtureId": "F03",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "negation",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F04",
+      "fixtureId": "F04",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "wrong_year",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "different_reference_period",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F05",
+      "fixtureId": "F05",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "wrong_municipality",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F06",
+      "fixtureId": "F06",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "not_verifiable",
+      "challenge": "value_judgment",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F07",
+      "fixtureId": "F07",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "duplicate_reports",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "only_reported_statements",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F08",
+      "fixtureId": "F08",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "evidence_order",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F09",
+      "fixtureId": "F09",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "distractors",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F10",
+      "fixtureId": "F10",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "conditional_vat",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F11",
+      "fixtureId": "F11",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "contradicted",
+      "challenge": "net_vs_gross",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F12",
+      "fixtureId": "F12",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "conflicting",
+      "challenge": "conflicting_records",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "curated-F13",
+      "fixtureId": "F13",
+      "track": "curated",
+      "origin": "controlled_variant",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "injected_source",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "retrieved-R01",
+      "fixtureId": "R01",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "retrieval_plus_assessment",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "retrieved-R02",
+      "fixtureId": "R02",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "supported",
+      "challenge": "retrieval_plus_assessment",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "retrieved-R03",
+      "fixtureId": "R03",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": false,
+      "expected": "supported",
+      "challenge": "retrieval_plus_assessment",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    },
+    {
+      "jobId": "retrieved-R04",
+      "fixtureId": "R04",
+      "track": "retrieved",
+      "origin": "real_extraction",
+      "scored": true,
+      "expected": "insufficient",
+      "challenge": "retrieval_plus_assessment",
+      "status": "not_attempted",
+      "guard": {
+        "action": "abstain",
+        "reason": "no_valid_response",
+        "candidate": null
+      }
+    }
+  ],
+  "caveats": [
+    "Reference authored by assistant, not independently human reviewed; R03 unscored.",
+    "Small correlated sample from one session, not general production accuracy.",
+    "CLI overhead and subscription usage are not TypeSafe/API cost or latency.",
+    "No probability or confidence is requested or fabricated; Jev 0.85 threshold is not applied.",
+    "Retrieval labels use the original reference as an exploratory end-to-end comparison; bundles differ.",
+    "Luna answers questions jointly; Jev evaluates questions independently.",
+    "Model selected explicitly through CLI; resolved backend snapshot not attested by exec events."
+  ]
+}

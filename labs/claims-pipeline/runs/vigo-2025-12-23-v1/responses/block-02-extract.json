@@ -1,0 +1,45 @@
+{
+  "result": {
+    "id": "chatcmpl-8f00744e4bff0878",
+    "object": "chat.completion",
+    "created": 1789155474,
+    "model": "@cf/zai-org/glm-4.7-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"matters\": [\n    {\n      \"key\": \"presupuesto_2026\",\n      \"label\": \"Presupuesto general del Concello de Vigo para 2026\",\n      \"object\": \"Concello de Vigo\",\n      \"territory\": \"Vigo\",\n      \"institution\": \"Concello de Vigo\",\n      \"referencePeriod\": \"2026\"\n   ,\n      \"evidenceSegmentIds\": [\n        \"S0026\",\n        \"S0027\",\n        \"S0028\",\n        \"S0029\",\n        \"S0030\",\n        \"S0031\",\n        \"S0032\",\n        \"S0033\"\n      ]\n    }\n  ],\n  \"claims\": [\n    {\n      \"statement\": \"O orzamento municipal de 2026 combina maior presión fiscal con baixa execución.\",\n      \"speakerId\": \"speaker_2\",\n      \"matterKey\": \"presupuesto_2026\",\n      \"property\": \"execución\",\n      \"valueText\": \"baixa\",\n      \"referencePeriod\": \"2026\",\n      \"conditions\": [\n        \"presión fiscal maior\"\n      ],\n      \"modality\": \"reported_statement\",\n      \"polarity\": \"negative\",\n      \"evidenceSegmentIds\": [\n        \"S0026\"\n      ],\n      \"quote\": \"Este é un orzamento, malia cumprir co técnico, que defrauda aos vigueses. Defrauda porque combina maior presión fiscal con baixa execución, investimentos repetidos, prioridades equivocadas e unha evidente falta de sensibilidade social.\"\n    ,\n      \"contextSegmentIds\": [\n        \"S0027\",\n        \"S0028\",\n        \"S0029\",\n        \"S0030\",\n        \"S0031\",\n        \"S0032\",\n        \"S0033\"\n      ]\n    ,\n      \"contextStatus\": \"insufficient\",\n      \"uncertainty\": \"A execución 'baixa' refírese ás afirmacións posteriores sobre a execución global e de investimentos raís en 2024 e 2025.\"\n    }\n  ]\n,\n  \"contextRequests\": [\n    {\n      \"anchorSegmentId\": \"S0027\",\n      \"query\": \"suba lineal dun catro por cento a boa parte das taxas e impostos municipais\"\n    ,\n      \"reason\": \"A suba do 4% é un dato necesario para cuantificar a 'maior presión fiscal' mencionada.\"\n    }\n  ]\n,\n  \"notes\": [\n    \"A execución 'baixa' non se cuantifica explicitamente na cita de S0026, pero se refuerza con datos de S0031 (cen millóns de euros non executados en 2024 e execución global por debaixo do corenta por cento en 2025).\",\n    \"A afirmación de que o orzamento 'defrauda' é unha opinión do orador e non un feito verificable.\"\n  ]\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null,
+          "reasoning_content": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 5022,
+      "completion_tokens": 648,
+      "total_tokens": 5670,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "neurons": 51.208200000000005
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}

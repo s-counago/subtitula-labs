@@ -1,0 +1,17 @@
+{
+  "frozenAt": "2026-09-11T19:36:44.105589+00:00",
+  "referencePath": "reference/gold.json",
+  "referenceSha256": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+  "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+  "segmentsSha256": "f9586c987436a721d0ae7de165f6a214a885925bb5ca67bea5709ddfb249dc5b",
+  "reviewNotesSha256": "afb45cc18199e2b0094d99cd60cfcf26875af1b22f10fb094942d0618e9bde26",
+  "positiveCases": 25,
+  "negativeControls": 6,
+  "reviewers": [
+    "gpt-5.6-sol",
+    "root assistant"
+  ],
+  "basis": "transcript_only",
+  "glmRequestsAtFreeze": 0,
+  "exhaustiveAnnotation": false
+}

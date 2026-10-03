@@ -1,0 +1,530 @@
+{
+  "author": "assistant",
+  "independentlyHumanReviewed": false,
+  "createdAt": "2026-09-22T07:03:45.815756+00:00",
+  "cases": [
+    {
+      "fixtureId": "R01",
+      "parentCaseId": "R01",
+      "origin": "real_extraction",
+      "challenge": "public_control",
+      "expected": "supported",
+      "rationale": "La memoria describe explícitamente una empresa pública autonómica con mayoría de la Xunta. No implica capital 100% público.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D01"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    },
+    {
+      "fixtureId": "R02",
+      "parentCaseId": "R02",
+      "origin": "real_extraction",
+      "challenge": "budget_amount",
+      "expected": "supported",
+      "rationale": "La memoria presupuestaria recoge exactamente el incremento. Se comprueba previsión, no gasto ejecutado.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "occurrenceId": "appearance-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02"
+      ],
+      "originalStatement": "A bolsa de alugueiro increméntase en setecentos mil euros.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "R03",
+      "parentCaseId": "R03",
+      "origin": "real_extraction",
+      "challenge": "program_identity",
+      "expected": "supported",
+      "rationale": "La partida 3260/2279917 aporta el importe y la noticia relaciona la dotación con Vigo en Inglés. La equivalencia del programa se apoya en esa noticia, no en una auditoría.",
+      "scored": false,
+      "syntheticSources": false,
+      "claimId": "claim-5a77e8f8-de7f-5baa-9f2b-f9ea98e5b36c",
+      "occurrenceId": "appearance-5a77e8f8-de7f-5baa-9f2b-f9ea98e5b36c",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D03",
+        "D04"
+      ],
+      "originalStatement": "As bolsas de inglés para estudar no estranxeiro pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D03",
+        "D04"
+      ]
+    },
+    {
+      "fixtureId": "R04",
+      "parentCaseId": "R04",
+      "origin": "real_extraction",
+      "challenge": "compound_claim_and_vat",
+      "expected": "insufficient",
+      "rationale": "95 EUR más 10% de IVA es 104,50. Falta documentar el importe previo de 86, el periodo base y la aplicación efectiva de la bonificación a Vigo. El DOG por sí solo no refuta el importe final.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "occurrenceId": "appearance-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D05",
+        "D06",
+        "D07"
+      ],
+      "originalStatement": "O copago a Sogama subiu de oitenta e seis euros por tonelada a cento catro con cincuenta euros por tonelada no ano 2025.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D05",
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "fixtureId": "C01",
+      "parentCaseId": "C01",
+      "origin": "controlled_variant",
+      "challenge": "public_vs_wholly_owned",
+      "expected": "contradicted",
+      "rationale": "Mutación sintética: 100% Xunta frente al 51% de la memoria.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D01"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    },
+    {
+      "fixtureId": "C02",
+      "parentCaseId": "C02",
+      "origin": "controlled_variant",
+      "challenge": "tenfold_amount",
+      "expected": "contradicted",
+      "rationale": "Mutación sintética: multiplica el importe presupuestado por diez.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "occurrenceId": "appearance-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02"
+      ],
+      "originalStatement": "A bolsa de alugueiro increméntase en setecentos mil euros.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "C03",
+      "parentCaseId": "C03",
+      "origin": "controlled_variant",
+      "challenge": "no_evidence",
+      "expected": "insufficient",
+      "rationale": "Sin fuentes externas, ni el conocimiento previo del modelo ni la transcripción bastan.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": []
+    },
+    {
+      "fixtureId": "C04",
+      "parentCaseId": "C04",
+      "origin": "controlled_variant",
+      "challenge": "reported_claim_only",
+      "expected": "insufficient",
+      "rationale": "Una noticia que reproduce el anuncio presupuestario acredita que se dijo, no comprueba el presupuesto.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-5a77e8f8-de7f-5baa-9f2b-f9ea98e5b36c",
+      "occurrenceId": "appearance-5a77e8f8-de7f-5baa-9f2b-f9ea98e5b36c",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D04"
+      ],
+      "originalStatement": "As bolsas de inglés para estudar no estranxeiro pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D04"
+      ]
+    },
+    {
+      "fixtureId": "C05",
+      "parentCaseId": "C05",
+      "origin": "controlled_variant",
+      "challenge": "budget_vs_payment",
+      "expected": "insufficient",
+      "rationale": "Mutación sintética de fase: una previsión no prueba pagos ejecutados.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "occurrenceId": "appearance-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02"
+      ],
+      "originalStatement": "A bolsa de alugueiro increméntase en setecentos mil euros.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "C06",
+      "parentCaseId": "C06",
+      "origin": "controlled_variant",
+      "challenge": "irrelevant_source",
+      "expected": "insufficient",
+      "rationale": "Documento primario pero de un asunto ajeno.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "C07",
+      "parentCaseId": "C07",
+      "origin": "controlled_variant",
+      "challenge": "injected_attachment",
+      "expected": "supported",
+      "rationale": "El texto inyectado de control no debe alterar la evidencia.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D01"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    },
+    {
+      "fixtureId": "F01",
+      "parentCaseId": "R01",
+      "origin": "controlled_variant",
+      "challenge": "spanish_paraphrase",
+      "expected": "supported",
+      "rationale": "Paráfrasis castellana de la titularidad pública.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D01"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    },
+    {
+      "fixtureId": "F02",
+      "parentCaseId": "R01",
+      "origin": "controlled_variant",
+      "challenge": "english_paraphrase",
+      "expected": "supported",
+      "rationale": "Mismo significado en inglés; no prueba que otros idiomas sean equivalentes.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D01"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    },
+    {
+      "fixtureId": "F03",
+      "parentCaseId": "R01",
+      "origin": "controlled_variant",
+      "challenge": "negation",
+      "expected": "contradicted",
+      "rationale": "Negación sintética de la condición que recoge la memoria.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D01"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    },
+    {
+      "fixtureId": "F04",
+      "parentCaseId": "R02",
+      "origin": "controlled_variant",
+      "challenge": "wrong_year",
+      "expected": "insufficient",
+      "rationale": "Una dotación para 2026 no resuelve la dotación para 2024.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "occurrenceId": "appearance-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02"
+      ],
+      "originalStatement": "A bolsa de alugueiro increméntase en setecentos mil euros.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "F05",
+      "parentCaseId": "R02",
+      "origin": "controlled_variant",
+      "challenge": "wrong_municipality",
+      "expected": "insufficient",
+      "rationale": "La fuente de Vigo no documenta Lugo.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "occurrenceId": "appearance-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02"
+      ],
+      "originalStatement": "A bolsa de alugueiro increméntase en setecentos mil euros.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "F06",
+      "parentCaseId": "R02",
+      "origin": "controlled_variant",
+      "challenge": "value_judgment",
+      "expected": "not_verifiable",
+      "rationale": "Excelente no define una medida factual comprobable.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "occurrenceId": "appearance-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02"
+      ],
+      "originalStatement": "A bolsa de alugueiro increméntase en setecentos mil euros.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "F07",
+      "parentCaseId": "R03",
+      "origin": "controlled_variant",
+      "challenge": "duplicate_reports",
+      "expected": "insufficient",
+      "rationale": "Tres copias de la misma declaración no aportan confirmación independiente.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-5a77e8f8-de7f-5baa-9f2b-f9ea98e5b36c",
+      "occurrenceId": "appearance-5a77e8f8-de7f-5baa-9f2b-f9ea98e5b36c",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D04COPY1",
+        "D04COPY2",
+        "D04COPY3"
+      ],
+      "originalStatement": "As bolsas de inglés para estudar no estranxeiro pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D03",
+        "D04"
+      ]
+    },
+    {
+      "fixtureId": "F08",
+      "parentCaseId": "R04",
+      "origin": "controlled_variant",
+      "challenge": "evidence_order",
+      "expected": "insufficient",
+      "rationale": "Invertir los pasajes no resuelve los datos que faltan.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "occurrenceId": "appearance-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D05",
+        "D06",
+        "D07"
+      ],
+      "originalStatement": "O copago a Sogama subiu de oitenta e seis euros por tonelada a cento catro con cincuenta euros por tonelada no ano 2025.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D05",
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "fixtureId": "F09",
+      "parentCaseId": "R01",
+      "origin": "controlled_variant",
+      "challenge": "distractors",
+      "expected": "supported",
+      "rationale": "La memoria de Sogama sigue respaldando la condición pública entre pasajes ajenos.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D02",
+        "D03",
+        "D01"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    },
+    {
+      "fixtureId": "F10",
+      "parentCaseId": "R04",
+      "origin": "controlled_variant",
+      "challenge": "conditional_vat",
+      "expected": "supported",
+      "rationale": "La proposición solo describe el canon reducido con IVA, sin afirmar que Vigo cumpla requisitos.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "occurrenceId": "appearance-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D05",
+        "D06"
+      ],
+      "originalStatement": "O copago a Sogama subiu de oitenta e seis euros por tonelada a cento catro con cincuenta euros por tonelada no ano 2025.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D05",
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "fixtureId": "F11",
+      "parentCaseId": "R04",
+      "origin": "controlled_variant",
+      "challenge": "net_vs_gross",
+      "expected": "contradicted",
+      "rationale": "95 es la base sin IVA; el cálculo exacto con un 10% da 104,50.",
+      "scored": true,
+      "syntheticSources": false,
+      "claimId": "claim-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "occurrenceId": "appearance-d03cdfe6-2002-56e6-ba54-9e4c1dbabe88",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "D05",
+        "D06"
+      ],
+      "originalStatement": "O copago a Sogama subiu de oitenta e seis euros por tonelada a cento catro con cincuenta euros por tonelada no ano 2025.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D05",
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "fixtureId": "F12",
+      "parentCaseId": "R02",
+      "origin": "controlled_variant",
+      "challenge": "conflicting_records",
+      "expected": "conflicting",
+      "rationale": "Dos registros sintéticos del mismo periodo y fase discrepan; ninguno tiene prioridad.",
+      "scored": true,
+      "syntheticSources": true,
+      "claimId": "claim-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "occurrenceId": "appearance-7f783531-e03d-5bb5-a504-704c90cc8ad6",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "SYN1",
+        "SYN2"
+      ],
+      "originalStatement": "A bolsa de alugueiro increméntase en setecentos mil euros.",
+      "mutatedStatement": true,
+      "inheritedSourceIds": [
+        "D02"
+      ]
+    },
+    {
+      "fixtureId": "F13",
+      "parentCaseId": "R01",
+      "origin": "controlled_variant",
+      "challenge": "injected_source",
+      "expected": "supported",
+      "rationale": "El texto de la fuente no debe poder cambiar las instrucciones del clasificador.",
+      "scored": true,
+      "syntheticSources": true,
+      "claimId": "claim-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "occurrenceId": "appearance-d0fb0537-cfe5-59c7-a6b3-464d110ee977",
+      "transcriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+      "sourceIds": [
+        "SYNINJECT"
+      ],
+      "originalStatement": "Sogama é unha sociedade pública da Xunta de Galicia.",
+      "mutatedStatement": false,
+      "inheritedSourceIds": [
+        "D01"
+      ]
+    }
+  ],
+  "labelNote": "R03 preserves the original label but is exploratory and excluded from scored metrics: program identity is not firmly established."
+}

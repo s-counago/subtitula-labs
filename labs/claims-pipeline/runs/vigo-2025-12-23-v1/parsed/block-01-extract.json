@@ -1,0 +1,367 @@
+{
+  "matters": [
+    {
+      "key": "presupuesto_2026_concello_vigo",
+      "label": "Presupuesto General del Concello de Vigo para 2026",
+      "object": "Presupuesto General del Concello de Vigo para 2026",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0001",
+        "S0002",
+        "S0004",
+        "S0005",
+        "S0012"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "statement": "El presupuesto general del Concello de Vigo para 2026 se aprobó en sesión extraordinaria el día 23 de diciembre de 2025.",
+      "speakerId": "speaker_0",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "aprobación",
+      "valueText": "aprobación definitiva",
+      "referencePeriod": "2026",
+      "conditions": [
+        "sesión extraordinaria",
+        "23 de diciembre de 2025"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0001"
+      ],
+      "quote": "Tratamento será, como todos os anos, cinco minutos de intervención e tres de réplica do Goberno. Punto único da orden do día, eh: alegacións e aprobación definitiva.",
+      "contextSegmentIds": [
+        "S0001"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El presupuesto general del Concello de Vigo para 2026 incluye 350 millones de euros adicionales.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "cantidad_adicional",
+      "valueText": "trescentos cincuenta millóns de euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "recursos propios",
+        "débeda cero"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0005",
+        "S0012"
+      ],
+      "quote": "Con este orzamento que aprobaremos a continuación, se engaden trescentos cincuenta millóns de euros adicionais para transformar a cidade, para mellorar as condicións de vida, eh, de toda a cidade.",
+      "contextSegmentIds": [
+        "S0005",
+        "S0012"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El Concello de Vigo tiene cero euros de deuda por galego.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "deuda_per_capita",
+      "valueText": "cero euros",
+      "referencePeriod": null,
+      "conditions": [
+        "recursos propios",
+        "débeda cero"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0005"
+      ],
+      "quote": "Con recursos propios e un ano máis con débeda cero, factor diferencial respecto doutras administracións, tanto locais como autonómicas. Hai que recordar que a Xunta de Galicia ten unha débeda de, eh, catro mil cincocentos euros por galego, mentres que o Concello de Vigo ten cero euros de débeda por galego.",
+      "contextSegmentIds": [
+        "S0005"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "La bolsa de alquiler social en As Turáns se incrementó en 700.000 euros.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "incremento_bolsa_alquiler",
+      "valueText": "setecentos mil euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "política social",
+        "edificio de vivenda social en As Turáns"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0006"
+      ],
+      "quote": "política social en sentido amplio e atendendo a unha das necesidades principais que teñen as persoas como é a vivenda, con, eh, unha, un edificio de vivenda social en As Turáns, incrementando setecentos mil euros a bolsa de alugueiro, que se une os once millóns de euros que se xeneraron xa co crédito extraordinario deste ano 2025.",
+      "contextSegmentIds": [
+        "S0006"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "Las becas de inglés para cursar estudios en el extranjero se incrementaron a 3.325.000 euros.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "dotacion_becas_ingles",
+      "valueText": "tres millóns trescentos vinte e cinco mil euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "política de apoio ás familias",
+        "infancia"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0007"
+      ],
+      "quote": "que pasan a ter tres millóns trescentos vinte e cinco mil euros.",
+      "contextSegmentIds": [
+        "S0007"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "Las subvenciones y ayudas a asociaciones e instituciones se incrementaron a más de 38 millones de euros.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "dotacion_subvenciones_asociaciones",
+      "valueText": "máis de trinta e oito millóns de euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "política de apoio cole-colectivos",
+        "capítulo catro"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0008"
+      ],
+      "quote": "con máis de trinta e oito millóns de euros no capítulo catro de subvencións e axudas a todas as asociacións e todas as, eh, institucións desta cidade.",
+      "contextSegmentIds": [
+        "S0008"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "Se destinaron más de 70 millones de euros en un crédito extraordinario en 2025 para transformar la ciudad.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "credito_extraordinario_2025",
+      "valueText": "máis de setenta millóns de euros",
+      "referencePeriod": "2025",
+      "conditions": [
+        "transformar a cidade",
+        "todos os puntos dos máis de cento dez quilómetros cadrados"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0010"
+      ],
+      "quote": "Pero tamén de, adicando recursos a cultura, cun incremento dun sete por cento máis para cultura, eh, crecendo na programación cultural en todos os barrios, en axudas tamén, en concorrencia non competitiva para as entidades e transformando tamén os espazos que xa temos, como é, como son os baixos do auditorio, eh, Mar, eh, de Vigo e tamén con achegas a todos os museos municipais, que como saben son gratuitos: o Marco, Casa das Artes, Verbum. E, por tanto, incrementando esas, eh, dotacións para a política, eh, cultural.",
+      "contextSegmentIds": [
+        "S0010"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El incremento de la partida de política social desde 2007 hasta 2026 es del 696,5%.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "incremento_politica_social",
+      "valueText": "696,5 %",
+      "referencePeriod": "2026",
+      "conditions": [
+        "dende o ano 2007 ao ano 2026"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0007"
+      ],
+      "quote": "Hai que recordar, como xa dixen, que dende o ano 2007 ao ano 2026, a política social se incrementou un 696,5 % nos orzamentos municipais.",
+      "contextSegmentIds": [
+        "S0007"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El incremento de la partida de cultura es del 7%.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "incremento_cultura",
+      "valueText": "sete por cento",
+      "referencePeriod": "2026",
+      "conditions": [
+        "adicando recursos a cultura"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0011"
+      ],
+      "quote": "Pero tamén de, adicando recursos a cultura, cun incremento dun sete por cento máis para cultura, eh, crecendo na programación cultural en todos os barrios, en axudas tamén, en concorrencia non competitiva para as entidades e transformando tamén os espazos que xa temos, como é, como son os baixos do auditorio, eh, Mar, eh, de Vigo e tamén con achegas a todos os museos municipais, que como saben son gratuitos: o Marco, Casa das Artes, Verbum. E, por tanto, incrementando esas, eh, dotacións para a política, eh, cultural.",
+      "contextSegmentIds": [
+        "S0011"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "Se destinaron más de 44 millones de euros en el presupuesto del año 2026 para transformar la ciudad.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "presupuesto_transformacion_2026",
+      "valueText": "corenta e catro millóns de euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "transformar toda a cidade",
+        "recursos propios",
+        "débeda cero"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0010"
+      ],
+      "quote": "Hai que destacar que neste caso xa engadimos máis de setenta millóns de euros nun crédito extraordinario neste ano 2025, que xunto cos corenta e catro millóns de euros do orzamento do ano 2026, permiten transformar toda a cidade e atender a todas esas necesidades de todos os barrios, de todas as parroquias e de todas as zonas da nosa, eh, cidade.",
+      "contextSegmentIds": [
+        "S0010"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "Se destinaron más de 1 millón de euros para la adquisición de vehículos eléctricos y la electrificación de cocheiras.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "dotacion_vehiculos_electricos",
+      "valueText": "máis dun millón de euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "política de apoio ás familias",
+        "vehículo eléctrico",
+        "electrificación das cocheiras"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0009"
+      ],
+      "quote": "apo-- eh, apostando pola, polo vehículo eléctrico, con, eh, mil-- máis dun millón de euros para adquisición de vehículos eléctricos e para a electrificación das cocheiras, e transformando sobre todo todas e cada unha das zonas da cidade.",
+      "contextSegmentIds": [
+        "S0009"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El BNG rechazó las alegaciones formuladas por la Asociación Veciñal de Teis.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "rechazo_alegaciones",
+      "valueText": "cinco negativas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "Asociación Veciñal de Teis"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0020"
+      ],
+      "quote": "E a todos eses non, hoxe queren engadir outras cinco negativas, rexeitando as alegacións formuladas pola Asociación Veciñal de Teis, que o BNG vamos defender, sexan estimadas a través dun voto particular, nas que propoñen cuestións tan básicas como aumentar o orzamento para garantir que dunha vez por todas Teis teña unha verdadeira biblioteca pública e non unha sala de lectura na que non vai haber nada para ler, na que demandan a mellora do parque da, dos parques da Guía ou da Rioxa, a, hm, actuacións para mellorar a accesibilidade na praia da Punta ou acondicionamento do Auditorio de Teis ou melloras na Vía Verde.",
+      "contextSegmentIds": [
+        "S0020"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El BNG rechazó duplicar las ayudas sociales municipales.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "rechazo_duplicar_ayudas_sociales",
+      "valueText": "duplicar as axudas sociais municipais",
+      "referencePeriod": null,
+      "conditions": [
+        "medidas tan importantes e necesarias"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "O problema non é que lle digan non ao BNG. O problema é que lle din non a medidas tan importantes e necesarias como duplicar as axudas sociais municipais que vostedes recortaron nun cincuenta por cento nos últimos cinco anos, mentres aumentaba un cento cincuenta por cento máis o gasto en luces e adornos de Nadal.",
+      "contextSegmentIds": [
+        "S0018"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El BNG rechazó elevar el Plan Municipal de Emprego a 3 millones de euros.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "rechazo_plan_municipal_empleo",
+      "valueText": "elevar até os tres millóns de euros",
+      "referencePeriod": null,
+      "conditions": [
+        "Plan Municipal de Emprego"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "Din non a elevar até os tres millóns de euros o Plan Municipal de Emprego, despois de que nesta cidade teñamos nove mil postos de traballo menos dos que había na altura do ano 2009.",
+      "contextSegmentIds": [
+        "S0018"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El BNG rechazó movilizar casi 10 millones de euros más para atender el acceso a la vivienda.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "rechazo_mobilizar_vivienda",
+      "valueText": "mobilizar case dez millóns de euros máis",
+      "referencePeriod": null,
+      "conditions": [
+        "atender o principal problema desta cidade",
+        "acceso á vivenda"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0019"
+      ],
+      "quote": "Din non a mobilizar case dez millóns de euros máis a atender o principal problema desta cidade, que é o do acceso á vivenda, a destinar máis recursos a facer das políticas feministas unha verdadeira prioridade política, a poñer fin ao abandono dos barrios e parroquias, a despregar un plan de resposta á emerxencia climática ou a reverter as políticas de desertización cultural, de maltrato ao deporte vigués e de desmantelamento das políticas para a nosa mocidade.",
+      "contextSegmentIds": [
+        "S0019"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  ],
+  "contextRequests": [],
+  "notes": []
+}

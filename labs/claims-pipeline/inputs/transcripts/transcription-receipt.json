@@ -1,0 +1,23 @@
+{
+  "startedAt": "2026-09-11T19:26:36.143468+00:00",
+  "audioPath": "inputs\\media\\vigo-2025-12-23.mp3",
+  "audioSha256": "1d230e4ac4ad26cf40e7ebd9ce267552929ece802adf47fbf8410ee98511ecd0",
+  "options": {
+    "model_id": "scribe_v2",
+    "language_code": "glg",
+    "diarize": "true",
+    "timestamps_granularity": "word",
+    "tag_audio_events": "true",
+    "webhook": "false",
+    "use_speaker_library": "false"
+  },
+  "state": "completed",
+  "automaticRetries": 0,
+  "httpStatus": 200,
+  "finishedAt": "2026-09-11T19:27:13.059954+00:00",
+  "elapsedSeconds": 36.89,
+  "requestId": null,
+  "characterCostHeader": "1795",
+  "outputSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+  "words": 8715
+}

@@ -1,0 +1,301 @@
+{
+  "matters": [
+    {
+      "key": "orzamento_concello_vigo_2026",
+      "label": "Orzamento xeral do Concello de Vigo para 2026",
+      "object": "orzamento municipal",
+      "territory": "Vigo, Galicia, España",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0026",
+        "S0036"
+      ]
+    },
+    {
+      "key": "taxas_impostos_municipais_2026",
+      "label": "Taxas e impostos municipais de Vigo en 2026",
+      "object": "fiscalidade municipal",
+      "territory": "Vigo, Galicia, España",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0027",
+        "S0028"
+      ]
+    },
+    {
+      "key": "taxa_lixo_vigo",
+      "label": "Taxa do lixo en Vigo",
+      "object": "taxa municipal do lixo",
+      "territory": "Vigo, Galicia, España",
+      "institution": "Concello de Vigo",
+      "referencePeriod": null,
+      "evidenceSegmentIds": [
+        "S0029",
+        "S0030"
+      ]
+    },
+    {
+      "key": "execucion_orzamentaria_vigo",
+      "label": "Execución orzamentaria do Concello de Vigo",
+      "object": "execución orzamentaria",
+      "territory": "Vigo, Galicia, España",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2024-2025",
+      "evidenceSegmentIds": [
+        "S0031"
+      ]
+    },
+    {
+      "key": "emendas_orzamento_2026",
+      "label": "Emendas ao orzamento municipal de Vigo para 2026",
+      "object": "emendas orzamentarias",
+      "territory": "Vigo, Galicia, España",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0033",
+        "S0035"
+      ]
+    },
+    {
+      "key": "politica_vivenda_vigo_2026",
+      "label": "Política municipal de vivenda de Vigo en 2026",
+      "object": "política de vivenda",
+      "territory": "Vigo, Galicia, España",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0032",
+        "S0034"
+      ]
+    },
+    {
+      "key": "alegacions_asociacion_vecinal_teis",
+      "label": "Alegacións da Asociación Veciñal de Teis ao orzamento",
+      "object": "alegacións orzamentarias",
+      "territory": "Teis, Vigo, Galicia, España",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0020"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "statement": "O orzamento municipal para 2026 aplica por terceiro ano consecutivo unha suba lineal do catro por cento a boa parte das taxas e impostos municipais.",
+      "speakerId": "speaker_2",
+      "matterKey": "taxas_impostos_municipais_2026",
+      "property": "suba lineal",
+      "valueText": "catro por cento",
+      "referencePeriod": "2026",
+      "conditions": [
+        "por terceiro ano consecutivo",
+        "a boa parte das taxas e impostos municipais"
+      ],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0027"
+      ],
+      "quote": "por terceiro ano consecutivo vostedes van aplicar no 2026 unha suba lineal dun catro por cento a boa parte das taxas e impostos municipais.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O IBI de Vigo é o máis caro de toda Galicia.",
+      "speakerId": "speaker_2",
+      "matterKey": "taxas_impostos_municipais_2026",
+      "property": "posición comparativa do IBI",
+      "valueText": "o máis caro de toda Galicia",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0028"
+      ],
+      "quote": "Así acontece, por exemplo, co IBI, o máis caro de toda Galicia, con moita diferencia.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "A taxa do lixo increméntase ata un cincuenta por cento segundo os casos.",
+      "speakerId": "speaker_3",
+      "matterKey": "taxa_lixo_vigo",
+      "property": "incremento",
+      "valueText": "ata un cincuenta por cento",
+      "referencePeriod": null,
+      "conditions": [
+        "segundo os casos"
+      ],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0029"
+      ],
+      "quote": "ao sablazo do lixo, que se incrementa ata un cincuenta por cento segundo os casos.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O informe económico do Concello recoñece que a taxa do lixo vai recibir arredor de 1,3 millóns de euros.",
+      "speakerId": "speaker_3",
+      "matterKey": "taxa_lixo_vigo",
+      "property": "importe previsto",
+      "valueText": "arredor de un coma tres millóns de euros",
+      "referencePeriod": null,
+      "conditions": [
+        "segundo o informe económico do Concello"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0029"
+      ],
+      "quote": "O propio informe económico, mmm, deste concello, eh, recoñece que vai recibir desa gama arredor de un coma tres millóns de euros",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "En 2024 quedaron sen executar cen millóns de euros.",
+      "speakerId": "speaker_3",
+      "matterKey": "execucion_orzamentaria_vigo",
+      "property": "importe non executado",
+      "valueText": "cen millóns de euros",
+      "referencePeriod": "2024",
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0031"
+      ],
+      "quote": "En 2024 deixaron vostedes de executar cen millóns de euros.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "No terceiro trimestre de 2025 a execución global situábase por debaixo do corenta por cento.",
+      "speakerId": "speaker_3",
+      "matterKey": "execucion_orzamentaria_vigo",
+      "property": "execución global",
+      "valueText": "por debaixo do corenta por cento",
+      "referencePeriod": "terceiro trimestre de 2025",
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0031"
+      ],
+      "quote": "E no terceiro trimestre deste presente 2025, a execución global sitúase por debaixo do corenta por cento.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "No terceiro trimestre de 2025 a execución dos investimentos reais alcanzaba apenas o 7,75 por cento.",
+      "speakerId": "speaker_3",
+      "matterKey": "execucion_orzamentaria_vigo",
+      "property": "execución dos investimentos reais",
+      "valueText": "sete coma setenta e cinco por cento",
+      "referencePeriod": "terceiro trimestre de 2025",
+      "conditions": [
+        "apenas"
+      ],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0031"
+      ],
+      "quote": "E no caso dos investimentos raís, apenas alcanza o sete coma setenta e cinco por cento.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O grupo municipal presentou trinta e nove emendas ao orzamento por un importe global de 72,3 millóns de euros.",
+      "speakerId": "speaker_3",
+      "matterKey": "emendas_orzamento_2026",
+      "property": "número e importe das emendas",
+      "valueText": "trinta e nove emendas; setenta e dous coma tres millóns de euros",
+      "referencePeriod": "2026",
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0033"
+      ],
+      "quote": "Un orçamento ao que este grupo municipal presentou trinta e nove emendas por un importe global de setenta e dous millóns de euros, setenta e dous coma tres millóns de euros",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "As emendas propoñían incrementar a partida de vivenda ata 26 millóns de euros.",
+      "speakerId": "speaker_3",
+      "matterKey": "politica_vivenda_vigo_2026",
+      "property": "importe proposto",
+      "valueText": "vinte e seis millóns de euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "incremento proposto"
+      ],
+      "modality": "proposal",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0034"
+      ],
+      "quote": "Comezando pola vivenda, cun incremento, emmm, proposto ata os vinte e seis millóns de euros con que enfrontar unha política ambiciosa na materia de vivenda.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "O grupo municipal afirmou que as súas trinta e nove emendas foron rexeitadas todas.",
+      "speakerId": "speaker_3",
+      "matterKey": "emendas_orzamento_2026",
+      "property": "resultado das emendas",
+      "valueText": "todas e cada unha delas",
+      "referencePeriod": "2026",
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0035"
+      ],
+      "quote": "trinta e nove emendas por un importe de setenta e dous millóns que vostedes rexeitaron todas e cada unha delas.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "As alegacións da Asociación Veciñal de Teis propoñen aumentar o orzamento para garantir unha biblioteca pública en Teis.",
+      "speakerId": "speaker_2",
+      "matterKey": "alegacions_asociacion_vecinal_teis",
+      "property": "proposta sobre biblioteca pública",
+      "valueText": null,
+      "referencePeriod": "2026",
+      "conditions": [
+        "segundo a intervención do BNG"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0020"
+      ],
+      "quote": "nas que propoñen cuestións tan básicas como aumentar o orzamento para garantir que dunha vez por todas Teis teña unha verdadeira biblioteca pública",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  ],
+  "contextRequests": [],
+  "notes": []
+}

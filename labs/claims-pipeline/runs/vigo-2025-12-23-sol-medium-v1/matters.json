@@ -1,0 +1,322 @@
+[
+  {
+    "id": "matter-411e14c1-d1b0-522b-bb9f-d6ebf4a0a39e",
+    "label": "Presupuesto General del Concello de Vigo para 2026",
+    "object": "Orzamento Xeral do Concello de Vigo para 2026",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-3eff0d06-b154-57ae-a000-17dc8ce00f61",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-1b203d51-e90d-547c-b4b7-fd124e7ef4c0",
+    "label": "Edificio de vivienda social en As Turáns (Vigo)",
+    "object": "Edificio de vivenda social en As Turáns",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-0ae8e102-4852-5599-a1db-65effb53f2f2",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-0e29ba36-a99e-5120-ad5a-7346cec53b30",
+    "label": "Crédito extraordinario del Concello de Vigo de 2025",
+    "object": "Crédito extraordinario do Concello de Vigo de 2025",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2025",
+    "originMentionId": "mention-99b48873-5b66-5362-86ef-1976e02d60e8",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-ede81b8c-3f7a-5ab4-8e45-8fd72ab04969",
+    "label": "Enmiendas del BNG al proyecto de presupuesto municipal de Vigo para 2026",
+    "object": "Emendas do BNG ao proxecto de orzamentos municipais de Vigo para 2026",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-e73f67fa-a2d0-520a-8f83-65e4e25ed37f",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-0234a16f-15d8-5974-9e41-696739da7c5f",
+    "label": "Ayudas sociales municipales de Vigo (2020-2025)",
+    "object": "Axudas sociais municipais",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "últimos cinco anos ata o 23 de decembro de 2025",
+    "originMentionId": "mention-29461f48-eb3e-54e6-a7e6-eaf9c799ae9d",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-14ff6853-18eb-5977-9328-ab6144a20297",
+    "label": "Gasto municipal de Vigo en luces y adornos de Navidad (2020-2025)",
+    "object": "Gasto en luces e adornos de Nadal",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "últimos cinco anos ata o 23 de decembro de 2025",
+    "originMentionId": "mention-71635954-8976-5885-9b5f-293df0385d0f",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-b397866e-8fc3-5bdb-9f82-3b7f373b292a",
+    "label": "Plan Municipal de Empleo de Vigo propuesto para 2026",
+    "object": "Plan Municipal de Emprego",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-aa733b29-f8a7-5e7c-8d8a-3d0c85671351",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-5bc9a2ce-25a9-59d0-a3eb-ed5af5c39d36",
+    "label": "Evolución de los puestos de trabajo en Vigo entre 2009 y 2025",
+    "object": "Postos de traballo na cidade de Vigo",
+    "territory": "Vigo, Galicia, España",
+    "institution": null,
+    "referencePeriod": "comparación entre 2009 e o 23 de decembro de 2025",
+    "originMentionId": "mention-dff907f1-85a5-5500-8eb6-c07ef3e775c6",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-fd06d39d-37ce-5e49-b535-490172f1da51",
+    "label": "Indicadores de paro y afiliación a la Seguridad Social en Vigo en 2025",
+    "object": "Paro e afiliación á Seguridade Social en Vigo",
+    "territory": "Vigo, Galicia, España",
+    "institution": null,
+    "referencePeriod": "23 de decembro de 2025",
+    "originMentionId": "mention-e6aabbcc-11c5-5735-960a-d5b2e17a99f6",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-10a9c2da-6973-50a9-9aea-d77217a734ae",
+    "label": "Propuesta presupuestaria para una biblioteca pública en Teis en 2026",
+    "object": "Biblioteca pública de Teis",
+    "territory": "Teis, Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-a9156262-a490-5461-a017-25268785e498",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-aefba804-2d17-5246-9f69-de4f27801e58",
+    "label": "Propuesta de mejoras en los parques de A Guía y A Riouxa para 2026",
+    "object": "Parques da Guía e da Rioxa",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-73306fce-8943-5480-a531-15a5063030a7",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-32000ca2-10c8-5bf4-8455-f12e2f54738a",
+    "label": "Propuesta de mejora de la accesibilidad de la playa de A Punta para 2026",
+    "object": "Praia da Punta",
+    "territory": "Teis, Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-e018c021-b37b-58fb-9634-4d3538ae1f06",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-b2a8691c-068e-515b-9bac-c19535d5fd65",
+    "label": "Propuesta de acondicionamiento del Auditorio de Teis para 2026",
+    "object": "Auditorio de Teis",
+    "territory": "Teis, Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-c65a7abb-a31a-54f9-b227-fa995db3e07e",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-ba428b65-9af0-54dc-b067-bc7996fa1e2c",
+    "label": "Propuesta de mejoras en la Vía Verde de Vigo para 2026",
+    "object": "Vía Verde",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-3223fd6b-7e3d-57f6-8d14-1d3280e589e4",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-2e3e1c44-6532-5751-bb2a-ee8114a10043",
+    "label": "Alegaciones de la Asociación Vecinal de Teis al presupuesto municipal de Vigo de 2026",
+    "object": "Alegacións da Asociación Veciñal de Teis ao orzamento municipal de 2026",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-53cb3a11-8945-53b2-a0cb-7dc1665d64f5",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-25580dab-6727-57df-8fd6-effbe37f0043",
+    "label": "Subida de tasas e impuestos municipales de Vigo para 2026",
+    "object": "Taxas e impostos municipais de Vigo",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-8dcefc98-810f-5279-8dfe-869e1e00ff1a",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-12a36447-53ec-5270-b267-866c598b95c3",
+    "label": "Impuesto sobre Bienes Inmuebles de Vigo de 2026",
+    "object": "Imposto sobre Bens Inmobles de Vigo",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-042e1799-13d0-5150-9756-4581b8fd2bcf",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-0de9ac3d-b120-5d80-bb07-1c92f6390736",
+    "label": "Tasa municipal de recogida de residuos de Vigo de 2026",
+    "object": "Taxa municipal do lixo",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-43262681-4c59-5c17-9d1a-7c06b687c7e1",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-b2161d02-f17c-5124-accb-867f528492af",
+    "label": "Ejecución del presupuesto municipal de Vigo de 2024",
+    "object": "Orzamento municipal de Vigo de 2024",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2024",
+    "originMentionId": "mention-b59c6791-6d59-56f9-852e-4510eb1cd508",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-4d15c3fd-1f9e-5674-98cd-ad8edf248b94",
+    "label": "Ejecución del presupuesto municipal de Vigo en el tercer trimestre de 2025",
+    "object": "Orzamento municipal de Vigo de 2025",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "terceiro trimestre de 2025",
+    "originMentionId": "mention-cb863b51-ca5f-5389-9b72-4c1efa1e43e6",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-4eaf8634-d521-5a90-88da-d0f8a0465480",
+    "label": "Planificación de viviendas públicas de la Xunta de Galicia en Vigo",
+    "object": "Planificación de vivendas públicas da Xunta en Vigo",
+    "territory": "Vigo",
+    "institution": "Xunta de Galicia",
+    "referencePeriod": null,
+    "originMentionId": "mention-da8efd9c-56a8-565c-a3e8-84de45a7019c",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-89b073c5-f396-58b2-9e2e-e42ad48ff519",
+    "label": "Paquete de 39 enmiendas de un grupo municipal al presupuesto de Vigo de 2026",
+    "object": "Emendas ao orzamento municipal de Vigo de 2026",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-fe8bba22-3373-5f3e-9c06-ca11ce10ce70",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-55bc5bf2-8482-58ba-b9a5-4b6fb24114ff",
+    "label": "Política municipal de vivienda de Vigo durante los dieciocho años anteriores a 2026",
+    "object": "Política municipal de vivenda",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "dezaoito anos",
+    "originMentionId": "mention-403d3e32-b971-5db3-9813-f8734a6811b0",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-8e6c23e5-f9b2-537c-bd23-f782010d836f",
+    "label": "Mantenimiento municipal de los centros de educación primaria de Vigo",
+    "object": "Mantemento dos centros educativos de primaria",
+    "territory": "Vigo",
+    "institution": "Concello de Vigo",
+    "referencePeriod": null,
+    "originMentionId": "mention-39c1b1b1-c0a4-5ff3-bc28-c62953d68f37",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-afa0ed98-6a7a-51ac-aa02-307af4488087",
+    "label": "Traspaso de Cedro a la Xunta de Galicia",
+    "object": "Traspaso de Cedro",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Xunta de Galicia",
+    "referencePeriod": "hace unos días",
+    "originMentionId": "mention-e72fc681-27d5-51a5-b859-5e2daea98ebe",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-e509f159-76b8-55c5-a256-69c6c8d29851",
+    "label": "Subida de impuestos y crédito municipal de Ferrol",
+    "object": "Finanzas municipais de Ferrol",
+    "territory": "Ferrol, Galicia, España",
+    "institution": "Concello de Ferrol",
+    "referencePeriod": null,
+    "originMentionId": "mention-1e73f64c-9089-5a79-8bc5-882828738a82",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-8c2a3db3-7546-5b40-8ec0-606600aaeb80",
+    "label": "Deuda pública por habitante de la Xunta de Galicia",
+    "object": "Débeda pública por galego",
+    "territory": "Galicia, España",
+    "institution": "Xunta de Galicia",
+    "referencePeriod": null,
+    "originMentionId": "mention-12debab9-6175-5047-8d6c-a03b188edefc",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-7841e279-716b-598c-b8a2-0d46601efd14",
+    "label": "Subida de la tasa de recogida de residuos de Ponteareas",
+    "object": "Taxa do lixo",
+    "territory": "Ponteareas, Galicia, España",
+    "institution": "Concello de Ponteareas",
+    "referencePeriod": null,
+    "originMentionId": "mention-dcb09d05-1ee2-50bc-89cf-5e38c6c6af48",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-5d1870c8-f31c-52bd-a4a0-5800cbb753bc",
+    "label": "Fondos de la Xunta procedentes del impuesto sobre el depósito de residuos",
+    "object": "Fondos do imposto de depósito destinados a políticas de residuos",
+    "territory": "Galicia, España",
+    "institution": "Xunta de Galicia",
+    "referencePeriod": null,
+    "originMentionId": "mention-cd0dbb71-97bf-5ad7-962a-9c0dce12f4a0",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-53729451-8fda-571f-8379-4e5a9283e022",
+    "label": "Deuda y copago municipal de Sogama en 2025",
+    "object": "Financiamento e copagamento de Sogama",
+    "territory": "Galicia, España",
+    "institution": "Sogama",
+    "referencePeriod": "2025",
+    "originMentionId": "mention-ffd8be4f-d59c-50d7-bfa8-a9c3670654f2",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-dbc63f4a-5823-56fc-a1df-c4f7f6a48816",
+    "label": "Reforma del mercado de Teis",
+    "object": "Reforma do mercado de Teis",
+    "territory": "Teis, Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": null,
+    "originMentionId": "mention-ce6a3c8c-4551-5d3e-97e9-8b2502d05e58",
+    "reviewState": "proposed"
+  },
+  {
+    "id": "matter-033ba350-9a9c-5fde-8a66-72ab61583f15",
+    "label": "Voto particular del BNG al presupuesto del Concello de Vigo para 2026",
+    "object": "Voto particular do BNG",
+    "territory": "Vigo, Galicia, España",
+    "institution": "Concello de Vigo",
+    "referencePeriod": "2026",
+    "originMentionId": "mention-02428365-827b-5abe-aaeb-1d62e93e2f4f",
+    "reviewState": "proposed"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-09-11T19:44:27.235533+00:00",
+  "cachedStages": [
+    "block-01-extract",
+    "block-01-matters",
+    "block-02-context",
+    "block-02-extract",
+    "block-02-matters",
+    "block-03-extract",
+    "block-03-matters"
+  ],
+  "networkPostsAllowed": false,
+  "networkPostsAttempted": 0,
+  "originalReceiptsUnchanged": true,
+  "countsAfterFirstImport": {
+    "matters": 3,
+    "mentions": 5,
+    "claims": 56,
+    "occurrences": 56,
+    "citations": 110
+  },
+  "countsAfterSecondImport": {
+    "matters": 3,
+    "mentions": 5,
+    "claims": 56,
+    "occurrences": 56,
+    "citations": 110
+  },
+  "semanticDuplicateDetection": false,
+  "note": "Unique operation IDs prevent duplicate imports; repeated model claims within one response remain a separate quality problem."
+}

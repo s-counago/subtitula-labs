@@ -1,0 +1,159 @@
+{
+  "verifiedAt": "2026-09-23T12:51:42.984909+00:00",
+  "realCompletedEvaluations": 28,
+  "curatedInputsIdenticalToFrozenV2": true,
+  "originalJevInputsVerified": true,
+  "rawResponseAndEventHashesVerified": true,
+  "reportedUsageReconciled": true,
+  "unexpectedToolItems": 0,
+  "probabilitiesFabricated": false,
+  "evaluator": "Luna through explicitly authorized subscription, experiment only",
+  "inferenceCallsDuringVerification": 0,
+  "results": [
+    {
+      "jobId": "curated-R01",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-R02",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-R03",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-R04",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-C01",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-C02",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-C03",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-C04",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-C05",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-C06",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-C07",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F01",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F02",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F03",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F04",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F05",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F06",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F07",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F08",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F09",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F10",
+      "responseValid": true,
+      "nonliteralCitations": [
+        "D06"
+      ]
+    },
+    {
+      "jobId": "curated-F11",
+      "responseValid": true,
+      "nonliteralCitations": [
+        "D06"
+      ]
+    },
+    {
+      "jobId": "curated-F12",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "curated-F13",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "retrieved-R01",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "retrieved-R02",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "retrieved-R03",
+      "responseValid": true,
+      "nonliteralCitations": []
+    },
+    {
+      "jobId": "retrieved-R04",
+      "responseValid": true,
+      "nonliteralCitations": []
+    }
+  ],
+  "summarySha256": "c217b2f393bb1db34a80c272546d47811a426980ebeb681761d3f0cacf7f0ca1"
+}

@@ -1,0 +1,61 @@
+{
+  "experimentId": "vigo-2025-12-23-sol-medium-v1",
+  "evaluatedOn": "2026-09-12",
+  "reviewer": "asistente principal, revisión de significado asistida por preselección de segmentos",
+  "referenceSha256": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+  "basis": "transcript_only",
+  "rubric": "docs/evaluation-rubric.md, sin modificar",
+  "scope": "25 casos previos; no es precisión global ni una evaluación humana independiente de otro corpus",
+  "cases": [
+    {"goldId":"G01","status":"missed","claimReadingIds":[],"lossStage":"generation","notes":"No genera el ordinal de los 19 presupuestos consecutivos. No hay candidato rechazado equivalente."},
+    {"goldId":"G02","status":"faithful","claimReadingIds":["S004"],"notes":"Conserva el incremento de 700.000 euros de la bolsa de alquiler y el periodo presupuestario de 2026. No lo confunde con los 11 millones previos ni con el edificio de As Turáns."},
+    {"goldId":"G03","status":"faithful","claimReadingIds":["S006"],"notes":"Mantiene el 696,5 % de aumento, la política social y el periodo 2007–2026, con una cita literal del segmento correcto S0007."},
+    {"goldId":"G04","status":"faithful","claimReadingIds":["S007"],"notes":"Recupera la nueva dotación de 3.325.000 euros para las becas de inglés en el extranjero y 2026. No convierte la nueva dotación en el importe del incremento."},
+    {"goldId":"G05","status":"faithful","claimReadingIds":["S012"],"notes":"Conserva el incremento del 7 % destinado a cultura y el periodo 2026, sin inventar un importe absoluto."},
+    {"goldId":"G06","status":"faithful","claimReadingIds":["S063"],"notes":"Conserva ambos extremos del cambio del copago a Sogama, de 86 a 104,50 euros por tonelada, y el año 2025."},
+    {"goldId":"G07","status":"faithful","claimReadingIds":["S015"],"notes":"Recupera en un registro la comparación con el proyecto inicialmente aprobado, incluida la excepción del par de correcciones de errores materiales. Sitúa el acto en el 23/12/2025."},
+    {"goldId":"G08","status":"faithful","claimReadingIds":["S016"],"notes":"Recupera el rechazo de las 198 enmiendas del BNG al proyecto municipal, separado de la valoración política. El periodo identifica la sesión del 23/12/2025 en la que se formula el rechazo, coherente con neste pleno del segmento completo; se acepta esta referencia al acto sin exigir que repita literalmente tramitación del presupuesto de 2026."},
+    {"goldId":"G09","status":"faithful","claimReadingIds":["S018"],"notes":"Mantiene el recorte del 50 % en las ayudas sociales municipales y los últimos cinco años, anclados a la sesión. Separa el recorte de la propuesta de duplicar las ayudas."},
+    {"goldId":"G10","status":"partial","claimReadingIds":["S020"],"notes":"Conserva la propuesta de elevar el Plan Municipal de Empleo hasta 3 millones en 2026, pero no traslada a statement ni a conditions que el hablante afirma que fue rechazada. Din non aparece solo en la cita. Se aplica el mismo criterio que a L010 en low."},
+    {"goldId":"G11","status":"partial","claimReadingIds":["S022"],"notes":"Recupera la propuesta de casi 10 millones adicionales para vivienda y 2026, manteniendo aproximación y carácter adicional. Omite en la afirmación normalizada que el hablante dice que la propuesta fue rechazada; conservarlo solo en la cita no completa la condición."},
+    {"goldId":"G12","status":"partial","claimReadingIds":["S028"],"notes":"Recupera el compromiso del BNG de defender las alegaciones de Teis mediante un voto particular. Asigna 2026 al periodo del compromiso, confundiendo el año presupuestario con la sesión del 23/12/2025, como X033."},
+    {"goldId":"G13","status":"faithful","claimReadingIds":["S032"],"notes":"Mantiene hasta el 50 %, según los casos y el periodo presupuestario 2026. No presenta una subida uniforme. El periodo se completa en la extracción final tras la ronda de contexto."},
+    {"goldId":"G14","status":"faithful","claimReadingIds":["S034"],"notes":"Recupera los 100 millones sin ejecutar en 2024, sin añadir partidas ni método contable."},
+    {"goldId":"G15","status":"faithful","claimReadingIds":["S035"],"notes":"Mantiene la ejecución global por debajo del 40 % en el tercer trimestre de 2025, separada de la ejecución de inversiones."},
+    {"goldId":"G16","status":"faithful","claimReadingIds":["S039"],"notes":"Conserva el importe global de 72,3 millones y el periodo del presupuesto de 2026, con la autocorrección 72 a 72,3 en la cita. El número de 39 enmiendas queda separado en S038, a diferencia de los dos pases Luna."},
+    {"goldId":"G17","status":"faithful","claimReadingIds":["S040"],"notes":"Mantiene que las enmiendas proponen elevar los recursos para vivienda hasta 26 millones y el periodo 2026. No lo transforma en gasto aprobado ni ejecutado."},
+    {"goldId":"G18","status":"partial","claimReadingIds":["S051"],"notes":"Recupera el anuncio de voto en contra con modalidad de compromiso. El periodo 2026 corresponde al presupuesto, pero no fecha la votación anunciada para la sesión de diciembre de 2025; mismo criterio que X063."},
+    {"goldId":"G19","status":"missed","claimReadingIds":[],"lossStage":"generation","notes":"No genera la presencia de cuatro concejales en la bancada del PP. S052 comparte segmento, pero trata del traspaso de Cedro y no sustituye este caso."},
+    {"goldId":"G20","status":"faithful","claimReadingIds":["S055"],"notes":"Recupera la comparación de los impuestos más bajos de Galicia para el presupuesto de 2026, desde speaker_4 en el segmento esperado. No la limita al IBI ni la verifica externamente."},
+    {"goldId":"G21","status":"partial","claimReadingIds":["S053"],"notes":"El texto conserva hasta 16 millones, la exención, la condición de no poder pagar, el año 2026 y la unidad no explícita. Sin embargo, la modalidad estructurada es proposal: la referencia exige asserted_fact porque el hablante presenta una medida contenida en la política presupuestaria. Se mantiene la distinción entre fidelidad del texto y clasificación de modalidad."},
+    {"goldId":"G22","status":"missed","claimReadingIds":[],"lossStage":"generation","notes":"No genera el anuncio previo de aprobación con 19 votos de 27 concejales y el 70 %. S069 es el resultado formal posterior y no sustituye esta aparición."},
+    {"goldId":"G23","status":"faithful","claimReadingIds":["S054"],"notes":"Recupera el presupuesto de 2026 sin deuda desde speaker_4 en S0045. No usa para este caso la otra aparición de deuda cero en S002."},
+    {"goldId":"G24","status":"partial","claimReadingIds":["S068"],"notes":"Conserva el rechazo del voto particular y el resultado 7/19/0, pero escribe 2026-12-23 como periodo. La fecha correcta de la votación es 2025-12-23. Es el mismo tipo de fallo temporal penalizado en low y xhigh, aquí con una fecha completa incorrecta."},
+    {"goldId":"G25","status":"faithful","claimReadingIds":["S069"],"notes":"Recupera la aprobación de los presupuestos para 2026 y los votos 19/7/0. Igual que en low y xhigh, 2026 identifica explícitamente el objeto presupuestario y la aparición conserva la sesión de diciembre de 2025."}
+  ],
+  "negativeControls": [
+    {"goldId":"N01","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No extrae la cita de Besteiro ni la presenta como una observación directa sobre este pleno municipal."},
+    {"goldId":"N02","status":"prohibited_inference_not_observed","claimReadingIds":[],"forbiddenNumericNormalizationObserved":false,"notes":"Solicita contexto para desa gama en S0029. Tras recibirlo, anota que sigue sin un referente identificable y omite el importe de 1,3 millones. No normaliza noventa e catro, noventa e cinco ni asigna una entidad concreta."},
+    {"goldId":"N03","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No extrae el pasaje de Concello da Torre ni corrige silenciosamente su entidad."},
+    {"goldId":"N04","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No completa la frase truncada del año siguiente ni fabrica un compromiso concreto a partir de ella."},
+    {"goldId":"N05","status":"prohibited_inference_not_observed","claimReadingIds":["S056","S057"],"notes":"No resuelve la identidad o cargo de la persona mencionada con creo que. S056 y S057 usan S0054 como contexto geográfico para otras afirmaciones de S0055 sobre Ferrol, sin eliminar la incertidumbre de identidad del control."},
+    {"goldId":"N06","status":"prohibited_inference_not_observed","claimReadingIds":["S013"],"notes":"Extrae el paro cercano al 4 %, conserva la cita literal con dun pago, dun paro y señala la autocorrección como incertidumbre. No crea un indicador de pago ni añade una definición estadística."}
+  ],
+  "observedErrors": [
+    {"id":"SE01","claimReadingIds":["S020","S022"],"notes":"Omite en las propuestas normalizadas la condición de rechazo atribuida al gobierno; esa información sobrevive solo en las citas. Son G10 y G11."},
+    {"id":"SE02","claimReadingIds":["S028","S051","S068"],"notes":"Persiste la confusión entre año presupuestario y fecha del acto: los dos compromisos llevan 2026 y la votación del voto particular recibe la fecha incorrecta 2026-12-23."},
+    {"id":"SE03","claimReadingIds":["S053"],"notes":"Clasifica como propuesta la afirmación sobre las exenciones fiscales contenidas en la política presupuestaria, aunque conserva sus condiciones y cifra en el texto."},
+    {"id":"SE04","claimReadingIds":["S029","S030","S031"],"notes":"Limitación de la fuente: conserva speaker_2 en S0027–S0028, pese al anuncio anterior del turno del Grupo Popular. Esa etiqueta no permite atribuir estas afirmaciones al grupo de la intervención anterior."},
+    {"id":"SE05","claimReadingIds":[],"notes":"No recupera tres casos positivos: el ordinal de los 19 presupuestos, los cuatro concejales presentes y el anuncio de aprobación con 19/27 votos y el 70 %. Se pierden en generación, sin intervención de los validadores."},
+    {"id":"SE06","claimReadingIds":["S002"],"notes":"Amplía el sujeto de la frase presupuestaria con deuda cero al Concello de Vigo en general y le asigna la fecha de la sesión. La cita no concreta el perímetro contable; esta normalización es más amplia que el presupuesto descrito en el segmento."}
+  ],
+  "methodNotes": [
+    "Misma rúbrica y referencia que GLM y Luna. Las condiciones y periodos pueden quedar expresados en statement o sus campos específicos; una condición solo en quote no completa la normalización.",
+    "Se aceptan formulaciones temporales equivalentes apoyadas por el contexto, sin exigir que coincidan literalmente con la referencia; se distinguen el presupuesto de 2026 y los actos de diciembre de 2025.",
+    "Las puntuaciones corresponden a los registros guardados. La ronda opcional de contexto sustituye la extracción inicial del segundo bloque, como ya establece v1; se conserva y cuenta el consumo de ambas.",
+    "Fiel mide cada afirmación frente a la referencia, no certifica agrupación de asuntos, corrección del ASR ni veracidad externa.",
+    "La revisión de controles busca solo la inferencia prohibida. Evitarla por omisión no demuestra cobertura ni capacidad general de resolver ambigüedades.",
+    "La referencia fue seleccionada inicialmente por Sol y revisada por el asistente principal antes de los ensayos. No es una anotación humana independiente ni exhaustiva.",
+    "Una ejecución completada por configuración no mide variación entre muestras. No se hicieron repeticiones para seleccionar el mejor resultado."
+  ]
+}

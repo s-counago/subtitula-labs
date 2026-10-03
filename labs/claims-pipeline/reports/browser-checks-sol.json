@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-11T23:27:14.383889+00:00",
+  "url": "http://127.0.0.1:8767/reports/explorador-sol.html",
+  "result": "passed",
+  "cards": 69,
+  "referenceCases": 25,
+  "visualHeaderAndClaimCard": "checked",
+  "searchSogamaVisibleRecords": 2,
+  "referenceLinkS068ClearsSearch": true,
+  "visibleRecordsAfterReferenceLink": 69,
+  "incorrectDateAndReviewNoteVisible": true,
+  "allInternalLinksResolve": true,
+  "audioPlayback": "not repeated; same preserved source as earlier verified explorers",
+  "audioLeftPaused": true,
+  "sourceDataUnchanged": true
+}

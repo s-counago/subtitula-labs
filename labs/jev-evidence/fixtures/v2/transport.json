@@ -1,0 +1,56 @@
+{
+  "synthetic": true,
+  "providerResults": false,
+  "cases": [
+    {
+      "id": "T01",
+      "event": "http_401",
+      "action": "stop_no_retry"
+    },
+    {
+      "id": "T02",
+      "event": "http_429",
+      "action": "stop_no_retry"
+    },
+    {
+      "id": "T03",
+      "event": "http_529",
+      "action": "stop_no_retry"
+    },
+    {
+      "id": "T04",
+      "event": "timeout",
+      "action": "mark_uncertain_stop_no_retry"
+    },
+    {
+      "id": "T05",
+      "event": "invalid_json",
+      "action": "save_raw_reject"
+    },
+    {
+      "id": "T06",
+      "event": "missing_answer",
+      "action": "save_raw_reject"
+    },
+    {
+      "id": "T07",
+      "event": "invented_choice",
+      "action": "save_raw_reject"
+    },
+    {
+      "id": "T08",
+      "event": "invalid_probability",
+      "action": "save_raw_reject"
+    },
+    {
+      "id": "T09",
+      "event": "model_drift",
+      "action": "save_raw_reject"
+    },
+    {
+      "id": "T10",
+      "event": "interrupted_receipt",
+      "action": "refuse_automatic_resend"
+    }
+  ]
+}

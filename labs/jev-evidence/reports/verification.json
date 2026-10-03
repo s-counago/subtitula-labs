@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-09-22T06:52:55.935761+00:00",
+  "localTestsPassed": 8,
+  "realInferenceCalls": 0,
+  "realResponses": 0,
+  "cases": 11,
+  "sources": 7,
+  "sourceVisualChecks": [
+    "D01 PDF p3",
+    "D02 PDF p10",
+    "D03 PDF p75"
+  ],
+  "preparedRequests": {
+    "inputs/requests/C01.json": "564aa1c8792eb9a881d187d6d2b47f59ee414d628be547d90c469f8e4f8e20ac",
+    "inputs/requests/C02.json": "9572751ab4523d980402513f5787acf6fd89d7209325f93c44e938e4fdd89d6d",
+    "inputs/requests/C03.json": "0c8024805b68bf75a3fccd6d3d7a22db7168b6b49eeafd770c0a37ab2aaa9f06",
+    "inputs/requests/C04.json": "3b95f2bc2472d0e50703ebfe5b96219e41f081d4dacec512e968703e85425767",
+    "inputs/requests/C05.json": "da0074a2ef1a8d1034967b8aadf388cad8da8e37e75ef77acaf5db198185d5e9",
+    "inputs/requests/C06.json": "ef0d2b23ae823cde742bb27f98b351d0bfbff246620f80b606ad2d4c827d4ca0",
+    "inputs/requests/C07.json": "6689d280f882e86499557d176e32a9afcf515f613f28ef7e1342dfc784db6149",
+    "inputs/requests/R01.json": "f7e15bb3d2d0bd498a8cdd4958f9a5ceb4d0025abbdda9710a17f508b1a9da07",
+    "inputs/requests/R02.json": "5ab1157df83aa8119484c1d7888c93333cb43c3e0a93ab80f1c0d229418dd814",
+    "inputs/requests/R03.json": "7da71718f3c251999234cbf2ffe2f5dc52eb8d05e5d2110405f09ce95a497d03",
+    "inputs/requests/R04.json": "fb373e95d2c73474de214a66688bf9140a3247ba172b54f8c15a346e931eccdb"
+  },
+  "runnerSha256": "332667f9c82ca0b8f5349774a612fa8778443a4109505a8210f05359f2a8edde",
+  "checks": [
+    "frozen inputs and original extraction unchanged",
+    "reference excluded from provider payload",
+    "empty evidence remains empty",
+    "unknown source rejected",
+    "malformed provider response rejected",
+    "offline replay and tampering detection",
+    "no duplicate requests on completed rerun",
+    "conditional exact VAT calculation"
+  ],
+  "inferencePreflight": "missing TYPESAFE_API_KEY; stopped before HTTP request"
+}

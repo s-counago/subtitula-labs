@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "startedAt": "2026-09-23T12:45:18.733597+00:00",
+  "requestSha256": "9dab74a1eaa81e0b82c1ed4244176f9df9b556d80f06b4110885d7e800c6fff1",
+  "modelRequested": "gpt-5.6-luna",
+  "reasoningEffort": "xhigh",
+  "billing": "chatgpt_subscription_limits",
+  "actualApiChargeUSD": null,
+  "attempted": true,
+  "seconds": 17.050304,
+  "usage": {
+    "input_tokens": 3581,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 683,
+    "reasoning_output_tokens": 478
+  },
+  "exitCode": 0,
+  "toolItemCount": 0,
+  "runtimeWarnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in C:\\Users\\Sejio\\.codex\\config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+    "Exceeded skills context budget. All skill descriptions were removed and 20 additional skills were not included in the model-visible skills list."
+  ],
+  "responseSha256": "f830e71d4a703b974f02ce3ae7f53121a9b9aaaebfc64595a3c11258bf3036f7",
+  "eventsSha256": "004459d70761d1015eb7d527904b38b991db5dacc50a5216916dd0cb1d0098d1",
+  "finishedAt": "2026-09-23T12:45:35.837691+00:00",
+  "attemptSeconds": 17.09925
+}

@@ -1,0 +1,63 @@
+{
+  "experimentId": "vigo-2025-12-23-luna-xhigh-v1b",
+  "evaluatedOn": "2026-09-12",
+  "reviewer": "asistente principal, revisión de significado asistida por preselección de segmentos",
+  "referenceSha256": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+  "basis": "transcript_only",
+  "rubric": "docs/evaluation-rubric.md, sin modificar",
+  "scope": "25 casos previos; no es precisión global ni una evaluación independiente de otro corpus",
+  "cases": [
+    {"goldId":"G01","status":"partial","claimReadingIds":["X002"],"notes":"Recupera el ordinal de los 19 presupuestos consecutivos y el gobierno municipal. Deja referencePeriod vacío y no expresa la fecha en statement, aunque el 23/12/2025 aparece explícitamente en la cita; falta trasladar ese periodo a la afirmación normalizada."},
+    {"goldId":"G02","status":"faithful","claimReadingIds":["X008"],"notes":"Conserva el incremento de 700.000 euros de la bolsa de alquiler, el presupuesto de 2026 y su carácter presupuestario. No lo confunde con el edificio de As Turáns ni con los 11 millones previos."},
+    {"goldId":"G03","status":"missed","claimReadingIds":[],"lossStage":"validation","rejectedCandidate":{"block":"block-01","candidateIndex":10},"notes":"El modelo generó el 696,5 % y el periodo 2007–2026, pero citó S0006: la frase pertenece a S0007. El validador rechazó el candidato por quote_not_literal respecto del segmento indicado. No hay una aparición guardada equivalente."},
+    {"goldId":"G04","status":"faithful","claimReadingIds":["X010"],"notes":"Recupera la nueva dotación de 3.325.000 euros para las becas de inglés en el extranjero y el periodo 2026, sin convertirla en el importe del incremento."},
+    {"goldId":"G05","status":"faithful","claimReadingIds":["X022"],"notes":"Mantiene la subida del 7 % para cultura y el presupuesto de 2026, separada de las otras actuaciones culturales."},
+    {"goldId":"G06","status":"faithful","claimReadingIds":["X083"],"notes":"Recupera el cambio del copago a Sogama de 86 a 104,50 euros por tonelada y el año 2025, con ambos extremos y la unidad."},
+    {"goldId":"G07","status":"partial","claimReadingIds":["X029","X031"],"notes":"Recupera en dos registros el mismo proyecto y las correcciones de errores materiales respecto de la aprobación inicial. Asigna 2026 al periodo de esa comparación, que corresponde a la aprobación definitiva de diciembre de 2025; además X029 aislado no contiene la excepción de las correcciones."},
+    {"goldId":"G08","status":"faithful","claimReadingIds":["X032"],"notes":"Conserva las 198 negativas a las enmiendas del BNG y su relación con el presupuesto de 2026. Separa la cifra de la valoración política y deja constancia de la formulación fragmentaria del ASR."},
+    {"goldId":"G09","status":"missed","claimReadingIds":[],"lossStage":"validation","rejectedCandidate":{"block":"block-01","candidateIndex":38},"notes":"El modelo generó el recorte del 50 % en los últimos cinco años, pero lo enlazó a axudas_sociais_vigo, una clave no declarada en matters. El programa lo rechazó por unknown_matter_key."},
+    {"goldId":"G10","status":"missed","claimReadingIds":[],"lossStage":"validation","rejectedCandidate":{"block":"block-01","candidateIndex":40},"notes":"Generó la propuesta de elevar el plan de empleo a 3 millones, pero la clave plan_emprego_vigo no estaba declarada y fue rechazada. Ese candidato además omitía el rechazo atribuido al gobierno y el periodo; no se cuenta como fiel antes de la validación."},
+    {"goldId":"G11","status":"missed","claimReadingIds":[],"lossStage":"generation","notes":"No genera la propuesta de casi 10 millones adicionales para vivienda. No hay candidato rechazado equivalente; X051 corresponde a la propuesta distinta de 26 millones de otra intervención."},
+    {"goldId":"G12","status":"partial","claimReadingIds":["X033"],"notes":"Recupera al BNG, la intención de defender las alegaciones de Teis mediante voto particular y la modalidad de compromiso. Asigna 2026 al periodo del compromiso, en lugar de la sesión del 23/12/2025."},
+    {"goldId":"G13","status":"partial","claimReadingIds":["X043"],"notes":"Mantiene hasta el 50 % y según los casos, sin afirmar una subida uniforme. Como en low, deja sin resolver el periodo presupuestario de 2026."},
+    {"goldId":"G14","status":"faithful","claimReadingIds":["X044"],"notes":"Mantiene los 100 millones sin ejecutar en 2024 y no inventa desglose ni método contable."},
+    {"goldId":"G15","status":"faithful","claimReadingIds":["X045"],"notes":"Recupera la ejecución global por debajo del 40 % en el tercer trimestre de 2025, sin confundirla con la ejecución de inversiones."},
+    {"goldId":"G16","status":"partial","claimReadingIds":["X050"],"notes":"Conserva la autocorrección a 72,3 millones en la cita, pero sigue uniendo número de enmiendas e importe en property y valueText. Se aplica el mismo criterio de atomicidad que a L019 en low."},
+    {"goldId":"G17","status":"faithful","claimReadingIds":["X051"],"notes":"Recupera la propuesta de elevar vivienda hasta 26 millones en el presupuesto de 2026. Conserva su carácter propuesto, sin presentarlo como gasto aprobado o ejecutado."},
+    {"goldId":"G18","status":"partial","claimReadingIds":["X063"],"notes":"Recupera el anuncio del grupo del orador de votar en contra y la modalidad de compromiso. El periodo 2026 confunde el año presupuestario con la votación anunciada para el 23/12/2025."},
+    {"goldId":"G19","status":"missed","claimReadingIds":[],"lossStage":"generation","notes":"No genera la afirmación de los cuatro concejales presentes en la bancada del PP. X064 y X065 proceden del mismo segmento, pero tratan del traspaso de Cedro y no equivalen a este caso."},
+    {"goldId":"G20","status":"faithful","claimReadingIds":["X070"],"notes":"Recupera la comparación de los impuestos más bajos de Galicia en el presupuesto de 2026, desde la voz y aparición esperadas. No la restringe al IBI ni la presenta como verificada externamente."},
+    {"goldId":"G21","status":"faithful","claimReadingIds":["X067"],"notes":"Mantiene hasta 16 millones, la exención de impuestos, la condición de no poder pagar y el periodo 2026, sin imponer una unidad ausente de la frase."},
+    {"goldId":"G22","status":"missed","claimReadingIds":[],"lossStage":"generation","notes":"No genera el anuncio previo de 19 votos entre 27 concejales y el 70 %. X089 es el resultado formal posterior y no sustituye esta aparición."},
+    {"goldId":"G23","status":"faithful","claimReadingIds":["X069"],"notes":"Recupera la presentación del presupuesto de 2026 sin deuda desde speaker_4 en S0045. X004 es otra aparición; no se usa para sustituir este caso."},
+    {"goldId":"G24","status":"partial","claimReadingIds":["X088"],"notes":"Mantiene el rechazo del voto particular y 7/19/0, pero asigna 2026 al periodo de la votación celebrada en diciembre de 2025. Se aplica el mismo criterio que a L023 en low."},
+    {"goldId":"G25","status":"faithful","claimReadingIds":["X089"],"notes":"Recupera la aprobación del presupuesto para 2026 y el resultado 19/7/0. Igual que en low, 2026 identifica expresamente el objeto presupuestario y la aparición conserva la sesión de diciembre de 2025."}
+  ],
+  "negativeControls": [
+    {"goldId":"N01","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No guarda la cita de Besteiro como una observación directa sobre este pleno. Los candidatos 33–35 del primer bloque atribuían correctamente el discurso referido, pero se rechazaron por una clave de asunto no declarada. La ausencia guardada no se presenta como un acierto de cobertura."},
+    {"goldId":"N02","status":"prohibited_inference_not_observed","claimReadingIds":[],"forbiddenNumericNormalizationObserved":false,"notes":"Omite el pasaje de 1,3 millones, desa gama y noventa e catro, noventa e cinco. No normaliza la secuencia ambigua ni reproduce el destinatario sin apoyo observado en L015 de low; la omisión no acredita capacidad general de resolver esa ambigüedad."},
+    {"goldId":"N03","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No identifica ni corrige silenciosamente Concello da Torre. No extrae ese pasaje."},
+    {"goldId":"N04","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No completa la frase cortada del año siguiente ni inventa un compromiso concreto a partir de ella."},
+    {"goldId":"N05","status":"prohibited_inference_not_observed","claimReadingIds":["X074","X075"],"notes":"No identifica a la persona ni convierte creo que en certeza sobre su cargo. X074 y X075 extraen otras afirmaciones sobre impuestos y crédito en Ferrol; no resuelven la identidad incierta del control."},
+    {"goldId":"N06","status":"prohibited_inference_not_observed","claimReadingIds":["X028"],"notes":"Extrae el paro cercano al 4 %, conserva una cita literal continua y anota la secuencia ASR pago, paro como incertidumbre. No crea un indicador de pago ni añade una definición estadística del porcentaje."}
+  ],
+  "observedErrors": [
+    {"id":"XE01","claimReadingIds":["X002","X029","X030","X031","X033","X063","X088"],"notes":"El tratamiento temporal sigue fallando: algunos actos reciben el año del presupuesto y el ordinal del presupuesto queda sin periodo pese a tener fecha explícita en la cita. La fecha de aparición y el periodo de la afirmación necesitan distinguirse."},
+    {"id":"XE02","claimReadingIds":["X043"],"notes":"La subida máxima del lixo mantiene porcentaje y condición, pero omite el periodo de referencia, como en low."},
+    {"id":"XE03","claimReadingIds":["X050"],"notes":"Une cantidad de enmiendas e importe global en una sola propiedad y valor; conserva la cifra autocorregida, pero no la atomicidad."},
+    {"id":"XE04","claimReadingIds":[],"notes":"Ocho candidatos del primer bloque se rechazan: siete incluyen una clave de asunto no declarada y dos una cita no literal respecto de sus segmentos; un candidato acumula ambos motivos. G03, G09 y G10 se pierden aquí. El bloque alcanza los máximos de 15 asuntos y 40 afirmaciones, sin que ello demuestre por sí solo la causa de las referencias inválidas."},
+    {"id":"XE05","claimReadingIds":["X040","X041","X042"],"notes":"Limitación heredada de la transcripción: S0027–S0028 siguen etiquetados como speaker_2 pese al anuncio de turno del Grupo Popular. No debe usarse esa etiqueta para atribuir el contenido al grupo anterior."},
+    {"id":"XE06","claimReadingIds":["X076","X080"],"notes":"Marca como reported_statement afirmaciones propias del orador sobre deuda de la Xunta y uso de fondos para Sogama. Las citas no presentan esas frases como palabras de otra persona; añadir según el orador no basta para esa modalidad estructurada."},
+    {"id":"XE07","claimReadingIds":["X087"],"notes":"La propiedad expresa sentido de la votación, pero valueText contiene setenta e dous millóns en lugar de en contra. El texto conserva ambos datos, mientras que la pareja estructurada propiedad–valor resulta incoherente."},
+    {"id":"XE08","claimReadingIds":[],"notes":"El segundo bloque genera dos afirmaciones de S0041, que solo era contexto vecino; el programa las rechaza por pertenecer a otro bloque. El tercer bloque sí las genera en su ámbito correcto, evitando duplicarlas en los registros guardados."}
+  ],
+  "methodNotes": [
+    "Las condiciones y periodos pueden expresarse fielmente en statement; no se exige duplicarlos literalmente en los campos separados. Una fecha solo en la cita, con periodo vacío y ausente del enunciado, no completa la normalización del caso G01.",
+    "Se aceptan formulaciones equivalentes de cifra y periodo, con el mismo criterio que en low. Los años que identifican presupuestos se distinguen de las fechas de actos y anuncios de voto.",
+    "No se sustituye una aparición de otra voz o segmento por la esperada, aunque comparta tema.",
+    "Las omisiones se puntúan sobre los candidatos guardados, igual que en las ejecuciones anteriores. Se conserva la causa de pérdida y no se corrigen candidatos para elevar la puntuación.",
+    "Fiel mide la afirmación frente a la referencia, no certifica agrupación de asuntos, corrección del ASR ni veracidad externa.",
+    "Los negativos se revisan con su prohibición original. Su omisión puede evitar el error, pero no prueba comprensión de la ambigüedad.",
+    "Una ejecución completada por esfuerzo no permite separar todos los efectos del razonamiento de la variación entre muestras. No se hicieron nuevos intentos para escoger el mejor resultado."
+  ]
+}

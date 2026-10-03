@@ -1,0 +1,28 @@
+{
+  "stage": "probe",
+  "finishedAt": "2026-09-11T21:34:11.676800+00:00",
+  "elapsedSeconds": 4.718,
+  "state": "completed",
+  "exitCode": 0,
+  "reportedCodexUsage": {
+    "input_tokens": 2483,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 60,
+    "reasoning_output_tokens": 33
+  },
+  "usage": {
+    "prompt_tokens": 2483,
+    "completion_tokens": 60,
+    "total_tokens": 2543
+  },
+  "toolItemCount": 0,
+  "responseSha256": "75a9ac0425655c4c70e60e42634e0586dcd13c8cba9998721adb8cc5387c9e10",
+  "eventsSha256": "fb6d6d8cfece3e486e14eeec1849d9bfb37ed29e25cd51a4016be4ff33b7306a",
+  "billing": "chatgpt_subscription_limits",
+  "runtimeWarnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in C:\\Users\\Sejio\\.codex\\config.toml.",
+    "Exceeded skills context budget. All skill descriptions were removed and 16 additional skills were not included in the model-visible skills list."
+  ],
+  "startedAt": "2026-09-11T21:34:06.936311+00:00"
+}

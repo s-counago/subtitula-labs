@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-09-11",
+  "result": "passed",
+  "url": "http://127.0.0.1:8767/reports/explorador-luna.html",
+  "checks": [
+    "Vista inicial: Luna, 28 registros, 12 asuntos, acceso por suscripción y 9/5/11/0 en los casos de referencia.",
+    "Búsqueda 1,3: solo L015, con nota visible del error de interpretación y cita original.",
+    "Enlace L004 desde la tabla: abre la afirmación y restablece la vista de los 28 registros.",
+    "Revisión visual de distribución, controles y nota de auditoría."
+  ],
+  "audio": "Mismo archivo y mecanismo de reproducción ya verificados; no se vuelve a escuchar para evaluar el contenido."
+}

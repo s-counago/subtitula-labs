@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-09-11T21:10:27.726471+00:00",
+  "result": "passed",
+  "initialExtractionPayloadsEqualToGlm": [
+    "block-01-extract",
+    "block-02-extract",
+    "block-03-extract"
+  ],
+  "unchangedBaselineAndReference": true,
+  "cachedResponsesReplayed": 6,
+  "newModelCalls": 0,
+  "databaseCountsAfterFirstImport": {
+    "matters": 12,
+    "mentions": 13,
+    "claims": 28,
+    "occurrences": 28,
+    "citations": 29
+  },
+  "databaseCountsAfterSecondImport": {
+    "matters": 12,
+    "mentions": 13,
+    "claims": 28,
+    "occurrences": 28,
+    "citations": 29
+  },
+  "unexpectedToolItems": 0,
+  "evaluationCounts": {
+    "missed": 11,
+    "faithful": 9,
+    "partial": 5
+  },
+  "exactDuplicateRecords": 0
+}

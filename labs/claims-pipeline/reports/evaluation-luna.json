@@ -1,0 +1,58 @@
+{
+  "experimentId": "vigo-2025-12-23-luna-v1",
+  "evaluatedOn": "2026-09-11",
+  "reviewer": "asistente principal, revisión de significado asistida por preselección de segmentos",
+  "referenceSha256": "cb350871140fed8212d67bd94b7cc36798b556a97c7845951d567f23fd55af62",
+  "basis": "transcript_only",
+  "rubric": "docs/evaluation-rubric.md, sin modificar",
+  "scope": "25 casos previos; no es precisión global ni una evaluación independiente de otro corpus",
+  "cases": [
+    {"goldId":"G01","status":"missed","claimReadingIds":[],"notes":"No recupera el ordinal de los 19 presupuestos consecutivos. No hay candidato rechazado que lo contenga."},
+    {"goldId":"G02","status":"faithful","claimReadingIds":["L004"],"notes":"Mantiene el incremento de 700.000 euros, la bolsa de alquiler, el presupuesto de 2026 y la modalidad; no lo limita a As Turáns ni lo confunde con los 11 millones."},
+    {"goldId":"G03","status":"faithful","claimReadingIds":["L005"],"notes":"Recupera el 696,5 %, la política social y todo el periodo 2007–2026, con cita literal y modalidad correcta."},
+    {"goldId":"G04","status":"faithful","claimReadingIds":["L006"],"notes":"Mantiene 3.325.000 euros como nueva dotación de las becas de inglés para estudiar en el extranjero, no como importe del incremento."},
+    {"goldId":"G05","status":"missed","claimReadingIds":[],"notes":"No recupera el incremento del 7 % en cultura; no se perdió durante la validación."},
+    {"goldId":"G06","status":"missed","claimReadingIds":[],"notes":"No recupera el copago a Sogama de 86 a 104,50 euros por tonelada en 2025, tampoco en la repetición de S0057."},
+    {"goldId":"G07","status":"partial","claimReadingIds":["L009"],"notes":"Conserva el proyecto y el par de correcciones, pero su redacción las une a la aprobación inicial y no expresa bien la comparación entre el proyecto actual y el aprobado inicialmente. Además reúne aprobación, apoyo de partido y cambios en un registro."},
+    {"goldId":"G08","status":"missed","claimReadingIds":[],"notes":"No recupera las 198 enmiendas del BNG. El rechazo de otro candidato sobre 39 enmiendas de speaker_3 corresponde a otro grupo y no cuenta para este caso."},
+    {"goldId":"G09","status":"faithful","claimReadingIds":["L011"],"notes":"Recupera el recorte del 50 % en ayudas sociales durante los últimos cinco años, separado de la propuesta de duplicarlas."},
+    {"goldId":"G10","status":"partial","claimReadingIds":["L010"],"notes":"Identifica al BNG como proponente y conserva la propuesta de elevar el plan a 3 millones. Omite que se afirma que fue rechazada y deja el periodo sin resolver."},
+    {"goldId":"G11","status":"missed","claimReadingIds":[],"notes":"No recupera la propuesta de casi 10 millones adicionales para vivienda. Evita la inversión de actor observada en GLM por omisión, no por recuperar bien este caso."},
+    {"goldId":"G12","status":"missed","claimReadingIds":[],"notes":"L021 recoge una propuesta de las alegaciones de Teis, pero no el compromiso del BNG de defenderlas mediante voto particular; no equivale al caso esperado."},
+    {"goldId":"G13","status":"partial","claimReadingIds":["L014"],"notes":"Mantiene hasta el 50 % y según los casos, con modalidad correcta, pero no enlaza la subida al periodo presupuestario de 2026 que esperaba la referencia."},
+    {"goldId":"G14","status":"faithful","claimReadingIds":["L016"],"notes":"Recupera los 100 millones sin ejecutar en 2024 sin añadir partidas ni método de cálculo."},
+    {"goldId":"G15","status":"faithful","claimReadingIds":["L017"],"notes":"Mantiene la ejecución global por debajo del 40 % y el corte del tercer trimestre de 2025."},
+    {"goldId":"G16","status":"partial","claimReadingIds":["L019"],"notes":"Conserva la autocorrección a 72,3 millones en la cita, pero guarda conjuntamente el número de 39 enmiendas y su importe en propiedad y valor. La rúbrica exige separar afirmaciones atómicas."},
+    {"goldId":"G17","status":"faithful","claimReadingIds":["L020"],"notes":"Recupera la propuesta de elevar vivienda hasta 26 millones, conserva el carácter propuesto y el periodo 2026; no lo presenta como gasto aprobado."},
+    {"goldId":"G18","status":"missed","claimReadingIds":[],"notes":"No recupera el anuncio de voto en contra de speaker_3; no hay candidato rechazado equivalente."},
+    {"goldId":"G19","status":"missed","claimReadingIds":[],"notes":"No recupera la afirmación sobre cuatro concejales presentes en la bancada del PP."},
+    {"goldId":"G20","status":"missed","claimReadingIds":[],"notes":"No recupera la comparación sobre los impuestos más bajos de Galicia de speaker_4. L013 habla del IBI más caro, procede de otra intervención y no equivale a esta aparición."},
+    {"goldId":"G21","status":"faithful","claimReadingIds":["L024"],"notes":"Mantiene hasta 16 millones en exenciones o bonificaciones, la condición de no poder pagar, el periodo y la modalidad, sin imponer una unidad ausente de la frase."},
+    {"goldId":"G22","status":"missed","claimReadingIds":[],"notes":"No recupera el anuncio previo de 19 votos entre 27 concejales y el 70 %. L022 es el resultado formal posterior y no sustituye esa aparición."},
+    {"goldId":"G23","status":"missed","claimReadingIds":[],"notes":"No recupera la presentación del presupuesto sin deuda de speaker_4. L003 contiene una declaración de deuda cero de speaker_1; es otra aparición y otro alcance."},
+    {"goldId":"G24","status":"partial","claimReadingIds":["L023"],"notes":"Mantiene el rechazo del voto particular y 7/19/0, pero asigna 2026 como periodo de un acto celebrado el 23/12/2025. El año del presupuesto y la fecha de la votación necesitan campos distintos."},
+    {"goldId":"G25","status":"faithful","claimReadingIds":["L022"],"notes":"Recupera la aprobación del presupuesto para 2026 y el resultado 19/7/0. Aquí 2026 identifica explícitamente el objeto presupuestario y la aparición conserva su sesión de diciembre de 2025."}
+  ],
+  "negativeControls": [
+    {"goldId":"N01","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No convierte la cita de Besteiro en una observación directa del orador sobre este pleno; L009 recoge otro pasaje de S0015."},
+    {"goldId":"N02","status":"related_error","forbiddenNumericNormalizationObserved":false,"claimReadingIds":["L015"],"notes":"No normaliza noventa e catro, noventa e cinco ni sustituye desa gama por un nombre concreto. Sin embargo, atribuye a la tasa del lixo recibir 1,3 millones, un destinatario no sostenido por la frase ambigua. Se registra como error relacionado, sin cambiar la prohibición original del control."},
+    {"goldId":"N03","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No identifica ni corrige la entidad ambigua Concello da Torre; no extrae el pasaje."},
+    {"goldId":"N04","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No completa la frase truncada ni inventa un compromiso para el año siguiente."},
+    {"goldId":"N05","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No convierte la duda sobre Ferrol en una identificación cierta."},
+    {"goldId":"N06","status":"prohibited_inference_not_observed","claimReadingIds":[],"notes":"No extrae un indicador de pago del 4 % ni inventa una definición estadística; no extrae el pasaje."}
+  ],
+  "observedErrors": [
+    {"id":"LE01","claimReadingIds":["L015"],"notes":"Asigna a la tasa del lixo la recepción de 1,3 millones. La fuente no sostiene ese destinatario y contiene ASR ambiguo; habría que conservar incertidumbre o abstenerse."},
+    {"id":"LE02","claimReadingIds":["L009","L019"],"notes":"Combina varias propiedades en un registro; L009 altera además la relación temporal entre aprobación inicial y correcciones posteriores."},
+    {"id":"LE03","claimReadingIds":["L023"],"notes":"Confunde el año del presupuesto con el periodo de la votación del voto particular."},
+    {"id":"LE04","claimReadingIds":["L012","L013"],"notes":"Limitación de la entrada: S0027–S0028 conservan speaker_2 pese al anuncio de turno del Grupo Popular. La extracción no repara esa diarización; no debe usarse la etiqueta para atribuir las frases al grupo anterior."},
+    {"id":"LE05","claimReadingIds":["L010","L014"],"notes":"Recuperación incompleta de condiciones o periodo, según los casos G10 y G13."}
+  ],
+  "methodNotes": [
+    "Las condiciones pueden estar expresadas fielmente en statement; no se exige duplicarlas literalmente en conditions.",
+    "Las formulaciones equivalentes de cifra y periodo se aceptan; la comparación no exige igualdad textual con gold.",
+    "No se sustituye una aparición de otra voz o segmento por la esperada, aunque su tema sea parecido.",
+    "Fiel mide la afirmación frente a la referencia, no certifica identidad de asuntos, corrección del ASR o veracidad externa.",
+    "Los negativos se inspeccionaron con la prohibición original; el error relacionado N02 se informa por separado."
+  ]
+}

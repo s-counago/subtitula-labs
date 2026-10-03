@@ -1,0 +1,229 @@
+[
+  {
+    "block": "block-01",
+    "candidateIndex": 4,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "La bolsa de alquiler social en As Turáns se incrementó en 700.000 euros.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "incremento_bolsa_alquiler",
+      "valueText": "setecentos mil euros",
+      "referencePeriod": "2026",
+      "conditions": [
+        "política social",
+        "edificio de vivenda social en As Turáns"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0006"
+      ],
+      "quote": "política social en sentido amplio e atendendo a unha das necesidades principais que teñen as persoas como é a vivenda, con, eh, unha, un edificio de vivenda social en As Turáns, incrementando setecentos mil euros a bolsa de alugueiro, que se une os once millóns de euros que se xeneraron xa co crédito extraordinario deste ano 2025.",
+      "contextSegmentIds": [
+        "S0006"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 7,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "Se destinaron más de 70 millones de euros en un crédito extraordinario en 2025 para transformar la ciudad.",
+      "speakerId": "speaker_1",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "credito_extraordinario_2025",
+      "valueText": "máis de setenta millóns de euros",
+      "referencePeriod": "2025",
+      "conditions": [
+        "transformar a cidade",
+        "todos os puntos dos máis de cento dez quilómetros cadrados"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0010"
+      ],
+      "quote": "Pero tamén de, adicando recursos a cultura, cun incremento dun sete por cento máis para cultura, eh, crecendo na programación cultural en todos os barrios, en axudas tamén, en concorrencia non competitiva para as entidades e transformando tamén os espazos que xa temos, como é, como son os baixos do auditorio, eh, Mar, eh, de Vigo e tamén con achegas a todos os museos municipais, que como saben son gratuitos: o Marco, Casa das Artes, Verbum. E, por tanto, incrementando esas, eh, dotacións para a política, eh, cultural.",
+      "contextSegmentIds": [
+        "S0010"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 12,
+    "reasons": [
+      "claim_belongs_to_context_not_current_block"
+    ],
+    "candidate": {
+      "statement": "El BNG rechazó las alegaciones formuladas por la Asociación Veciñal de Teis.",
+      "speakerId": "speaker_2",
+      "matterKey": "presupuesto_2026_concello_vigo",
+      "property": "rechazo_alegaciones",
+      "valueText": "cinco negativas",
+      "referencePeriod": "2026",
+      "conditions": [
+        "Asociación Veciñal de Teis"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0020"
+      ],
+      "quote": "E a todos eses non, hoxe queren engadir outras cinco negativas, rexeitando as alegacións formuladas pola Asociación Veciñal de Teis, que o BNG vamos defender, sexan estimadas a través dun voto particular, nas que propoñen cuestións tan básicas como aumentar o orzamento para garantir que dunha vez por todas Teis teña unha verdadeira biblioteca pública e non unha sala de lectura na que non vai haber nada para ler, na que demandan a mellora do parque da, dos parques da Guía ou da Rioxa, a, hm, actuacións para mellorar a accesibilidade na praia da Punta ou acondicionamento do Auditorio de Teis ou melloras na Vía Verde.",
+      "contextSegmentIds": [
+        "S0020"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-03",
+    "candidateIndex": 1,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "El Bloque Nacionalista Galego votó en contra del traspaso de Cedro a la Xunta de Galicia.",
+      "speakerId": "speaker_4",
+      "matterKey": "competencias_xunta_galicia",
+      "property": "votacion",
+      "valueText": "en contra",
+      "referencePeriod": null,
+      "conditions": [
+        "traspaso de Cedro a la Xunta de Galicia"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0041"
+      ],
+      "quote": "Y un ejemplo es el lamentable discurso del BNGA hace unos días en el traspaso de Cedro a la Xunta de Galicia, votando no aquí cuando el BNGA vota en las ciudades en las que gobierna sí a ese traspaso.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-03",
+    "candidateIndex": 3,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "El copago de Sogama subió de ochenta y seis euros por tonelada a ciento cuatro con cincuenta euros por tonelada en el año 2025.",
+      "speakerId": "speaker_1",
+      "matterKey": "copago_sogama",
+      "property": "precio_copago",
+      "valueText": "de ochenta y seis euros por tonelada a ciento cuatro con cincuenta euros por tonelada",
+      "referencePeriod": "2025",
+      "conditions": [
+        "copago Sogama"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0057"
+      ],
+      "quote": "Por tanto, ahí está la Xunta de Galicia. Mire, el Bloque Nacionalista Galego, pues di que es más de lo mismo. Sí, más de lo mismo, porque yo llevo escoitando el mismo discurso, señor Pérez Iglesias, por lo menos cuatro anos. Un discurso oco, baleiro, sin alternativas. Eh, fala de, siempre de las mismas cosas. Miren qué modelo ten de, de ciudad: desertización, rodete, más de lo mismo, mayoría absolutísima, dictado, gasto inagurabel. Ese es el modelo de ciudad Que ten o señor Pérez Iglesias. Pero mire, o que é máis grave é que tratan de branquear as alegacións dunha asociación de veciños, con todo o dereito, que demanda cousas que ya, ya está no orçamento. A praia da Punta está nos orzamentos do vinte e seis. A reforma do mercado de Teis, no, no crédito extraordinario. A mellora da piscina e do pavillón están tamén no crédito extraordinario. A biblioteca está en marcha y que, por tanto, o que pretenden é cubrir que ellos, o Bloque, votaron en contra de esa modificación, dese crédito extraordinario de setenta e dous millóns que mellora a ciudad. Ese es a política do Bloque: poñer paus na roda. Nós o que queremos é aportar, achegar trescentos cincuenta coma oito millóns de euros á cidade para seguir transformando a ciudad.",
+      "contextSegmentIds": [
+        "S0058",
+        "S0059"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-03",
+    "candidateIndex": 4,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "La Praia da Punta está en los presupuestos del 2026.",
+      "speakerId": "speaker_1",
+      "matterKey": "obra_praia_punta",
+      "property": "presupuestado",
+      "valueText": "en los presupuestos del 2026",
+      "referencePeriod": "2026",
+      "conditions": [
+        "Praia da Punta"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0058"
+      ],
+      "quote": "Pero mire, o que é máis grave é que tratan de branquear as alegacións dunha asociación de veciños, con todo o dereito, que demanda cousas que ya, ya está no orçamento. A praia da Punta está nos orzamentos do vinte e seis.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-03",
+    "candidateIndex": 5,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "La reforma del mercado de Teis está en el crédito extraordinario.",
+      "speakerId": "speaker_1",
+      "matterKey": "reforma_mercado_teis",
+      "property": "ubicacion",
+      "valueText": "en el crédito extraordinario",
+      "referencePeriod": "2026",
+      "conditions": [
+        "reforma del mercado de Teis"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0059"
+      ],
+      "quote": "A reforma del mercado de Teis, no, no crédito extraordinario.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-03",
+    "candidateIndex": 7,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "El crédito extraordinario de setenta y dos millones mejora la ciudad.",
+      "speakerId": "speaker_1",
+      "matterKey": "credito_extraordinario_72_millones",
+      "property": "efecto",
+      "valueText": "mejora la ciudad",
+      "referencePeriod": "2026",
+      "conditions": [
+        "crédito extraordinario de setenta y dos millones"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0059"
+      ],
+      "quote": "Ese es a política do Bloque: poñer paus na roda. Nós o que queremos é aportar, achegar trescentos cincuenta coma oito millóns de euros á cidade para seguir transformando a ciudad.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  }
+]

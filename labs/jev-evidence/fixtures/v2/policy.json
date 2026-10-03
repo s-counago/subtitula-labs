@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "model": "jev-1.13.0",
+  "maxRequestBytes": 24000,
+  "maxCalls": 72,
+  "timeoutSeconds": 45,
+  "automaticRetries": 0,
+  "directInputPricePerMillion": 0.042,
+  "priceSource": "https://docs.typesafe.ai/models",
+  "priceCheckedOn": "2026-09-22",
+  "confidenceThreshold": 0.85,
+  "thresholdStatus": "provisional_not_calibrated",
+  "smokeIds": [
+    "R01",
+    "R02",
+    "R04",
+    "C01",
+    "C03",
+    "C05"
+  ],
+  "repeatabilityIds": [
+    "R01",
+    "R04",
+    "F13"
+  ],
+  "semanticInvariantGroups": [
+    [
+      "R01",
+      "F01",
+      "F02",
+      "F09",
+      "C07",
+      "F13"
+    ],
+    [
+      "R04",
+      "F08"
+    ]
+  ],
+  "preflightRules": [
+    "missing_evidence",
+    "only_reported_statements"
+  ]
+}

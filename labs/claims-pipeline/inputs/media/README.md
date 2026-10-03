@@ -1,0 +1,1 @@
+Aquí se conserva el audio público empleado en el ensayo. Su procedencia, duración, transformación y SHA-256 se registran en `../sources/`. Los medios voluminosos no se incluyen automáticamente en Git.

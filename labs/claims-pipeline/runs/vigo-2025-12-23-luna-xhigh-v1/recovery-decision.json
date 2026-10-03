@@ -1,0 +1,8 @@
+{
+  "decidedAt": "2026-09-11T21:30:28.108366+00:00",
+  "observedState": "local timeout; no completed turn, final response or usage counter",
+  "decision": "New preserved run with local timeout 900 seconds and unchanged inference inputs.",
+  "basis": "User requested a completed xhigh comparison through the existing subscription. This is a deliberate recovery after inspecting preserved events, not an automatic retry loop.",
+  "interruptedUsage": null,
+  "nextExperimentId": "vigo-2025-12-23-luna-xhigh-v1b"
+}

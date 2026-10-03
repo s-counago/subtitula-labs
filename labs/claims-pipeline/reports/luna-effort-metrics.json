@@ -1,0 +1,265 @@
+{
+  "createdAt": "2026-09-11T22:01:49.014955+00:00",
+  "runs": {
+    "low": {
+      "experimentId": "vigo-2025-12-23-luna-v1",
+      "state": "completed",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "low",
+      "operations": 6,
+      "usage": {
+        "input_tokens": 33681,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7271,
+        "reasoning_output_tokens": 550,
+        "total_input_and_output_tokens": 40952,
+        "non_reasoning_output_tokens": 6721
+      },
+      "elapsedSeconds": 152.631,
+      "estimatedApiEquivalentUsd": 0.0154614,
+      "apiEquivalentIsCharge": false,
+      "quality": {
+        "faithful": 9,
+        "partial": 5,
+        "invalid": 0,
+        "missed": 11
+      },
+      "savedCandidates": 28,
+      "rejectedCandidates": 2,
+      "exactDuplicateRecords": 0,
+      "operationsDetail": [
+        {
+          "stage": "block-01-extract",
+          "elapsedSeconds": 40.734,
+          "usage": {
+            "input_tokens": 6443,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2095,
+            "reasoning_output_tokens": 145
+          }
+        },
+        {
+          "stage": "block-01-matters",
+          "elapsedSeconds": 10.734,
+          "usage": {
+            "input_tokens": 3849,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 390,
+            "reasoning_output_tokens": 45
+          }
+        },
+        {
+          "stage": "block-02-extract",
+          "elapsedSeconds": 43.39,
+          "usage": {
+            "input_tokens": 6935,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2226,
+            "reasoning_output_tokens": 101
+          }
+        },
+        {
+          "stage": "block-02-matters",
+          "elapsedSeconds": 15.016,
+          "usage": {
+            "input_tokens": 5297,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 644,
+            "reasoning_output_tokens": 110
+          }
+        },
+        {
+          "stage": "block-03-extract",
+          "elapsedSeconds": 31.938,
+          "usage": {
+            "input_tokens": 6536,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1588,
+            "reasoning_output_tokens": 105
+          }
+        },
+        {
+          "stage": "block-03-matters",
+          "elapsedSeconds": 9.984,
+          "usage": {
+            "input_tokens": 4621,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 328,
+            "reasoning_output_tokens": 44
+          }
+        }
+      ]
+    },
+    "xhigh": {
+      "experimentId": "vigo-2025-12-23-luna-xhigh-v1b",
+      "state": "completed",
+      "model": "gpt-5.6-luna",
+      "reasoningEffort": "xhigh",
+      "operations": 6,
+      "usage": {
+        "input_tokens": 43285,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 94428,
+        "reasoning_output_tokens": 73766,
+        "total_input_and_output_tokens": 137713,
+        "non_reasoning_output_tokens": 20662
+      },
+      "elapsedSeconds": 1725.615,
+      "estimatedApiEquivalentUsd": 0.1219706,
+      "apiEquivalentIsCharge": false,
+      "quality": {
+        "faithful": 12,
+        "partial": 7,
+        "invalid": 0,
+        "missed": 6
+      },
+      "savedCandidates": 89,
+      "rejectedCandidates": 11,
+      "exactDuplicateRecords": 0,
+      "operationsDetail": [
+        {
+          "stage": "block-01-extract",
+          "elapsedSeconds": 581.156,
+          "usage": {
+            "input_tokens": 6445,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 31962,
+            "reasoning_output_tokens": 25019
+          }
+        },
+        {
+          "stage": "block-01-matters",
+          "elapsedSeconds": 145.0,
+          "usage": {
+            "input_tokens": 7597,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7835,
+            "reasoning_output_tokens": 6525
+          }
+        },
+        {
+          "stage": "block-02-extract",
+          "elapsedSeconds": 316.047,
+          "usage": {
+            "input_tokens": 6931,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 17283,
+            "reasoning_output_tokens": 11912
+          }
+        },
+        {
+          "stage": "block-02-matters",
+          "elapsedSeconds": 86.953,
+          "usage": {
+            "input_tokens": 7544,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4659,
+            "reasoning_output_tokens": 3624
+          }
+        },
+        {
+          "stage": "block-03-extract",
+          "elapsedSeconds": 432.485,
+          "usage": {
+            "input_tokens": 6538,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 23827,
+            "reasoning_output_tokens": 18943
+          }
+        },
+        {
+          "stage": "block-03-matters",
+          "elapsedSeconds": 163.141,
+          "usage": {
+            "input_tokens": 8230,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 8862,
+            "reasoning_output_tokens": 7743
+          }
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "totalTokensRatio": 3.3627905840984567,
+    "reasoningTokensRatio": 134.12,
+    "elapsedTimeRatio": 11.305796332330916,
+    "apiEquivalentRatio": 7.888716416365917,
+    "additionalFaithfulCases": 3
+  },
+  "interruptedAttempt": {
+    "experimentId": "vigo-2025-12-23-luna-xhigh-v1",
+    "localTimeLimitSeconds": 360,
+    "usage": null,
+    "apiEquivalentUsd": null,
+    "includedInCompletedRunTotals": false
+  },
+  "auxiliaryProbes": {
+    "low": {
+      "verifiedAt": "2026-09-11T21:03:32.746244+00:00",
+      "state": "completed",
+      "reportedCodexUsage": {
+        "input_tokens": 2481,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25,
+        "reasoning_output_tokens": 0
+      },
+      "toolItemCount": 0,
+      "responseSha256": "75a9ac0425655c4c70e60e42634e0586dcd13c8cba9998721adb8cc5387c9e10",
+      "note": "Initial adapter classified two startup warning events as tool activity. Saved output was verified offline; no second inference."
+    },
+    "xhigh": {
+      "stage": "probe",
+      "finishedAt": "2026-09-11T21:34:11.676800+00:00",
+      "elapsedSeconds": 4.718,
+      "state": "completed",
+      "exitCode": 0,
+      "reportedCodexUsage": {
+        "input_tokens": 2483,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 60,
+        "reasoning_output_tokens": 33
+      },
+      "usage": {
+        "prompt_tokens": 2483,
+        "completion_tokens": 60,
+        "total_tokens": 2543
+      },
+      "toolItemCount": 0,
+      "responseSha256": "75a9ac0425655c4c70e60e42634e0586dcd13c8cba9998721adb8cc5387c9e10",
+      "eventsSha256": "fb6d6d8cfece3e486e14eeec1849d9bfb37ed29e25cd51a4016be4ff33b7306a",
+      "billing": "chatgpt_subscription_limits",
+      "runtimeWarnings": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in C:\\Users\\Sejio\\.codex\\config.toml.",
+        "Exceeded skills context budget. All skill descriptions were removed and 16 additional skills were not included in the model-visible skills list."
+      ],
+      "startedAt": "2026-09-11T21:34:06.936311+00:00"
+    }
+  },
+  "scope": "Completed extraction and matter-resolution operations; excludes evaluator work, both transport probes and the interrupted attempt.",
+  "reasoningCounterIsSubsetOfOutput": true,
+  "actualBilling": "chatgpt_subscription_limits",
+  "apiPriceSource": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+  "reasoningAccountingSource": "https://developers.openai.com/api/docs/guides/reasoning",
+  "limitations": [
+    "The total consumption of all xhigh attempts is unknown because the interrupted attempt had no usage receipt.",
+    "API equivalents use Codex counters and published API rates; they are not invoices.",
+    "One completed run per effort does not measure stochastic variance."
+  ]
+}

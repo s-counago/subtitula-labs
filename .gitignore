@@ -1,0 +1,16 @@
+
+/subtitula-gal/
+/subtitula-gal-api/
+/work/
+/.codex/
+/.opencode/
+node_modules/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+__pycache__/
+*.pyc
+.vendor/
+*.log

@@ -1,0 +1,324 @@
+{
+  "matters": [
+    {
+      "key": "presupuesto_general_2026",
+      "label": "Presupuesto General del Concello de Vigo para 2026",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0064",
+        "S0066"
+      ]
+    },
+    {
+      "key": "bonificaciones_impuestos",
+      "label": "Bonificaciones de impuestos",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0044"
+      ]
+    },
+    {
+      "key": "ayuda_social",
+      "label": "Ayuda social",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0044"
+      ]
+    },
+    {
+      "key": "deuda_publica",
+      "label": "Deuda pública",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0045"
+      ]
+    },
+    {
+      "key": "impuestos_municipales",
+      "label": "Impuestos municipales",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0045"
+      ]
+    },
+    {
+      "key": "competencias_xunta_galicia",
+      "label": "Competencias de la Xunta de Galicia",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0053"
+      ]
+    },
+    {
+      "key": "reduccion_impuestos",
+      "label": "Reducción de impuestos",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0054"
+      ]
+    },
+    {
+      "key": "copago_sogama",
+      "label": "Copago Sogama",
+      "object": "Sogama",
+      "territory": "Galicia",
+      "institution": "Xunta de Galicia",
+      "referencePeriod": "2025",
+      "evidenceSegmentIds": [
+        "S0057"
+      ]
+    },
+    {
+      "key": "obra_praia_punta",
+      "label": "Obra de la Praia da Punta",
+      "object": "Praia da Punta",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0058"
+      ]
+    },
+    {
+      "key": "reforma_mercado_teis",
+      "label": "Reforma del mercado de Teis",
+      "object": "Mercado de Teis",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0059"
+      ]
+    },
+    {
+      "key": "mejora_piscina_pavillon",
+      "label": "Mejora de la piscina y del pavillón",
+      "object": "Piscina y pavillón",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0059"
+      ]
+    },
+    {
+      "key": "credito_extraordinario_72_millones",
+      "label": "Crédito extraordinario de 72 millones",
+      "object": "Concello de Vigo",
+      "territory": "Vigo",
+      "institution": "Concello de Vigo",
+      "referencePeriod": "2026",
+      "evidenceSegmentIds": [
+        "S0059"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "statement": "El Bloque Nacionalista Galego votó en contra del traspaso de Cedro a la Xunta de Galicia.",
+      "speakerId": "speaker_4",
+      "matterKey": "competencias_xunta_galicia",
+      "property": "votacion",
+      "valueText": "en contra",
+      "referencePeriod": null,
+      "conditions": [
+        "traspaso de Cedro a la Xunta de Galicia"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0041"
+      ],
+      "quote": "Y un ejemplo es el lamentable discurso del BNGA hace unos días en el traspaso de Cedro a la Xunta de Galicia, votando no aquí cuando el BNGA vota en las ciudades en las que gobierna sí a ese traspaso.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El Partido Popular pretendía reducir impuestos por un importe de treinta millones de euros.",
+      "speakerId": "speaker_1",
+      "matterKey": "reduccion_impuestos",
+      "property": "importe_reduccion_impuestos",
+      "valueText": "treinta millones de euros",
+      "referencePeriod": null,
+      "conditions": [
+        "reducir impuestos"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0054"
+      ],
+      "quote": "Pero lo que es más evidente es que o Partido Popular pretende, hay que decirlo coloquialmente para que se entienda, soplar y sorber al mismo tiempo. Pretende reducir impuestos por un importe de treinta millón de, treinta millones de euros y a la vez incrementar o gasto público, sin explicar cómo se fai.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El copago de Sogama subió de ochenta y seis euros por tonelada a ciento cuatro con cincuenta euros por tonelada en el año 2025.",
+      "speakerId": "speaker_1",
+      "matterKey": "copago_sogama",
+      "property": "precio_copago",
+      "valueText": "de ochenta y seis euros por tonelada a ciento cuatro con cincuenta euros por tonelada",
+      "referencePeriod": "2025",
+      "conditions": [
+        "copago Sogama"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0057"
+      ],
+      "quote": "Por tanto, ahí está la Xunta de Galicia. Mire, el Bloque Nacionalista Galego, pues di que es más de lo mismo. Sí, más de lo mismo, porque yo llevo escoitando el mismo discurso, señor Pérez Iglesias, por lo menos cuatro anos. Un discurso oco, baleiro, sin alternativas. Eh, fala de, siempre de las mismas cosas. Miren qué modelo ten de, de ciudad: desertización, rodete, más de lo mismo, mayoría absolutísima, dictado, gasto inagurabel. Ese es el modelo de ciudad Que ten o señor Pérez Iglesias. Pero mire, o que é máis grave é que tratan de branquear as alegacións dunha asociación de veciños, con todo o dereito, que demanda cousas que ya, ya está no orçamento. A praia da Punta está nos orzamentos do vinte e seis. A reforma do mercado de Teis, no, no crédito extraordinario. A mellora da piscina e do pavillón están tamén no crédito extraordinario. A biblioteca está en marcha y que, por tanto, o que pretenden é cubrir que ellos, o Bloque, votaron en contra de esa modificación, dese crédito extraordinario de setenta e dous millóns que mellora a ciudad. Ese es a política do Bloque: poñer paus na roda. Nós o que queremos é aportar, achegar trescentos cincuenta coma oito millóns de euros á cidade para seguir transformando a ciudad.",
+      "contextSegmentIds": [
+        "S0058",
+        "S0059"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "La Praia da Punta está en los presupuestos del 2026.",
+      "speakerId": "speaker_1",
+      "matterKey": "obra_praia_punta",
+      "property": "presupuestado",
+      "valueText": "en los presupuestos del 2026",
+      "referencePeriod": "2026",
+      "conditions": [
+        "Praia da Punta"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0058"
+      ],
+      "quote": "Pero mire, o que é máis grave é que tratan de branquear as alegacións dunha asociación de veciños, con todo o dereito, que demanda cousas que ya, ya está no orçamento. A praia da Punta está nos orzamentos do vinte e seis.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "La reforma del mercado de Teis está en el crédito extraordinario.",
+      "speakerId": "speaker_1",
+      "matterKey": "reforma_mercado_teis",
+      "property": "ubicacion",
+      "valueText": "en el crédito extraordinario",
+      "referencePeriod": "2026",
+      "conditions": [
+        "reforma del mercado de Teis"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0059"
+      ],
+      "quote": "A reforma del mercado de Teis, no, no crédito extraordinario.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "La mejora de la piscina y del pavillón están también en el crédito extraordinario.",
+      "speakerId": "speaker_1",
+      "matterKey": "mejora_piscina_pavillon",
+      "property": "ubicacion",
+      "valueText": "en el crédito extraordinario",
+      "referencePeriod": "2026",
+      "conditions": [
+        "mejora de la piscina y del pavillón"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0059"
+      ],
+      "quote": "A mellora da piscina e do pavillón están tamén no crédito extraordinario.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El crédito extraordinario de setenta y dos millones mejora la ciudad.",
+      "speakerId": "speaker_1",
+      "matterKey": "credito_extraordinario_72_millones",
+      "property": "efecto",
+      "valueText": "mejora la ciudad",
+      "referencePeriod": "2026",
+      "conditions": [
+        "crédito extraordinario de setenta y dos millones"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0059"
+      ],
+      "quote": "Ese es a política do Bloque: poñer paus na roda. Nós o que queremos é aportar, achegar trescentos cincuenta coma oito millóns de euros á cidade para seguir transformando a ciudad.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "El voto particular del Bloque Nacionalista Galego fue rechazado por siete votos a favor, diecinueve en contra y ninguna abstención.",
+      "speakerId": "speaker_0",
+      "matterKey": "presupuesto_general_2026",
+      "property": "resultado_voto_particular",
+      "valueText": "rechazado por siete votos a favor, diecinueve en contra y ninguna abstención",
+      "referencePeriod": "2026",
+      "conditions": [
+        "voto particular del Bloque Nacionalista Galego"
+      ],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0064"
+      ],
+      "quote": "Non hai abstencións. Queda rexeitado o voto particular por sete votos a favor, dezanove en contra e ningunha abstención.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    },
+    {
+      "statement": "Los Presupuestos Generales del Concello para el año dos mil veintiséis fueron aprobados por diecinueve votos a favor, siete en contra y ninguna abstención.",
+      "speakerId": "speaker_0",
+      "matterKey": "presupuesto_general_2026",
+      "property": "resultado_aprobacion",
+      "valueText": "aprobados por diecinueve votos a favor, siete en contra y ninguna abstención",
+      "referencePeriod": "2026",
+      "conditions": [
+        "Presupuestos Generales del Concello para el año dos mil veintiséis"
+      ],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0066"
+      ],
+      "quote": "Non hai abstencións. Quedan aprobados os Orzamentos Xerais do Concello para o ano dous mil vinte seis por dezanove votos a favor, sete en contra e ningunha abstencións. Parabéns á cidade de Vigo.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  ],
+  "contextRequests": [],
+  "notes": []
+}

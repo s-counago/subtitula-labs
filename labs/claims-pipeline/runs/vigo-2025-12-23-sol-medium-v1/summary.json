@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-09-11T23:21:36.090974+00:00",
+  "counts": {
+    "matters": 32,
+    "mentions": 35,
+    "claims": 69,
+    "occurrences": 69,
+    "citations": 73
+  },
+  "rejectedCandidates": 0,
+  "requests": 7,
+  "reportedUsage": {
+    "prompt_tokens": 62547,
+    "completion_tokens": 30989,
+    "total_tokens": 93536
+  },
+  "usageMissingFor": [],
+  "costIsInvoice": false,
+  "contextRounds": 1,
+  "reportedCodexUsage": {
+    "input_tokens": 62547,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30989,
+    "reasoning_output_tokens": 11270
+  },
+  "billing": "chatgpt_subscription_limits",
+  "actualApiChargeUsd": null,
+  "apiPriceEquivalentUsd": 0.8612128,
+  "apiEquivalentIsCharge": false,
+  "apiEquivalentLimit": "Uses CLI token counts including runtime context; not a measured API request."
+}

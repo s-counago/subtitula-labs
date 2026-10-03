@@ -1,0 +1,284 @@
+[
+  {
+    "block": "block-01",
+    "candidateIndex": 10,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "A política social increméntase un 696,5 % entre 2007 e 2026 nos orzamentos municipais.",
+      "speakerId": "speaker_1",
+      "matterKey": "politica_social_vigo_2026",
+      "property": "incremento da política social",
+      "valueText": "696,5 %",
+      "referencePeriod": "2007-2026",
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0006"
+      ],
+      "quote": "dende o ano 2007 ao ano 2026, a política social se incrementou un 696,5 % nos orzamentos municipais",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 33,
+    "reasons": [
+      "unknown_matter_key"
+    ],
+    "candidate": {
+      "statement": "O orador relata que Besteiro dixo que este pleno se converteu nun lugar para dar forma a decisións tomadas de antemán.",
+      "speakerId": "speaker_2",
+      "matterKey": "debate_orzamentos_xunta_citado",
+      "property": "caracterización do pleno",
+      "valueText": "un lugar para dar forma a decisións tomadas de antemán",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "reported_statement",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0015"
+      ],
+      "quote": "Este pleno converteuse nun lugar para dar forma a decisións tomadas de antemán",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 34,
+    "reasons": [
+      "unknown_matter_key"
+    ],
+    "candidate": {
+      "statement": "Segundo o orador, Besteiro dixo que as contas se aprobarían igual que entraron, sen melloras nin correccións.",
+      "speakerId": "speaker_2",
+      "matterKey": "debate_orzamentos_xunta_citado",
+      "property": "aprobación das contas sen cambios",
+      "valueText": "igual que entraron, sen melloras, sen correccións",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0016"
+      ],
+      "quote": "van aprobar as contas igual que entraron, sen melloras, sen correccións, igual de curtos e sen escoitar nada do que pasa fóra",
+      "contextSegmentIds": [
+        "S0015"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 35,
+    "reasons": [
+      "unknown_matter_key"
+    ],
+    "candidate": {
+      "statement": "O orador atribúe ao seu secretario xeral a frase de que aceptar emendas non é un síntoma de febleza, senón un exercicio de responsabilidade política.",
+      "speakerId": "speaker_2",
+      "matterKey": "debate_orzamentos_xunta_citado",
+      "property": "valoración da aceptación de emendas",
+      "valueText": "un exercicio de responsabilidade política",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "reported_statement",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0016"
+      ],
+      "quote": "Aceptar emendas non é un síntoma de febleza, é un exercicio de responsabilidade política",
+      "contextSegmentIds": [
+        "S0015"
+      ],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 37,
+    "reasons": [
+      "quote_not_literal",
+      "unknown_matter_key"
+    ],
+    "candidate": {
+      "statement": "O orador afirma que o goberno municipal di non á medida de duplicar as axudas sociais municipais.",
+      "speakerId": "speaker_2",
+      "matterKey": "axudas_sociais_vigo",
+      "property": "medida de duplicación das axudas sociais",
+      "valueText": "duplicar as axudas sociais municipais",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "Din non a medidas tan importantes e necesarias como duplicar as axudas sociais municipais",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 38,
+    "reasons": [
+      "unknown_matter_key"
+    ],
+    "candidate": {
+      "statement": "Segundo o orador, as axudas sociais municipais foron recortadas nun cincuenta por cento nos últimos cinco anos.",
+      "speakerId": "speaker_2",
+      "matterKey": "axudas_sociais_vigo",
+      "property": "variación das axudas sociais",
+      "valueText": "recortaron nun cincuenta por cento",
+      "referencePeriod": "últimos cinco anos",
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "as axudas sociais municipais que vostedes recortaron nun cincuenta por cento nos últimos cinco anos",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 39,
+    "reasons": [
+      "unknown_matter_key"
+    ],
+    "candidate": {
+      "statement": "O gasto en luces e adornos de Nadal aumentou un cento cincuenta por cento máis.",
+      "speakerId": "speaker_2",
+      "matterKey": "luces_nadal_vigo",
+      "property": "variación do gasto",
+      "valueText": "un cento cincuenta por cento máis",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "aumentaba un cento cincuenta por cento máis o gasto en luces e adornos de Nadal",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-01",
+    "candidateIndex": 40,
+    "reasons": [
+      "unknown_matter_key"
+    ],
+    "candidate": {
+      "statement": "O Plan Municipal de Emprego é presentado como unha medida para elevar até os tres millóns de euros.",
+      "speakerId": "speaker_2",
+      "matterKey": "plan_emprego_vigo",
+      "property": "dotación proposta",
+      "valueText": "tres millóns de euros",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "proposal",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0018"
+      ],
+      "quote": "elevar até os tres millóns de euros o Plan Municipal de Emprego",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-02",
+    "candidateIndex": 12,
+    "reasons": [
+      "quote_not_literal"
+    ],
+    "candidate": {
+      "statement": "O Goberno de Abel Caballero decide non absorber ningún euro do corenta por cento restante do incremento do lixo.",
+      "speakerId": "speaker_3",
+      "matterKey": "fiscalidade_municipal_2026",
+      "property": "absorción do incremento da taxa do lixo",
+      "valueText": "nin un só euro do restante corenta por cento",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0030"
+      ],
+      "quote": "o Goberno de Abel Caballero decide non absorber nin un só euro do restante corenta por cento",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-02",
+    "candidateIndex": 33,
+    "reasons": [
+      "claim_belongs_to_context_not_current_block"
+    ],
+    "candidate": {
+      "statement": "Segundo a intervención, o BNG votou non no traspaso de Cedro á Xunta de Galicia.",
+      "speakerId": "speaker_4",
+      "matterKey": "traspaso_cedro_xunta",
+      "property": "voto do BNG no traspaso",
+      "valueText": "votando non aquí",
+      "referencePeriod": null,
+      "conditions": [],
+      "modality": "asserted_fact",
+      "polarity": "negative",
+      "evidenceSegmentIds": [
+        "S0041"
+      ],
+      "quote": "en el traspaso de Cedro a la Xunta de Galicia, votando no aquí",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  },
+  {
+    "block": "block-02",
+    "candidateIndex": 34,
+    "reasons": [
+      "claim_belongs_to_context_not_current_block"
+    ],
+    "candidate": {
+      "statement": "Segundo a intervención, o BNG vota si a ese traspaso nas cidades nas que goberna.",
+      "speakerId": "speaker_4",
+      "matterKey": "traspaso_cedro_xunta",
+      "property": "voto do BNG noutras cidades",
+      "valueText": "vota si",
+      "referencePeriod": null,
+      "conditions": [
+        "nas cidades nas que goberna"
+      ],
+      "modality": "asserted_fact",
+      "polarity": "positive",
+      "evidenceSegmentIds": [
+        "S0041"
+      ],
+      "quote": "cuando el BNGA vota en las cidades en las que gobierna sí a ese traspaso.",
+      "contextSegmentIds": [],
+      "contextStatus": "sufficient",
+      "uncertainty": null
+    }
+  }
+]

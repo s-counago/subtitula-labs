@@ -1,0 +1,254 @@
+[
+  {
+    "jobId": "curated-R01",
+    "fixtureId": "R01",
+    "track": "curated",
+    "origin": "real_extraction",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "public_control"
+  },
+  {
+    "jobId": "curated-R02",
+    "fixtureId": "R02",
+    "track": "curated",
+    "origin": "real_extraction",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "budget_amount"
+  },
+  {
+    "jobId": "curated-R03",
+    "fixtureId": "R03",
+    "track": "curated",
+    "origin": "real_extraction",
+    "scored": false,
+    "expected": "supported",
+    "challenge": "program_identity"
+  },
+  {
+    "jobId": "curated-R04",
+    "fixtureId": "R04",
+    "track": "curated",
+    "origin": "real_extraction",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "compound_claim_and_vat"
+  },
+  {
+    "jobId": "curated-C01",
+    "fixtureId": "C01",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "contradicted",
+    "challenge": "public_vs_wholly_owned"
+  },
+  {
+    "jobId": "curated-C02",
+    "fixtureId": "C02",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "contradicted",
+    "challenge": "tenfold_amount"
+  },
+  {
+    "jobId": "curated-C03",
+    "fixtureId": "C03",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "no_evidence"
+  },
+  {
+    "jobId": "curated-C04",
+    "fixtureId": "C04",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "reported_claim_only"
+  },
+  {
+    "jobId": "curated-C05",
+    "fixtureId": "C05",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "budget_vs_payment"
+  },
+  {
+    "jobId": "curated-C06",
+    "fixtureId": "C06",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "irrelevant_source"
+  },
+  {
+    "jobId": "curated-C07",
+    "fixtureId": "C07",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "injected_attachment"
+  },
+  {
+    "jobId": "curated-F01",
+    "fixtureId": "F01",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "spanish_paraphrase"
+  },
+  {
+    "jobId": "curated-F02",
+    "fixtureId": "F02",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "english_paraphrase"
+  },
+  {
+    "jobId": "curated-F03",
+    "fixtureId": "F03",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "contradicted",
+    "challenge": "negation"
+  },
+  {
+    "jobId": "curated-F04",
+    "fixtureId": "F04",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "wrong_year"
+  },
+  {
+    "jobId": "curated-F05",
+    "fixtureId": "F05",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "wrong_municipality"
+  },
+  {
+    "jobId": "curated-F06",
+    "fixtureId": "F06",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "not_verifiable",
+    "challenge": "value_judgment"
+  },
+  {
+    "jobId": "curated-F07",
+    "fixtureId": "F07",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "duplicate_reports"
+  },
+  {
+    "jobId": "curated-F08",
+    "fixtureId": "F08",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "evidence_order"
+  },
+  {
+    "jobId": "curated-F09",
+    "fixtureId": "F09",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "distractors"
+  },
+  {
+    "jobId": "curated-F10",
+    "fixtureId": "F10",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "conditional_vat"
+  },
+  {
+    "jobId": "curated-F11",
+    "fixtureId": "F11",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "contradicted",
+    "challenge": "net_vs_gross"
+  },
+  {
+    "jobId": "curated-F12",
+    "fixtureId": "F12",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "conflicting",
+    "challenge": "conflicting_records"
+  },
+  {
+    "jobId": "curated-F13",
+    "fixtureId": "F13",
+    "track": "curated",
+    "origin": "controlled_variant",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "injected_source"
+  },
+  {
+    "jobId": "retrieved-R01",
+    "fixtureId": "R01",
+    "track": "retrieved",
+    "origin": "real_extraction",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "retrieval_plus_assessment"
+  },
+  {
+    "jobId": "retrieved-R02",
+    "fixtureId": "R02",
+    "track": "retrieved",
+    "origin": "real_extraction",
+    "scored": true,
+    "expected": "supported",
+    "challenge": "retrieval_plus_assessment"
+  },
+  {
+    "jobId": "retrieved-R03",
+    "fixtureId": "R03",
+    "track": "retrieved",
+    "origin": "real_extraction",
+    "scored": false,
+    "expected": "supported",
+    "challenge": "retrieval_plus_assessment"
+  },
+  {
+    "jobId": "retrieved-R04",
+    "fixtureId": "R04",
+    "track": "retrieved",
+    "origin": "real_extraction",
+    "scored": true,
+    "expected": "insufficient",
+    "challenge": "retrieval_plus_assessment"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "xhigh",
+  "timeoutSeconds": 240,
+  "maxAttempts": 28,
+  "automaticRetries": 0,
+  "billing": "chatgpt_subscription_limits",
+  "productionEvaluator": "TypeSafe API",
+  "scope": "isolated_experiment_only",
+  "confidencePolicy": "not_requested_not_fabricated_no_jev_threshold",
+  "retrieval": {
+    "method": "BM25",
+    "topK": 6,
+    "maxPerDocument": 2,
+    "k1": 1.5,
+    "b": 0.75,
+    "corpus": "seven existing full document snapshots; no internet discovery"
+  }
+}

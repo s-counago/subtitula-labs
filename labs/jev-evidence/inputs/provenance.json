@@ -1,0 +1,42 @@
+{
+  "session": {
+    "sessionId": "vigo-pleno-2025-12-23",
+    "title": "Pleno extraordinario 23 de decembro",
+    "institution": "Concello de Vigo",
+    "sessionDate": "2025-12-23",
+    "selectedOn": "2026-09-11",
+    "sourcePage": "https://sede.vigo.org/expedientes/actas/videos_actas_new.jsp?id=3618",
+    "officialMediaPage": "https://mediateca.vigo.org/library/items/122",
+    "officialMinutesUrl": "https://sede.vigo.org/expedientes/taboleiro/getarchivo_finpub.jsp?id=3510",
+    "streamUrl": "https://streamingmediateca.seneca.tv:1943/seneca1/_definst/cvigo/archive/default/mp4:I00122PX-4d4bdb47-mp4_h264_480p_aac_stereo.mp4/playlist.m3u8",
+    "officialDurationSeconds": 1615,
+    "audioPath": "inputs/media/vigo-2025-12-23.mp3",
+    "audioDurationSeconds": 1615.946313,
+    "audioBytes": 12928653,
+    "audioSha256": "1d230e4ac4ad26cf40e7ebd9ce267552929ece802adf47fbf8410ee98511ecd0",
+    "transform": {
+      "tool": "ffmpeg",
+      "codec": "mp3",
+      "channels": 1,
+      "sampleRate": 16000,
+      "bitrate": 64000,
+      "temporalCut": false
+    },
+    "sourceClockDiscrepancy": "El cuerpo del acta y el anexo audiovisual no dan la misma hora de inicio; se emplean tiempos relativos al medio.",
+    "minutesUsedFor": [
+      "source_provenance",
+      "agenda",
+      "duration"
+    ],
+    "minutesUsedAsExtractionGold": false,
+    "scope": "complete_recording"
+  },
+  "extractionPath": "labs/claims-pipeline/runs/vigo-2025-12-23-luna-xhigh-v1b/claims.json",
+  "extractionSha256": "fa44c75277f4005ea219dcbed0abf9ee534f56de5bcdb66518af74bf852615fd",
+  "transcriptPath": "labs/claims-pipeline/inputs/transcripts/segments.json",
+  "segmentsSha256": "f9586c987436a721d0ae7de165f6a214a885925bb5ca67bea5709ddfb249dc5b",
+  "sourceTranscriptSha256": "8caff83e9cf709f8666630771b553334156b1d382c97cc5eceb5abdcaee86395",
+  "sourceLanguage": "glg",
+  "manuallySelected": true,
+  "newTranscription": false
+}
